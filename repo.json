@@ -1,15 +1,15 @@
 {
-    "name": "Example Repo",
+    "name": "Arcane's Repo",
     "version": 1,
     "maintainers": [
         {
-            "id": 123456,
-            "name": "Example User"
+            "id": 808802000224518264,
+            "name": "3Catgirl (Arcane)"
         }
     ],
     "thumbnail": "https://example.com/thumbnail.png",
     "banner": "https://example.com/banner.png",
-    "description": "This is an example repo.",
+    "description": "This is my repo :3",
     "contents": [
         {
             "type": "plugin",
@@ -25,27 +25,15 @@
         },
         {
             "type": "theme",
-            "name": "Example Theme",
-            "id": "exampleuser:example-theme",
+            "name": "UCSUR Sitelen pona",
+            "id": "arcane:sitelenpona",
             "version": "1.0.0",
-            "description": "This is an example theme.",
+            "description": "This enables UCSUR viewing of sitelen pona",
             "thumbnail": "https://example.com/thumbnail.png",
             "banner": "https://example.com/banner.png",
             "files": [
-                "/themes/example-theme/example-theme.css"
+                "/Themes/sitelenpona.theme.css"
             ]
         },
-        {
-            "type": "library",
-            "name": "Example Library",
-            "id": "exampleuser:example-library",
-            "version": "1.0.0",
-            "description": "This is an example library.",
-            "thumbnail": "https://example.com/thumbnail.png",
-            "banner": "https://example.com/banner.png",
-            "files": [
-                "/libraries/example-library/example-library.js"
-            ]
-        }
     ]
 }
