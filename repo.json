@@ -1,0 +1,51 @@
+{
+    "name": "Example Repo",
+    "version": 1,
+    "maintainers": [
+        {
+            "id": 123456,
+            "name": "Example User"
+        }
+    ],
+    "thumbnail": "https://example.com/thumbnail.png",
+    "banner": "https://example.com/banner.png",
+    "description": "This is an example repo.",
+    "contents": [
+        {
+            "type": "plugin",
+            "name": "Example Plugin",
+            "id": "exampleuser:example-plugin",
+            "version": "1.0.0",
+            "description": "This is an example plugin.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/plugins/example-plugin/example-plugin.js"
+            ]
+        },
+        {
+            "type": "theme",
+            "name": "Example Theme",
+            "id": "exampleuser:example-theme",
+            "version": "1.0.0",
+            "description": "This is an example theme.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/themes/example-theme/example-theme.css"
+            ]
+        },
+        {
+            "type": "library",
+            "name": "Example Library",
+            "id": "exampleuser:example-library",
+            "version": "1.0.0",
+            "description": "This is an example library.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/libraries/example-library/example-library.js"
+            ]
+        }
+    ]
+}
