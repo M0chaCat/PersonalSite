@@ -25,14 +25,14 @@
         },
         {
             "type": "theme",
-            "name": "UCSUR Sitelen pona",
+            "name": "sitelen pona o lon lipu Siko a",
             "id": "arcane:sitelenpona",
             "version": "1.0.0",
-            "description": "This enables UCSUR viewing of sitelen pona",
+            "description": "Enables the viewing of UCSUR sitelen pona in Discord.",
             "thumbnail": "https://example.com/thumbnail.png",
             "banner": "https://example.com/banner.png",
             "files": [
-                "/Themes/sitelenpona.theme.css"
+                "/Themes/sitelenpona.nktheme.css"
             ]
         },
     ]
