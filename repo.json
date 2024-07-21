@@ -287,5 +287,17 @@
                 "/Themes/sitelenpona.nktheme.css"
             ]
         },
+        {
+            "type": "theme",
+            "name": "Arcane Tweaks",
+            "id": "arcane:arcanetweaks",
+            "version": "1.0.0",
+            "description": "Minor tweaks that make discord better!",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Themes/ArcaneTweaks.nktheme.css"
+            ]
+        },
     ]
 }
