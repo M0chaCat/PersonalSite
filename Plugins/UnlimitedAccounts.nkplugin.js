@@ -12,7 +12,7 @@ class UnlimitedAccounts {
 
   info = {
     name: "Unlimited Accounts",
-    description: "Increases the amount of accounts you can add.",
+    description: "Increases the amount of accounts you can add. (technically untested so if there is errors report them as a issue on https://github.com/MeowArcane/NekoRepo)",
     id: "arcane:UnlimitedAccounts",
     authors: [{
       name: "Arcane",
