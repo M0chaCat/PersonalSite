@@ -10,8 +10,8 @@ class iLoveSpam {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "i Love Spam",
-    id: "arcane:iLoveSpam",
+    name: "I Love Spam",
+    id: "arcane:ILoveSpam",
     authors: [{
       name: "Arcane",
       id: "808802000224518264"
