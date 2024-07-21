@@ -13,20 +13,6 @@ class ThemeLoader {
       css: ``
     },
     {
-      name: "onekos",
-      description: "onekos everywhere!!!!",
-      id: "onekos",
-      css: `
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekoanimations.css')
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekoavatar.css')
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekohomeicon.css')
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekomessagebar.css')
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekomessagebarwalk.css')
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekotoolbox.css')
-@import url('https://rawcdn.githack.com/MCHAMSTERYT2/onekocord/d930e35aea0031ec9a39390416e4faefa84c3777/onekowelcome.css')
-`
-    },
-    {
       name: "Flashcord",
       description: "The world's most advanced, complex and feature rich Discord Theme to ever exist",
       id: "flashcord",
@@ -162,13 +148,13 @@ class ThemeLoader {
 
 
   info = {
-    name: "Themess",
+    name: "HISTORICAL Themess",
     id: "arcane:themess",
     authors: [{
       name: "Arcane",
       id: "808802000224518264"
     }],
-    description: "Crappy Theme Loader",
+    description: "(HISTORICAL) Crappy Theme Loader, this was used on nekocord personally for/by me before themes were a feature, i will not be maintaining it i just wanna show off my bad code :3",
     version: "0.1.0",
     patches: [],
     preferences: this.themes.flatMap(theme => ({
