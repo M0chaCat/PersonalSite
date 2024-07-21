@@ -10,7 +10,7 @@ class NoDevtoolsWarning {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "No DevtoolsWarning",
+    name: "No Devtools Warning",
     id: "arcane:NoDevtoolsWarning",
     authors: [{
       name: "Arcane",
