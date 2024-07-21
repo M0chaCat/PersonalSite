@@ -13,14 +13,266 @@
     "contents": [
         {
             "type": "plugin",
-            "name": "Example Plugin",
-            "id": "exampleuser:example-plugin",
+            "name": "BANger",
+            "id": "arcane:BANger",
             "version": "1.0.0",
-            "description": "This is an example plugin.",
+            "description": "Replaces the GIF in the ban dialogue with a custom one. (has audio :3)",
             "thumbnail": "https://example.com/thumbnail.png",
             "banner": "https://example.com/banner.png",
             "files": [
-                "/plugins/example-plugin/example-plugin.js"
+                "/Plugins/BANger.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Clean Channel Names",
+            "id": "arcane:CleanChannelNames",
+            "version": "1.0.0",
+            "description": "remove all emoji and decor shit from channel names",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/CleanChannelNames.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Color Sighted",
+            "id": "arcane:ColorSighted",
+            "version": "1.0.0",
+            "description": "Removes the colorblind-friendly icons from statuses, just like 2015-2017 Discord",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/ColorSighted.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Console Janitor",
+            "id": "arcane:ConsoleJanitor",
+            "version": "1.0.0",
+            "description": "Disables annoying console messages/errors",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/ConsoleJanitor.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Console Janitor",
+            "id": "arcane:ConsoleJanitor",
+            "version": "1.0.0",
+            "description": "Disables annoying console messages/errors",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/ConsoleJanitor.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Force Owner Crown",
+            "id": "arcane:ForceOwnerCrown",
+            "version": "1.0.0",
+            "description": "Force the owner crown next to usernames even if the server is large.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/ForceOwnerCrown.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Themess",
+            "id": "arcane:themess",
+            "version": "1.0.0",
+            "description": "(HISTORICAL) Crappy Theme Loader, this was used on nekocord personally for/by me before themes were a feature, i will not be maintaining it i just wanna show off my bad code :3",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/HISTORICALThemeLoader.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Themess",
+            "id": "arcane:themess",
+            "version": "1.0.0",
+            "description": "(HISTORICAL) Crappy Theme Loader, this was used on nekocord personally for/by me before themes were a feature",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/HISTORICALThemeLoader.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "NSFW Gate Bypass",
+            "id": "arcane:NSFWGateBypass",
+            "version": "1.0.0",
+            "description": "Allows you to access NSFW channels without setting/verifying your age",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/NSFWGateBypass.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "No Devtools Warning",
+            "id": "arcane:NoDevtoolsWarning",
+            "version": "1.0.0",
+            "description": "Disables the 'HOLD UP' banner in the console. As a side effect, also prevents Discord from hiding your token, which prevents random logouts.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/NoDevtoolsWarning.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "No Typing Animation",
+            "id": "arcane:NoTypingAnimation",
+            "version": "1.0.0",
+            "description": "Disables the CPU-intensive typing dots animation",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/NoTypingAnimation.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "No Unblock To Jump",
+            "id": "arcane:NoUnblockToJump",
+            "version": "1.0.0",
+            "description": "Allows you to jump to messages of blocked users without unblocking them",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/NoUnblockToJump.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Secret Ringtone Enabler",
+            "id": "arcane:SecretRingtoneEnabler",
+            "version": "1.0.0",
+            "description": "Always play the secret version of the discord ringtone (except during special ringtone events)",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/SecretRingtoneEnabler.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Show All Message Buttons",
+            "id": "arcane:ShowAllMessageButtons",
+            "version": "1.0.0",
+            "description": "Always show all message buttons no matter if you are holding the shift key or not.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/ShowAllMessageButtons.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Summaries",
+            "id": "arcane:Summaries",
+            "version": "1.0.0",
+            "description": "Enables Discord's experimental Summaries feature on every server, displaying AI generated summaries of conversations",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/Summaries.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Unlimited Accounts",
+            "id": "arcane:UnlimitedAccounts",
+            "version": "1.0.0",
+            "description": "Increases the amount of accounts you can add.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/UnlimitedAccounts.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Always Animate",
+            "id": "arcane:AlwaysAnimate",
+            "version": "1.0.0",
+            "description": "Animates anything that can be animated",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/AlwaysAnimate.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Better GIF Picker",
+            "id": "arcane:BetterGifPicker",
+            "version": "1.0.0",
+            "description": "Makes the gif picker open the favorite category by default",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/BetterGifPicker.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "Better Upload Button",
+            "id": "arcane:BetterUploadButton",
+            "version": "1.0.0",
+            "description": "Upload with a single click, open menu with right click",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/BetterUploadButton.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "I Love Spam",
+            "id": "arcane:ILoveSpam",
+            "version": "1.0.0",
+            "description": "Do not hide messages from 'likely spammers'",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/ILoveSpam.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "No Profile Themes",
+            "id": "arcane:NoProfileThemes",
+            "version": "1.0.0",
+            "description": "Completely removes Nitro profile themes",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/NoProfileThemes.nkplugin.js"
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "oneko",
+            "id": "arcane:oneko",
+            "version": "1.0.0",
+            "description": "cat follow mouse (real)",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/oneko.nkplugin.js"
             ]
         },
         {
