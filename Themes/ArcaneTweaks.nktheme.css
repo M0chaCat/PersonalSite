@@ -6,7 +6,7 @@
 **/
 
 /* A redesign of the Spotify activities in user popouts and profiles */
-@import url("https://raw.githubusercontent.com/tom22k/discord-css/main/Themes/SpotifyRedesignV2.css");
+
 
 /* Displays the notice bar within the sidebar instead of positioning it at the top of the base container with Latin, German, & French translation. */
 @import url("https://github.com/lazuee/css-snippets/raw/main/discord/sidebar-notice/import.css");
