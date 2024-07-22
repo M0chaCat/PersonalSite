@@ -9,13 +9,38 @@
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
 
 /* Be silly :3 */
-@import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
-:root {
-  --prompt-text: "be silly :3"; /* replace --prompt-text with your desired text if you want */
+:root{
+  --prompt-text: "be silly :3";
 }
+/* custom chat bar input text  */
+[class*=placeholder][class*=slateTextArea] {visibility: hidden;}
+[class*=placeholder][class*=slateTextArea]::before {visibility: visible;content: var(--prompt-text); /* dont break your quotes :3 */}
 
 /* @ symbol addition before the Username in as many places possible! */
 @import url("https://raw.githubusercontent.com/ColynOrg/CSS-Snippets/main/UsernameSymbol.css");
+
+/*Hide timestamps unless you hover over a message*/
+.timestampInline__430cf {
+  visibility: hidden;
+}
+[class*="cozyMessage_"]:hover .timestampInline__430cf {
+  visibility: visible;
+}
+.text-md-normal__6e567 .timestampInline__430cf {
+  visibility: visible; 
+}
+
+/*Hide chat box if you have no permissions to write in the channel */
+[class*=channelTextAreaDisabled] {
+  display: none!important;
+}
+[class*=channelTextAreaDisabled] {
+  opacity: 0!important;
+  position: absolute!important;
+  height: 0px!important;
+  width: 0px!important;
+  z-index: 0!important;
+}
 
 /* Make webm files bounce the chat around again [WORKS WITH ALL KINDS OF WEBM VIDEOS NOW!!!] */
 [class*="inlineMediaEmbed"] {
