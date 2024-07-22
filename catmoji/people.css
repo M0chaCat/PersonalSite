@@ -10,7 +10,7 @@
 .roleIcon_d5100b[src='/assets/aa1b87cb8be62e4c386b.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/aa1b87cb8be62e4c386b.svg")'], 
 .emoji[src='/assets/aa1b87cb8be62e4c386b.svg'], .emoji[style*='background-image: url("/assets/aa1b87cb8be62e4c386b.svg")'] {
 	background: transparent !important;
-	content: url("https://arcane.kitties.cat/catmoji/images/grinning.svg") !important;
+	content: url("https://arcane.kitties.cat/catmoji/images/grinning_face.svg") !important;
 }
 
 /* smiley */
@@ -40,7 +40,7 @@
 .roleIcon_d5100b[src='/assets/67c91b6a9d1e304a2722.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/67c91b6a9d1e304a2722.svg")'], 
 .emoji[src='/assets/67c91b6a9d1e304a2722.svg'], .emoji[style*='background-image: url("/assets/67c91b6a9d1e304a2722.svg")'] {
 	background: transparent !important;
-	content: url("https://arcane.kitties.cat/catmoji/images/smile.svg") !important;
+	content: url("https://arcane.kitties.cat/catmoji/images/smiling_face_with_open_mouth.svg") !important;
 }
 
 /* grin */
@@ -55,7 +55,7 @@
 .roleIcon_d5100b[src='/assets/889914a85940b08bf6c2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/889914a85940b08bf6c2.svg")'], 
 .emoji[src='/assets/889914a85940b08bf6c2.svg'], .emoji[style*='background-image: url("/assets/889914a85940b08bf6c2.svg")'] {
 	background: transparent !important;
-	content: url("https://arcane.kitties.cat/catmoji/images/grin.svg") !important;
+	content: url("https://arcane.kitties.cat/catmoji/images/slightly_smiling_face.svg") !important;
 }
 
 /* laughing */
@@ -70,7 +70,7 @@
 .roleIcon_d5100b[src='/assets/2b8a7501bc8c14077899.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2b8a7501bc8c14077899.svg")'], 
 .emoji[src='/assets/2b8a7501bc8c14077899.svg'], .emoji[style*='background-image: url("/assets/2b8a7501bc8c14077899.svg")'] {
 	background: transparent !important;
-	content: url("https://arcane.kitties.cat/catmoji/images/laughing.svg") !important;
+	content: url("https://arcane.kitties.cat/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
 }
 
 /* face_holding_back_tears */
@@ -116,6 +116,21 @@
 .emoji[src='/assets/af51e8d03e05a1c14355.svg'], .emoji[style*='background-image: url("/assets/af51e8d03e05a1c14355.svg")'] {
 	background: transparent !important;
 	content: url("https://arcane.kitties.cat/catmoji/images/joy.svg") !important;
+}
+
+/* rofl */
+.diversityEmojiItemImage_cce80d[src='/assets/e17451fcdbba5089cb76.svg'], .diversityEmojiItemImage_cce80d[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.image_b000dd[src='/assets/e17451fcdbba5089cb76.svg'], .image_b000dd[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.emoji_f48b14[src='/assets/e17451fcdbba5089cb76.svg'], .emoji_f48b14[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.emojiImage_bcc24e[src='/assets/e17451fcdbba5089cb76.svg'], .emojiImage_bcc24e[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.image_d90b3d[src='/assets/e17451fcdbba5089cb76.svg'], .image_d90b3d[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.icon_a24e84[src='/assets/e17451fcdbba5089cb76.svg'], .icon_a24e84[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.emoji_f2bfbb[src='/assets/e17451fcdbba5089cb76.svg'], .emoji_f2bfbb[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.emoji_cbdbf0[src='/assets/e17451fcdbba5089cb76.svg'], .emoji_cbdbf0[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.roleIcon_d5100b[src='/assets/e17451fcdbba5089cb76.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
+.emoji[src='/assets/e17451fcdbba5089cb76.svg'], .emoji[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'] {
+	background: transparent !important;
+	content: url("https://arcane.kitties.cat/catmoji/images/rolling_on_the_floor_laughing.svg") !important;
 }
 
 /* smiling_face_with_tear */
