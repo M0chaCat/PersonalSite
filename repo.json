@@ -299,5 +299,18 @@
                 "/Themes/ArcaneTweaks.nktheme.css"
             ]
         },
+
+        {
+            "type": "theme",
+            "name": "Catmoji",
+            "id": "arcane:catmoji",
+            "version": "1.0.0",
+            "description": "Replaces all face emojis with cats!",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Themes/Catmoji.nktheme.css"
+            ]
+        },
     ]
 }
