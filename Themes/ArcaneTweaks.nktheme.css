@@ -5,12 +5,6 @@
  * @id arcane:arcanetweaks
 **/
 
-/* A redesign of the Spotify activities in user popouts and profiles */
-
-
-/* Displays the notice bar within the sidebar instead of positioning it at the top of the base container with Latin, German, & French translation. */
-@import url("https://github.com/lazuee/css-snippets/raw/main/discord/sidebar-notice/import.css");
-
 /* Forum Improvements */
 @import url("https://minidiscordthemes.github.io/Snippets/ForumImprovements/main.css");
 
@@ -18,12 +12,6 @@
 @import url("https://aushevahmad.github.io/awesome-css/modules/custom-bar-prompt.css");
 :root {
   --prompt-text: "be silly :3"; /* replace --prompt-text with your desired text if you want */
-}
-
-/* Bartender (only mac users will get it), Hide Discord's toolbar icons until you need them. */
-@import url("https://aushevahmad.github.io/awesome-css/modules/bartender.css");
-:root {
-  --bartender-width: 4ch;  /* Width for displayed icon. Adjust depending on your needs [Default: 4ch] */
 }
 
 /* @ symbol addition before the Username in as many places possible! */
@@ -75,53 +63,6 @@ div[class^=topicsScroller_] {
 /* Fix discord insanity */
 [class^=userPopoutInner_] [class^=blockquoteContainer_] {
   max-height: 90px;
-}
-
-/* Aligns chat box with the bottom of the screen and user controls */
-:is(main,section)[class^=chatContent] > form,
-form > div[class^=submitContainer] {
-  /* Align chatbox */
-  padding: 0px;
-  > div > div[class^=channelTextArea] {
-    margin: 0px !important;
-    > div[class^=scrollableContainer] {
-      min-height: 49px;
-      padding-top: 4px;
-      border-radius: 0px;
-    }
-  }
-  /* Align forum channel thing */
-  > div {
-    margin-bottom: 0px;
-    border-radius: 0px;
-  }
-  /* Move slowmode/typing indicator to match */
-  > div[class^=typing] {
-    top: -24px;
-    right: calc(var(--custom-index-scrollbar-margin) * 2 + var(--custom-index-scrollbar-width));
-    margin-left: auto;
-    width: fit-content;
-    padding-left: 2px;
-    padding-right: 9px;
-    border-radius: 8px 8px 0px 0px;
-    background-color: var(--channeltextarea-background);
-  }
-  /* Make scrollbar meet chatbox */
-  &::after {
-    display: none;
-  }
-
-
-/* Jump to present */
-div[class^=jumpToPresentBar] {
-  left: 0;
-  right: unset;
-  border-radius: 0px 8px 0px 0px;
-  background-color: var(--channeltextarea-background);
-  > button[class^=barButtonMain] {
-    flex: 0 0 auto;
-    display: none;
-  }
 }
 
 /* Make the appearance tab slightly more bearable to look at (moves controls to where they should be and hopefully removes all nitro upsells) */
@@ -212,11 +153,6 @@ img[class="emoji otherEmoji_e58351"]:hover {
   to {
     transform: rotateY(360deg) scale(1.5);
   }
-}
-
-/* Moves the message buttons above the message */
-[class*=buttonContainer] > [class*=buttons_] {
-  transform: translateY(-50%);
 }
 
 /* Custom "I'm new here, say hi!" */
