@@ -281,8 +281,8 @@
             "id": "arcane:sitelenpona",
             "version": "1.0.0",
             "description": "Enables the viewing of UCSUR sitelen pona in Discord.",
-            "thumbnail": "https://example.com/thumbnail.png",
-            "banner": "https://example.com/banner.png",
+            "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Sitelen_Pona.svg/200px-Sitelen_Pona.svg.png",
+            "banner": "https://res.cloudinary.com/teepublic/image/private/s--QoP97jbK--/ar_10:3,c_fill,h_300,w_1000/d_misc:cover-photo.jpg,f_jpg,q_auto:good/v1629571463/production/stores/848596/banner.jpg",
             "files": [
                 "/Themes/sitelenpona.nktheme.css"
             ]
@@ -293,7 +293,7 @@
             "id": "arcane:arcanetweaks",
             "version": "1.0.0",
             "description": "Minor tweaks that make discord better!",
-            "thumbnail": "https://example.com/thumbnail.png",
+            "thumbnail": "https://www.svgrepo.com/show/131974/settings.svg",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Themes/ArcaneTweaks.nktheme.css"
@@ -306,7 +306,7 @@
             "id": "arcane:catmoji",
             "version": "1.0.0",
             "description": "Replaces all face emojis with cats!",
-            "thumbnail": "https://example.com/thumbnail.png",
+            "thumbnail": "htttps://avatars.githubusercontent.com/u/77027980?s=200&v=4",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Themes/Catmoji.nktheme.css"
