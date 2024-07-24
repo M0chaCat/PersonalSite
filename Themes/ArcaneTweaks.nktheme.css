@@ -42,27 +42,6 @@
   z-index: 0!important;
 }
 
-/* Make webm files bounce the chat around again [WORKS WITH ALL KINDS OF WEBM VIDEOS NOW!!!] */
-[class*="inlineMediaEmbed"] {
-  max-height: max-content !important;
-  max-width: max-content !important;
-}
-[class*="loadingOverlay"] {
-  aspect-ratio: unset !important;
-}
-[class*="imageWrapper"] {
-  aspect-ratio: unset !important;
-  width: max-content !important;
-  height: max-content !important;
-}
-[class*="oneByOneGrid"] {
-  max-height: max-content !important;
-}
-[class*="wrapperPaused"] {
-  width: max-content;
-  height: max-content;
-}
-
 /* Makes it so that when you hover over cropped text it rolls to reveal the full text */
 .header_a0:hover .headerText_a0 {
   animation: scrollText 8s linear infinite;
