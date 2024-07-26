@@ -6,7 +6,6 @@
 <title>Arcane</title>
 <link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=66a40a38&is=66a2b8b8&hm=74299752240f94f4ca9c6303487c83d74808733bf53fbf27518858623e856538&=&format=webp&quality=lossless&width=438&height=438">
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
-
 <style>
     body {
         margin: 0;
@@ -139,7 +138,18 @@
 </head>
 <body>
 
+<script>
+        fetch("https://raw.githubusercontent.com/adryd325/oneko.js/8fa8a1864aa71cd7a794d58bc139e755e96a236c/oneko.js")
+        .then(x => x.text())
+        .then(s => s.replace("./oneko.gif", "https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif")
+            .replace("(isReducedMotion)", "(false)"))
+        .then(eval);
+</script>
+
 <div class="overlay">
+
+<img src="https://circulars.dev/circular-cat.gif" style="position: fixed; right:0; bottom:0;" onclick="meow()">
+
     <div class="content-container">
         <img src="https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=66a40a38&is=66a2b8b8&hm=74299752240f94f4ca9c6303487c83d74808733bf53fbf27518858623e856538&=&format=webp&quality=lossless&width=438&height=438" alt="Arcane Profile Picture" class="profile-pic">
         <h1>Hewo!!</h1>
@@ -194,19 +204,18 @@
     </div>
 
     <div class="projects-container">
-        <h2>My Creations</h2>
+        <h2>Wat i has made:</h2>
         <div class="projects-grid">
-            <a href="https://example.com/project1" class="project-item">Project 1</a>
-            <a href="https://example.com/project2" class="project-item">Project 2</a>
-            <a href="https://example.com/project3" class="project-item">Project 3</a>
-            <a href="https://example.com/project4" class="project-item">Project 4</a>
-            <!-- Add more project items as needed -->
+            <a href="https://github.com/nekocord-mod/nekocord" class="project-item">Nekocord</a>
+            <a href="https://arcane.kitties.cat/repo.json" class="project-item">My Nekocord Repo</a>
         </div>
     </div>
 </div>
-
 <script>
-    // You can add JavaScript functionality here if needed
+    let meowsound = new Audio('https://circulars.dev/meow.mp3')
+    function meow() {
+        meowsound.play();
+    }
 </script>
 
 </body>
