@@ -316,8 +316,8 @@
             "name": "Midnight (Cappuccin Mocha)",
             "id": "refact0r:midnightcappuccinmocha",
             "version": "1.0.0",
-            "description": "Replaces all face emojis with cats!",
-            "thumbnail": "https://example.com/thumbnail.png,
+            "description": "A dark, rounded discord theme. Based on catppuccin mocha theme (https://github.com/catppuccin/catppuccin)",
+            "thumbnail": "https://example.com/thumbnail.png",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Themes/Midnight Cappuccin Mocha.nktheme.css"
