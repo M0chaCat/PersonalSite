@@ -4,29 +4,50 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Arcane</title>
-<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=66a40a38&is=66a2b8b8&hm=74299752240f94f4ca9c6303487c83d74808733bf53fbf27518858623e856538&=&format=webp&quality=lossless&width=438&height=438"> <!-- Set favicon to pfp -->
-    <style>
-        /* Define the nasin-nanpa font */
-        @font-face {
-            font-family: 'nasin-nanpa';
-            src: url('nasin-nanpa.ttf') format('truetype');
-        }
-        
-        body {
-            margin: 0;
-            padding: 0;
-            font-family: 'Arial', 'sans-serif', 'nasin-nanpa'; /* Use nasin-nanpa as fallback */
-            background: linear-gradient(135deg, #4e008e, #6a00b6, #8a00e0);
-            color: #fff;
-            text-align: center;
-        }
+<link rel="icon" type="image/png" href="https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=66a40a38&is=66a2b8b8&hm=74299752240f94f4ca9c6303487c83d74808733bf53fbf27518858623e856538&=&format=webp&quality=lossless&width=438&height=438">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
-    .container {
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', 'Arial', 'sans-serif', 'nasin-nanpa';
+        background: url('https://wallpapercave.com/wp/wp10407656.png') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 100vh;
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container {
+        background: rgba(100, 100, 100, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 60px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 60%;
+        max-width: 600px;
+        margin-bottom: 40px;
     }
 
     .profile-pic {
@@ -34,39 +55,155 @@
         height: 150px;
         border-radius: 50%;
         margin-bottom: 20px;
+        transition: transform 0.3s ease;
+        box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Soft glow effect */
+    }
+    
+    .profile-pic:hover {
+        transform: scale(1.1);
     }
 
     h1 {
         font-size: 36px;
         margin-bottom: 10px;
+        font-weight: 700;
     }
 
     p {
         font-size: 18px;
         margin-bottom: 20px;
+        font-weight: 400;
     }
 
     .links {
         display: flex;
         justify-content: center;
+        gap: 20px;
     }
 
     .links img {
-        width: 50px; /* Adjust the width as needed */
-        height: 50px; /* Adjust the height as needed */
-        border-radius: 50%; /* Makes the image round */
-        margin: 0 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        transition: transform 0.3s ease;
+    }
+
+    .links img:hover {
+        transform: scale(1.2);
+    }
+
+    .iframe-container {
+        width: 100%;
+        max-width: 340px;
+        margin-top: 20px;
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        margin: 20px auto 0;
+    }
+
+    .projects-container {
+        background: rgba(100, 100, 100, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .projects-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .project-item {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 10px;
+        width: 150px;
+        text-align: center;
+        transition: transform 0.3s ease;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .project-item:hover {
+        transform: scale(1.1);
     }
 </style>
 </head>
 <body>
 
-    <div class="container">
-        <img src="https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=669d72b8&is=669c2138&hm=52a482c7d117c3b089d8c1b55e1b340680312b00d3911074f5ff5bf20e840f5e&=&format=webp&quality=lossless&width=438&height=438" alt="Arcanes Profile Picture" class="profile-pic">
-        <h1>Arcane</h1>
-        <p>󱥬󱥢󱥍󱦗󱥜󱤦󱦘</p>
-        <p>Remind me to finish this page aaaa</p>
+<div class="overlay">
+    <div class="content-container">
+        <img src="https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=66a40a38&is=66a2b8b8&hm=74299752240f94f4ca9c6303487c83d74808733bf53fbf27518858623e856538&=&format=webp&quality=lossless&width=438&height=438" alt="Arcane Profile Picture" class="profile-pic">
+        <h1>Hewo!!</h1>
+        <p>Im Arcane, 󱥢󱥍󱦗󱥜󱤦, Snowball, and Rue! (alot of names ik!)</p>
+        <div class="iframe-container">
+            <iframe
+                title="Discord user embed"
+                width="100%"
+                height="120"
+                frameborder="0"
+                sandbox="allow-scripts"
+                src="https://widgets.vendicated.dev/user?id=808802000224518264&theme=dark&banner=true&full-banner=false&rounded-corners=true&discord-icon=false&badges=true&guess-nitro=true&"
+            ></iframe>
+        </div>
+        
+        <!-- Add the following section below the iframe container -->
+        <div class="platforms-container">
+            <h3>Find me on:</h3>
+            <div class="platforms-list">
+                <a href="https://github.com/MeowArcane" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=FFFFFF" alt="GitHub" class="platform-icon">
+                </a>
+                <a href="https://transfem.social/@3catgirl" target="_blank">
+                    <img src="https://cdn.transfem.social/files/88aa10ed-2883-442f-8316-456512009fe4.webp" alt="transfem.social" class="platform-icon">
+                </a>
+            </div>
+        </div>
+        
+        <style>
+            .platforms-container {
+                margin-top: 20px;
+                text-align: center;
+            }
+            
+            .platforms-list {
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+                margin-top: 10px;
+            }
+            
+            .platform-icon {
+                width: 40px;
+                height: 40px;
+                transition: transform 0.3s ease;
+            }
+            
+            .platform-icon:hover {
+                transform: scale(1.2);
+            }
+        </style>
     </div>
+
+    <div class="projects-container">
+        <h2>My Creations</h2>
+        <div class="projects-grid">
+            <a href="https://example.com/project1" class="project-item">Project 1</a>
+            <a href="https://example.com/project2" class="project-item">Project 2</a>
+            <a href="https://example.com/project3" class="project-item">Project 3</a>
+            <a href="https://example.com/project4" class="project-item">Project 4</a>
+            <!-- Add more project items as needed -->
+        </div>
+    </div>
+</div>
 
 <script>
     // You can add JavaScript functionality here if needed
