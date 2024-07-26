@@ -299,17 +299,28 @@
                 "/Themes/ArcaneTweaks.nktheme.css"
             ]
         },
-
         {
             "type": "theme",
             "name": "Catmoji",
             "id": "arcane:catmoji",
             "version": "1.0.0",
             "description": "Replaces all face emojis with cats!",
-            "thumbnail": "htttps://avatars.githubusercontent.com/u/77027980?s=200&v=4",
+            "thumbnail": "https://avatars.githubusercontent.com/u/77027980?s=200&v=4",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Themes/Catmoji.nktheme.css"
+            ]
+        },
+        {
+            "type": "theme",
+            "name": "Midnight (Cappuccin Mocha)",
+            "id": "refact0r:midnightcappuccinmocha",
+            "version": "1.0.0",
+            "description": "Replaces all face emojis with cats!",
+            "thumbnail": "https://example.com/thumbnail.png,
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Themes/Midnight Cappuccin Mocha.nktheme.css"
             ]
         },
     ]
