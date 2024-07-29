@@ -317,7 +317,7 @@
             "id": "refact0r:midnightcappuccinmocha",
             "version": "1.0.0",
             "description": "A dark, rounded discord theme. Based on catppuccin mocha theme (https://github.com/catppuccin/catppuccin)",
-            "thumbnail": "https://example.com/thumbnail.png",
+            "thumbnail": "https://private-user-images.githubusercontent.com/34758569/279550343-b831a8a7-1e7f-4114-9420-cbbb8e8f184f.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjIyNjc3NzMsIm5iZiI6MTcyMjI2NzQ3MywicGF0aCI6Ii8zNDc1ODU2OS8yNzk1NTAzNDMtYjgzMWE4YTctMWU3Zi00MTE0LTk0MjAtY2JiYjhlOGYxODRmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA3MjklMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNzI5VDE1Mzc1M1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTk3ZWE3YjJiNWY2YjA5ZjAxZmQ1ZjYyMmVhNWQyZjZjYzdkNjVlYTg3YTE3OGI3ODYyNzgxZjhiYzFkNzI1MGQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.c7blkrhORsk_8UZnPVIMasX8fCz4VvP1Cpf8JyUjtes",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Themes/Midnight Cappuccin Mocha.nktheme.css"
