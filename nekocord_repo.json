@@ -107,36 +107,6 @@
         },
         {
             "type": "plugin",
-            "name": "Console Janitor",
-            "id": "arcane:ConsoleJanitor",
-            "version": "1.0.0",
-            "short_description": "Disables annoying console messages/errors.",
-            "description": "Disables annoying console messages/errors.",
-            "thumbnail": "https://example.com/thumbnail.png",
-            "banner": "https://example.com/banner.png",
-            "file": "/Plugins/ConsoleJanitor.nkplugin.js",
-            "categories": [
-                "UTILITY"
-            ],
-            "tags": [
-                "console",
-                "messages"
-            ],
-            "links": [
-                {
-                    "name": "GitHub",
-                    "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
-                },
-                {
-                    "name": "Arcane's Site",
-                    "type": "website",
-                    "url": "https://arcane.kitties.cat"
-                }
-            ]
-        },
-        {
-            "type": "plugin",
             "name": "Force Owner Crown",
             "id": "arcane:ForceOwnerCrown",
             "version": "1.0.0",
