@@ -267,6 +267,13 @@
             "files": [
                 "/Plugins/NoUnblockToJump.nkplugin.js"
             ],
+            "categories": [
+                "UTILITY"
+            ],
+            "tags": [
+                "blocked",
+                "jump"
+            ],
             "links": [
                 {
                     "name": "GitHub",
@@ -290,6 +297,14 @@
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/SecretRingtoneEnabler.nkplugin.js"
+            ],
+            "categories": [
+                "CUSTOMIZATION",
+                "FUN"
+            ],
+            "tags": [
+                "ringtone",
+                "secret"
             ],
             "links": [
                 {
@@ -315,6 +330,13 @@
             "files": [
                 "/Plugins/ShowAllMessageButtons.nkplugin.js"
             ],
+            "categories": [
+                "QOL"
+            ],
+            "tags": [
+                "message",
+                "buttons"
+            ],
             "links": [
                 {
                     "name": "GitHub",
@@ -338,6 +360,14 @@
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/Summaries.nkplugin.js"
+            ],
+            "categories": [
+                "UTILITY",
+                "QOL"
+            ],
+            "tags": [
+                "summaries",
+                "AI"
             ],
             "links": [
                 {
@@ -363,6 +393,13 @@
             "files": [
                 "/Plugins/UnlimitedAccounts.nkplugin.js"
             ],
+            "categories": [
+                "UTILITY"
+            ],
+            "tags": [
+                "accounts",
+                "unlimited"
+            ],
             "links": [
                 {
                     "name": "GitHub",
@@ -386,6 +423,13 @@
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/AlwaysAnimate.nkplugin.js"
+            ],
+            "categories": [
+                "FUN"
+            ],
+            "tags": [
+                "animate",
+                "animation"
             ],
             "links": [
                 {
@@ -411,6 +455,14 @@
             "files": [
                 "/Plugins/BetterGifPicker.nkplugin.js"
             ],
+            "categories": [
+                "UTILITY",
+                "FUN"
+            ],
+            "tags": [
+                "GIF",
+                "picker"
+            ],
             "links": [
                 {
                     "name": "GitHub",
@@ -434,6 +486,14 @@
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/BetterUploadButton.nkplugin.js"
+            ],
+            "categories": [
+                "QOL",
+                "UTILITY"
+            ],
+            "tags": [
+                "upload",
+                "button"
             ],
             "links": [
                 {
