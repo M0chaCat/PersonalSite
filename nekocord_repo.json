@@ -444,6 +444,37 @@
                 }
             ]
         },
+{
+            "type": "plugin",
+            "name": "KeyboardSounds",
+            "id": "arcane:KeyboardSounds",
+            "version": "1.0.0",
+            "description": "Play sounds when you press a key",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/kbsounds.nkplugin.js"
+            ],
+            "categories": [
+                "FUN"
+            ],
+            "tags": [
+                "keyboard",
+                "sound"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
         {
             "type": "plugin",
             "name": "Better GIF Picker",
