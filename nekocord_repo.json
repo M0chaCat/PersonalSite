@@ -226,6 +226,36 @@
                 }
             ]
         },
+{
+            "type": "plugin",
+            "name": "PlusReact",
+            "id": "arcane:PlusReact",
+            "version": "1.0.0",
+            "short_description": "React to previous message with emoji",
+            "description": "React to previous message with emoji, like +:star:",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/PlusReact.nkplugin.js",
+            "categories": [
+                "QOL"
+            ],
+            "tags": [
+                "react",
+                "plusreact"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
         {
             "type": "plugin",
             "name": "No Typing Animation",
