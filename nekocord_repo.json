@@ -320,6 +320,44 @@
         },
         {
             "type": "plugin",
+            "name": "Essentials",
+            "id": "arcane:Essentials",
+            "version": "1.0.0",
+            "short_description": "Minor tweaks that make discord better!",
+            "description": "Minor tweaks that make discord better!",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "files": [
+                "/Plugins/Essentials.nkplugin.js"
+            ],
+            "categories": [
+                "QOL",
+            ],
+            "tags": [
+                "essential",
+                "essentials",
+                "toki pona",
+                "sitelen pona",
+                "arcane tweaks",
+                "Arcane Tweaks",
+                "ArcaneTweaks",
+                "arcanetweaks",
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Secret Ringtone Enabler",
             "id": "arcane:SecretRingtoneEnabler",
             "version": "1.0.0",
