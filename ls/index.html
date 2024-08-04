@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Shortener</title>
+</head>
+<body>
+    <h1>Arcanes Link Shortener</h1>
+    <p>Enter a short code in the URL to be redirected:</p>
+    <ul id="linksList"></ul>
+
+    <script>
+        // Hardcoded links mapping
+        const links = {
+            'gh': 'https://github.com',
+            'gg': 'https://www.google.com',
+            'yt': 'https://www.youtube.com'
+        };
+
+        // Function to populate the list of links
+        function populateLinks() {
+            const linksList = document.getElementById('linksList');
+            for (const code in links) {
+                const listItem = document.createElement('li');
+                listItem.innerHTML = `<a href="shortener.html?code=${code}">${links[code]}</a> - <code>${code}</code>`;
+                linksList.appendChild(listItem);
+            }
+        }
+
+        // Function to handle redirection
+        function handleRedirection() {
+            const urlParams = new URLSearchParams(window.location.search);
+            const code = urlParams.get('code');
+            if (code && links[code]) {
+                window.location.href = links[code];
+            } else {
+                window.location.href = 'https://arcane.kitties.cat';
+            }
+        }
+
+        // Populate the links and handle redirection on page load
+        window.onload = function() {
+            populateLinks();
+            handleRedirection();
+        }
+    </script>
+</body>
+</html>
