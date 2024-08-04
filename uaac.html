@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>You Are An Idiot!</title>
+    <title>You Are A Cutie :3</title>
 </head>
 <body id="bodyEl">
     <h1 id="title"></h1>
@@ -18,11 +18,9 @@
         const title = document.getElementById('title')
         const body = document.getElementById('bodyEl')
 
-        const music = new Audio('https://github.com/ngn13/you-are-an-idiot/raw/main/assets/music.mp3')
-
         let nextAn = 1
         let indexN = 0
-        let wordlist = ['you', 'are', 'an', 'idiot :3']
+        let wordlist = ['you', 'are', 'a', 'cutie :3']
         let popups = [window]
 
         function getRandomCordinats(){
@@ -46,8 +44,8 @@
                 body.style.backgroundColor = 'white'
                 nextAn = 2
             }else{
-                title.style.color = 'white'
-                body.style.backgroundColor = 'black'
+                title.style.color = 'black'
+                body.style.backgroundColor = 'white'
                 nextAn = 1
             }
             if (indexN == 3) {
@@ -58,7 +56,7 @@
         }, 400)
 
         function createNewPopUp(){
-            let newWindow = window.open('https://arcane.kitties.cat/uaai.html','', 'width=350px height=200px')
+            let newWindow = window.open('https://arcane.kitties.cat/uaac.html','', 'width=350px height=200px')
             popups.push(newWindow)
         }
 
@@ -82,15 +80,12 @@
         })
 
         document.addEventListener('click', ()=>{
-            music.play()
         })
 
         document.addEventListener('mouseenter', ()=>{
-            music.play()
         })
 
         document.addEventListener('keydown', (e)=>{
-            music.play()
             for (let i = 0; i<20; i++){
                 createNewPopUp()
             }
@@ -98,7 +93,6 @@
         })
 
 	 document.addEventListener('mousemove', (e)=>{
-            music.play()
             for (let i = 0; i<20; i++){
                 createNewPopUp()
             }
@@ -106,7 +100,6 @@
         })
 
         music.addEventListener('ended', ()=>{
-            music.play()
         })
 
         
