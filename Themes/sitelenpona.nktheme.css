@@ -6,6 +6,10 @@
 **/
 
 :root {
+@font-face {
+  font-family: nasin-nanpa;
+  src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
+}
   /* set sitelen pona font vars */
   --font-sp-mono: 'nasin-nanpa', 'Fairfax HD', 'sitelen seli kiwen mono juniko', 'sitelen seli kiwen mono juniko meso';
 
