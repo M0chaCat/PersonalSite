@@ -226,7 +226,7 @@
                 }
             ]
         },
-{
+        {
             "type": "plugin",
             "name": "PlusReact",
             "id": "arcane:PlusReact",
@@ -331,7 +331,7 @@
                 "/Plugins/Essentials.nkplugin.js"
             ],
             "categories": [
-                "QOL",
+                "QOL"
             ],
             "tags": [
                 "essential",
@@ -341,7 +341,7 @@
                 "arcane tweaks",
                 "Arcane Tweaks",
                 "ArcaneTweaks",
-                "arcanetweaks",
+                "arcanetweaks"
             ],
             "links": [
                 {
@@ -517,7 +517,7 @@
                 }
             ]
         },
-{
+        {
             "type": "plugin",
             "name": "KeyboardSounds",
             "id": "arcane:KeyboardSounds",
