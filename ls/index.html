@@ -6,7 +6,7 @@
     <title>Link Shortener</title>
 </head>
 <body>
-    <h1>Arcanes Link Shortener</h1>
+    <h1>Link Shortener</h1>
     <p>Enter a short code in the URL to be redirected:</p>
     <ul id="linksList"></ul>
 
@@ -23,7 +23,7 @@
             const linksList = document.getElementById('linksList');
             for (const code in links) {
                 const listItem = document.createElement('li');
-                listItem.innerHTML = `<a href="shortener.html?code=${code}">${links[code]}</a> - <code>${code}</code>`;
+                listItem.innerHTML = `<a href="https://arcane.kitties.cat/ls?${code}">${links[code]}</a> - <code>${code}</code>`;
                 linksList.appendChild(listItem);
             }
         }
@@ -31,7 +31,7 @@
         // Function to handle redirection
         function handleRedirection() {
             const urlParams = new URLSearchParams(window.location.search);
-            const code = urlParams.get('code');
+            const code = urlParams.keys().next().value; // Get the first query parameter as the code
             if (code && links[code]) {
                 window.location.href = links[code];
             } else {
