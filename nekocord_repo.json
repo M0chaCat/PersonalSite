@@ -325,7 +325,7 @@
             "version": "1.0.0",
             "short_description": "Minor tweaks that make discord better!",
             "description": "Minor tweaks that make discord better!",
-            "thumbnail": "https://example.com/thumbnail.png",
+            "thumbnail": "https://arcane.kitties.cat/images/Essentials.png",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/Essentials.nkplugin.js"
@@ -524,7 +524,7 @@
             "version": "1.0.0",
             "short_description": "Play sounds when you press a key",
             "description": "Play sounds when you press a key",
-            "thumbnail": "https://example.com/thumbnail.png",
+            "thumbnail": "https://arcane.kitties.cat/images/kbsounds.png",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/kbsounds.nkplugin.js"
@@ -672,7 +672,7 @@
             "version": "1.0.0",
             "short_description": "meow meow meow meow meow meow meow meow",
             "description": "cat follow mouse (real)",
-            "thumbnail": "https://example.com/thumbnail.png",
+            "thumbnail": "https://arcane.kitties.cat/images/oneko.png",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Plugins/oneko.nkplugin.js"
@@ -722,7 +722,7 @@
             "version": "1.0.0",
             "short_description": "Replaces all face emojis with cats!",
             "description": "Replaces all face emojis with cats!",
-            "thumbnail": "https://avatars.githubusercontent.com/u/77027980?s=200&v=4",
+            "thumbnail": "https://arcane.kitties.cat/images/catmoji.png",
             "banner": "https://example.com/banner.png",
             "files": [
                 "/Themes/Catmoji.nktheme.css"
