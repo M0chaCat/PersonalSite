@@ -3,31 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Link Shortener</title>
+    <title>Arcanes Link Shortener</title>
 </head>
 <body>
-    <h1>Link Shortener</h1>
-    <p>Enter a short code in the URL to be redirected:</p>
-    <ul id="linksList"></ul>
-
+    <h1>Please add a code</h1>
     <script>
         // Hardcoded links mapping
         const links = {
-            'gh': 'https://github.com',
-            'gg': 'https://www.google.com',
-            'yt': 'https://www.youtube.com'
+            'dc': 'https://discord.com/users/808802000224518264',
+            'gh': 'https://github.com/MeowArcane',
+            'nc': 'https://github.com/nekocord-mod/nekocord/',
+            'tias': 'https://tryitands.ee/',
         };
-
-        // Function to populate the list of links
-        function populateLinks() {
-            const linksList = document.getElementById('linksList');
-            for (const code in links) {
-                const listItem = document.createElement('li');
-                listItem.innerHTML = `<a href="https://arcane.kitties.cat/ls?code=${code}">${links[code]}</a> - <code>${code}</code>`;
-                linksList.appendChild(listItem);
-            }
-        }
-
         // Function to handle redirection
         function handleRedirection() {
             const urlParams = new URLSearchParams(window.location.search);
@@ -39,7 +26,6 @@
 
         // Populate the links and handle redirection on page load
         window.onload = function() {
-            populateLinks();
             handleRedirection();
         }
     </script>
