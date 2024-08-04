@@ -15,12 +15,16 @@
             'nc': 'https://github.com/nekocord-mod/nekocord/',
             'hehe': 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
         };
+
         // Function to handle redirection
         function handleRedirection() {
             const urlParams = new URLSearchParams(window.location.search);
             const code = urlParams.get('code'); // Get the 'code' parameter
+            console.log(`Code parameter: ${code}`); // Debugging line
             if (code && links[code]) {
                 window.location.href = links[code];
+            } else {
+                console.error(`No link found for code: ${code}`); // Debugging line
             }
         }
 
