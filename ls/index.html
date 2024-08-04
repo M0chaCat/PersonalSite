@@ -23,7 +23,7 @@
             const linksList = document.getElementById('linksList');
             for (const code in links) {
                 const listItem = document.createElement('li');
-                listItem.innerHTML = `<a href="https://arcane.kitties.cat/ls?${code}">${links[code]}</a> - <code>${code}</code>`;
+                listItem.innerHTML = `<a href="https://arcane.kitties.cat/ls?code=${code}">${links[code]}</a> - <code>${code}</code>`;
                 linksList.appendChild(listItem);
             }
         }
@@ -34,8 +34,6 @@
             const code = urlParams.get('code'); // Get the 'code' parameter
             if (code && links[code]) {
                 window.location.href = links[code];
-            } else {
-                window.location.href = 'https://arcane.kitties.cat';
             }
         }
 
