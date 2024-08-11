@@ -161,7 +161,7 @@ img[class="emoji otherEmoji_e58351"]:hover {
 
 /* Custom "I'm new here, say hi!" */
 [class*=newMemberBadge]:before {
-  content: url(https://cdn.discordapp.com/emojis/1024751291504791654.gif?size=64&quality=lossless);
+  content: url(https://media.discordapp.net/stickers/1272085262205325352.gif?size=160);
   transform: translate(-100%, -110%);
   display: inline-block;
   scale: 0.32;
