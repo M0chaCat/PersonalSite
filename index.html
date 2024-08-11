@@ -7,9 +7,9 @@
 <link rel="icon" type="image/png" href="/Mocha.png" rel="stylesheet">
 <style>
     @font-face {
-  font-family: nasinnanpa;
-  src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
-}
+        font-family: nasinnanpa;
+        src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
+    }
     body {
         margin: 0;
         padding: 0;
@@ -113,8 +113,8 @@
         text-align: center;
         width: 60%;
         max-width: 600px;
+        margin-top: 40px; /* Ensure spacing from previous sections */
     }
-
     .projects-grid {
         display: flex;
         flex-wrap: wrap;
@@ -135,6 +135,23 @@
     }
 
     .project-item:hover {
+        transform: scale(1.1);
+    }
+    
+    .extra-bio-button {
+        background: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(10px);
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: #fff;
+        font-size: 16px;
+        transition: transform 0.3s ease;
+        display: inline-block;
+        margin-top: 20px; /* Space between platforms and new button */
+    }
+
+    .extra-bio-button:hover {
         transform: scale(1.1);
     }
 </style>
@@ -168,7 +185,7 @@
             ></iframe>
         </div>
         
-        <!-- Add the following section below the iframe container -->
+        <!-- Platforms section -->
         <div class="platforms-container">
             <h3>Find me on:</h3>
             <div class="platforms-list">
@@ -183,30 +200,10 @@
                 </a>
             </div>
         </div>
+
+        <!-- New button below platforms -->
+        <a href="/bio" class="extra-bio-button">Extra bio stuffs</a>
         
-        <style>
-            .platforms-container {
-                margin-top: 20px;
-                text-align: center;
-            }
-            
-            .platforms-list {
-                display: flex;
-                justify-content: center;
-                gap: 20px;
-                margin-top: 10px;
-            }
-            
-            .platform-icon {
-                width: 40px;
-                height: 40px;
-                transition: transform 0.3s ease;
-            }
-            
-            .platform-icon:hover {
-                transform: scale(1.2);
-            }
-        </style>
     </div>
 
     <div class="projects-container">
@@ -216,10 +213,9 @@
             <a href="https://arcane.kitties.cat/repo.json" class="project-item">My Nekocord Repo</a>
         </div>
     </div>
-    <div class="bio button">
-<a href="/bio" class="buttom">Extra bio stuffs</a>
-    </div>
+
 </div>
+
 <script>
     let meowsound = new Audio('https://circulars.dev/meow.mp3')
     function meow() {
