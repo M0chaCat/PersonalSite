@@ -198,36 +198,6 @@
         },
         {
             "type": "plugin",
-            "name": "No Devtools Warning",
-            "id": "arcane:NoDevtoolsWarning",
-            "version": "1.0.0",
-            "short_description": "Disables the 'HOLD UP' banner in the console.",
-            "description": "Disables the 'HOLD UP' banner in the console. As a side effect, also prevents Discord from hiding your token, which prevents random logouts.",
-            "thumbnail": "https://example.com/thumbnail.png",
-            "banner": "https://example.com/banner.png",
-            "file": "/Plugins/NoDevtoolsWarning.nkplugin.js",
-            "categories": [
-                "UTILITY"
-            ],
-            "tags": [
-                "devtools",
-                "warning"
-            ],
-            "links": [
-                {
-                    "name": "GitHub",
-                    "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
-                },
-                {
-                    "name": "Arcane's Site",
-                    "type": "website",
-                    "url": "https://arcane.kitties.cat"
-                }
-            ]
-        },
-        {
-            "type": "plugin",
             "name": "PlusReact",
             "id": "arcane:PlusReact",
             "version": "1.0.0",
