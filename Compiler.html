@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MochaScript Compiler</title>
+<link rel="icon" type="image/png" href="/Mocha.png" rel="stylesheet">
+<style>
+    @font-face {
+        font-family: nasinnanpa;
+        src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Roboto', 'Arial', 'sans-serif', 'nasinnanpa';
+        background: url('https://wallpapercave.com/wp/wp10407656.png') no-repeat center center fixed;
+        background-size: cover;
+        color: #fff;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        position: relative;
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content-container {
+        background: rgba(100, 100, 100, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 60px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 70%;
+        max-width: 800px;
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+        font-weight: 700;
+    }
+
+    .container {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 20px;
+    }
+
+    textarea {
+        width: 100%;
+        height: 400px;
+        padding: 10px;
+        font-size: 16px;
+        font-family: monospace;
+        background: rgba(255, 255, 255, 0.1);
+        color: #fff;
+        border: 1px solid #ccc;
+        border-radius: 10px;
+    }
+
+    textarea:focus {
+        outline: none;
+        border-color: #fff;
+    }
+
+    button {
+        padding: 15px 30px;
+        font-size: 18px;
+        margin-top: 20px;
+        border: none;
+        border-radius: 10px;
+        background-color: #ff9800;
+        color: #fff;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #e68a00;
+    }
+</style>
+</head>
+<body>
+
+<div class="overlay">
+    <div class="content-container">
+        <h1>MochaScript Compiler</h1>
+        <div class="container">
+            <textarea id="mochaCode" placeholder="Enter MochaScript code here..."></textarea>
+            <textarea id="output" placeholder="Your compiled JavaScript will appear here..." readonly></textarea>
+        </div>
+        <button onclick="compileMochaScript()">Compile to JavaScript</button>
+    </div>
+</div>
+
+<script>
+    function compileMochaScript() {
+        let mochaCode = document.getElementById('mochaCode').value;
+
+        // Process and clean up MochaScript code
+        let jsCode = mochaCode;
+
+        // Check if rac() is present to remove comments
+        const removeComments = /rac$begin:math:text$$end:math:text$\s*~/.test(jsCode);
+
+        // If rac() is present, remove it and strip all comments
+        if (removeComments) {
+            jsCode = jsCode.replace(/rac$begin:math:text$$end:math:text$\s*~/, '');
+            jsCode = jsCode.replace(/\/\/.*$/gm, '');
+            jsCode = jsCode.replace(/\/\*[\s\S]*?\*\//g, '');
+        }
+
+        // Replace 'func()' with 'function()'
+        jsCode = jsCode.replace(/func\s*(\w+)\s*\(/g, 'function $1(');
+
+        // Replace 'set' with 'var' outside of strings
+        jsCode = jsCode.replace(/(\bset\b)(?=(?:[^"'`]*["'`][^"'`]*["'`])*[^"'`]*$)/g, 'var');
+
+        // Replace 'yes' with 'true' and 'no' with 'false'
+        jsCode = jsCode.replace(/\byes\b/g, 'true');
+        jsCode = jsCode.replace(/\bno\b/g, 'false');
+
+        // Replace tildes with semicolons outside of strings
+        jsCode = jsCode.replace(/(~)(?=(?:[^"'`]*["'`][^"'`]*["'`])*[^"'`]*$)/g, ';');
+
+        // Display the compiled JavaScript code
+        document.getElementById('output').value = jsCode;
+    }
+</script>
+</body>
+</html>
