@@ -23,9 +23,7 @@
 .timestampInline__430cf {
   visibility: hidden;
 }
-[class*="cozyMessage_"]:hover .timestampInline__430cf {
-  visibility: visible;
-}
+
 .text-md-normal__6e567 .timestampInline__430cf {
   visibility: visible; 
 }
