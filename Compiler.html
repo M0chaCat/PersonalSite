@@ -142,6 +142,9 @@
         // Replace tildes with semicolons outside of strings
         jsCode = jsCode.replace(/(~)(?=(?:[^"'`]*["'`][^"'`]*["'`])*[^"'`]*$)/g, ';');
 
+        // Ensure 'function' is not broken up
+        jsCode = jsCode.replace(/function tion/g, 'function');
+
         // Display the compiled JavaScript code
         document.getElementById('output').value = jsCode;
     }
