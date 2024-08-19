@@ -89,7 +89,7 @@ spoiler_f847a3 {
 
 /* catppuccin icon */
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url("https://media.discordapp.net/attachments/1263889784569466911/1264321571066089564/arcane.png?ex=66a40a38&is=66a2b8b8&hm=74299752240f94f4ca9c6303487c83d74808733bf53fbf27518858623e856538&=&format=webp&quality=lossless&width=438&height=438");
+	background: url("https://arcane.kitties.cat/Mocha.png");
 	background-color: transparent !important;
 	background-size: cover;
 }
