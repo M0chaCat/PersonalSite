@@ -37,4 +37,4 @@ class NSFWGateBypass {
 
 }
 
-exports.default = NSFWGateBypass;
+exports.default = NSFWGateBypass;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425033}*//*SIGNATURE_thvL6wL3mFbV4+zlAcXz7X4IzSP5mijOwQuiVeXcpf1ssJ04HCAs6himCmC9m8xuzP3P2ELMj2d+zT8LGBjNbQ==*/

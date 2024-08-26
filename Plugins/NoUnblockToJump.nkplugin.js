@@ -51,4 +51,4 @@ class NoUnblockToJump {
 
 }
 
-exports.default = NoUnblockToJump;
+exports.default = NoUnblockToJump;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425160}*//*SIGNATURE_7vTigV+9Pa62NpDGfwz743OCxokmqUCgqk9+Yn/1kmssayvAoCw+OHcO6rbY7SQZDcHz0uNeoj77PPRqP8dUjQ==*/

@@ -169,4 +169,4 @@ class KeyboardSounds {
     this.handleVolumeChange(userPreferences.volume);
   }
 }
-exports.default = KeyboardSounds;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648107668}*//*SIGNATURE_TyXR6AZpPx7iizNQNQI7K5shohzEGu6Tu6a38BHPTrD7n5Nxl4345iT5ZBzOiOThXmdvR40A97RNYiW/6W+6WQ==*/
+exports.default = KeyboardSounds;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425615}*//*SIGNATURE_o4SUthmAAJcEFpz5U+98mgnb3JA6V5Yo1F5qo310j4iQ3ow+LAEKA1gNcFjQjOhHKlAUO4GAfPD0uZF2BdgtOA==*/

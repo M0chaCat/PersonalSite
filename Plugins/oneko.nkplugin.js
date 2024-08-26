@@ -40,9 +40,11 @@ class Oneko {
   }
 
   appendScript() {
-    const script = document.createElement("script");
-    script.src = "https://rawcdn.githack.com/MeowArcane/nekothemes/53de1a343407fd2c35a6247f635113c2d2d43b04/oneko.js";
-    document.head.appendChild(script);
+    fetch("https://raw.githubusercontent.com/adryd325/oneko.js/8fa8a1864aa71cd7a794d58bc139e755e96a236c/oneko.js")
+    .then(x => x.text())
+    .then(s => s.replace("./oneko.gif", "https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif")
+      .replace("(isReducedMotion)", "(false)"))
+    .then(eval);
   }
 
   onDisable() {
@@ -50,4 +52,4 @@ class Oneko {
   }
 }
 
-exports.default = Oneko;
+exports.default = Oneko;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425697}*//*SIGNATURE_Z5HcupQmYEH16pN209dPmQNcU2DIC7P0+X/Cwx0TjBvPcwj84wuYgdEYhw7//IIpqqbfFZIk5SU29jvNWQ/maQ==*/

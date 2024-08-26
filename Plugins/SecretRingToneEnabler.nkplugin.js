@@ -36,4 +36,4 @@ class SecretRingToneEnabler {
   //other code here!
 }
 
-exports.default = SecretRingToneEnabler;
+exports.default = SecretRingToneEnabler;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425203}*//*SIGNATURE_Ol5LuCYXikc3uvbkbXGLsxN6ZngRDWP2m+tPPWLrZ7Pp2CQWpHYe7w0zb8g25K3gMFQ4VTJXiDNSE6Pl87oj0g==*/

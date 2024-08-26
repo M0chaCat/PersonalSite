@@ -41,4 +41,4 @@ class ForceOwnerCrown {
   }
 };
 
-exports.default = ForceOwnerCrown;
+exports.default = ForceOwnerCrown;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424992}*//*SIGNATURE_momppwr0ttNz75rEhbH9Qgm3LgsRYbDEe2ZgLl7PHmUpLGjQ9orNpMcQr/MZe2OfQMARGpEGn1yHBp2aJ4LZSQ==*/

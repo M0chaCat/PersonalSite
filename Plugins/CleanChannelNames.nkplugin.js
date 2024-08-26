@@ -41,4 +41,4 @@ class CleanChannelNames {
   }
 }
 
-exports.default = CleanChannelNames;
+exports.default = CleanChannelNames;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424911}*//*SIGNATURE_o+ffLEcfJ+dJp1cFVSCQzuBWsokkDwFkN4xeUw4BWBPNFQQuqTKJen/PKp1l0a8CWXa9w7Ivlpzlr5l4GSqPyw==*/

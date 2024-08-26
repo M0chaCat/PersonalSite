@@ -35,4 +35,4 @@ class NoTypingAnimation {
 
 }
 
-exports.default = NoTypingAnimation;
+exports.default = NoTypingAnimation;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425116}*//*SIGNATURE_s6/ZRFq5ONxna8LUNZLOf1u+NthyKgqsD+r3DcdFdfKQQIK3roHWQcEYIb2HPPj/ouGCebqi65OFffltCK1Asw==*/

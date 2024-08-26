@@ -44,4 +44,4 @@ class BANger {
 
 }
 
-exports.default = BANger;
+exports.default = BANger;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424867}*//*SIGNATURE_LGWTbYfqIdcC85sKIuHVcn2CEJgEyHbasoN77TLzC9r+ozmXTsBMAhzCnb4ATBIgjxIR4nAz4BEL6ftcQneywg==*/

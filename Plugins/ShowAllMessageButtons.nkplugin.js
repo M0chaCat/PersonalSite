@@ -29,4 +29,4 @@ class ShowAllMessageButtons {
   constructor() {}
 }
 
-exports.default = ShowAllMessageButtons;
+exports.default = ShowAllMessageButtons;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425245}*//*SIGNATURE_LXxRSihbWlb2QEPd89ggl5/xtdwsscY+iXSqOZh4B0la4D8ih7uQP4cL3NU85P4UHoh6BE+Z0YeWD07UI4B2lg==*/

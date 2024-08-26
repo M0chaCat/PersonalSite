@@ -12,7 +12,7 @@ class UnlimitedAccounts {
 
   info = {
     name: "Unlimited Accounts",
-    description: "Increases the amount of accounts you can add. (technically untested so if there is errors report them as a issue on https://github.com/MeowArcane/NekoRepo)",
+    description: "Increases the amount of accounts you can add.",
     id: "arcane:UnlimitedAccounts",
     authors: [{
       name: "Arcane",
@@ -31,4 +31,4 @@ class UnlimitedAccounts {
   };
 }
 
-exports.default = UnlimitedAccounts;
+exports.default = UnlimitedAccounts;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425369}*//*SIGNATURE_S99OJ8xgwRDMjVZIAPhpzGShPzyviwnFeTXbKH88AolMkJL+5iRJGKiV/aUpccuwwu1tRq/tB81PW5IcbfmU3A==*/

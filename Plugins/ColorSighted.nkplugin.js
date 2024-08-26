@@ -44,4 +44,4 @@ class ColorSighted {
 
 }
 
-exports.default = ColorSighted;
+exports.default = ColorSighted;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424952}*//*SIGNATURE_ipvCPPz9qkdFtEkDJoBzT91vUREX9NweAYmo+bRNfnTJ2VWhl+3xrPBTlJeV2zcw1kUE+9IBAo9l9Akzbzq0DA==*/
