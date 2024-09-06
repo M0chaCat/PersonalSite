@@ -70,21 +70,21 @@
         align-items: center;
         min-height: 100vh;
         position: relative;
+        overflow: auto;
     }
-
+    
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
+        position: relative; /* Changed from fixed */
+        z-index: 1; /* Adjust as needed */
         width: 100%;
-        height: 100%;
-        backdrop-filter: blur(10px);
+        min-height: 100vh; /* Ensure it covers the viewport height */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        backdrop-filter: blur(10px);
     }
-
+    
     .content-container {
         backdrop-filter: blur(10px);
         padding: 60px;
@@ -94,6 +94,20 @@
         width: 60%;
         max-width: 600px;
         margin-bottom: 40px;
+        overflow: visible; /* Ensure content can overflow */
+    }
+    
+    .projects-container {
+        background: rgba(100, 100, 100, 0.1);
+        backdrop-filter: blur(10px);
+        padding: 30px;
+        border-radius: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        width: 60%;
+        max-width: 600px;
+        margin-top: 40px;
+        overflow: visible; /* Ensure content can overflow */
     }
 
     .profile-pic {
