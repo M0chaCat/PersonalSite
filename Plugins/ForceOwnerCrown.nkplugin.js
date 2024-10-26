@@ -11,11 +11,11 @@ class ForceOwnerCrown {
       name: "Force Owner Crown",
       description: "Force the owner crown next to usernames even if the server is large.",
       authors: [{
-        name: "Arcane",
+        name: "Mocha",
         id: "808802000224518264"
       }],
       version: "0.1.0",
-      id: "arcane:ForceOwnerCrown"
+      id: "cat.kitties.arcane.ForceOwnerCrown"
   }
   patches = [
       {
@@ -41,4 +41,4 @@ class ForceOwnerCrown {
   }
 };
 
-exports.default = ForceOwnerCrown;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424992}*//*SIGNATURE_momppwr0ttNz75rEhbH9Qgm3LgsRYbDEe2ZgLl7PHmUpLGjQ9orNpMcQr/MZe2OfQMARGpEGn1yHBp2aJ4LZSQ==*/
+exports.default = ForceOwnerCrown;

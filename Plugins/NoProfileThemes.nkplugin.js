@@ -8,9 +8,9 @@ exports.default = void 0;
 class NoProfileThemes {
   info = {
     name: "No Profile Themes",
-    id: "arcane:NoProfileThemes",
+    id: "cat.kitties.arcane.NoProfileThemes",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Completely removes Nitro profile themes",
@@ -44,4 +44,4 @@ class NoProfileThemes {
 
 }
 
-exports.default = NoProfileThemes;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425656}*//*SIGNATURE_JPer4ll9jtUtJh/LrQstHEmgCdnw29QR/WRzwRJHEBOXfQW1lSZAD7SebggbiBjzMKTR1rRzk4U0jO+x0gpTXA==*/
+exports.default = NoProfileThemes;

@@ -2,7 +2,7 @@
  * @name midnight (catppuccin)
  * @description A darkened discord theme. Based on catppuccin theme (https://github.com/catppuccin/catppuccin).
  * @author refact0r
- * @id refact0r:midnightcappuccinmocha
+ * @id xyz.refact0r.midnight-catppuccin-mocha
 */
 
 /* IMPORTANT: make sure to enable dark mode in discord settings for the theme to apply properly!!! */
@@ -89,7 +89,7 @@ spoiler_f847a3 {
 
 /* catppuccin icon */
 .childWrapper_f90abb:has(> svg:not(.favoriteIcon_dcc7a4)) {
-	background: url("https://arcane.kitties.cat/Mocha.png");
+	background: url("https://cat.kitties.arcane..kitties.cat/Mocha.png");
 	background-color: transparent !important;
 	background-size: cover;
 }

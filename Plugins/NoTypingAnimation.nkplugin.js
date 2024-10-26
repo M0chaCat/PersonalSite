@@ -11,9 +11,9 @@ class NoTypingAnimation {
   }
   info = {
     name: "No Typing Animation",
-    id: "arcane:NoTypingAnimation",
+    id: "cat.kitties.arcane.NoTypingAnimation",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Disables the CPU-intensive typing dots animation",
@@ -35,4 +35,4 @@ class NoTypingAnimation {
 
 }
 
-exports.default = NoTypingAnimation;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425116}*//*SIGNATURE_s6/ZRFq5ONxna8LUNZLOf1u+NthyKgqsD+r3DcdFdfKQQIK3roHWQcEYIb2HPPj/ouGCebqi65OFffltCK1Asw==*/
+exports.default = NoTypingAnimation;

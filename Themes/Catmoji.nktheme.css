@@ -1,8 +1,8 @@
 /**
  * @name         Catmoji
  * @description  Replaces all face emojis with cats!
- * @author       arcane
- * @id arcane:catmoji
+ * @author       Mocha
+ * @id cat.kitties.arcane.:catmoji
 **/
 
 /* grinning */
@@ -17,7 +17,7 @@
 .roleIcon_d5100b[src='/assets/aa1b87cb8be62e4c386b.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/aa1b87cb8be62e4c386b.svg")'], 
 .emoji[src='/assets/aa1b87cb8be62e4c386b.svg'], .emoji[style*='background-image: url("/assets/aa1b87cb8be62e4c386b.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grinning_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grinning_face.svg") !important;
 }
 
 /* smiley */
@@ -32,7 +32,7 @@
 .roleIcon_d5100b[src='/assets/fb21c38780c71e43bf82.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/fb21c38780c71e43bf82.svg")'], 
 .emoji[src='/assets/fb21c38780c71e43bf82.svg'], .emoji[style*='background-image: url("/assets/fb21c38780c71e43bf82.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
 }
 
 /* smile */
@@ -47,7 +47,7 @@
 .roleIcon_d5100b[src='/assets/67c91b6a9d1e304a2722.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/67c91b6a9d1e304a2722.svg")'], 
 .emoji[src='/assets/67c91b6a9d1e304a2722.svg'], .emoji[style*='background-image: url("/assets/67c91b6a9d1e304a2722.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
 }
 
 /* grin */
@@ -62,7 +62,7 @@
 .roleIcon_d5100b[src='/assets/889914a85940b08bf6c2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/889914a85940b08bf6c2.svg")'], 
 .emoji[src='/assets/889914a85940b08bf6c2.svg'], .emoji[style*='background-image: url("/assets/889914a85940b08bf6c2.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
 }
 
 /* laughing */
@@ -77,7 +77,7 @@
 .roleIcon_d5100b[src='/assets/2b8a7501bc8c14077899.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2b8a7501bc8c14077899.svg")'], 
 .emoji[src='/assets/2b8a7501bc8c14077899.svg'], .emoji[style*='background-image: url("/assets/2b8a7501bc8c14077899.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
 }
 
 /* face_holding_back_tears */
@@ -92,7 +92,7 @@
 .roleIcon_d5100b[src='/assets/6c4e5d9cb23057ca347f.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/6c4e5d9cb23057ca347f.svg")'], 
 .emoji[src='/assets/6c4e5d9cb23057ca347f.svg'], .emoji[style*='background-image: url("/assets/6c4e5d9cb23057ca347f.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_tears_of_joy.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_tears_of_joy.svg") !important;
 }
 
 /* sweat_smile */
@@ -107,7 +107,7 @@
 .roleIcon_d5100b[src='/assets/3bc4f2d1b8b9d29e732e.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/3bc4f2d1b8b9d29e732e.svg")'], 
 .emoji[src='/assets/3bc4f2d1b8b9d29e732e.svg'], .emoji[style*='background-image: url("/assets/3bc4f2d1b8b9d29e732e.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_cold_sweat.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_open_mouth_and_cold_sweat.svg") !important;
 }
 
 /* joy */
@@ -122,7 +122,7 @@
 .roleIcon_d5100b[src='/assets/af51e8d03e05a1c14355.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/af51e8d03e05a1c14355.svg")'], 
 .emoji[src='/assets/af51e8d03e05a1c14355.svg'], .emoji[style*='background-image: url("/assets/af51e8d03e05a1c14355.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_tears_of_joy.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_tears_of_joy.svg") !important;
 }
 
 /* rofl */
@@ -137,7 +137,7 @@
 .roleIcon_d5100b[src='/assets/e17451fcdbba5089cb76.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'], 
 .emoji[src='/assets/e17451fcdbba5089cb76.svg'], .emoji[style*='background-image: url("/assets/e17451fcdbba5089cb76.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/rolling_on_the_floor_laughing.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/rolling_on_the_floor_laughing.svg") !important;
 }
 
 /* smiling_face_with_tear */
@@ -152,7 +152,7 @@
 .roleIcon_d5100b[src='/assets/d336b394db9984508070.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/d336b394db9984508070.svg")'], 
 .emoji[src='/assets/d336b394db9984508070.svg'], .emoji[style*='background-image: url("/assets/d336b394db9984508070.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_tear.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_tear.svg") !important;
 }
 
 /* relaxed */
@@ -167,7 +167,7 @@
 .roleIcon_d5100b[src='/assets/201e63c007a2c9218570.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/201e63c007a2c9218570.svg")'], 
 .emoji[src='/assets/201e63c007a2c9218570.svg'], .emoji[style*='background-image: url("/assets/201e63c007a2c9218570.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/263a.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/263a.svg") !important;
 }
 
 /* blush */
@@ -182,7 +182,7 @@
 .roleIcon_d5100b[src='/assets/f1d8e3ec56b1978ea39e.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/f1d8e3ec56b1978ea39e.svg")'], 
 .emoji[src='/assets/f1d8e3ec56b1978ea39e.svg'], .emoji[style*='background-image: url("/assets/f1d8e3ec56b1978ea39e.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/263a.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/263a.svg") !important;
 }
 
 /* innocent */
@@ -197,7 +197,7 @@
 .roleIcon_d5100b[src='/assets/2330cf6fa81eb1b67b4e.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2330cf6fa81eb1b67b4e.svg")'], 
 .emoji[src='/assets/2330cf6fa81eb1b67b4e.svg'], .emoji[style*='background-image: url("/assets/2330cf6fa81eb1b67b4e.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_halo.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_halo.svg") !important;
 }
 
 /* slight_smile */
@@ -212,7 +212,7 @@
 .roleIcon_d5100b[src='/assets/2a974518305b727bbc31.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2a974518305b727bbc31.svg")'], 
 .emoji[src='/assets/2a974518305b727bbc31.svg'], .emoji[style*='background-image: url("/assets/2a974518305b727bbc31.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/slightly_smiling_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/slightly_smiling_face.svg") !important;
 }
 
 /* upside_down */
@@ -227,7 +227,7 @@
 .roleIcon_d5100b[src='/assets/11365d2160d515a798f2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/11365d2160d515a798f2.svg")'], 
 .emoji[src='/assets/11365d2160d515a798f2.svg'], .emoji[style*='background-image: url("/assets/11365d2160d515a798f2.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/upside-down_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/upside-down_face.svg") !important;
 }
 
 /* wink */
@@ -242,7 +242,7 @@
 .roleIcon_d5100b[src='/assets/9f29075153b546d6ea27.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/9f29075153b546d6ea27.svg")'], 
 .emoji[src='/assets/9f29075153b546d6ea27.svg'], .emoji[style*='background-image: url("/assets/9f29075153b546d6ea27.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/winking_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/winking_face.svg") !important;
 }
 
 /* relieved */
@@ -257,7 +257,7 @@
 .roleIcon_d5100b[src='/assets/6c1e804822fd195670fc.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/6c1e804822fd195670fc.svg")'], 
 .emoji[src='/assets/6c1e804822fd195670fc.svg'], .emoji[style*='background-image: url("/assets/6c1e804822fd195670fc.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/relieved_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/relieved_face.svg") !important;
 }
 
 /* heart_eyes */
@@ -272,7 +272,7 @@
 .roleIcon_d5100b[src='/assets/dd889b98c289e293c8b4.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/dd889b98c289e293c8b4.svg")'], 
 .emoji[src='/assets/dd889b98c289e293c8b4.svg'], .emoji[style*='background-image: url("/assets/dd889b98c289e293c8b4.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_heart-shaped_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_heart-shaped_eyes.svg") !important;
 }
 
 /* smiling_face_with_3_hearts */
@@ -287,7 +287,7 @@
 .roleIcon_d5100b[src='/assets/cc707854c609e79c39a2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/cc707854c609e79c39a2.svg")'], 
 .emoji[src='/assets/cc707854c609e79c39a2.svg'], .emoji[style*='background-image: url("/assets/cc707854c609e79c39a2.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_smiling_eyes_and_three_hearts.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_smiling_eyes_and_three_hearts.svg") !important;
 }
 
 /* kissing_heart */
@@ -302,7 +302,7 @@
 .roleIcon_d5100b[src='/assets/d40251bc122e44328286.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/d40251bc122e44328286.svg")'], 
 .emoji[src='/assets/d40251bc122e44328286.svg'], .emoji[style*='background-image: url("/assets/d40251bc122e44328286.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_throwing_a_kiss.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_throwing_a_kiss.svg") !important;
 }
 
 /* kissing */
@@ -317,7 +317,7 @@
 .roleIcon_d5100b[src='/assets/fb73e69038e6293a24ac.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/fb73e69038e6293a24ac.svg")'], 
 .emoji[src='/assets/fb73e69038e6293a24ac.svg'], .emoji[style*='background-image: url("/assets/fb73e69038e6293a24ac.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/kissing_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/kissing_face.svg") !important;
 }
 
 /* kissing_smiling_eyes */
@@ -332,7 +332,7 @@
 .roleIcon_d5100b[src='/assets/b69ee002c268174dcffc.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/b69ee002c268174dcffc.svg")'], 
 .emoji[src='/assets/b69ee002c268174dcffc.svg'], .emoji[style*='background-image: url("/assets/b69ee002c268174dcffc.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/kissing_face_with_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/kissing_face_with_smiling_eyes.svg") !important;
 }
 
 /* kissing_closed_eyes */
@@ -347,7 +347,7 @@
 .roleIcon_d5100b[src='/assets/53a952a5ccf5e3b54198.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/53a952a5ccf5e3b54198.svg")'], 
 .emoji[src='/assets/53a952a5ccf5e3b54198.svg'], .emoji[style*='background-image: url("/assets/53a952a5ccf5e3b54198.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/kissing_face_with_closed_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/kissing_face_with_closed_eyes.svg") !important;
 }
 
 /* yum */
@@ -362,7 +362,7 @@
 .roleIcon_d5100b[src='/assets/9592f506a368ffa64deb.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/9592f506a368ffa64deb.svg")'], 
 .emoji[src='/assets/9592f506a368ffa64deb.svg'], .emoji[style*='background-image: url("/assets/9592f506a368ffa64deb.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_savouring_delicious_food.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_savouring_delicious_food.svg") !important;
 }
 
 /* stuck_out_tongue */
@@ -377,7 +377,7 @@
 .roleIcon_d5100b[src='/assets/15d9d11589a99b060234.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/15d9d11589a99b060234.svg")'], 
 .emoji[src='/assets/15d9d11589a99b060234.svg'], .emoji[style*='background-image: url("/assets/15d9d11589a99b060234.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_stuck-out_tongue.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_stuck-out_tongue.svg") !important;
 }
 
 /* stuck_out_tongue_closed_eyes */
@@ -392,7 +392,7 @@
 .roleIcon_d5100b[src='/assets/965a496b39ec2c97fe4f.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/965a496b39ec2c97fe4f.svg")'], 
 .emoji[src='/assets/965a496b39ec2c97fe4f.svg'], .emoji[style*='background-image: url("/assets/965a496b39ec2c97fe4f.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_stuck-out_tongue_and_tightly-closed_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_stuck-out_tongue_and_tightly-closed_eyes.svg") !important;
 }
 
 /* stuck_out_tongue_winking_eye */
@@ -407,7 +407,7 @@
 .roleIcon_d5100b[src='/assets/4dd7d90f75a95cbadd67.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/4dd7d90f75a95cbadd67.svg")'], 
 .emoji[src='/assets/4dd7d90f75a95cbadd67.svg'], .emoji[style*='background-image: url("/assets/4dd7d90f75a95cbadd67.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_stuck-out_tongue_and_winking_eye.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_stuck-out_tongue_and_winking_eye.svg") !important;
 }
 
 /* zany_face */
@@ -422,7 +422,7 @@
 .roleIcon_d5100b[src='/assets/fcbfa9cf98d85c918b20.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/fcbfa9cf98d85c918b20.svg")'], 
 .emoji[src='/assets/fcbfa9cf98d85c918b20.svg'], .emoji[style*='background-image: url("/assets/fcbfa9cf98d85c918b20.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grinning_face_with_one_large_and_one_small_eye.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grinning_face_with_one_large_and_one_small_eye.svg") !important;
 }
 
 /* face_with_raised_eyebrow */
@@ -437,7 +437,7 @@
 .roleIcon_d5100b[src='/assets/dd3746ccd1fbd49c3793.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/dd3746ccd1fbd49c3793.svg")'], 
 .emoji[src='/assets/dd3746ccd1fbd49c3793.svg'], .emoji[style*='background-image: url("/assets/dd3746ccd1fbd49c3793.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_one_eyebrow_raised.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_one_eyebrow_raised.svg") !important;
 }
 
 /* face_with_monocle */
@@ -452,7 +452,7 @@
 .roleIcon_d5100b[src='/assets/bb295a0d42e829fd7cae.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/bb295a0d42e829fd7cae.svg")'], 
 .emoji[src='/assets/bb295a0d42e829fd7cae.svg'], .emoji[style*='background-image: url("/assets/bb295a0d42e829fd7cae.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_monocle.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_monocle.svg") !important;
 }
 
 /* nerd */
@@ -467,7 +467,7 @@
 .roleIcon_d5100b[src='/assets/50edf055a7d1af5544a5.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/50edf055a7d1af5544a5.svg")'], 
 .emoji[src='/assets/50edf055a7d1af5544a5.svg'], .emoji[style*='background-image: url("/assets/50edf055a7d1af5544a5.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/nerd_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/nerd_face.svg") !important;
 }
 
 /* sunglasses */
@@ -482,7 +482,7 @@
 .roleIcon_d5100b[src='/assets/eeadd226ba32a7f783e2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/eeadd226ba32a7f783e2.svg")'], 
 .emoji[src='/assets/eeadd226ba32a7f783e2.svg'], .emoji[style*='background-image: url("/assets/eeadd226ba32a7f783e2.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_sunglasses.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_sunglasses.svg") !important;
 }
 
 /* disguised_face */
@@ -497,7 +497,7 @@
 .roleIcon_d5100b[src='/assets/b373a69f38e9715d5588.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/b373a69f38e9715d5588.svg")'], 
 .emoji[src='/assets/b373a69f38e9715d5588.svg'], .emoji[style*='background-image: url("/assets/b373a69f38e9715d5588.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/disguised_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/disguised_face.svg") !important;
 }
 
 /* star_struck */
@@ -512,7 +512,7 @@
 .roleIcon_d5100b[src='/assets/e571e7ea6f0eef0535c3.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/e571e7ea6f0eef0535c3.svg")'], 
 .emoji[src='/assets/e571e7ea6f0eef0535c3.svg'], .emoji[style*='background-image: url("/assets/e571e7ea6f0eef0535c3.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grinning_face_with_star_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grinning_face_with_star_eyes.svg") !important;
 }
 
 /* partying_face */
@@ -527,7 +527,7 @@
 .roleIcon_d5100b[src='/assets/ea54191208d770b20952.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/ea54191208d770b20952.svg")'], 
 .emoji[src='/assets/ea54191208d770b20952.svg'], .emoji[style*='background-image: url("/assets/ea54191208d770b20952.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_party_horn_and_party_hat.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_party_horn_and_party_hat.svg") !important;
 }
 
 /* smirk */
@@ -542,7 +542,7 @@
 .roleIcon_d5100b[src='/assets/33b72bd2e6528d1456f2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/33b72bd2e6528d1456f2.svg")'], 
 .emoji[src='/assets/33b72bd2e6528d1456f2.svg'], .emoji[style*='background-image: url("/assets/33b72bd2e6528d1456f2.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smirking_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smirking_face.svg") !important;
 }
 
 /* unamused */
@@ -557,7 +557,7 @@
 .roleIcon_d5100b[src='/assets/75033cf704b2de14cc11.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/75033cf704b2de14cc11.svg")'], 
 .emoji[src='/assets/75033cf704b2de14cc11.svg'], .emoji[style*='background-image: url("/assets/75033cf704b2de14cc11.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/unamused_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/unamused_face.svg") !important;
 }
 
 /* disappointed */
@@ -572,7 +572,7 @@
 .roleIcon_d5100b[src='/assets/440afc35e026810427b6.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/440afc35e026810427b6.svg")'], 
 .emoji[src='/assets/440afc35e026810427b6.svg'], .emoji[style*='background-image: url("/assets/440afc35e026810427b6.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/disappointed_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/disappointed_face.svg") !important;
 }
 
 /* pensive */
@@ -587,7 +587,7 @@
 .roleIcon_d5100b[src='/assets/747ed8567ff5f17683fd.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/747ed8567ff5f17683fd.svg")'], 
 .emoji[src='/assets/747ed8567ff5f17683fd.svg'], .emoji[style*='background-image: url("/assets/747ed8567ff5f17683fd.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/pensive_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/pensive_face.svg") !important;
 }
 
 /* worried */
@@ -602,7 +602,7 @@
 .roleIcon_d5100b[src='/assets/95643a997919cdbcbc88.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/95643a997919cdbcbc88.svg")'], 
 .emoji[src='/assets/95643a997919cdbcbc88.svg'], .emoji[style*='background-image: url("/assets/95643a997919cdbcbc88.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/worried_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/worried_face.svg") !important;
 }
 
 /* confused */
@@ -617,7 +617,7 @@
 .roleIcon_d5100b[src='/assets/5f6e0e7b84cf793ace4b.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/5f6e0e7b84cf793ace4b.svg")'], 
 .emoji[src='/assets/5f6e0e7b84cf793ace4b.svg'], .emoji[style*='background-image: url("/assets/5f6e0e7b84cf793ace4b.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/confused_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/confused_face.svg") !important;
 }
 
 /* slight_frown */
@@ -632,7 +632,7 @@
 .roleIcon_d5100b[src='/assets/5d2adc672d590ddaa4bf.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/5d2adc672d590ddaa4bf.svg")'], 
 .emoji[src='/assets/5d2adc672d590ddaa4bf.svg'], .emoji[style*='background-image: url("/assets/5d2adc672d590ddaa4bf.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/slightly_frowning_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/slightly_frowning_face.svg") !important;
 }
 
 /* frowning2 */
@@ -647,7 +647,7 @@
 .roleIcon_d5100b[src='/assets/6789095431f85aadb415.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/6789095431f85aadb415.svg")'], 
 .emoji[src='/assets/6789095431f85aadb415.svg'], .emoji[style*='background-image: url("/assets/6789095431f85aadb415.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/frowning_face_with_open_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/frowning_face_with_open_mouth.svg") !important;
 }
 
 /* persevere */
@@ -662,7 +662,7 @@
 .roleIcon_d5100b[src='/assets/90a56252c80ec88c1e61.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/90a56252c80ec88c1e61.svg")'], 
 .emoji[src='/assets/90a56252c80ec88c1e61.svg'], .emoji[style*='background-image: url("/assets/90a56252c80ec88c1e61.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/persevering_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/persevering_face.svg") !important;
 }
 
 /* confounded */
@@ -677,7 +677,7 @@
 .roleIcon_d5100b[src='/assets/cf04aca46aeba3cf6a49.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/cf04aca46aeba3cf6a49.svg")'], 
 .emoji[src='/assets/cf04aca46aeba3cf6a49.svg'], .emoji[style*='background-image: url("/assets/cf04aca46aeba3cf6a49.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/confounded_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/confounded_face.svg") !important;
 }
 
 /* tired_face */
@@ -692,7 +692,7 @@
 .roleIcon_d5100b[src='/assets/98ab7e6ce0dde2eb3f80.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/98ab7e6ce0dde2eb3f80.svg")'], 
 .emoji[src='/assets/98ab7e6ce0dde2eb3f80.svg'], .emoji[style*='background-image: url("/assets/98ab7e6ce0dde2eb3f80.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/tired_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/tired_face.svg") !important;
 }
 
 /* weary */
@@ -707,7 +707,7 @@
 .roleIcon_d5100b[src='/assets/907d46b9a2d9632c5aa3.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/907d46b9a2d9632c5aa3.svg")'], 
 .emoji[src='/assets/907d46b9a2d9632c5aa3.svg'], .emoji[style*='background-image: url("/assets/907d46b9a2d9632c5aa3.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/weary_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/weary_face.svg") !important;
 }
 
 /* pleading_face */
@@ -722,7 +722,7 @@
 .roleIcon_d5100b[src='/assets/98fca45b1f4310224767.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/98fca45b1f4310224767.svg")'], 
 .emoji[src='/assets/98fca45b1f4310224767.svg'], .emoji[style*='background-image: url("/assets/98fca45b1f4310224767.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_pleading_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_pleading_eyes.svg") !important;
 }
 
 /* cry */
@@ -737,7 +737,7 @@
 .roleIcon_d5100b[src='/assets/54fcaf0383d48825ce92.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/54fcaf0383d48825ce92.svg")'], 
 .emoji[src='/assets/54fcaf0383d48825ce92.svg'], .emoji[style*='background-image: url("/assets/54fcaf0383d48825ce92.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/crying_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/crying_face.svg") !important;
 }
 
 /* sob */
@@ -752,7 +752,7 @@
 .roleIcon_d5100b[src='/assets/05ff1af67bf12f7f0922.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/05ff1af67bf12f7f0922.svg")'], 
 .emoji[src='/assets/05ff1af67bf12f7f0922.svg'], .emoji[style*='background-image: url("/assets/05ff1af67bf12f7f0922.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/loudly_crying_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/loudly_crying_face.svg") !important;
 }
 
 /* triumph */
@@ -767,7 +767,7 @@
 .roleIcon_d5100b[src='/assets/0760a657d780f1ec91d2.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/0760a657d780f1ec91d2.svg")'], 
 .emoji[src='/assets/0760a657d780f1ec91d2.svg'], .emoji[style*='background-image: url("/assets/0760a657d780f1ec91d2.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_look_of_triumph.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_look_of_triumph.svg") !important;
 }
 
 /* angry */
@@ -782,7 +782,7 @@
 .roleIcon_d5100b[src='/assets/922f7904a9b6e4c18517.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/922f7904a9b6e4c18517.svg")'], 
 .emoji[src='/assets/922f7904a9b6e4c18517.svg'], .emoji[style*='background-image: url("/assets/922f7904a9b6e4c18517.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/angry_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/angry_face.svg") !important;
 }
 
 /* rage */
@@ -797,7 +797,7 @@
 .roleIcon_d5100b[src='/assets/c4e8989489a34d700871.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/c4e8989489a34d700871.svg")'], 
 .emoji[src='/assets/c4e8989489a34d700871.svg'], .emoji[style*='background-image: url("/assets/c4e8989489a34d700871.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/pouting_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/pouting_face.svg") !important;
 }
 
 /* face_with_symbols_over_mouth */
@@ -812,7 +812,7 @@
 .roleIcon_d5100b[src='/assets/93133276d44f9ce1aaf9.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/93133276d44f9ce1aaf9.svg")'], 
 .emoji[src='/assets/93133276d44f9ce1aaf9.svg'], .emoji[style*='background-image: url("/assets/93133276d44f9ce1aaf9.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/serious_face_with_symbols_covering_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/serious_face_with_symbols_covering_mouth.svg") !important;
 }
 
 /* exploding_head */
@@ -827,7 +827,7 @@
 .roleIcon_d5100b[src='/assets/36432a0f4e2063632b18.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/36432a0f4e2063632b18.svg")'], 
 .emoji[src='/assets/36432a0f4e2063632b18.svg'], .emoji[style*='background-image: url("/assets/36432a0f4e2063632b18.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/shocked_face_with_exploding_head.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/shocked_face_with_exploding_head.svg") !important;
 }
 
 /* flushed */
@@ -842,7 +842,7 @@
 .roleIcon_d5100b[src='/assets/a78cb3d395b95e16ab43.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/a78cb3d395b95e16ab43.svg")'], 
 .emoji[src='/assets/a78cb3d395b95e16ab43.svg'], .emoji[style*='background-image: url("/assets/a78cb3d395b95e16ab43.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/flushed_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/flushed_face.svg") !important;
 }
 
 /* hot_face */
@@ -857,7 +857,7 @@
 .roleIcon_d5100b[src='/assets/8d8c6e709f745052d92f.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/8d8c6e709f745052d92f.svg")'], 
 .emoji[src='/assets/8d8c6e709f745052d92f.svg'], .emoji[style*='background-image: url("/assets/8d8c6e709f745052d92f.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/overheated_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/overheated_face.svg") !important;
 }
 
 /* cold_face */
@@ -872,7 +872,7 @@
 .roleIcon_d5100b[src='/assets/c39996e6c97afb16eeca.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/c39996e6c97afb16eeca.svg")'], 
 .emoji[src='/assets/c39996e6c97afb16eeca.svg'], .emoji[style*='background-image: url("/assets/c39996e6c97afb16eeca.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/freezing_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/freezing_face.svg") !important;
 }
 
 /* scream */
@@ -887,7 +887,7 @@
 .roleIcon_d5100b[src='/assets/ab8ac772d8b83c270bf7.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/ab8ac772d8b83c270bf7.svg")'], 
 .emoji[src='/assets/ab8ac772d8b83c270bf7.svg'], .emoji[style*='background-image: url("/assets/ab8ac772d8b83c270bf7.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_screaming_in_fear.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_screaming_in_fear.svg") !important;
 }
 
 /* fearful */
@@ -902,7 +902,7 @@
 .roleIcon_d5100b[src='/assets/278eb804948388518ee4.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/278eb804948388518ee4.svg")'], 
 .emoji[src='/assets/278eb804948388518ee4.svg'], .emoji[style*='background-image: url("/assets/278eb804948388518ee4.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/fearful_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/fearful_face.svg") !important;
 }
 
 /* cold_sweat */
@@ -917,7 +917,7 @@
 .roleIcon_d5100b[src='/assets/2c0f1d4a0498126f1ec0.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2c0f1d4a0498126f1ec0.svg")'], 
 .emoji[src='/assets/2c0f1d4a0498126f1ec0.svg'], .emoji[style*='background-image: url("/assets/2c0f1d4a0498126f1ec0.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_cold_sweat.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_cold_sweat.svg") !important;
 }
 
 /* disappointed_relieved */
@@ -932,7 +932,7 @@
 .roleIcon_d5100b[src='/assets/2ab9b91b99a9f4d9f6b9.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2ab9b91b99a9f4d9f6b9.svg")'], 
 .emoji[src='/assets/2ab9b91b99a9f4d9f6b9.svg'], .emoji[style*='background-image: url("/assets/2ab9b91b99a9f4d9f6b9.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/disappointed_but_relieved_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/disappointed_but_relieved_face.svg") !important;
 }
 
 /* sweat */
@@ -947,7 +947,7 @@
 .roleIcon_d5100b[src='/assets/443a9de67a1a576630dc.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/443a9de67a1a576630dc.svg")'], 
 .emoji[src='/assets/443a9de67a1a576630dc.svg'], .emoji[style*='background-image: url("/assets/443a9de67a1a576630dc.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_cold_sweat.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_cold_sweat.svg") !important;
 }
 
 /* hugging */
@@ -962,7 +962,7 @@
 .roleIcon_d5100b[src='/assets/ce32944e0421364b73bf.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/ce32944e0421364b73bf.svg")'], 
 .emoji[src='/assets/ce32944e0421364b73bf.svg'], .emoji[style*='background-image: url("/assets/ce32944e0421364b73bf.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/hugging_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/hugging_face.svg") !important;
 }
 
 /* thinking */
@@ -977,7 +977,7 @@
 .roleIcon_d5100b[src='/assets/179ede867d7900f66bd1.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/179ede867d7900f66bd1.svg")'], 
 .emoji[src='/assets/179ede867d7900f66bd1.svg'], .emoji[style*='background-image: url("/assets/179ede867d7900f66bd1.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/thinking_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/thinking_face.svg") !important;
 }
 
 /* face_with_peeking_eye */
@@ -992,7 +992,7 @@
 .roleIcon_d5100b[src='/assets/18315714c340d5e8c670.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/18315714c340d5e8c670.svg")'], 
 .emoji[src='/assets/18315714c340d5e8c670.svg'], .emoji[style*='background-image: url("/assets/18315714c340d5e8c670.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/263a.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/263a.svg") !important;
 }
 
 /* face_with_hand_over_mouth */
@@ -1007,7 +1007,7 @@
 .roleIcon_d5100b[src='/assets/5bc6914eef364744b94d.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/5bc6914eef364744b94d.svg")'], 
 .emoji[src='/assets/5bc6914eef364744b94d.svg'], .emoji[style*='background-image: url("/assets/5bc6914eef364744b94d.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_smiling_eyes_and_hand_covering_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_smiling_eyes_and_hand_covering_mouth.svg") !important;
 }
 
 /* face_with_open_eyes_and_hand_over_mouth */
@@ -1022,7 +1022,7 @@
 .roleIcon_d5100b[src='/assets/f40fb3ca22b24b572a4f.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/f40fb3ca22b24b572a4f.svg")'], 
 .emoji[src='/assets/f40fb3ca22b24b572a4f.svg'], .emoji[style*='background-image: url("/assets/f40fb3ca22b24b572a4f.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_smiling_eyes_and_hand_covering_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_smiling_eyes_and_hand_covering_mouth.svg") !important;
 }
 
 /* lying_face */
@@ -1037,7 +1037,7 @@
 .roleIcon_d5100b[src='/assets/18e492757795fd6609d1.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/18e492757795fd6609d1.svg")'], 
 .emoji[src='/assets/18e492757795fd6609d1.svg'], .emoji[style*='background-image: url("/assets/18e492757795fd6609d1.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/lying_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/lying_face.svg") !important;
 }
 
 /* no_mouth */
@@ -1052,7 +1052,7 @@
 .roleIcon_d5100b[src='/assets/3ab3fa0b57254fd0566b.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/3ab3fa0b57254fd0566b.svg")'], 
 .emoji[src='/assets/3ab3fa0b57254fd0566b.svg'], .emoji[style*='background-image: url("/assets/3ab3fa0b57254fd0566b.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_without_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_without_mouth.svg") !important;
 }
 
 /* dotted_line_face */
@@ -1067,7 +1067,7 @@
 .roleIcon_d5100b[src='/assets/706414826fdc1be9ed90.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/706414826fdc1be9ed90.svg")'], 
 .emoji[src='/assets/706414826fdc1be9ed90.svg'], .emoji[style*='background-image: url("/assets/706414826fdc1be9ed90.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_without_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_without_mouth.svg") !important;
 }
 
 /* neutral_face */
@@ -1082,7 +1082,7 @@
 .roleIcon_d5100b[src='/assets/8d3a867d34a9adf83b68.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/8d3a867d34a9adf83b68.svg")'], 
 .emoji[src='/assets/8d3a867d34a9adf83b68.svg'], .emoji[style*='background-image: url("/assets/8d3a867d34a9adf83b68.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/neutral_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/neutral_face.svg") !important;
 }
 
 /* face_with_diagonal_mouth */
@@ -1097,7 +1097,7 @@
 .roleIcon_d5100b[src='/assets/dfc727fa0bdd38e2f425.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/dfc727fa0bdd38e2f425.svg")'], 
 .emoji[src='/assets/dfc727fa0bdd38e2f425.svg'], .emoji[style*='background-image: url("/assets/dfc727fa0bdd38e2f425.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/expressionless_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/expressionless_face.svg") !important;
 }
 
 /* expressionless */
@@ -1112,7 +1112,7 @@
 .roleIcon_d5100b[src='/assets/8ec9e5526933c91f18f8.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/8ec9e5526933c91f18f8.svg")'], 
 .emoji[src='/assets/8ec9e5526933c91f18f8.svg'], .emoji[style*='background-image: url("/assets/8ec9e5526933c91f18f8.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/expressionless_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/expressionless_face.svg") !important;
 }
 
 /* shaking_face */
@@ -1127,7 +1127,7 @@
 .roleIcon_d5100b[src='/assets/33c1a0f55a9e7a5a7590.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/33c1a0f55a9e7a5a7590.svg")'], 
 .emoji[src='/assets/33c1a0f55a9e7a5a7590.svg'], .emoji[style*='background-image: url("/assets/33c1a0f55a9e7a5a7590.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_uneven_eyes_and_wavy_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_uneven_eyes_and_wavy_mouth.svg") !important;
 }
 
 /* grimacing */
@@ -1142,7 +1142,7 @@
 .roleIcon_d5100b[src='/assets/7e874be68d64fa4fcb1a.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/7e874be68d64fa4fcb1a.svg")'], 
 .emoji[src='/assets/7e874be68d64fa4fcb1a.svg'], .emoji[style*='background-image: url("/assets/7e874be68d64fa4fcb1a.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grimacing_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grimacing_face.svg") !important;
 }
 
 /* rolling_eyes */
@@ -1157,7 +1157,7 @@
 .roleIcon_d5100b[src='/assets/7ba5b2d4e180afbcc26a.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/7ba5b2d4e180afbcc26a.svg")'], 
 .emoji[src='/assets/7ba5b2d4e180afbcc26a.svg'], .emoji[style*='background-image: url("/assets/7ba5b2d4e180afbcc26a.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_rolling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_rolling_eyes.svg") !important;
 }
 
 /* hushed */
@@ -1172,7 +1172,7 @@
 .roleIcon_d5100b[src='/assets/46b8c14ebbfecc3283d4.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/46b8c14ebbfecc3283d4.svg")'], 
 .emoji[src='/assets/46b8c14ebbfecc3283d4.svg'], .emoji[style*='background-image: url("/assets/46b8c14ebbfecc3283d4.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/hushed_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/hushed_face.svg") !important;
 }
 
 /* frowning */
@@ -1187,7 +1187,7 @@
 .roleIcon_d5100b[src='/assets/a8744fa0f45c35530424.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/a8744fa0f45c35530424.svg")'], 
 .emoji[src='/assets/a8744fa0f45c35530424.svg'], .emoji[style*='background-image: url("/assets/a8744fa0f45c35530424.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/frowning_face_with_open_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/frowning_face_with_open_mouth.svg") !important;
 }
 
 /* anguished */
@@ -1202,7 +1202,7 @@
 .roleIcon_d5100b[src='/assets/77ef6d097998b88b9fe9.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/77ef6d097998b88b9fe9.svg")'], 
 .emoji[src='/assets/77ef6d097998b88b9fe9.svg'], .emoji[style*='background-image: url("/assets/77ef6d097998b88b9fe9.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/anguished_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/anguished_face.svg") !important;
 }
 
 /* open_mouth */
@@ -1217,7 +1217,7 @@
 .roleIcon_d5100b[src='/assets/72a90cae45135e851838.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/72a90cae45135e851838.svg")'], 
 .emoji[src='/assets/72a90cae45135e851838.svg'], .emoji[style*='background-image: url("/assets/72a90cae45135e851838.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_open_mouth.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_open_mouth.svg") !important;
 }
 
 /* astonished */
@@ -1232,7 +1232,7 @@
 .roleIcon_d5100b[src='/assets/70c68f8d8399f31ed340.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/70c68f8d8399f31ed340.svg")'], 
 .emoji[src='/assets/70c68f8d8399f31ed340.svg'], .emoji[style*='background-image: url("/assets/70c68f8d8399f31ed340.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/astonished_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/astonished_face.svg") !important;
 }
 
 /* yawning_face */
@@ -1247,7 +1247,7 @@
 .roleIcon_d5100b[src='/assets/3c52a147bf0484652486.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/3c52a147bf0484652486.svg")'], 
 .emoji[src='/assets/3c52a147bf0484652486.svg'], .emoji[style*='background-image: url("/assets/3c52a147bf0484652486.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/yawning_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/yawning_face.svg") !important;
 }
 
 /* sleeping */
@@ -1262,7 +1262,7 @@
 .roleIcon_d5100b[src='/assets/6260d8bf60d44fbe81bc.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/6260d8bf60d44fbe81bc.svg")'], 
 .emoji[src='/assets/6260d8bf60d44fbe81bc.svg'], .emoji[style*='background-image: url("/assets/6260d8bf60d44fbe81bc.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/sleeping_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/sleeping_face.svg") !important;
 }
 
 /* drooling_face */
@@ -1277,7 +1277,7 @@
 .roleIcon_d5100b[src='/assets/5514dafdd32adf59263d.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/5514dafdd32adf59263d.svg")'], 
 .emoji[src='/assets/5514dafdd32adf59263d.svg'], .emoji[style*='background-image: url("/assets/5514dafdd32adf59263d.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/drooling_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/drooling_face.svg") !important;
 }
 
 /* sleepy */
@@ -1292,7 +1292,7 @@
 .roleIcon_d5100b[src='/assets/a47578e5f19bb2ad0572.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/a47578e5f19bb2ad0572.svg")'], 
 .emoji[src='/assets/a47578e5f19bb2ad0572.svg'], .emoji[style*='background-image: url("/assets/a47578e5f19bb2ad0572.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/sleepy_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/sleepy_face.svg") !important;
 }
 
 /* face_exhaling */
@@ -1307,7 +1307,7 @@
 .roleIcon_d5100b[src='/assets/068598d5777c5e8860c5.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/068598d5777c5e8860c5.svg")'], 
 .emoji[src='/assets/068598d5777c5e8860c5.svg'], .emoji[style*='background-image: url("/assets/068598d5777c5e8860c5.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_open_mouth_200d_dash_symbol.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_open_mouth_200d_dash_symbol.svg") !important;
 }
 
 /* dizzy_face */
@@ -1322,7 +1322,7 @@
 .roleIcon_d5100b[src='/assets/bd56d227996aafd8577b.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/bd56d227996aafd8577b.svg")'], 
 .emoji[src='/assets/bd56d227996aafd8577b.svg'], .emoji[style*='background-image: url("/assets/bd56d227996aafd8577b.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/dizzy_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/dizzy_face.svg") !important;
 }
 
 /* face_with_spiral_eyes */
@@ -1337,7 +1337,7 @@
 .roleIcon_d5100b[src='/assets/21f219c1003a803dc358.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/21f219c1003a803dc358.svg")'], 
 .emoji[src='/assets/21f219c1003a803dc358.svg'], .emoji[style*='background-image: url("/assets/21f219c1003a803dc358.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/dizzy_face_200d_dizzy_symbol.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/dizzy_face_200d_dizzy_symbol.svg") !important;
 }
 
 /* zipper_mouth */
@@ -1352,7 +1352,7 @@
 .roleIcon_d5100b[src='/assets/c30ad315436a034574aa.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/c30ad315436a034574aa.svg")'], 
 .emoji[src='/assets/c30ad315436a034574aa.svg'], .emoji[style*='background-image: url("/assets/c30ad315436a034574aa.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/zipper-mouth_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/zipper-mouth_face.svg") !important;
 }
 
 /* woozy_face */
@@ -1367,7 +1367,7 @@
 .roleIcon_d5100b[src='/assets/9e681f01e2dc963ea80c.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/9e681f01e2dc963ea80c.svg")'], 
 .emoji[src='/assets/9e681f01e2dc963ea80c.svg'], .emoji[style*='background-image: url("/assets/9e681f01e2dc963ea80c.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/dizzy_face_200d_dizzy_symbol.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/dizzy_face_200d_dizzy_symbol.svg") !important;
 }
 
 /* nauseated_face */
@@ -1382,7 +1382,7 @@
 .roleIcon_d5100b[src='/assets/f4a7b7d9c3a8ffaf5848.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/f4a7b7d9c3a8ffaf5848.svg")'], 
 .emoji[src='/assets/f4a7b7d9c3a8ffaf5848.svg'], .emoji[style*='background-image: url("/assets/f4a7b7d9c3a8ffaf5848.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/nauseated_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/nauseated_face.svg") !important;
 }
 
 /* face_vomiting */
@@ -1397,7 +1397,7 @@
 .roleIcon_d5100b[src='/assets/1e4f8b4be28c8360c306.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/1e4f8b4be28c8360c306.svg")'], 
 .emoji[src='/assets/1e4f8b4be28c8360c306.svg'], .emoji[style*='background-image: url("/assets/1e4f8b4be28c8360c306.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_open_mouth_vomiting.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_open_mouth_vomiting.svg") !important;
 }
 
 /* sneezing_face */
@@ -1412,7 +1412,7 @@
 .roleIcon_d5100b[src='/assets/2bf96b494dcfdf2e872c.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2bf96b494dcfdf2e872c.svg")'], 
 .emoji[src='/assets/2bf96b494dcfdf2e872c.svg'], .emoji[style*='background-image: url("/assets/2bf96b494dcfdf2e872c.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/sneezing_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/sneezing_face.svg") !important;
 }
 
 /* mask */
@@ -1427,7 +1427,7 @@
 .roleIcon_d5100b[src='/assets/aff16e464ba78203cf4f.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/aff16e464ba78203cf4f.svg")'], 
 .emoji[src='/assets/aff16e464ba78203cf4f.svg'], .emoji[style*='background-image: url("/assets/aff16e464ba78203cf4f.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_medical_mask.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_medical_mask.svg") !important;
 }
 
 /* thermometer_face */
@@ -1442,7 +1442,7 @@
 .roleIcon_d5100b[src='/assets/b3aae1778548640e4dc7.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/b3aae1778548640e4dc7.svg")'], 
 .emoji[src='/assets/b3aae1778548640e4dc7.svg'], .emoji[style*='background-image: url("/assets/b3aae1778548640e4dc7.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_thermometer.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_thermometer.svg") !important;
 }
 
 /* head_bandage */
@@ -1457,7 +1457,7 @@
 .roleIcon_d5100b[src='/assets/f99bd050c74f6cabf8c6.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/f99bd050c74f6cabf8c6.svg")'], 
 .emoji[src='/assets/f99bd050c74f6cabf8c6.svg'], .emoji[style*='background-image: url("/assets/f99bd050c74f6cabf8c6.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_head-bandage.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_head-bandage.svg") !important;
 }
 
 /* money_mouth */
@@ -1472,7 +1472,7 @@
 .roleIcon_d5100b[src='/assets/10d4577e3cdaee708df4.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/10d4577e3cdaee708df4.svg")'], 
 .emoji[src='/assets/10d4577e3cdaee708df4.svg'], .emoji[style*='background-image: url("/assets/10d4577e3cdaee708df4.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/money-mouth_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/money-mouth_face.svg") !important;
 }
 
 /* cowboy */
@@ -1487,7 +1487,7 @@
 .roleIcon_d5100b[src='/assets/c8b379e5a3bda6d08a71.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/c8b379e5a3bda6d08a71.svg")'], 
 .emoji[src='/assets/c8b379e5a3bda6d08a71.svg'], .emoji[style*='background-image: url("/assets/c8b379e5a3bda6d08a71.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_cowboy_hat.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_cowboy_hat.svg") !important;
 }
 
 /* smiling_imp */
@@ -1502,7 +1502,7 @@
 .roleIcon_d5100b[src='/assets/4d873d99443222bc27b5.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/4d873d99443222bc27b5.svg")'], 
 .emoji[src='/assets/4d873d99443222bc27b5.svg'], .emoji[style*='background-image: url("/assets/4d873d99443222bc27b5.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_horns.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_horns.svg") !important;
 }
 
 /* imp */
@@ -1517,7 +1517,7 @@
 .roleIcon_d5100b[src='/assets/6c75f53c973b6bf02969.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/6c75f53c973b6bf02969.svg")'], 
 .emoji[src='/assets/6c75f53c973b6bf02969.svg'], .emoji[style*='background-image: url("/assets/6c75f53c973b6bf02969.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/imp.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/imp.svg") !important;
 }
 
 /* smiley_cat */
@@ -1532,7 +1532,7 @@
 .roleIcon_d5100b[src='/assets/f6d69d393659a11d91ef.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/f6d69d393659a11d91ef.svg")'], 
 .emoji[src='/assets/f6d69d393659a11d91ef.svg'], .emoji[style*='background-image: url("/assets/f6d69d393659a11d91ef.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
 }
 
 /* smile_cat */
@@ -1547,7 +1547,7 @@
 .roleIcon_d5100b[src='/assets/be1c9362abc593ba5ec6.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/be1c9362abc593ba5ec6.svg")'], 
 .emoji[src='/assets/be1c9362abc593ba5ec6.svg'], .emoji[style*='background-image: url("/assets/be1c9362abc593ba5ec6.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
 }
 
 /* joy_cat */
@@ -1562,7 +1562,7 @@
 .roleIcon_d5100b[src='/assets/2c5fd3ed533e856b6493.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/2c5fd3ed533e856b6493.svg")'], 
 .emoji[src='/assets/2c5fd3ed533e856b6493.svg'], .emoji[style*='background-image: url("/assets/2c5fd3ed533e856b6493.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_with_tears_of_joy.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_with_tears_of_joy.svg") !important;
 }
 
 /* heart_eyes_cat */
@@ -1577,7 +1577,7 @@
 .roleIcon_d5100b[src='/assets/faf99ba369cc53606177.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/faf99ba369cc53606177.svg")'], 
 .emoji[src='/assets/faf99ba369cc53606177.svg'], .emoji[style*='background-image: url("/assets/faf99ba369cc53606177.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smiling_face_with_heart-shaped_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smiling_face_with_heart-shaped_eyes.svg") !important;
 }
 
 /* smirk_cat */
@@ -1592,7 +1592,7 @@
 .roleIcon_d5100b[src='/assets/185cc89428ef259857f1.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/185cc89428ef259857f1.svg")'], 
 .emoji[src='/assets/185cc89428ef259857f1.svg'], .emoji[style*='background-image: url("/assets/185cc89428ef259857f1.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/smirking_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/smirking_face.svg") !important;
 }
 
 /* kissing_cat */
@@ -1607,7 +1607,7 @@
 .roleIcon_d5100b[src='/assets/6a68dc8f81c6a101cef3.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/6a68dc8f81c6a101cef3.svg")'], 
 .emoji[src='/assets/6a68dc8f81c6a101cef3.svg'], .emoji[style*='background-image: url("/assets/6a68dc8f81c6a101cef3.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/kissing_face_with_closed_eyes.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/kissing_face_with_closed_eyes.svg") !important;
 }
 
 /* scream_cat */
@@ -1622,7 +1622,7 @@
 .roleIcon_d5100b[src='/assets/581a35315c6570ffcf37.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/581a35315c6570ffcf37.svg")'], 
 .emoji[src='/assets/581a35315c6570ffcf37.svg'], .emoji[style*='background-image: url("/assets/581a35315c6570ffcf37.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/face_screaming_in_fear.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/face_screaming_in_fear.svg") !important;
 }
 
 /* crying_cat_face */
@@ -1637,7 +1637,7 @@
 .roleIcon_d5100b[src='/assets/ab6835d2922224154ddf.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/ab6835d2922224154ddf.svg")'], 
 .emoji[src='/assets/ab6835d2922224154ddf.svg'], .emoji[style*='background-image: url("/assets/ab6835d2922224154ddf.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/crying_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/crying_face.svg") !important;
 }
 
 /* pouting_cat */
@@ -1652,5 +1652,5 @@
 .roleIcon_d5100b[src='/assets/da635f19b749f316dd98.svg'], .roleIcon_d5100b[style*='background-image: url("/assets/da635f19b749f316dd98.svg")'], 
 .emoji[src='/assets/da635f19b749f316dd98.svg'], .emoji[style*='background-image: url("/assets/da635f19b749f316dd98.svg")'] {
 	background: transparent !important;
-	content: url("https://raw.githubusercontent.com/MeowArcane/NekoRepo/main/catmoji/images/pouting_face.svg") !important;
+	content: url("https://raw.githubusercontent.com/Meowcat.kitties.arcane./NekoRepo/main/catmoji/images/pouting_face.svg") !important;
 }

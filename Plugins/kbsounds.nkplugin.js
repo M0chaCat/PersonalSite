@@ -65,9 +65,9 @@ class KeyboardSounds {
   }
   info = {
     name: "KeyboardSounds",
-    id: "arcane:KeyboardSounds",
+    id: "cat.kitties.arcane.KeyboardSounds",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Play sounds when you press a key",
@@ -169,4 +169,4 @@ class KeyboardSounds {
     this.handleVolumeChange(userPreferences.volume);
   }
 }
-exports.default = KeyboardSounds;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425615}*//*SIGNATURE_o4SUthmAAJcEFpz5U+98mgnb3JA6V5Yo1F5qo310j4iQ3ow+LAEKA1gNcFjQjOhHKlAUO4GAfPD0uZF2BdgtOA==*/
+exports.default = KeyboardSounds;

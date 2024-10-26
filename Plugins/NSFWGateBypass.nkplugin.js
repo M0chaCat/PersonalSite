@@ -11,9 +11,9 @@ class NSFWGateBypass {
   }
   info = {
     name: "NSFW Gate Bypass",
-    id: "arcane:NSFWGateBypass",
+    id: "cat.kitties.arcane.NSFWGateBypass",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Allows you to access NSFW channels without setting/verifying your age",
@@ -37,4 +37,4 @@ class NSFWGateBypass {
 
 }
 
-exports.default = NSFWGateBypass;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425033}*//*SIGNATURE_thvL6wL3mFbV4+zlAcXz7X4IzSP5mijOwQuiVeXcpf1ssJ04HCAs6himCmC9m8xuzP3P2ELMj2d+zT8LGBjNbQ==*/
+exports.default = NSFWGateBypass;

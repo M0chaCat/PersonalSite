@@ -11,9 +11,9 @@ class CleanChannelNames {
 
   info = {
     name: "Clean Channel Names",
-    id: "arcane:CleanChannelNames",
+    id: "cat.kitties.arcane.CleanChannelNames",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "remove all emoji and decor shit from channel names",
@@ -41,4 +41,4 @@ class CleanChannelNames {
   }
 }
 
-exports.default = CleanChannelNames;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424911}*//*SIGNATURE_o+ffLEcfJ+dJp1cFVSCQzuBWsokkDwFkN4xeUw4BWBPNFQQuqTKJen/PKp1l0a8CWXa9w7Ivlpzlr5l4GSqPyw==*/
+exports.default = CleanChannelNames;

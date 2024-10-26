@@ -8,9 +8,9 @@ exports.default = void 0;
 class ShowAllMessageButtons {
   info = {
     name: "Show All Message Buttons",
-    id: "arcane:ShowAllMessageButtons",
+    id: "cat.kitties.arcane.ShowAllMessageButtons",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Always show all message buttons no matter if you are holding the shift key or not.",
@@ -29,4 +29,4 @@ class ShowAllMessageButtons {
   constructor() {}
 }
 
-exports.default = ShowAllMessageButtons;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425245}*//*SIGNATURE_LXxRSihbWlb2QEPd89ggl5/xtdwsscY+iXSqOZh4B0la4D8ih7uQP4cL3NU85P4UHoh6BE+Z0YeWD07UI4B2lg==*/
+exports.default = ShowAllMessageButtons;

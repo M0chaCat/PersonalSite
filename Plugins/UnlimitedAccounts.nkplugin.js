@@ -13,9 +13,9 @@ class UnlimitedAccounts {
   info = {
     name: "Unlimited Accounts",
     description: "Increases the amount of accounts you can add.",
-    id: "arcane:UnlimitedAccounts",
+    id: "cat.kitties.arcane.UnlimitedAccounts",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     version: "1.0.0",
@@ -31,4 +31,4 @@ class UnlimitedAccounts {
   };
 }
 
-exports.default = UnlimitedAccounts;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425369}*//*SIGNATURE_S99OJ8xgwRDMjVZIAPhpzGShPzyviwnFeTXbKH88AolMkJL+5iRJGKiV/aUpccuwwu1tRq/tB81PW5IcbfmU3A==*/
+exports.default = UnlimitedAccounts;

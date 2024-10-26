@@ -11,9 +11,9 @@ class NoUnblockToJump {
   }
   info = {
     name: "No Unblock To Jump",
-    id: "arcane:NoUnblockToJump",
+    id: "cat.kitties.arcane.NoUnblockToJump",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Allows you to jump to messages of blocked users without unblocking them",
@@ -51,4 +51,4 @@ class NoUnblockToJump {
 
 }
 
-exports.default = NoUnblockToJump;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425160}*//*SIGNATURE_7vTigV+9Pa62NpDGfwz743OCxokmqUCgqk9+Yn/1kmssayvAoCw+OHcO6rbY7SQZDcHz0uNeoj77PPRqP8dUjQ==*/
+exports.default = NoUnblockToJump;

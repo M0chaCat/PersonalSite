@@ -14,9 +14,9 @@ class Summaries {
   }
   info = {
     name: "Summaries",
-    id: "arcane:Summaries",
+    id: "cat.kitties.arcane.Summaries",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Enables Discord's experimental Summaries feature on every server, displaying AI generated summaries of conversations",
@@ -113,4 +113,4 @@ class Summaries {
   };
 }
 
-exports.default = Summaries;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425286}*//*SIGNATURE_vp2JDaZ9PueoledOW4n8doPdXy8xwR2zNwOM8aalv1r9ELZVEDL9xFXPXgmeDW5S+fl2ELjJhvA5Qt10phsjyg==*/
+exports.default = Summaries;

@@ -11,9 +11,9 @@ class ColorSighted {
   }
   info = {
     name: "Color Sighted",
-    id: "arcane:ColorSighted",
+    id: "cat.kitties.arcane.ColorSighted",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Removes the colorblind-friendly icons from statuses, just like 2015-2017 Discord",
@@ -44,4 +44,4 @@ class ColorSighted {
 
 }
 
-exports.default = ColorSighted;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648424952}*//*SIGNATURE_ipvCPPz9qkdFtEkDJoBzT91vUREX9NweAYmo+bRNfnTJ2VWhl+3xrPBTlJeV2zcw1kUE+9IBAo9l9Akzbzq0DA==*/
+exports.default = ColorSighted;

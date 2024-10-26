@@ -8,9 +8,9 @@ exports.default = void 0;
 class AlwaysAnimate {
   info = {
     name: "Always Animate",
-    id: "arcane:AlwaysAnimate",
+    id: "cat.kitties.arcane.AlwaysAnimate",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Animates anything that can be animated",
@@ -53,4 +53,4 @@ class AlwaysAnimate {
 
 }
 
-exports.default = AlwaysAnimate;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425410}*//*SIGNATURE_5S8R37CW0v1cJ3i3kh87sEeWXbeCW2ZGaWhPGKxYCat8x+A8oekiUou4CakOw91v55WF1XRQs2gDa7rUcJnzbA==*/
+exports.default = AlwaysAnimate;

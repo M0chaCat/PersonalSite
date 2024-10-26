@@ -15,9 +15,9 @@ class PlusReacts {
   }
   info = {
     name: "PlusReact",
-    id: "arcane:PlusReact",
+    id: "cat.kitties.arcane.PlusReact",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "React to previous message with emoji, like +:star:",

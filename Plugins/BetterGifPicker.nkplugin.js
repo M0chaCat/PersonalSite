@@ -8,9 +8,9 @@ exports.default = void 0;
 class BetterGifPicker {
   info = {
     name: "Better Gif Picker",
-    id: "arcane:BetterGifPicker",
+    id: "cat.kitties.arcane.BetterGifPicker",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Makes the gif picker open the favorite category by default",
@@ -28,4 +28,4 @@ class BetterGifPicker {
   };
 }
 
-exports.default = BetterGifPicker;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425452}*//*SIGNATURE_f5HQfgnR+hJ8SXVUen0lm4Qp9NVKohy6SFLXALyRV5d4BnsPi4GxYdGjkqJZRy0eu5aA/RIhB/dIJ/u7LrAIng==*/
+exports.default = BetterGifPicker;

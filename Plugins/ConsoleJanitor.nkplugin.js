@@ -14,11 +14,11 @@ class ConsoleJanitor {
         name: "Console Janitor",
         description: "Disables annoying console messages/errors",
         authors: [{
-            name: "Arcane",
+            name: "Mocha",
             id: "808802000224518264"
         }],
         version: "0.1.0",
-        id: "arcane:ConsoleJanitor",
+        id: "cat.kitties.arcane.ConsoleJanitor",
         patches: [
             {
                 find: 'console.warn("Window state not initialized"',

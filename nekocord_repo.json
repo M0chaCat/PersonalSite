@@ -14,7 +14,7 @@
         {
             "type": "plugin",
             "name": "BANger",
-            "id": "arcane:BANger",
+            "id": "cat.kitties.arcane.BANger",
             "version": "1.0.0",
             "short_description": "Replaces the GIF in the ban dialogue with a custom one. (has audio :3)",
             "description": "Replaces the GIF in the ban dialogue with a custom one. (has audio :3)",
@@ -23,7 +23,7 @@
             "file": "/Plugins/BANger.nkplugin.js",
             "categories": [
                 "CUSTOMIZATION",
-                "UTILITY",
+                "UTILITIES",
                 "FUN"
             ],
             "tags": [
@@ -46,7 +46,7 @@
         {
             "type": "plugin",
             "name": "Clean Channel Names",
-            "id": "arcane:CleanChannelNames",
+            "id": "cat.kitties.arcane.CleanChannelNames",
             "version": "1.0.0",
             "short_description": "Remove all emoji and decor shit from channel names.",
             "description": "Remove all emoji and decor shit from channel names.",
@@ -55,7 +55,7 @@
             "file": "/Plugins/CleanChannelNames.nkplugin.js",
             "categories": [
                 "CUSTOMIZATION",
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "channel",
@@ -77,7 +77,7 @@
         {
             "type": "plugin",
             "name": "Color Sighted",
-            "id": "arcane:ColorSighted",
+            "id": "cat.kitties.arcane.ColorSighted",
             "version": "1.0.0",
             "short_description": "Removes the colorblind-friendly icons from statuses.",
             "description": "Removes the colorblind-friendly icons from statuses, just like 2015-2017 Discord.",
@@ -86,7 +86,7 @@
             "file": "/Plugins/ColorSighted.nkplugin.js",
             "categories": [
                 "CUSTOMIZATION",
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "color",
@@ -108,7 +108,7 @@
         {
             "type": "plugin",
             "name": "Force Owner Crown",
-            "id": "arcane:ForceOwnerCrown",
+            "id": "cat.kitties.arcane.ForceOwnerCrown",
             "version": "1.0.0",
             "short_description": "Force the owner crown next to usernames.",
             "description": "Force the owner crown next to usernames even if the server is large.",
@@ -117,7 +117,7 @@
             "file": "/Plugins/ForceOwnerCrown.nkplugin.js",
             "categories": [
                 "CUSTOMIZATION",
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "owner",
@@ -139,7 +139,7 @@
         {
             "type": "plugin",
             "name": "Themess",
-            "id": "arcane:themess",
+            "id": "cat.kitties.arcane.themess",
             "version": "1.0.0",
             "short_description": "(HISTORICAL) Crappy Theme Loader.",
             "description": "(HISTORICAL) Crappy Theme Loader, this was used on nekocord personally for/by me before themes were a feature.",
@@ -169,7 +169,7 @@
         {
             "type": "plugin",
             "name": "NSFW Gate Bypass",
-            "id": "arcane:NSFWGateBypass",
+            "id": "cat.kitties.arcane.NSFWGateBypass",
             "version": "1.0.0",
             "short_description": "Access NSFW channels without age verification.",
             "description": "Allows you to access NSFW channels without setting/verifying your age.",
@@ -177,7 +177,7 @@
             "banner": "https://example.com/banner.png",
             "file": "/Plugins/NSFWGateBypass.nkplugin.js",
             "categories": [
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "NSFW",
@@ -199,7 +199,7 @@
         {
             "type": "plugin",
             "name": "PlusReact",
-            "id": "arcane:PlusReact",
+            "id": "cat.kitties.arcane.PlusReact",
             "version": "1.0.0",
             "short_description": "React to previous message with emoji",
             "description": "React to previous message with emoji, like +:star:",
@@ -229,7 +229,7 @@
         {
             "type": "plugin",
             "name": "No Typing Animation",
-            "id": "arcane:NoTypingAnimation",
+            "id": "cat.kitties.arcane.NoTypingAnimation",
             "version": "1.0.0",
             "short_description": "Disables the CPU-intensive typing dots animation.",
             "description": "Disables the CPU-intensive typing dots animation.",
@@ -237,7 +237,7 @@
             "banner": "https://example.com/banner.png",
             "file": "/Plugins/NoTypingAnimation.nkplugin.js",
             "categories": [
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "typing",
@@ -259,7 +259,7 @@
         {
             "type": "plugin",
             "name": "No Unblock To Jump",
-            "id": "arcane:NoUnblockToJump",
+            "id": "cat.kitties.arcane.NoUnblockToJump",
             "version": "1.0.0",
             "short_description": "Allows you to jump to messages of blocked users without unblocking them",
             "description": "Allows you to jump to messages of blocked users without unblocking them",
@@ -269,7 +269,7 @@
                 "/Plugins/NoUnblockToJump.nkplugin.js"
             ],
             "categories": [
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "blocked",
@@ -291,7 +291,7 @@
         {
             "type": "plugin",
             "name": "Essentials",
-            "id": "arcane:Essentials",
+            "id": "cat.kitties.arcane.Essentials",
             "version": "1.0.0",
             "short_description": "Minor tweaks that make discord better!",
             "description": "Minor tweaks that make discord better!",
@@ -329,7 +329,7 @@
         {
             "type": "plugin",
             "name": "Secret Ringtone Enabler",
-            "id": "arcane:SecretRingtoneEnabler",
+            "id": "cat.kitties.arcane.SecretRingtoneEnabler",
             "version": "1.0.0",
             "short_description": "Always play the secret version of the discord ringtone",
             "description": "Always play the secret version of the discord ringtone (except during special ringtone events)",
@@ -362,7 +362,7 @@
         {
             "type": "plugin",
             "name": "Show All Message Buttons",
-            "id": "arcane:ShowAllMessageButtons",
+            "id": "cat.kitties.arcane.ShowAllMessageButtons",
             "version": "1.0.0",
             "short_description": "Always show all message buttons",
             "description": "Always show all message buttons no matter if you are holding the shift key or not.",
@@ -394,7 +394,7 @@
         {
             "type": "plugin",
             "name": "Summaries",
-            "id": "arcane:Summaries",
+            "id": "cat.kitties.arcane.Summaries",
             "version": "1.0.0",
             "short_description": "Enables Discord's experimental Summaries feature on every server",
             "description": "Enables Discord's experimental Summaries feature on every server, displaying AI generated summaries of conversations",
@@ -404,7 +404,7 @@
                 "/Plugins/Summaries.nkplugin.js"
             ],
             "categories": [
-                "UTILITY",
+                "UTILITIES",
                 "QOL"
             ],
             "tags": [
@@ -427,7 +427,7 @@
         {
             "type": "plugin",
             "name": "Unlimited Accounts",
-            "id": "arcane:UnlimitedAccounts",
+            "id": "cat.kitties.arcane.UnlimitedAccounts",
             "version": "1.0.0",
             "description": "Increases the amount of accounts you can add.",
             "thumbnail": "https://example.com/thumbnail.png",
@@ -436,7 +436,7 @@
                 "/Plugins/UnlimitedAccounts.nkplugin.js"
             ],
             "categories": [
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "accounts",
@@ -458,7 +458,7 @@
         {
             "type": "plugin",
             "name": "Always Animate",
-            "id": "arcane:AlwaysAnimate",
+            "id": "cat.kitties.arcane.AlwaysAnimate",
             "version": "1.0.0",
             "short_description": "Animates anything that can be animated",
             "description": "Animates anything that can be animated",
@@ -490,7 +490,7 @@
         {
             "type": "plugin",
             "name": "KeyboardSounds",
-            "id": "arcane:KeyboardSounds",
+            "id": "cat.kitties.arcane.KeyboardSounds",
             "version": "1.0.0",
             "short_description": "Play sounds when you press a key",
             "description": "Play sounds when you press a key",
@@ -522,7 +522,7 @@
         {
             "type": "plugin",
             "name": "Better GIF Picker",
-            "id": "arcane:BetterGifPicker",
+            "id": "cat.kitties.arcane.BetterGifPicker",
             "version": "1.0.0",
             "short_description": "Makes the gif picker open the favorite category by default",
             "description": "Makes the gif picker open the favorite category by default",
@@ -532,7 +532,7 @@
                 "/Plugins/BetterGifPicker.nkplugin.js"
             ],
             "categories": [
-                "UTILITY",
+                "UTILITIES",
                 "FUN"
             ],
             "tags": [
@@ -555,7 +555,7 @@
         {
             "type": "plugin",
             "name": "Better Upload Button",
-            "id": "arcane:BetterUploadButton",
+            "id": "cat.kitties.arcane.BetterUploadButton",
             "version": "1.0.0",
             "short_description": "Upload with a single click, open menu with right click",
             "description": "Upload with a single click, open menu with right click",
@@ -566,7 +566,7 @@
             ],
             "categories": [
                 "QOL",
-                "UTILITY"
+                "UTILITIES"
             ],
             "tags": [
                 "upload",
@@ -588,7 +588,7 @@
         {
             "type": "plugin",
             "name": "I Love Spam",
-            "id": "arcane:ILoveSpam",
+            "id": "cat.kitties.arcane.ILoveSpam",
             "version": "1.0.0",
             "short_description": "Do not hide messages from 'likely spammers'",
             "description": "Do not hide messages from 'likely spammers'",
@@ -613,7 +613,7 @@
         {
             "type": "plugin",
             "name": "No Profile Themes",
-            "id": "arcane:NoProfileThemes",
+            "id": "cat.kitties.arcane.NoProfileThemes",
             "version": "1.0.0",
             "short_description": "Completely removes Nitro profile themes",
             "description": "Completely removes Nitro profile themes",
@@ -638,7 +638,7 @@
         {
             "type": "plugin",
             "name": "oneko",
-            "id": "arcane:oneko",
+            "id": "cat.kitties.arcane.oneko",
             "version": "1.0.0",
             "short_description": "meow meow meow meow meow meow meow meow",
             "description": "cat follow mouse (real)",
@@ -663,10 +663,10 @@
         {
             "type": "theme",
             "name": "sitelen pona o lon lipu Siko a",
-            "id": "arcane:sitelenpona",
+            "id": "cat.kitties.arcane.sitelenpona",
             "version": "1.0.0",
             "short_description": "ijo pi lukin sitelen pona",
-            "description": "Enables the viewing of UCSUR sitelen pona in Discord.",
+            "description": "ijo pi lukin sitelen pona, Enables the viewing of UCSUR sitelen pona in Discord.",
             "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Sitelen_Pona.svg/200px-Sitelen_Pona.svg.png",
             "banner": "https://res.cloudinary.com/teepublic/image/private/s--QoP97jbK--/ar_10:3,c_fill,h_300,w_1000/d_misc:cover-photo.jpg,f_jpg,q_auto:good/v1629571463/production/stores/848596/banner.jpg",
             "files": [
@@ -688,7 +688,7 @@
         {
             "type": "theme",
             "name": "Catmoji",
-            "id": "arcane:catmoji",
+            "id": "cat.kitties.arcane.catmoji",
             "version": "1.0.0",
             "short_description": "Replaces all face emojis with cats!",
             "description": "Replaces all face emojis with cats!",

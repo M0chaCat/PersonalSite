@@ -163,9 +163,9 @@ class ThemeLoader {
 
   info = {
     name: "Themess",
-    id: "arcane:themess",
+    id: "cat.kitties.arcane.themess",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Crappy Theme Loader",
@@ -244,6 +244,3 @@ class ThemeLoader {
 }
   
   exports.default = ThemeLoader;
-    
-    
-    /*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425328}*//*SIGNATURE_aC1rH0VEG5Jnn8F6YdTY2AZ1gh6AaiQCgIVB4vRcaeOn47d0E1bsQtpRo6onsatmIhn3EAarEGlKpV7V5SxETw==*/

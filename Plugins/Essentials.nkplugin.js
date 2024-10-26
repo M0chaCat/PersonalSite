@@ -7,9 +7,9 @@ exports.default = void 0;
 class Essentials {
   info = {
     name: "Essentials",
-    id: "arcane:Essentials",
+    id: "cat.kitties.arcane.Essentials",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Minor tweaks that make discord better!",
@@ -17,9 +17,9 @@ class Essentials {
     patches: [],
     preferences: [
       {
-        name: "ArcaneTweaks",
-        description: "CSS Tweaks called ArcaneTweaks",
-        id: "ArcaneTweaks",
+        name: "MochaTweaks",
+        description: "CSS Tweaks called MochaTweaks",
+        id: "MochaTweaks",
         type: "boolean",
         default: true
       },
@@ -36,8 +36,8 @@ class Essentials {
   }
 
   tryToEnableTweaks() {
-    if (this.userPreferences.ArcaneTweaks === true) {
-      const Css = `@import url('https://arcane.kitties.cat/Themes/ArcaneTweaks.nktheme.css');`;
+    if (this.userPreferences.MochaTweaks === true) {
+      const Css = `@import url('https://arcane.kitties.cat/Themes/MochaTweaks.nktheme.css');`;
       // Ensure the DOM is fully loaded before applying CSS
       if (document.readyState === 'complete') {
         this.applyCss(Css);
@@ -62,10 +62,10 @@ class Essentials {
     
     if (document.head) {
       document.head.appendChild(styleElement);
-      console.log(`Essentials: ArcaneTweaks applied successfully`);
+      console.log(`Essentials: MochaTweaks applied successfully`);
     } else {
       console.error("Essentials: document.head is null or undefined");
     }
   }
 }
-exports.default = Essentials;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425534}*//*SIGNATURE_Ng4GDYUkPteq3u/+3W8Mqbv8KXLJo7qKmgyOc2CbIr2oDvKATKL3mbfTp/r2tz4mSBCbIvhls9PSoWFcsSIvBQ==*/
+exports.default = Essentials;

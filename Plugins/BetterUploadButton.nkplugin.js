@@ -8,9 +8,9 @@ exports.default = void 0;
 class BetterUploadButton {
   info = {
     name: "Better Upload Button",
-    id: "arcane:BetterUploadButton",
+    id: "cat.kitties.arcane.BetterUploadButton",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Upload with a single click, open menu with right click",
@@ -30,4 +30,4 @@ class BetterUploadButton {
   };
 }
 
-exports.default = BetterUploadButton;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425492}*//*SIGNATURE_4Uh7tW/T4PoJb8aU1r+c3nrfVg2Ia9QfxWz5dl8aCqbOlzTqhy++OQTFY7hfxWtAVOaJqLHzNpKUmMqBo7ij+A==*/
+exports.default = BetterUploadButton;

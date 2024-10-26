@@ -14,9 +14,9 @@ class Oneko {
 
   info = {
     name: "oneko",
-    id: "arcane:oneko",
+    id: "cat.kitties.arcane.oneko",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "cat follow mouse (real)",
@@ -52,4 +52,4 @@ class Oneko {
   }
 }
 
-exports.default = Oneko;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425697}*//*SIGNATURE_Z5HcupQmYEH16pN209dPmQNcU2DIC7P0+X/Cwx0TjBvPcwj84wuYgdEYhw7//IIpqqbfFZIk5SU29jvNWQ/maQ==*/
+exports.default = Oneko;

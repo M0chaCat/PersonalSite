@@ -11,9 +11,9 @@ class iLoveSpam {
   }
   info = {
     name: "i Love Spam",
-    id: "arcane:iLoveSpam",
+    id: "cat.kitties.arcane.iLoveSpam",
     authors: [{
-      name: "Arcane",
+      name: "Mocha",
       id: "808802000224518264"
     }],
     description: "Do not hide messages from 'likely spammers'",
@@ -37,4 +37,4 @@ class iLoveSpam {
 
 }
 
-exports.default = iLoveSpam;/*NEKOCORD_TEAM_{"signed_by":"M0cha","signed_at":1724648425574}*//*SIGNATURE_Yi8qKAHsG2KF+9jSHcxwNwgV0aglQFEto/s2X//c3Y1ABAn2QbrOphqXGn88ZmVKwppVnqqtDMCYEVgzFT41cg==*/
+exports.default = iLoveSpam;
