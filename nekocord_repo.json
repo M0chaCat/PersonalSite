@@ -45,6 +45,41 @@
         },
         {
             "type": "plugin",
+            "name": "Re!USRBG",
+            "id": "cat.kitties.arcane.reusrbg",
+            "version": "1.0.0",
+            "short_description": "User profile backgrounds for Nekocord before NitroHaxx :3.",
+            "description": "User profile backgrounds for Nekocord before NitroHaxx :3. (Banners are fetched from the USRBG database.)",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/reusrbg.nkplugin.js",
+            "categories": [
+                "CUSTOMIZATION",
+                "FUN"
+            ],
+            "tags": [
+                "usrbg",
+                "USRBG",
+                "nitro",
+                "profile",
+                "banner",
+
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Clean Channel Names",
             "id": "cat.kitties.arcane.CleanChannelNames",
             "version": "1.0.0",
