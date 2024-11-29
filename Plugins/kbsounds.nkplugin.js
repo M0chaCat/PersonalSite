@@ -44,12 +44,12 @@ const keydown = (e) => {
   if (e.code === "Backspace") {
       sounds.backspace.currentTime = 0;
       sounds.backspace.play();
-      console.log("Playing backspace sound");
+      //console.log("Playing backspace sound");
   } else {
       const click = sounds[`click${Math.floor(Math.random() * 3) + 1}`];
       click.currentTime = 0;
       click.play();
-      console.log("Playing click sound");
+      //console.log("Playing click sound");
   }
 };
 
@@ -156,7 +156,7 @@ class KeyboardSounds {
     }
     for (const sound of Object.values(sounds)) sound.volume = volume / 100;
     document.addEventListener("keydown", keydown);
-    console.log("Keydown event listener added");
+    //console.log("Keydown event listener added");
   }
   onDisable() {
     document.removeEventListener("keydown", keydown);

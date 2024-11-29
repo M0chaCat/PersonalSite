@@ -80,6 +80,39 @@
         },
         {
             "type": "plugin",
+            "name": "Re!NormalizeMessageLinks",
+            "id": "cat.kitties.arcane.normalizemessagelinks",
+            "version": "1.0.0",
+            "short_description": "Strip canary/ptb from message links",
+            "description": "Strip canary/ptb from message links",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/reNormalizeMessageLinks.nkplugin.js",
+            "categories": [
+                "CUSTOMIZATION",
+                "FUN"
+            ],
+            "tags": [
+                "canary",
+                "links",
+                "ptb",
+                
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Re!3y3",
             "id": "cat.kitties.arcane.reusrbg",
             "version": "1.0.0",

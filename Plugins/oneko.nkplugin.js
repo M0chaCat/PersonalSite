@@ -28,7 +28,7 @@ class Oneko {
   }
 
   start() {
-    console.log("oneko: meow!");
+    //console.log("oneko: meow!");
     
     if (document.readyState === "loading") {
       document.addEventListener("DOMContentLoaded", () => {
