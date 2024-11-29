@@ -1,10 +1,10 @@
 {
-    "name": "Arcane's Repo",
+    "name": "M0cha's Repo",
     "manifest_version": 1,
     "maintainers": [
         {
             "id": "808802000224518264",
-            "name": "3Catgirl (Arcane)"
+            "name": "Mocha"
         }
     ],
     "thumbnail": "https://circulars.dev/circular-cat.gif",
