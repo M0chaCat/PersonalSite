@@ -80,6 +80,42 @@
         },
         {
             "type": "plugin",
+            "name": "Re!3y3",
+            "id": "cat.kitties.arcane.reusrbg",
+            "version": "1.0.0",
+            "short_description": "Allows you to see 3y3 custom profile backgrounds.",
+            "description": "Allows you to see 3y3 custom profile backgrounds, ported from Vencord",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/re3y3.nkplugin.js",
+            "categories": [
+                "CUSTOMIZATION",
+                "FUN"
+            ],
+            "tags": [
+                "3y3",
+                "theme",
+                "nitro",
+                "profile",
+                "backgroud",
+                "fakeprofilethemes"
+                
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Clean Channel Names",
             "id": "cat.kitties.arcane.CleanChannelNames",
             "version": "1.0.0",
