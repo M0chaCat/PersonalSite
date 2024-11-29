@@ -6,10 +6,10 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 const sounds = {
-  click1: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/click1.wav"),
-  click2: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/click2.wav"),
-  click3: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/click3.wav"),
-  backspace: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/backspace.wav")
+  click1: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/click1.wav"),
+  click2: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/click2.wav"),
+  click3: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/click3.wav"),
+  backspace: new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/backspace.wav")
 };
 
 const ignoredKeys = [
@@ -113,6 +113,12 @@ class KeyboardSounds {
       id: "meowSounds",
       type: "boolean",
       default: false,
+    }, {
+      name: "Osu Sounds",
+      description: "Enable osu sounds",
+      id: "osuSounds",
+      type: "boolean",
+      default: false,
     }],
   };
   onEnable() {
@@ -122,37 +128,44 @@ class KeyboardSounds {
     const isSoftSounds = this.userPreferences.softSounds;
     const isFartSounds = this.userPreferences.fartSounds;
     const isMeowSounds = this.userPreferences.meowSounds;
+    const isOsuSounds = this.userPreferences.osuSounds;
 
     if (isClickySounds) {
       // Load clicky sounds
-      sounds.click1 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/click1.wav");
-      sounds.click2 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/click2.wav");
-      sounds.click3 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/click3.wav");
-      sounds.backspace = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/backspace.wav");
+      sounds.click1 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/click1.wav");
+      sounds.click2 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/click2.wav");
+      sounds.click3 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/click3.wav");
+      sounds.backspace = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/OperaGX/backspace.wav");
     } else if (isTactileSounds) {
       // Load tactile sounds
-      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactile1.wav"); // Replace with actual URL
-      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactile2.wav"); // Replace with actual URL
-      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactile3.wav"); // Replace with actual URL
-      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactilebackspace.wav"); // Replace with actual URL
+      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactile1.wav"); 
+      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactile2.wav"); 
+      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactile3.wav"); 
+      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Tactile/sounds/tactilebackspace.wav"); 
     } else if (isSoftSounds) {
       // Load soft sounds
-      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard1.wav"); // Replace with actual URL
-      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard2.wav"); // Replace with actual URL
-      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard3.wav"); // Replace with actual URL
-      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard4.wav"); // Replace with actual URL
+      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard1.wav");
+      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard2.wav");
+      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard3.wav");
+      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/LoFi_Chill/sounds/keyboard4.wav");
     } else if (isFartSounds) {
       // Load fart sounds
-      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/sounds/keyboard1.mp3"); // Replace with actual URL
-      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/sounds/spacebar.mp3"); // Replace with actual URL
-      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/sounds/keyboard3.mp3"); // Replace with actual URL
-      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/soundas/keyboard4.mp3"); // Replace with actual URL
+      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/sounds/keyboard1.mp3");
+      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/sounds/spacebar.mp3");
+      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/sounds/keyboard3.mp3");
+      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Fart/soundas/keyboard4.mp3");
     } else if (isMeowSounds) {
       // Load meow sounds
-      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow1.mp3"); // Replace with actual URL
-      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow2.mp3"); // Replace with actual URL
-      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow3.mp3"); // Replace with actual URL
-      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow4.mp3"); // Replace with actual URL
+      sounds.click1 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow1.mp3");
+      sounds.click2 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow2.mp3");
+      sounds.click3 = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow3.mp3");
+      sounds.backspace = new Audio("https://github.com/opera-gaming/gxmods/raw/main/mods/Meow/sounds/CatSounds_Meow4.mp3");
+    } else if (isOsuSounds) {
+      // Load osu sounds
+      sounds.click1 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/osu/key-press-1.mp3");
+      sounds.click2 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/osu/key-press-2.mp3");
+      sounds.click3 = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/osu/key-press-3.mp3");
+      sounds.backspace = new Audio("https://github.com/Domis-Vencord-Plugins/KeyboardSounds/raw/main/sounds/osu/key-delete.mp3");
     }
     for (const sound of Object.values(sounds)) sound.volume = volume / 100;
     document.addEventListener("keydown", keydown);
