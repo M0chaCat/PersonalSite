@@ -34,7 +34,38 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
+                },
+                {
+                    "name": "Arcane's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
+            "name": "DoubleClickToEdit",
+            "id": "cat.kitties.arcane.doubleclicktoedit",
+            "version": "1.0.0",
+            "short_description": "Double click to edit.",
+            "description": "Double click to edit.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/DoubleClickToEdit.nkplugin.js",
+            "categories": [
+                "UTILITIES"
+            ],
+            "tags": [
+                "edit",
+                "doubleclick",
+                "doubleclicktoedit"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -69,7 +100,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -102,7 +133,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -138,7 +169,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -169,7 +200,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -200,7 +231,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -231,7 +262,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -261,7 +292,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -291,7 +322,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -321,7 +352,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -353,7 +384,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -391,7 +422,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -424,7 +455,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -456,7 +487,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -489,7 +520,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -520,7 +551,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -552,7 +583,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -584,7 +615,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -617,7 +648,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -650,7 +681,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -675,7 +706,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -700,7 +731,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -725,7 +756,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -750,7 +781,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -775,7 +806,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",
@@ -800,7 +831,7 @@
                 {
                     "name": "GitHub",
                     "type": "github",
-                    "url": "https://github.com/MeowArcane/PersonalSite/"
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
                 },
                 {
                     "name": "Arcane's Site",

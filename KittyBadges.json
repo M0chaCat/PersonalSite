@@ -1,41 +1,6 @@
 {
     "badges": {
-        "nekocord_team": {
-            "name": "nekocord Team",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/6/6f/6fd12a599cd62b8e061c332680942c2d75614bd452ca3c2e0a59c18ba8d203ef.png",
-            "description": "This badge is given to the members of the nekocord Team."
-        },
-        "nekocord_contributor": {
-            "name": "nekocord Contributor",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/6/69/69a9bd07d916dbaeb80663c63d5586ca85e4879ba1db30c53a3939edf04708aa.png",
-            "description": "This badge is given to people who have contributed to the nekocord project."
-        },
-        "nekocord_tester": {
-            "name": "nekocord Tester",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/5/5c/5c0956d48f6d267fbfb29cf056539856cfbae36ddfd8f3b46efa95f800d177e2.gif",
-            "description": "This badge is given to people who help test nekocord."
-        },
-        "nekocord_early_public_tester": {
-            "name": "Early Public Tester",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/4/49/496dd998e99d1bfeba29dba50743dfbc973d6581d5714579b97fd7adea4d9e20.png",
-            "description": "This badge is given to early nekocord Public Testers."
-        },
-        "xiaomi": {
-            "name": "xiaomi",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/7/71/713a2e809e83a88df82a88b58ee3fd5d7ccd95484fb821cf104ecedb6ae74a9f.png",
-            "description": "xiaomi"
-        },
-        "kenshi": {
-            "name": "kenshi",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/e/eb/eb34544e88fae60fa4e6400bdf03294f603d81d33ac90f9f02045fa0c957bdcc.png",
-            "description": "kenshi"
-        },
+
         "shiggy": {
             "name": "shiggy",
             "type": "custom",
@@ -47,12 +12,6 @@
             "type": "custom",
             "image": "https://nekocord.dev/assets/7/7b/7b6eb2d39ade4930f841e019d87a45c2ba3c2cc1e6d1ac08ce4ac8219523079e.png",
             "description": "first ever donor"
-        },
-        "the_thinker": {
-            "name": "The Thinker",
-            "type": "custom",
-            "image": "https://nekocord.dev/assets/b/b9/b94f6e9f028d08cc809c5eb7bfacc1aeb7a2a5fce6bf0516a3a3ff2b4a662080.png",
-            "description": "The Thinker"
         }
     },
     "users": 
