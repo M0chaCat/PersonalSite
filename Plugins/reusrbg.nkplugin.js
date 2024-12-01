@@ -34,7 +34,7 @@ class reusrbg {
       name: "Mocha",
       id: "808802000224518264"
     }],
-    description: "User profile backgrounds for Nekocord before NitroHaxx :3. (Banners are fetched from the USRBG database.)",
+    description: "User profile banners for Nekocord before NitroHaxx :3. (Banners are fetched from the USRBG database.)",
     version: "0.1.0",
     preferences: [
       {
