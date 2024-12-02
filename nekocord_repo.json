@@ -807,8 +807,8 @@
             "name": "oneko",
             "id": "cat.kitties.arcane.oneko",
             "version": "1.0.0",
-            "short_description": "Cat follows mouse (real).",
-            "description": "Cat follows mouse (real).",
+            "short_description": "Cat follow mouse (real).",
+            "description": "Cat follow mouse (real).",
             "thumbnail": "https://arcane.kitties.cat/images/oneko.png",
             "banner": "https://example.com/banner.png",
             "files": [
