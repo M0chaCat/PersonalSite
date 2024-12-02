@@ -13,7 +13,7 @@
     "contents": [
         {
             "type": "plugin",
-            "name": "BANger",
+            "name": "Re!BANger",
             "id": "cat.kitties.arcane.BANger",
             "version": "1.0.0",
             "short_description": "Replaces the GIF in the ban dialogue with a custom one.",
@@ -111,7 +111,7 @@
             "id": "cat.kitties.arcane.doubleclicktoedit",
             "version": "1.0.0",
             "short_description": "Double click to edit.",
-            "description": "Double click to edit.",
+            "description": "Double click to edit, based on MessageClickActions from Vencord.",
             "thumbnail": "https://example.com/thumbnail.png",
             "banner": "https://example.com/banner.png",
             "file": "/Plugins/DoubleClickToEdit.nkplugin.js",
@@ -155,7 +155,7 @@
                 "USRBG",
                 "nitro",
                 "profile",
-                "banner",
+                "banner"
 
             ],
             "links": [
@@ -207,7 +207,7 @@
         {
             "type": "plugin",
             "name": "Re!3y3",
-            "id": "cat.kitties.arcane.reusrbg",
+            "id": "cat.kitties.arcane.re3y3",
             "version": "1.0.0",
             "short_description": "Allows you to see 3y3 custom profile backgrounds.",
             "description": "Allows you to see 3y3 custom profile backgrounds, ported from Vencord",
@@ -242,7 +242,7 @@
         },
         {
             "type": "plugin",
-            "name": "Clean Channel Names",
+            "name": "Re!CleanChannelNames",
             "id": "cat.kitties.arcane.CleanChannelNames",
             "version": "1.0.0",
             "short_description": "Remove all emoji and decor shit from channel names.",
@@ -273,7 +273,7 @@
         },
         {
             "type": "plugin",
-            "name": "Color Sighted",
+            "name": "Re!ColorSighted",
             "id": "cat.kitties.arcane.ColorSighted",
             "version": "1.0.0",
             "short_description": "Removes the colorblind-friendly icons from statuses.",
@@ -304,7 +304,7 @@
         },
         {
             "type": "plugin",
-            "name": "Force Owner Crown",
+            "name": "Re!ForceOwnerCrown",
             "id": "cat.kitties.arcane.ForceOwnerCrown",
             "version": "1.0.0",
             "short_description": "Force the owner crown next to usernames.",
@@ -365,7 +365,7 @@
         },
         {
             "type": "plugin",
-            "name": "NSFW Gate Bypass",
+            "name": "Re!NSFWGateBypass",
             "id": "cat.kitties.arcane.NSFWGateBypass",
             "version": "1.0.0",
             "short_description": "Access NSFW channels without age verification.",
@@ -395,7 +395,7 @@
         },
         {
             "type": "plugin",
-            "name": "No Typing Animation",
+            "name": "Re!NoTypingAnimation",
             "id": "cat.kitties.arcane.NoTypingAnimation",
             "version": "1.0.0",
             "short_description": "Disables the CPU-intensive typing dots animation.",
@@ -425,7 +425,7 @@
         },
         {
             "type": "plugin",
-            "name": "No Unblock To Jump",
+            "name": "Re!NoUnblockToJump",
             "id": "cat.kitties.arcane.NoUnblockToJump",
             "version": "1.0.0",
             "short_description": "Allows you to jump to messages of blocked users without unblocking them",
@@ -528,7 +528,7 @@
         },
         {
             "type": "plugin",
-            "name": "Show All Message Buttons",
+            "name": "Re!ShowAllMessageButtons",
             "id": "cat.kitties.arcane.ShowAllMessageButtons",
             "version": "1.0.0",
             "short_description": "Always show all message buttons",
@@ -560,7 +560,7 @@
         },
         {
             "type": "plugin",
-            "name": "Summaries",
+            "name": "Re!Summaries",
             "id": "cat.kitties.arcane.Summaries",
             "version": "1.0.0",
             "short_description": "Enables Discord's experimental Summaries feature on every server",
@@ -593,7 +593,7 @@
         },
         {
             "type": "plugin",
-            "name": "Unlimited Accounts",
+            "name": "Re!UnlimitedAccounts",
             "id": "cat.kitties.arcane.UnlimitedAccounts",
             "version": "1.0.0",
             "description": "Increases the amount of accounts you can add.",
@@ -624,7 +624,7 @@
         },
         {
             "type": "plugin",
-            "name": "Always Animate",
+            "name": "Re!AlwaysAnimate",
             "id": "cat.kitties.arcane.AlwaysAnimate",
             "version": "1.0.0",
             "short_description": "Animates anything that can be animated",
@@ -688,11 +688,11 @@
         },
         {
             "type": "plugin",
-            "name": "Better GIF Picker",
+            "name": "Re!BetterGifPicker",
             "id": "cat.kitties.arcane.BetterGifPicker",
             "version": "1.0.0",
-            "short_description": "Makes the gif picker open the favorite category by default",
-            "description": "Makes the gif picker open the favorite category by default",
+            "short_description": "Makes the gif picker open the favorite category by default.",
+            "description": "Makes the gif picker open the favorite category by default.",
             "thumbnail": "https://example.com/thumbnail.png",
             "banner": "https://example.com/banner.png",
             "files": [
@@ -754,7 +754,7 @@
         },
         {
             "type": "plugin",
-            "name": "I Love Spam",
+            "name": "Re!ILoveSpam",
             "id": "cat.kitties.arcane.ILoveSpam",
             "version": "1.0.0",
             "short_description": "Do not hide messages from 'likely spammers'",
@@ -779,7 +779,7 @@
         },
         {
             "type": "plugin",
-            "name": "No Profile Themes",
+            "name": "Re!NoProfileThemes",
             "id": "cat.kitties.arcane.NoProfileThemes",
             "version": "1.0.0",
             "short_description": "Completely removes Nitro profile themes",
@@ -807,8 +807,8 @@
             "name": "oneko",
             "id": "cat.kitties.arcane.oneko",
             "version": "1.0.0",
-            "short_description": "meow meow meow meow meow meow meow meow",
-            "description": "cat follow mouse (real)",
+            "short_description": "Cat follows mouse (real).",
+            "description": "Cat follows mouse (real).",
             "thumbnail": "https://arcane.kitties.cat/images/oneko.png",
             "banner": "https://example.com/banner.png",
             "files": [
