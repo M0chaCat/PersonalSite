@@ -18,7 +18,16 @@ class Oneko {
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "Vee",
+      id: "343383572805058560n"
+    },
+    {
+      name: "adryd",
+      id: "201052085641281538n"
+    }
+  ],
     description: "cat follow mouse (real)",
     version: "1.0.0"
   };

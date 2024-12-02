@@ -7,12 +7,21 @@ exports.default = void 0;
 
 class BetterUploadButton {
   info = {
-    name: "Better Upload Button",
+    name: "Re!BetterUploadButton",
     id: "cat.kitties.arcane.BetterUploadButton",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "Fawn",
+      id: "336678828233588736n"
+    },
+    {
+      name: "Vee",
+      id: "343383572805058560n"
+    }
+  ],
     description: "Upload with a single click, open menu with right click",
     version: "0.1.0",
     patches: [

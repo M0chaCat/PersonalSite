@@ -7,11 +7,15 @@ exports.default = void 0;
 
 class BetterGifPicker {
   info = {
-    name: "Better Gif Picker",
+    name: "Re!BetterGifPicker",
     id: "cat.kitties.arcane.BetterGifPicker",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
+    },
+    {
+      name: "Samwich",
+      id: "976176454511509554n"
     }],
     description: "Makes the gif picker open the favorite category by default",
     version: "0.1.0",

@@ -15,7 +15,12 @@ class refiximagesquality {
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "Nuckyz",
+      id: "235834946571337729n"
+    }
+  ],
     description: "Prevents images from being loaded as webp, which can cause quality loss",
     version: "0.1.0",
     patches: [

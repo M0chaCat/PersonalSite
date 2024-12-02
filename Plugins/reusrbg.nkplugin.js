@@ -33,7 +33,24 @@ class reusrbg {
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "AutumnVN",
+      id: "440990343899643943n"
+    },
+    {
+      name: "TheKodeToad",
+      id: "706152404072267788n"
+    },
+    {
+      name: "Pylix",
+      id: "492949202121261067n"
+    },
+    {
+      name: "Katlyn",
+      id: "250322741406859265n"
+    }
+  ],
     description: "User profile banners for Nekocord before NitroHaxx :3. (Banners are fetched from the USRBG database.)",
     version: "0.1.0",
     preferences: [

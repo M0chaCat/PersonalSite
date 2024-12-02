@@ -10,12 +10,21 @@ class BANger {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "BANger",
+    name: "Re!BANger",
     id: "cat.kitties.arcane.BANger",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "Xinto",
+      id: "423915768191647755n"
+    },
+    {
+      name: "Glitchy",
+      id: "269567451199569920n"
+    }
+  ],
     description: "Replaces the GIF in the ban dialogue with a custom one.",
     version: "0.1.0",
     patches: [

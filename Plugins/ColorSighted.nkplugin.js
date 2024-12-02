@@ -10,12 +10,17 @@ class ColorSighted {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "Color Sighted",
+    name: "Re!ColorSighted",
     id: "cat.kitties.arcane.ColorSighted",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "lewisakura",
+      id: "96269247411400704n"
+    }
+  ],
     description: "Removes the colorblind-friendly icons from statuses, just like 2015-2017 Discord",
     version: "0.1.0",
     patches: [

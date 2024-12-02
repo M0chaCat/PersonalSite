@@ -10,12 +10,17 @@ class iLoveSpam {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "i Love Spam",
+    name: "Re!iLoveSpam",
     id: "cat.kitties.arcane.iLoveSpam",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "botato",
+      id: "440990343899643943n"
+    }
+  ],
     description: "Do not hide messages from 'likely spammers'",
     version: "0.1.0",
     patches: [

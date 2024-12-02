@@ -7,11 +7,15 @@ exports.default = void 0;
 
 class ShowAllMessageButtons {
   info = {
-    name: "Show All Message Buttons",
+    name: "Re!ShowAllMessageButtons",
     id: "cat.kitties.arcane.ShowAllMessageButtons",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
+    },
+    {
+      name: "Nuckyz",
+      id: "235834946571337729n"
     }],
     description: "Always show all message buttons no matter if you are holding the shift key or not.",
     version: "0.1.0",

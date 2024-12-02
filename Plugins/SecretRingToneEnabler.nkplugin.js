@@ -10,12 +10,25 @@ class SecretRingToneEnabler {
   }
 
     info = {
-      name: "Secret Ringtone Enabler",
+      name: "Re!SecretRingToneEnabler",
       id: "cat.kitties.arcane.SecretRingToneEnabler",
       authors: [{
         name: "Mocha",
         id: "808802000224518264"
-      }],
+      },
+      {
+        name: "FieryFlames",
+        id: "890228870559698955n"
+      },
+      {
+        name: "AndrewDLO",
+        id: "434135504792059917n"
+      },
+      {
+        name: "RamziAH",
+        id: "1279957227612147747n"
+      }
+    ],
       description: "Always play the secret version of the discord ringtone (except during special ringtone events)",
       version: "0.1.0",
       patches: [

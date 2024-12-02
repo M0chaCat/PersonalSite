@@ -13,11 +13,15 @@ class Summaries {
     });
   }
   info = {
-    name: "Summaries",
+    name: "Re!Summaries",
     id: "cat.kitties.arcane.Summaries",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
+    },
+    {
+      name: "mantikafasi",
+      id: "287555395151593473n"
     }],
     description: "Enables Discord's experimental Summaries feature on every server, displaying AI generated summaries of conversations",
     version: "0.1.0",

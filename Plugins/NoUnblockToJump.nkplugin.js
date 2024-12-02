@@ -10,12 +10,17 @@ class NoUnblockToJump {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "No Unblock To Jump",
+    name: "Re!NoUnblockToJump",
     id: "cat.kitties.arcane.NoUnblockToJump",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "dzshn",
+      id: "310449948011528192n"
+    }
+  ],
     description: "Allows you to jump to messages of blocked users without unblocking them",
     version: "0.1.0",
     patches: [

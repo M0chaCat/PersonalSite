@@ -11,7 +11,7 @@ class UnlimitedAccounts {
   }
 
   info = {
-    name: "Unlimited Accounts",
+    name: "UnlimitedAccounts",
     description: "Increases the amount of accounts you can add.",
     id: "cat.kitties.arcane.UnlimitedAccounts",
     authors: [{

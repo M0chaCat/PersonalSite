@@ -8,12 +8,21 @@ exports.default = void 0;
 
 class ForceOwnerCrown {
   info = {
-      name: "Force Owner Crown",
+      name: "Re!ForceOwnerCrown",
       description: "Force the owner crown next to usernames even if the server is large.",
       authors: [{
         name: "Mocha",
         id: "808802000224518264"
-      }],
+      },
+      {
+        name: "D3SOX",
+        id: "201052085641281538n"
+      },
+      {
+        name: "Nickyux",
+        id: "427146305651998721n"
+      }
+    ],
       version: "0.1.0",
       id: "cat.kitties.arcane.ForceOwnerCrown"
   }

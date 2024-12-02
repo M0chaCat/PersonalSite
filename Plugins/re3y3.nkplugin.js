@@ -13,8 +13,17 @@ class re3y3 {
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
-    description: "Allows you to see 3y3 custom profile backgrounds.",
+    },
+    {
+      name: "Alyxia",
+      id: "952185386350829688n"
+    },
+    {
+      name: "Remty",
+      id: "335055032204656642n"
+    }
+  ],
+    description: "Allows you to see 3y3 custom profile backgrounds, based on fakeProfileThemes from vencord.",
     version: "0.1.0",
     preferences: [
       {

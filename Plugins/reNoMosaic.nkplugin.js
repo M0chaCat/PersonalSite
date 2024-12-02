@@ -15,7 +15,12 @@ class renomosaic {
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "AutumnVN",
+      id: "440990343899643943n"
+    }
+  ],
     description: "Removes Discord image mosaic",
     version: "0.1.0",
     patches: [

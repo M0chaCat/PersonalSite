@@ -7,12 +7,17 @@ exports.default = void 0;
 
 class AlwaysAnimate {
   info = {
-    name: "Always Animate",
+    name: "Re!AlwaysAnimate",
     id: "cat.kitties.arcane.AlwaysAnimate",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "Fiery",
+      id: "890228870559698955n"
+    }
+  ],
     description: "Animates anything that can be animated",
     version: "0.1.0",
     patches: [

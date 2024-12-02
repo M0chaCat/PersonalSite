@@ -10,7 +10,7 @@ class CleanChannelNames {
   };
 
   info = {
-    name: "Clean Channel Names",
+    name: "Re!CleanChannelNames",
     id: "cat.kitties.arcane.CleanChannelNames",
     authors: [{
       name: "Mocha",

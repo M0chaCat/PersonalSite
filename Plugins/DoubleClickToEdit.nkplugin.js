@@ -26,8 +26,13 @@ class doubleclicktoedit {
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
-    description: "Double click to edit",
+    },
+    {
+      name: "Vee",
+      id: "343383572805058560n"
+    }
+  ],
+    description: "Double click to edit, based on MessageClickActions from vencord",
     version: "1.0.0"
   };
 

@@ -1,4 +1,3 @@
-//https://github.com/Domis-Vencord-Plugins/KeyboardSounds/blob/main/index.ts
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {

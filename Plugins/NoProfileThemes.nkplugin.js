@@ -7,12 +7,17 @@ exports.default = void 0;
 
 class NoProfileThemes {
   info = {
-    name: "No Profile Themes",
+    name: "Re!NoProfileThemes",
     id: "cat.kitties.arcane.NoProfileThemes",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "TheKodeToad",
+      id: "706152404072267788n"
+    }
+  ],
     description: "Completely removes Nitro profile themes",
     version: "0.1.0",
     patches: [

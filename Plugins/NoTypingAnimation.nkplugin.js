@@ -10,12 +10,17 @@ class NoTypingAnimation {
     this.userPreferences = userPreferences;
   }
   info = {
-    name: "No Typing Animation",
+    name: "Re!NoTypingAnimation",
     id: "cat.kitties.arcane.NoTypingAnimation",
     authors: [{
       name: "Mocha",
       id: "808802000224518264"
-    }],
+    },
+    {
+      name: "AutumnVN",
+      id: "393694671383166998n"
+    }
+  ],
     description: "Disables the CPU-intensive typing dots animation",
     version: "0.1.0",
     patches: [{
