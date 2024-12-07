@@ -37,7 +37,7 @@ class AlwaysAnimate {
       },
       {
         // Status emojis
-        find: "#{intl::GUILD_OWNER}",
+        find: ".pclUFB", //intl::GUILD_OWNER
         replacement: {
           match: /(?<=\.activityEmoji,.+?animate:)\i/,
           replace: "!0"
