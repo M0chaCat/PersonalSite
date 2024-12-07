@@ -45,6 +45,36 @@
         },
         {
             "type": "plugin",
+            "name": "Re!ShowHiddenChannels",
+            "id": "cat.kitties.arcane.ShowHiddenChannels",
+            "version": "1.0.0",
+            "short_description": "Show channels that you do not have access to view.",
+            "description": "Show channels that you do not have access to view.",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/ShowHiddenChannels.nkplugin.js",
+            "categories": [
+                "UTILITIES"
+            ],
+            "tags": [
+                "hidden",
+                "showhiddenchannels"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
+                },
+                {
+                    "name": "Mocha's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Re!FixImagesQuality",
             "id": "cat.kitties.arcane.refiximagesquality",
             "version": "1.0.0",
