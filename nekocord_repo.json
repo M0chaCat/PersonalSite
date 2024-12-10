@@ -45,6 +45,39 @@
         },
         {
             "type": "plugin",
+            "name": "Re!SortReactions",
+            "id": "cat.kitties.arcane.SortReactions",
+            "version": "1.0.0",
+            "short_description": "Sort reactions by count",
+            "description": "Sort reactions by count, credit to HHALOSAH",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/SortReactions.nkplugin.js",
+            "categories": [
+                "CUSTOMIZATION",
+                "UTILITIES",
+                "FUN"
+            ],
+            "tags": [
+                "reaction",
+                "sort",
+                "reactions"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
+                },
+                {
+                    "name": "Mocha's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Re!ShowHiddenChannels",
             "id": "cat.kitties.arcane.ShowHiddenChannels",
             "version": "1.0.0",
@@ -218,8 +251,7 @@
             "tags": [
                 "canary",
                 "links",
-                "ptb",
-                
+                "ptb"
             ],
             "links": [
                 {
