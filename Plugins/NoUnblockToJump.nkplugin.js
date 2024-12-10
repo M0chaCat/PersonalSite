@@ -22,7 +22,7 @@ class NoUnblockToJump {
     }
   ],
     description: "Allows you to jump to messages of blocked users without unblocking them",
-    version: "0.1.0",
+    version: "1.0.0", 
     patches: [
       {
         find: '.id,"Search Results"',

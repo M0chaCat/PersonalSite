@@ -22,7 +22,7 @@ class NoTypingAnimation {
     }
   ],
     description: "Disables the CPU-intensive typing dots animation",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [{
       find: "dotCycle",
       replacement: {

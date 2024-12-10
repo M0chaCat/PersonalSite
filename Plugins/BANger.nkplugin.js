@@ -26,7 +26,7 @@ class BANger {
     }
   ],
     description: "Replaces the GIF in the ban dialogue with a custom one.",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "BAN_CONFIRM_TITLE.",

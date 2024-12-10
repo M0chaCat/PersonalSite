@@ -23,7 +23,7 @@ class BetterUploadButton {
     }
   ],
     description: "Upload with a single click, open menu with right click",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "Messages.CHAT_ATTACH_UPLOAD_OR_INVITE",

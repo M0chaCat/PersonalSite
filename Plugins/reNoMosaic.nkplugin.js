@@ -22,7 +22,7 @@ class renomosaic {
     }
   ],
     description: "Removes Discord image mosaic",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
           find: '=>"IMAGE"===',

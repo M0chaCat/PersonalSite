@@ -24,7 +24,7 @@ class re3y3 {
     }
   ],
     description: "Allows you to see 3y3 custom profile backgrounds, based on fakeProfileThemes from vencord.",
-    version: "0.1.0",
+    version: "1.0.0",
     preferences: [
       {
         name: "nitroFirst",

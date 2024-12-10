@@ -30,7 +30,7 @@ class SecretRingToneEnabler {
       }
     ],
       description: "Always play the secret version of the discord ringtone (except during special ringtone events)",
-      version: "0.1.0",
+      version: "1.0.0",
       patches: [
         {
           find: '"call_ringing_beat"',

@@ -18,7 +18,7 @@ class BetterGifPicker {
       id: "976176454511509554n"
     }],
     description: "Makes the gif picker open the favorite category by default",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: ".GIFPickerResultTypes.SEARCH",

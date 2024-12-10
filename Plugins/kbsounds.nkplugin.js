@@ -70,7 +70,7 @@ class KeyboardSounds {
       id: "808802000224518264"
     }],
     description: "Play sounds when you press a key",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [],
     preferences: [{
       name: "Volume",

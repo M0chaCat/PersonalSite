@@ -17,7 +17,7 @@ class CleanChannelNames {
       id: "808802000224518264"
     }],
     description: "remove all emoji and decor shit from channel names",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "loadAllGuildAndPrivateChannelsFromDisk(){",

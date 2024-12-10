@@ -19,7 +19,7 @@ class AlwaysAnimate {
     }
   ],
     description: "Animates anything that can be animated",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "canAnimate:",
@@ -54,10 +54,7 @@ class AlwaysAnimate {
     ],
   };
 
-  constructor() {
     
-  }
-
 }
 
 exports.default = AlwaysAnimate;

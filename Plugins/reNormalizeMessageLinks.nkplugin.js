@@ -22,10 +22,10 @@ class renormalizemessagelinks {
     }
   ],
     description: "Strip canary/ptb from message links",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
-        find: "#{intl::COPY_MESSAGE_LINK}",
+        find: "Xrt5Pj",
         replacement: {
           match: /\.concat\(location\.host\)/,
           replace: ".concat($self.normalizeHost(location.host))",

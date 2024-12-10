@@ -52,7 +52,7 @@ class reusrbg {
     }
   ],
     description: "User profile banners for Nekocord before NitroHaxx :3. (Banners are fetched from the USRBG database.)",
-    version: "0.1.0",
+    version: "1.0.0",
     preferences: [
       {
         name: "nitroFirst",

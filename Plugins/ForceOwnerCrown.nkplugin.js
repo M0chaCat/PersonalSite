@@ -23,7 +23,7 @@ class ForceOwnerCrown {
         id: "427146305651998721n"
       }
     ],
-      version: "0.1.0",
+      version: "1.0.0",
       id: "cat.kitties.arcane.ForceOwnerCrown"
   }
   patches = [

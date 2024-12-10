@@ -22,7 +22,7 @@ class refiximagesquality {
     }
   ],
     description: "Prevents images from being loaded as webp, which can cause quality loss",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
           find: "getFormatQuality(){",

@@ -22,7 +22,7 @@ class iLoveSpam {
     }
   ],
     description: "Do not hide messages from 'likely spammers'",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "hasFlag:{writable",

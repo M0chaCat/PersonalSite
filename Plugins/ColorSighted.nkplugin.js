@@ -22,7 +22,7 @@ class ColorSighted {
     }
   ],
     description: "Removes the colorblind-friendly icons from statuses, just like 2015-2017 Discord",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "Masks.STATUS_ONLINE",

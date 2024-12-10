@@ -19,7 +19,7 @@ class NoProfileThemes {
     }
   ],
     description: "Completely removes Nitro profile themes",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: ".NITRO_BANNER,",

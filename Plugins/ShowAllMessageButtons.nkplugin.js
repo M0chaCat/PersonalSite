@@ -18,7 +18,7 @@ class ShowAllMessageButtons {
       id: "235834946571337729n"
     }],
     description: "Always show all message buttons no matter if you are holding the shift key or not.",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: ".Messages.MESSAGE_UTILITIES_A11Y_LABEL",

@@ -24,7 +24,7 @@ class Summaries {
       id: "287555395151593473n"
     }],
     description: "Enables Discord's experimental Summaries feature on every server, displaying AI generated summaries of conversations",
-    version: "0.1.0",
+    version: "1.0.0",
     patches: [
       {
         find: "SUMMARIZEABLE.has",
