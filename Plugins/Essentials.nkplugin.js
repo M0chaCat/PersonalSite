@@ -419,8 +419,8 @@ function M0chaTweaksTab() {
   ), /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
-      label: "Profile Theme Matching",
-      description: "Makes profile elements match theme colors",
+      label: "Profile Status Matching",
+      description: "Makes profile status match theme colors",
       value: settings.ProfileThemeMatching,
       onChange: () => handleToggle("ProfileThemeMatching")
     }
@@ -428,7 +428,7 @@ function M0chaTweaksTab() {
     SettingsToggle,
     {
       label: "Revert Profiles",
-      description: "Reverts user profiles to the classic layout (incompatible with Inline Custom Status)",
+      description: "Reverts user profiles to the classic layout (incompatible with Profile Status Matching)",
       value: settings.RevertProfiles,
       onChange: () => handleToggle("RevertProfiles")
     }
@@ -484,7 +484,7 @@ function M0chaTweaksTab() {
     SettingsToggle,
     {
       label: "Clippy Status",
-      description: "Turns status in new profiles into Clippy-style speech bubble",
+      description: "Turns status in new profiles into Clippy-style speech bubble (incompatible with Profile Status Matching/Revert Profiles)",
       value: settings.ClippyStatus,
       onChange: () => handleToggle("ClippyStatus")
     }
@@ -565,7 +565,7 @@ class Essentials {
       id: "808802000224518264"
     }],
     description: "Minor tweaks that make discord better!",
-    version: "2.0.0",
+    version: "2.0.1",
     patches: [],
     preferences: [
       {
