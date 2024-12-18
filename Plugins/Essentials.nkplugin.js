@@ -31,6 +31,7 @@ function M0chaTweaksTab() {
     AccountSettingsRefresh: false,
     RemoveSettingsAds: false,
     EfficientSettings: false,
+    DisableSuperReactionAd: false,
     // Interface Tweaks
     HidePlayAgain: false,
     FullServerTooltips: false,
@@ -49,6 +50,8 @@ function M0chaTweaksTab() {
     MinimalAuthorisedApps: false,
     SlideoverServers: false,
     UsernameSymbol: false,
+    CollapsibleChatButtons: false,
+    FixMosaicZoom: false,
     // Chat Features
     CustomChatPlaceholder: false,
     CustomChatPlaceholderAlt: false,
@@ -65,14 +68,15 @@ function M0chaTweaksTab() {
     RevertProfiles: false,
     CoolCodeBlocks: false,
     UnsimplifyBios: false,
+    ChannelHover: false,
+    ButtonHover: false,
+    Discolored: false,
     // Fun & Experimental
     DiscordHardcore: false,
     GayFolders: false,
     GradientDMs: false,
     BouncyWebm: false,
     ClippyStatus: false,
-    SlideoverServers: false,
-    UsernameSymbol: false,
     EeveeOneko: false
   });
   React.useEffect(() => {
@@ -199,6 +203,14 @@ function M0chaTweaksTab() {
       description: "Shortens the right-click settings menu by hiding options that just open the full settings menu",
       value: settings.EfficientSettings,
       onChange: () => handleToggle("EfficientSettings")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Disable Super Reaction Ad",
+      description: "Prevents the Super Reaction popup from appearing when clicking reactions",
+      value: settings.DisableSuperReactionAd,
+      onChange: () => handleToggle("DisableSuperReactionAd")
     }
   )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Interface Tweaks"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
     SettingsToggle,
@@ -336,6 +348,22 @@ function M0chaTweaksTab() {
       value: settings.SlideoverServers,
       onChange: () => handleToggle("SlideoverServers")
     }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Collapsible Chat Buttons",
+      description: "Collapses chat bar buttons to save space when writing long messages",
+      value: settings.CollapsibleChatButtons,
+      onChange: () => handleToggle("CollapsibleChatButtons")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Fix Mosaic Zoom",
+      description: "Prevents image previews from being zoomed in",
+      value: settings.FixMosaicZoom,
+      onChange: () => handleToggle("FixMosaicZoom")
+    }
   )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Chat Features"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
@@ -385,6 +413,14 @@ function M0chaTweaksTab() {
       onChange: () => handleToggle("IRCTheme")
     }
   )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Visual Enhancements"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Discolored",
+      description: "Colors all of Discord's SVG icons",
+      value: settings.Discolored,
+      onChange: () => handleToggle("Discolored")
+    }
+  ), /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Pastel Statuses",
@@ -447,6 +483,22 @@ function M0chaTweaksTab() {
       description: "Shows full bios in simplified profiles",
       value: settings.UnsimplifyBios,
       onChange: () => handleToggle("UnsimplifyBios")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Channel Hover Effects",
+      description: "Adds smooth sliding animations when hovering over channels, DMs, and settings",
+      value: settings.ChannelHover,
+      onChange: () => handleToggle("ChannelHover")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Button Hover Effects",
+      description: "Adds rotation animations to various buttons when hovered",
+      value: settings.ButtonHover,
+      onChange: () => handleToggle("ButtonHover")
     }
   )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Fun & Experimental"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
     SettingsToggle,
@@ -545,6 +597,65 @@ function M0chaTweaksTab() {
 }
         `));
 }
+function QuickCSSTab() {
+  const [css, setCss] = React.useState("");
+  React.useEffect(() => {
+    const savedCss = NekocordNative.preferences.getForPlugin(
+      "cat.kitties.arcane.Essentials",
+      "quickcss"
+    );
+    if (savedCss) {
+      setCss(savedCss);
+      const styleElement = document.getElementById("essentials-quickcss");
+      if (styleElement) {
+        styleElement.textContent = savedCss;
+      } else {
+        const newStyle = document.createElement("style");
+        newStyle.id = "essentials-quickcss";
+        newStyle.textContent = savedCss;
+        document.head.appendChild(newStyle);
+      }
+    }
+  }, []);
+  const handleCssChange = (event) => {
+    const newCss = event.target.value;
+    setCss(newCss);
+    NekocordNative.preferences.setForPlugin(
+      "cat.kitties.arcane.Essentials",
+      "quickcss",
+      newCss
+    );
+    const styleElement = document.getElementById("essentials-quickcss");
+    if (styleElement) {
+      styleElement.textContent = newCss;
+    } else {
+      const newStyle = document.createElement("style");
+      newStyle.id = "essentials-quickcss";
+      newStyle.textContent = newCss;
+      document.head.appendChild(newStyle);
+    }
+  };
+  return /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", { className: "defaultColor_a595eb text-md/normal_dc00ef" }, "QuickCSS"), /* @__PURE__ */ React.createElement("div", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-8" }, /* @__PURE__ */ React.createElement("p", null, "Add custom CSS snippets here.")), /* @__PURE__ */ React.createElement(
+    "textarea",
+    {
+      value: css,
+      onChange: handleCssChange,
+      className: "input_d266e7",
+      style: {
+        width: "100%",
+        height: "400px",
+        backgroundColor: "var(--background-secondary)",
+        color: "var(--text-normal)",
+        padding: "8px",
+        borderRadius: "4px",
+        fontFamily: "monospace",
+        resize: "vertical"
+      },
+      spellCheck: "false",
+      placeholder: "/* Add your custom CSS here */"
+    }
+  ));
+}
 class Essentials {
   constructor(userPreferences) {
     this.userPreferences = userPreferences;
@@ -565,7 +676,7 @@ class Essentials {
       id: "808802000224518264"
     }],
     description: "Minor tweaks that make discord better!",
-    version: "2.0.1",
+    version: "2.1.0",
     patches: [],
     preferences: [
       {
@@ -1127,6 +1238,87 @@ class Essentials {
       div[id*=oneko] {
         background-image: url(https://github.com/LuSaffi/VenCordstuff/blob/main/Images/eevee.png?raw=true) !important;
       }
+    `,
+    CollapsibleChatButtons: `
+      .buttons_ce5b56 {
+        margin: 6px 6px 6px auto !important;
+        margin-left: auto;
+        max-width: calc(40px * 7); /* 7 columns when expanded: emoji, gif, sticker, gift, upload, soundboard, apps */
+        min-width: calc(40px * 2); /* 2 columns when collapsed */
+        width: min-content;
+        display: flex;
+        gap: 6px 0;
+        flex-wrap: wrap-reverse;
+        flex-grow: 1;
+        height: fit-content;
+        justify-content: right;
+      }
+      .buttons_ce5b56 .buttonContainer__8b164,
+      .buttons_ce5b56 > .button_afdfd9 {
+        width: 40px;
+      }
+      .separator__8424b {
+        margin: 0;
+        justify-content: center;
+        width: 40px;
+      }
+      .separator__8424b::before {
+        display: none;
+      }
+      .separator__8424b .innerButton_debeee {
+        margin: 0;
+      }
+      .textArea__74543 {
+        width: fit-content;
+        flex-grow: 1.01;
+      }
+    `,
+    FixMosaicZoom: `
+      [class^="imageWrapper_"] img[class^="lazyImg"] {
+        object-fit: contain !important;
+      }
+    `,
+    DisableSuperReactionAd: `
+      .reaction_fef95b[style*="background"] {
+        pointer-events: none;
+      }
+    `,
+    ChannelHover: `
+      .wrapper__7bcde .link__95dc0 /* channels */,
+      .container__4f20e /* members */,
+      .channel_c21703 /* dms */,
+      .side_b4b3f6 .item__48dda /* settings */ {
+        transition: margin-left 0.2s ease;
+      }
+      .wrapper__7bcde:hover .link__95dc0,
+      .side_b4b3f6 .item__48dda:hover {
+        margin-left: 10px;
+      }
+      .container__4f20e:hover,
+      .channel_c21703:hover {
+        margin-left: 18px;
+      }
+    `,
+    ButtonHover: `
+      button.button__4f306 /* make user panel buttons round */ {
+        border-radius: 50%;
+      }
+      .button__4f306:last-child /* settings button */, 
+      .attachButton_b1db83 .attachButtonInner__3ce2b /* upload button */,
+      .emojiButton__30ec7 .contents_fb6220 /* emoji button */,
+      .closeButton__34341 /* settings exit button */ {
+        transition: transform 1s ease;
+      }
+      .button__4f306:last-child:hover,
+      .attachButton_b1db83:hover .attachButtonInner__3ce2b,
+      .emojiButton__30ec7:hover .contents_fb6220,
+      .closeButton__34341:hover {
+        transform: rotate(360deg);
+      }
+    `,
+    Discolored: `
+      @import "https://nyri4.github.io/Discolored/main.css";
+      @import url("https://nyri4.github.io/donators/donators.css");
     `
   };
   tryToEnableTweaks() {
@@ -1134,8 +1326,19 @@ class Essentials {
       "cat.kitties.arcane.Essentials",
       "settings"
     );
+    const savedQuickCss = NekocordNative.preferences.getForPlugin(
+      "cat.kitties.arcane.Essentials",
+      "quickcss"
+    );
     const existingStyles = document.querySelectorAll('style[id^="essentials-"]');
     existingStyles.forEach((style) => style.remove());
+    if (savedQuickCss) {
+      if (document.readyState === "complete") {
+        this.applyCss(savedQuickCss, "essentials-quickcss");
+      } else {
+        window.addEventListener("load", () => this.applyCss(savedQuickCss, "essentials-quickcss"));
+      }
+    }
     if (savedPrefs) {
       Object.entries(savedPrefs).forEach(([key, value]) => {
         if (value === true && this.cssThemes[key]) {
@@ -1165,16 +1368,23 @@ class Essentials {
       header: "Essentials",
       divider: true,
       settings: [
-        "essentials"
+        "mochatweaks",
+        "quickcss"
       ]
     }
   ];
   settingsTabs = {
-    "essentials": {
+    "mochatweaks": {
       section: "M0chaTweaks",
-      searchableTitles: ["Essentials", "Tweaks", "Essentials"],
+      searchableTitles: ["Essentials", "Tweaks", "M0chaTweaks"],
       label: "M0chaTweaks",
       element: M0chaTweaksTab
+    },
+    "quickcss": {
+      section: "QuickCSS",
+      searchableTitles: ["Essentials", "CSS", "QuickCSS"],
+      label: "QuickCSS",
+      element: QuickCSSTab
     }
   };
 }
