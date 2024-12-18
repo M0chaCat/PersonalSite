@@ -45,6 +45,37 @@
         },
         {
             "type": "plugin",
+            "name": "NyanCat",
+            "id": "cat.kitties.arcane.nyancat",
+            "version": "1.0.0",
+            "short_description": "NyanCat!!",
+            "description": "NyanCat!!",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/nyancat.nkplugin.js",
+            "categories": [
+                "CUSTOMIZATION",
+                "FUN"
+            ],
+            "tags": [
+                "nyan",
+                "cat"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
+                },
+                {
+                    "name": "Mocha's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Re!ShowHiddenChannels",
             "id": "cat.kitties.arcane.ShowHiddenChannels",
             "version": "1.0.0",
