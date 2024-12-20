@@ -32,6 +32,8 @@ function M0chaTweaksTab() {
     RemoveSettingsAds: false,
     EfficientSettings: false,
     DisableSuperReactionAd: false,
+    HidePinDiscovery: false,
+    DualLineChatbox: false,
     // Interface Tweaks
     HidePlayAgain: false,
     FullServerTooltips: false,
@@ -52,6 +54,12 @@ function M0chaTweaksTab() {
     UsernameSymbol: false,
     CollapsibleChatButtons: false,
     FixMosaicZoom: false,
+    RevertGifFavorite: false,
+    RightServerList: false,
+    RightChannelList: false,
+    LeftMemberList: false,
+    AccountDetailsGrid: false,
+    ChannelServers: false,
     // Chat Features
     CustomChatPlaceholder: false,
     CustomChatPlaceholderAlt: false,
@@ -77,7 +85,28 @@ function M0chaTweaksTab() {
     GradientDMs: false,
     BouncyWebm: false,
     ClippyStatus: false,
-    EeveeOneko: false
+    //Oneko Skins
+    EeveeOneko: false,
+    CalicoOneko: false,
+    FoxOneko: false,
+    GhostOneko: false,
+    GreyOneko: false,
+    KinaOneko: false,
+    LucyOneko: false,
+    MaiaOneko: false,
+    MariaOneko: false,
+    MikeOneko: false,
+    SilverOneko: false,
+    SilverskyOneko: false,
+    SnuupyOneko: false,
+    SpiritOneko: false,
+    ToraOneko: false,
+    ValentineOneko: false,
+    AceOneko: false,
+    MonoOneko: false,
+    BunnyOneko: false,
+    EsmeraldaOneko: false,
+    JessOneko: false
   });
   React.useEffect(() => {
     const savedPrefs = NekocordNative.preferences.getForPlugin(
@@ -115,14 +144,6 @@ function M0chaTweaksTab() {
       description: "Enhanced forum layout and functionality",
       value: settings.ForumImprovements,
       onChange: () => handleToggle("ForumImprovements")
-    }
-  ), /* @__PURE__ */ React.createElement(
-    SettingsToggle,
-    {
-      label: "Appearance Tab Improvements",
-      description: "Better organized appearance settings",
-      value: settings.AppearanceTabImprovements,
-      onChange: () => handleToggle("AppearanceTabImprovements")
     }
   ), /* @__PURE__ */ React.createElement(
     SettingsToggle,
@@ -183,14 +204,6 @@ function M0chaTweaksTab() {
   ), /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
-      label: "Account Settings Refresh",
-      description: "A fresh take on the Account Settings area",
-      value: settings.AccountSettingsRefresh,
-      onChange: () => handleToggle("AccountSettingsRefresh")
-    }
-  ), /* @__PURE__ */ React.createElement(
-    SettingsToggle,
-    {
       label: "Remove Settings Ads",
       description: "Removes Nitro and Boost tabs from settings",
       value: settings.RemoveSettingsAds,
@@ -212,7 +225,39 @@ function M0chaTweaksTab() {
       value: settings.DisableSuperReactionAd,
       onChange: () => handleToggle("DisableSuperReactionAd")
     }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Hide Pinned Discovery",
+      description: "Hides the new pinned Discovery Icon",
+      value: settings.HidePinDiscovery,
+      onChange: () => handleToggle("HidePinDiscovery")
+    }
   )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Interface Tweaks"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Account Settings Refresh",
+      description: "A fresh take on the Account Settings area",
+      value: settings.AccountSettingsRefresh,
+      onChange: () => handleToggle("AccountSettingsRefresh")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Appearance Tab Improvements",
+      description: "Better organized appearance settings",
+      value: settings.AppearanceTabImprovements,
+      onChange: () => handleToggle("AppearanceTabImprovements")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Account Details Grid",
+      description: "Reorganizes the account details panel into a grid layout",
+      value: settings.AccountDetailsGrid,
+      onChange: () => handleToggle("AccountDetailsGrid")
+    }
+  ), /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Hide Play Again",
@@ -363,6 +408,54 @@ function M0chaTweaksTab() {
       description: "Prevents image previews from being zoomed in",
       value: settings.FixMosaicZoom,
       onChange: () => handleToggle("FixMosaicZoom")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Revert GIF Favorite Button Background",
+      description: "Removes the colored background from GIF favorite buttons",
+      value: settings.RevertGifFavorite,
+      onChange: () => handleToggle("RevertGifFavorite")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Right Server List",
+      description: "Moves the server list to the right side",
+      value: settings.RightServerList,
+      onChange: () => handleToggle("RightServerList")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Right Channel List",
+      description: "Moves the channel list to the right side (may have issues with forums)",
+      value: settings.RightChannelList,
+      onChange: () => handleToggle("RightChannelList")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Left Member List",
+      description: "Moves the member list to the left side",
+      value: settings.LeftMemberList,
+      onChange: () => handleToggle("LeftMemberList")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Channel-Style Servers",
+      description: "Makes the server list look more like the channel list",
+      value: settings.ChannelServers,
+      onChange: () => handleToggle("ChannelServers")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Dual-Line Chatbox",
+      description: "Splits the chatbox into two rows, with buttons on bottom row",
+      value: settings.DualLineChatbox,
+      onChange: () => handleToggle("DualLineChatbox")
     }
   )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Chat Features"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
     SettingsToggle,
@@ -540,13 +633,173 @@ function M0chaTweaksTab() {
       value: settings.ClippyStatus,
       onChange: () => handleToggle("ClippyStatus")
     }
-  ), /* @__PURE__ */ React.createElement(
+  )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Oneko Skins"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Eevee Oneko",
       description: "Replaces the Oneko cat with an Eevee",
       value: settings.EeveeOneko,
       onChange: () => handleToggle("EeveeOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Calico Oneko",
+      description: "Replaces the Oneko cat with a Calico cat",
+      value: settings.CalicoOneko,
+      onChange: () => handleToggle("CalicoOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Fox Oneko",
+      description: "Replaces the Oneko cat with a Fox",
+      value: settings.FoxOneko,
+      onChange: () => handleToggle("FoxOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Ghost Oneko",
+      description: "Replaces the Oneko cat with a Ghost cat",
+      value: settings.GhostOneko,
+      onChange: () => handleToggle("GhostOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Grey Oneko",
+      description: "Replaces the Oneko cat with a Grey cat",
+      value: settings.GreyOneko,
+      onChange: () => handleToggle("GreyOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Kina Oneko",
+      description: "Replaces the Oneko cat with Kina",
+      value: settings.KinaOneko,
+      onChange: () => handleToggle("KinaOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Lucy Oneko",
+      description: "Replaces the Oneko cat with Lucy",
+      value: settings.LucyOneko,
+      onChange: () => handleToggle("LucyOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Maia Oneko",
+      description: "Replaces the Oneko cat with Maia",
+      value: settings.MaiaOneko,
+      onChange: () => handleToggle("MaiaOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Maria Oneko",
+      description: "Replaces the Oneko cat with Maria",
+      value: settings.MariaOneko,
+      onChange: () => handleToggle("MariaOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Mike Oneko",
+      description: "Replaces the Oneko cat with Mike",
+      value: settings.MikeOneko,
+      onChange: () => handleToggle("MikeOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Silver Oneko",
+      description: "Replaces the Oneko cat with Silver",
+      value: settings.SilverOneko,
+      onChange: () => handleToggle("SilverOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Silversky Oneko",
+      description: "Replaces the Oneko cat with Silversky",
+      value: settings.SilverskyOneko,
+      onChange: () => handleToggle("SilverskyOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Snuupy Oneko",
+      description: "Replaces the Oneko cat with Snuupy",
+      value: settings.SnuupyOneko,
+      onChange: () => handleToggle("SnuupyOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Spirit Oneko",
+      description: "Replaces the Oneko cat with Spirit",
+      value: settings.SpiritOneko,
+      onChange: () => handleToggle("SpiritOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Tora Oneko",
+      description: "Replaces the Oneko cat with Tora",
+      value: settings.ToraOneko,
+      onChange: () => handleToggle("ToraOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Valentine Oneko",
+      description: "Replaces the Oneko cat with Valentine",
+      value: settings.ValentineOneko,
+      onChange: () => handleToggle("ValentineOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Ace Oneko",
+      description: "Replaces the Oneko cat with Ace",
+      value: settings.AceOneko,
+      onChange: () => handleToggle("AceOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Mono Oneko",
+      description: "Replaces the Oneko cat with Mono",
+      value: settings.MonoOneko,
+      onChange: () => handleToggle("MonoOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Bunny Oneko",
+      description: "Replaces the Oneko cat with Bunny",
+      value: settings.BunnyOneko,
+      onChange: () => handleToggle("BunnyOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Esmeralda Oneko",
+      description: "Replaces the Oneko cat with Esmeralda",
+      value: settings.EsmeraldaOneko,
+      onChange: () => handleToggle("EsmeraldaOneko")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Jess Oneko",
+      description: "Replaces the Oneko cat with Jess",
+      value: settings.JessOneko,
+      onChange: () => handleToggle("JessOneko")
     }
   )), /* @__PURE__ */ React.createElement("style", null, `
 .container_c669ee {
@@ -1239,6 +1492,76 @@ class Essentials {
         background-image: url(https://github.com/LuSaffi/VenCordstuff/blob/main/Images/eevee.png?raw=true) !important;
       }
     `,
+    CalicoOneko: `
+      div[id*=oneko] {
+        background-image: url(https://raw.githubusercontent.com/coolesding/onekocord/refs/heads/main/skins/calico.png) !important;
+      }
+    `,
+    FoxOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/fox.png?raw=true) !important;
+      }
+    `,
+    GhostOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/ghost.png?raw=true) !important;
+      }
+    `,
+    GreyOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/gray.png?raw=true) !important;
+      }
+    `,
+    KinaOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/kina.png?raw=true) !important;
+      }
+    `,
+    LucyOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/lucy.png?raw=true) !important;
+      }
+    `,
+    MaiaOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/maia.png?raw=true) !important;
+      }
+    `,
+    MariaOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/maria.png?raw=true) !important;
+      }
+    `,
+    MikeOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/mike.png?raw=true) !important;
+      }
+    `,
+    SilverOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/silver.png?raw=true) !important;
+      }
+    `,
+    SilverskyOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/silversky.png?raw=true) !important;
+      }
+    `,
+    SnuupyOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/snuupy.png?raw=true) !important;
+      }
+    `,
+    SpiritOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/spirit.png?raw=true) !important;
+      }
+    `,
+    ToraOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/tora.png?raw=true) !important;
+      }
+    `,
     CollapsibleChatButtons: `
       .buttons_ce5b56 {
         margin: 6px 6px 6px auto !important;
@@ -1319,6 +1642,112 @@ class Essentials {
     Discolored: `
       @import "https://nyri4.github.io/Discolored/main.css";
       @import url("https://nyri4.github.io/donators/donators.css");
+    `,
+    RevertGifFavorite: `
+      [class*='gifFavoriteButton_'] {
+        background-color: transparent;
+      }
+    `,
+    RightServerList: `
+      [class*="wrapper_"][class*="guilds_"] { /*Server bar*/
+        order: 1;
+      }
+
+      [class^="listItem_"] [class*="pill_"][class*="wrapper_"] { /*Server unread mention*/
+        left: initial;
+        right: 0;
+      }
+      
+      [class^="listItem_"] [class*="pill_"][class*="wrapper_"] [class^="item_"] {
+        border-radius: 4px 0 0 4px;
+        margin-left: 4px;
+      }
+    `,
+    RightChannelList: `
+      [class^="sidebar_"] { /*Channel bar*/
+        order: 1;
+      }
+
+      [class^="base_"] [class^="chatLayerWrapper_"] [class^="container_"] { /*slightly fixes forums when switching channel list*/
+        margin-right: 240px;
+      }
+    `,
+    LeftMemberList: `
+      [class^="chat_"] [class^="content"]:has([class*="chatContent_"]) { /*Member list*/
+        flex-direction: row-reverse;
+      }
+      
+      [class^="chat_"] [class^="content"]:has([data-list-id*="forum-channel-list"]) { /*channel list*/
+        flex-direction: row-reverse;
+      }
+
+      [class^="base_"] [class^="content_"] div:not([class]) { /*Slightly fixes forums when switching member list*/
+        min-width: 0 !important;
+      }
+    `,
+    AccountDetailsGrid: `
+      @import url(//dablulite.github.io/css-snippets/AccountDetailsGrid/import.css);
+    `,
+    ChannelServers: `
+      @import url(//dablulite.github.io/css-snippets/ServersList/import.css);
+      :root {
+        --guild-list-width: 290px;
+        --guild-list-height: 48px;
+        --guild-item-radius: 50px;
+        --guild-item-spacing: 8px;
+        --guild-item-font-size: 16px;
+      }
+    `,
+    HidePinDiscovery: `
+      @import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/OtherStuff/hideGlobalDiscovery.css");
+    `,
+    DualLineChatbox: `
+      [class^="channelTextArea_"] [class^="inner_"] {
+        flex-direction: column;
+      }
+      
+      [class^="inner_"]:has([class^="attachWrapper_"]) > [class^="buttons_"] {
+        margin-left: 32px;
+      }
+      
+      [class^="attachWrapper_"] {
+        top: calc(100% - 69px);
+        position: fixed;
+      }
+      
+      [class^="inner_"] [class^="separator_"] {
+        margin-left: auto;
+      }
+    `,
+    ValentineOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/valentine.png?raw=true) !important;
+      }
+    `,
+    AceOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/ace.png?raw=true) !important;
+      }
+    `,
+    MonoOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/black.png?raw=true) !important;
+      }
+    `,
+    BunnyOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/bunny.png?raw=true) !important;
+      }
+    `,
+    EsmeraldaOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/esmeralda.png?raw=true) !important;
+      }
+    `,
+    JessOneko: `
+      div[id*=oneko] {
+        background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/jess.png?raw=true) !important;
+      }
     `
   };
   tryToEnableTweaks() {
