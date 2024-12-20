@@ -4,17 +4,263 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 const React = require("react");
-function SettingsToggle({ label, description, value, onChange }) {
-  return /* @__PURE__ */ React.createElement("div", { className: "mt-4 defaultColor_a595eb", style: {
+function PreviewModal({ previewBefore, previewAfter, onClose }) {
+  return /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      className: "preview-modal-backdrop",
+      onClick: onClose,
+      style: {
+        position: "fixed",
+        top: 0,
+        left: 0,
+        right: 0,
+        bottom: 0,
+        backgroundColor: "rgba(0, 0, 0, 0.85)",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        zIndex: 9999,
+        animation: "fadeIn 0.2s ease"
+      }
+    },
+    /* @__PURE__ */ React.createElement(
+      "div",
+      {
+        className: "preview-modal-content",
+        onClick: (e) => e.stopPropagation(),
+        style: {
+          backgroundColor: "var(--background-primary)",
+          borderRadius: "8px",
+          padding: "16px",
+          maxWidth: "90vw",
+          maxHeight: "90vh",
+          display: "flex",
+          flexDirection: "column",
+          gap: "16px",
+          animation: "scaleIn 0.2s ease"
+        }
+      },
+      /* @__PURE__ */ React.createElement("div", { style: {
+        display: "flex",
+        justifyContent: "space-between",
+        alignItems: "center"
+      } }, /* @__PURE__ */ React.createElement("h2", { className: "text-md/normal_dc00ef", style: { color: "var(--header-primary)" } }, "Preview"), /* @__PURE__ */ React.createElement(
+        "button",
+        {
+          onClick: onClose,
+          style: {
+            backgroundColor: "transparent",
+            border: "none",
+            cursor: "pointer",
+            padding: "8px",
+            borderRadius: "4px",
+            color: "var(--interactive-normal)"
+          }
+        },
+        /* @__PURE__ */ React.createElement("svg", { width: "24", height: "24", viewBox: "0 0 24 24" }, /* @__PURE__ */ React.createElement(
+          "path",
+          {
+            fill: "currentColor",
+            d: "M18.4 4L12 10.4L5.6 4L4 5.6L10.4 12L4 18.4L5.6 20L12 13.6L18.4 20L20 18.4L13.6 12L20 5.6L18.4 4Z"
+          }
+        ))
+      )),
+      /* @__PURE__ */ React.createElement("div", { style: {
+        display: "flex",
+        gap: "16px",
+        overflow: "auto",
+        justifyContent: "center"
+      } }, previewBefore && /* @__PURE__ */ React.createElement("div", { style: {
+        flex: "0 1 auto",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center"
+      } }, /* @__PURE__ */ React.createElement("div", { style: { marginBottom: "8px", color: "var(--header-primary)" } }, "Before"), /* @__PURE__ */ React.createElement(
+        "img",
+        {
+          src: previewBefore,
+          alt: "Before preview",
+          style: {
+            maxWidth: "100%",
+            maxHeight: "70vh",
+            objectFit: "contain",
+            borderRadius: "4px",
+            border: "1px solid var(--background-modifier-accent)"
+          }
+        }
+      )), previewAfter && /* @__PURE__ */ React.createElement("div", { style: {
+        flex: "0 1 auto",
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center"
+      } }, /* @__PURE__ */ React.createElement("div", { style: { marginBottom: "8px", color: "var(--header-primary)" } }, "After"), /* @__PURE__ */ React.createElement(
+        "img",
+        {
+          src: previewAfter,
+          alt: "After preview",
+          style: {
+            maxWidth: "100%",
+            maxHeight: "70vh",
+            objectFit: "contain",
+            borderRadius: "4px",
+            border: "1px solid var(--background-modifier-accent)"
+          }
+        }
+      )))
+    )
+  );
+}
+function SettingsToggle({ label, description, value, onChange, previewBefore, previewAfter, helpText, onPreviewClick }) {
+  const [showHelp, setShowHelp] = React.useState(false);
+  const [isAnimating, setIsAnimating] = React.useState(false);
+  const handleToggle = () => {
+    setIsAnimating(true);
+    onChange();
+    setTimeout(() => setIsAnimating(false), 300);
+  };
+  return /* @__PURE__ */ React.createElement("div", { className: `mt-4 defaultColor_a595eb setting-toggle ${isAnimating ? "animating" : ""}`, style: {
     width: "100%",
     padding: "16px",
-    backgroundColor: "var(--background-secondary)",
-    borderRadius: "4px"
+    backgroundColor: "var(--background-secondary-alt)",
+    borderRadius: "8px",
+    transition: "transform 0.2s ease, background-color 0.2s ease",
+    border: "1px solid var(--background-modifier-accent)"
   } }, /* @__PURE__ */ React.createElement("div", { style: {
     display: "flex",
     justifyContent: "space-between",
+    alignItems: "flex-start",
+    marginBottom: previewBefore || previewAfter ? "8px" : "0"
+  } }, /* @__PURE__ */ React.createElement("div", { style: { flex: 1 } }, /* @__PURE__ */ React.createElement("h3", { className: "text-md/normal_dc00ef", style: { marginBottom: "4px" } }, label), /* @__PURE__ */ React.createElement("p", { className: "text-sm/normal_dc00ef", style: { opacity: 0.7 } }, description)), /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      className: "container_c669ee",
+      onClick: handleToggle,
+      style: { cursor: "pointer" }
+    },
+    /* @__PURE__ */ React.createElement("div", { className: `slider_c669ee${value ? " checked_c669ee" : ""}` }, /* @__PURE__ */ React.createElement("div", { className: "handle_c669ee" }, /* @__PURE__ */ React.createElement("svg", { className: "icon_c669ee", "aria-hidden": "true", role: "img", width: "10", height: "10", viewBox: "0 0 24 24" }, /* @__PURE__ */ React.createElement("path", { fill: "currentColor", d: value ? "M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z" : "M5.13231 6.72963L6.7233 5.13864L14.855 13.2704L13.264 14.8614L5.13231 6.72963Z M13.2704 5.13864L14.8614 6.72963L6.72963 14.8614L5.13864 13.2704L13.2704 5.13864Z" }))))
+  )), /* @__PURE__ */ React.createElement("div", { style: {
+    display: "flex",
+    gap: "8px",
+    marginTop: "8px",
     alignItems: "center"
-  } }, /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h3", { className: "text-md/normal_dc00ef" }, label), /* @__PURE__ */ React.createElement("p", { className: "text-sm/normal_dc00ef", style: { opacity: 0.7 } }, description)), /* @__PURE__ */ React.createElement("div", { className: "container_c669ee", onClick: onChange, style: { cursor: "pointer" } }, /* @__PURE__ */ React.createElement("div", { className: `slider_c669ee${value ? " checked_c669ee" : ""}` }, /* @__PURE__ */ React.createElement("div", { className: "handle_c669ee" }, /* @__PURE__ */ React.createElement("svg", { className: "icon_c669ee", "aria-hidden": "true", role: "img", width: "10", height: "10", viewBox: "0 0 24 24" }, /* @__PURE__ */ React.createElement("path", { fill: "currentColor", d: value ? "M8.99991 16.17L4.82991 12L3.40991 13.41L8.99991 19L20.9999 7.00003L19.5899 5.59003L8.99991 16.17Z" : "M5.13231 6.72963L6.7233 5.13864L14.855 13.2704L13.264 14.8614L5.13231 6.72963Z M13.2704 5.13864L14.8614 6.72963L6.72963 14.8614L5.13864 13.2704L13.2704 5.13864Z" })))))));
+  } }, helpText && /* @__PURE__ */ React.createElement(
+    "div",
+    {
+      className: "help-icon",
+      onClick: () => setShowHelp(!showHelp),
+      style: {
+        cursor: "pointer",
+        width: "16px",
+        height: "16px",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        borderRadius: "50%",
+        backgroundColor: "var(--background-tertiary)",
+        color: "var(--text-muted)",
+        fontSize: "12px",
+        fontWeight: "bold"
+      }
+    },
+    "?"
+  ), (previewBefore || previewAfter) && /* @__PURE__ */ React.createElement(
+    "button",
+    {
+      onClick: () => onPreviewClick(previewBefore, previewAfter),
+      style: {
+        backgroundColor: "transparent",
+        border: "none",
+        borderRadius: "4px",
+        padding: "4px 8px",
+        cursor: "pointer",
+        display: "flex",
+        alignItems: "center",
+        gap: "4px",
+        color: "var(--interactive-normal)",
+        fontSize: "12px",
+        marginTop: "8px"
+      }
+    },
+    /* @__PURE__ */ React.createElement("svg", { width: "16", height: "16", viewBox: "0 0 24 24" }, /* @__PURE__ */ React.createElement(
+      "path",
+      {
+        fill: "currentColor",
+        d: "M12 4.5C7 4.5 2.73 7.61 1 12c1.73 4.39 6 7.5 11 7.5s9.27-3.11 11-7.5c-1.73-4.39-6-7.5-11-7.5zM12 17c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5zm0-8c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"
+      }
+    )),
+    "Preview"
+  )), showHelp && helpText && /* @__PURE__ */ React.createElement("div", { className: "help-tooltip", style: {
+    backgroundColor: "var(--background-floating)",
+    padding: "12px",
+    borderRadius: "4px",
+    marginTop: "8px",
+    color: "var(--text-normal)",
+    fontSize: "14px",
+    lineHeight: "1.4",
+    boxShadow: "0 2px 10px rgba(0,0,0,0.2)",
+    border: "1px solid var(--background-modifier-accent)"
+  } }, helpText));
+}
+function SearchBar({ onSearch }) {
+  return /* @__PURE__ */ React.createElement("div", { className: "search-container mb-4", style: {
+    position: "relative",
+    width: "100%"
+    // Changed from max-width: 600px to width: 100%
+  } }, /* @__PURE__ */ React.createElement(
+    "input",
+    {
+      type: "text",
+      placeholder: "Search settings...",
+      onChange: (e) => onSearch(e.target.value),
+      className: "search-input",
+      style: {
+        width: "100%",
+        padding: "10px 36px",
+        backgroundColor: "var(--background-secondary)",
+        border: "1px solid var(--background-modifier-accent)",
+        borderRadius: "8px",
+        color: "var(--text-normal)",
+        fontSize: "14px"
+      }
+    }
+  ), /* @__PURE__ */ React.createElement(
+    "svg",
+    {
+      width: "16",
+      height: "16",
+      viewBox: "0 0 24 24",
+      style: {
+        position: "absolute",
+        left: "12px",
+        top: "50%",
+        transform: "translateY(-50%)",
+        color: "var(--text-muted)"
+      }
+    },
+    /* @__PURE__ */ React.createElement(
+      "path",
+      {
+        fill: "currentColor",
+        d: "M21.707 20.293L16.314 14.9C17.403 13.504 18 11.799 18 10C18 5.589 14.411 2 10 2C5.589 2 2 5.589 2 10C2 14.411 5.589 18 10 18C11.799 18 13.504 17.403 14.9 16.314L20.293 21.707L21.707 20.293ZM10 16C6.691 16 4 13.309 4 10C4 6.691 6.691 4 10 4C13.309 4 16 6.691 16 10C16 13.309 13.309 16 10 16Z"
+      }
+    )
+  ));
+}
+function SectionHeader({ title }) {
+  return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-6", style: {
+    fontSize: "20px",
+    fontWeight: "600",
+    color: "var(--header-primary)",
+    position: "relative",
+    paddingBottom: "8px"
+  } }, title), /* @__PURE__ */ React.createElement("div", { className: "divider mb-12", style: {
+    height: "2px",
+    background: "linear-gradient(90deg, var(--header-primary) 0%, transparent 100%)",
+    opacity: 0.3,
+    borderRadius: "1px",
+    marginBottom: "24px"
+  } }));
 }
 function M0chaTweaksTab() {
   const [settings, setSettings] = React.useState({
@@ -106,8 +352,21 @@ function M0chaTweaksTab() {
     MonoOneko: false,
     BunnyOneko: false,
     EsmeraldaOneko: false,
-    JessOneko: false
+    JessOneko: false,
+    // Add new view preference
+    GridView: false
   });
+  const [searchTerm, setSearchTerm] = React.useState("");
+  const [previewModalState, setPreviewModalState] = React.useState({
+    isOpen: false,
+    before: null,
+    after: null
+  });
+  const filterSettings = (label, description) => {
+    if (!searchTerm) return true;
+    const search = searchTerm.toLowerCase();
+    return label.toLowerCase().includes(search) || description.toString().toLowerCase().includes(search);
+  };
   React.useEffect(() => {
     const savedPrefs = NekocordNative.preferences.getForPlugin(
       "cat.kitties.arcane.Essentials",
@@ -137,15 +396,164 @@ function M0chaTweaksTab() {
       return newSettings;
     });
   };
-  return /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", { className: "defaultColor_a595eb text-md/normal_dc00ef" }, "M0chaTweaks Settings"), /* @__PURE__ */ React.createElement("div", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-8" }, /* @__PURE__ */ React.createElement("p", null, "Welcome to the M0chaTweaks page!")), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Core UI Improvements"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+  const getEnabledCounts = () => {
+    const counts = {
+      total: 0,
+      coreUI: 0,
+      interface: 0,
+      chat: 0,
+      visual: 0,
+      fun: 0
+    };
+    const coreUISettings = [
+      "ForumImprovements",
+      "AppearanceTabImprovements",
+      "HideNoPermissionChat",
+      "CollapsibleMessageActions",
+      "CollapsibleMessageActionsAlt",
+      "BetterMessageButtons",
+      "BetterMessageButtonsAlt",
+      "MoveForwardButton",
+      "RemoveForwardButton",
+      "AccountSettingsRefresh",
+      "RemoveSettingsAds",
+      "EfficientSettings",
+      "DisableSuperReactionAd",
+      "HidePinDiscovery",
+      "DualLineChatbox"
+    ];
+    const interfaceSettings = [
+      "HidePlayAgain",
+      "FullServerTooltips",
+      "CenteredChannelNames",
+      "BetterPickers",
+      "HideActivity",
+      "VisibleServerBanner",
+      "ColoredMessagePills",
+      "ModernAudio",
+      "RevealDarkUsernames",
+      "RepositionAppLauncher",
+      "RemoveAppLauncher",
+      "LeftFavButton",
+      "MinimalSearchbar",
+      "MessageBarGreyEmoji",
+      "MinimalAuthorisedApps",
+      "SlideoverServers",
+      "UsernameSymbol",
+      "CollapsibleChatButtons",
+      "FixMosaicZoom",
+      "RevertGifFavorite",
+      "RightServerList",
+      "RightChannelList",
+      "LeftMemberList",
+      "AccountDetailsGrid",
+      "ChannelServers"
+    ];
+    const chatSettings = [
+      "CustomChatPlaceholder",
+      "CustomChatPlaceholderAlt",
+      "HideTimestamps",
+      "ScrollingText",
+      "BiggerSummaries",
+      "IRCTheme"
+    ];
+    const visualSettings = [
+      "PastelStatuses",
+      "LargeEmojis",
+      "ReactionAnimations",
+      "CustomNewMemberBadge",
+      "ProfileThemeMatching",
+      "RevertProfiles",
+      "CoolCodeBlocks",
+      "UnsimplifyBios",
+      "ChannelHover",
+      "ButtonHover",
+      "Discolored"
+    ];
+    const funSettings = [
+      "DiscordHardcore",
+      "GayFolders",
+      "GradientDMs",
+      "BouncyWebm",
+      "ClippyStatus"
+    ];
+    Object.entries(settings).forEach(([key, value]) => {
+      if (key.endsWith("Oneko")) return;
+      if (value) {
+        counts.total++;
+        if (coreUISettings.includes(key)) counts.coreUI++;
+        if (interfaceSettings.includes(key)) counts.interface++;
+        if (chatSettings.includes(key)) counts.chat++;
+        if (visualSettings.includes(key)) counts.visual++;
+        if (funSettings.includes(key)) counts.fun++;
+      }
+    });
+    return counts;
+  };
+  const enabledCounts = getEnabledCounts();
+  const [showStats, setShowStats] = React.useState(true);
+  const handlePreviewClick = (before, after) => {
+    setPreviewModalState({
+      isOpen: true,
+      before,
+      after
+    });
+  };
+  function SectionHeader2({ title }) {
+    return /* @__PURE__ */ React.createElement(React.Fragment, null, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-6", style: {
+      fontSize: "20px",
+      fontWeight: "600",
+      color: "var(--header-primary)",
+      position: "relative",
+      paddingBottom: "8px"
+    } }, title), /* @__PURE__ */ React.createElement("div", { className: "divider mb-12", style: {
+      height: "2px",
+      background: "linear-gradient(90deg, var(--header-primary) 0%, transparent 100%)",
+      opacity: 0.3,
+      borderRadius: "1px",
+      marginBottom: "24px"
+    } }));
+  }
+  return /* @__PURE__ */ React.createElement("div", null, /* @__PURE__ */ React.createElement("h1", { className: "defaultColor_a595eb text-md/normal_dc00ef" }, "M0chaTweaks Settings"), /* @__PURE__ */ React.createElement("div", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-8" }, /* @__PURE__ */ React.createElement("p", null, "Welcome to the M0chaTweaks page!"), /* @__PURE__ */ React.createElement(SearchBar, { onSearch: setSearchTerm }), /* @__PURE__ */ React.createElement("div", { className: "view-controls mt-4", style: {
+    display: "flex",
+    gap: "16px"
+  } }, /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Grid View",
+      description: "Toggle between grid and list view",
+      value: settings.GridView,
+      onChange: () => handleToggle("GridView")
+    }
+  ), /* @__PURE__ */ React.createElement(
+    SettingsToggle,
+    {
+      label: "Show Statistics",
+      description: "Toggle statistics visibility",
+      value: showStats,
+      onChange: () => setShowStats(!showStats)
+    }
+  )), showStats && /* @__PURE__ */ React.createElement("div", { className: "stats-container mt-4 mb-4", style: {
+    backgroundColor: "var(--background-secondary)",
+    padding: "16px",
+    borderRadius: "8px",
+    border: "1px solid var(--background-modifier-accent)"
+  } }, /* @__PURE__ */ React.createElement("h3", { style: { marginBottom: "8px" } }, "Enabled Settings"), /* @__PURE__ */ React.createElement("div", { style: {
+    display: "grid",
+    gridTemplateColumns: "repeat(auto-fit, minmax(150px, 1fr))",
+    gap: "8px"
+  } }, /* @__PURE__ */ React.createElement("div", null, "Total: ", enabledCounts.total), /* @__PURE__ */ React.createElement("div", null, "Core UI: ", enabledCounts.coreUI), /* @__PURE__ */ React.createElement("div", null, "Interface: ", enabledCounts.interface), /* @__PURE__ */ React.createElement("div", null, "Chat: ", enabledCounts.chat), /* @__PURE__ */ React.createElement("div", null, "Visual: ", enabledCounts.visual), /* @__PURE__ */ React.createElement("div", null, "Fun: ", enabledCounts.fun)))), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-16" }, /* @__PURE__ */ React.createElement(SectionHeader2, { title: "Core UI Improvements" }), /* @__PURE__ */ React.createElement("div", { className: `${settings.GridView ? "settings-grid" : ""} mt-8` }, "  ", filterSettings("Forum Improvements", "Enhanced forum layout and functionality") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Forum Improvements",
       description: "Enhanced forum layout and functionality",
       value: settings.ForumImprovements,
-      onChange: () => handleToggle("ForumImprovements")
+      onChange: () => handleToggle("ForumImprovements"),
+      helpText: "This improves the layout and functionality of the forum:\n              \u2022 Improved spacing\n              \u2022 Enhanced navigation\n              \u2022 Better organization",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/forumimprovements-beforeafter.png",
+      onPreviewClick: handlePreviewClick
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Hide No Permission Chat", "Hides chat input when you don't have permission to send messages") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Hide No Permission Chat",
@@ -153,311 +561,366 @@ function M0chaTweaksTab() {
       value: settings.HideNoPermissionChat,
       onChange: () => handleToggle("HideNoPermissionChat")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Collapsible Message Actions", "Hides message actions until message is hovered") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Collapsible Message Actions",
       description: "Hides message actions until message is hovered",
       value: settings.CollapsibleMessageActions,
-      onChange: () => handleToggle("CollapsibleMessageActions")
+      onChange: () => handleToggle("CollapsibleMessageActions"),
+      helpText: "This hides message actions until you hover over a message, Hides actions like reactions and replies"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Collapsible Message Actions (Shift)", "Hides message actions until message is hovered or shift is held") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Collapsible Message Actions (Shift)",
       description: "Hides message actions until message is hovered or shift is held",
       value: settings.CollapsibleMessageActionsAlt,
-      onChange: () => handleToggle("CollapsibleMessageActionsAlt")
+      onChange: () => handleToggle("CollapsibleMessageActionsAlt"),
+      helpText: "This hides message actions until you hover over a message or hold shift, Hides actions like reactions and replies"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Better Message Buttons", "Organizes message buttons in a grid with Reply and Edit separated") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Better Message Buttons",
       description: "Organizes message buttons in a grid with Reply and Edit separated",
       value: settings.BetterMessageButtons,
-      onChange: () => handleToggle("BetterMessageButtons")
+      onChange: () => handleToggle("BetterMessageButtons"),
+      helpText: "This organizes message buttons in a grid layout where buttons are grouped together",
+      previewBefore: "https://arcane.kitties.cat/assets/essentials/bettermessagebuttons-before.png",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/bettermessagebuttons-after.png",
+      onPreviewClick: handlePreviewClick
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Better Message Buttons (Alt)", "Same as above, but also separates the Forward button") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Better Message Buttons (Alt)",
       description: "Same as above, but also separates the Forward button",
       value: settings.BetterMessageButtonsAlt,
-      onChange: () => handleToggle("BetterMessageButtonsAlt")
+      onChange: () => handleToggle("BetterMessageButtonsAlt"),
+      onPreviewClick: handlePreviewClick,
+      helpText: "Same as above, but also separates the Forward button",
+      previewBefore: "https://arcane.kitties.cat/assets/essentials/bettermessagebuttons-before.png",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/bettermessagebuttonsalt-after.png"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Move Forward Button", "Reorders message buttons to preserve muscle memory") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Move Forward Button",
       description: "Reorders message buttons to preserve muscle memory",
       value: settings.MoveForwardButton,
-      onChange: () => handleToggle("MoveForwardButton")
+      onChange: () => handleToggle("MoveForwardButton"),
+      helpText: "This reorders message buttons to put the Reply button where it used to be",
+      previewBefore: "https://arcane.kitties.cat/assets/essentials/moveforwardbutton-before.png",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/moveforwardbutton-after.png",
+      onPreviewClick: handlePreviewClick
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Remove Forward Button", "Completely removes the Forward button from message actions") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Remove Forward Button",
       description: "Completely removes the Forward button from message actions",
       value: settings.RemoveForwardButton,
-      onChange: () => handleToggle("RemoveForwardButton")
+      onChange: () => handleToggle("RemoveForwardButton"),
+      helpText: "This removes the useless Forward button from message actions"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Remove Settings Ads", "Removes Nitro and Boost tabs from settings") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Remove Settings Ads",
       description: "Removes Nitro and Boost tabs from settings",
       value: settings.RemoveSettingsAds,
-      onChange: () => handleToggle("RemoveSettingsAds")
+      onChange: () => handleToggle("RemoveSettingsAds"),
+      helpText: "This removes Nitro and Boost tabs from the settings menu"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Efficient Settings", "Shortens the right-click settings menu by hiding options that just open the full settings menu") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Efficient Settings",
       description: "Shortens the right-click settings menu by hiding options that just open the full settings menu",
       value: settings.EfficientSettings,
-      onChange: () => handleToggle("EfficientSettings")
+      onChange: () => handleToggle("EfficientSettings"),
+      helpText: "This shortens the right-click settings menu by hiding options that just open the full settings menu"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Disable Super Reaction Ad", "Prevents the Super Reaction popup from appearing when clicking reactions") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Disable Super Reaction Ad",
       description: "Prevents the Super Reaction popup from appearing when clicking reactions",
       value: settings.DisableSuperReactionAd,
-      onChange: () => handleToggle("DisableSuperReactionAd")
+      onChange: () => handleToggle("DisableSuperReactionAd"),
+      helpText: "This prevents the Super Reaction popup from appearing"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Hide Pinned Discovery", "Hides the new pinned Discovery Icon") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Hide Pinned Discovery",
       description: "Hides the new pinned Discovery Icon",
       value: settings.HidePinDiscovery,
-      onChange: () => handleToggle("HidePinDiscovery")
+      onChange: () => handleToggle("HidePinDiscovery"),
+      helpText: "This hides the new pinned Discovery Icon"
     }
-  )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Interface Tweaks"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+  ))), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-16" }, /* @__PURE__ */ React.createElement(SectionHeader2, { title: "Interface Tweaks" }), /* @__PURE__ */ React.createElement("div", { className: settings.GridView ? "settings-grid" : "" }, filterSettings("Account Settings Refresh", "A fresh take on the Account Settings area") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Account Settings Refresh",
       description: "A fresh take on the Account Settings area",
       value: settings.AccountSettingsRefresh,
-      onChange: () => handleToggle("AccountSettingsRefresh")
+      onChange: () => handleToggle("AccountSettingsRefresh"),
+      helpText: "This provides a fresh look at the Account Settings area, with a new layout",
+      previewBefore: "https://arcane.kitties.cat/assets/essentials/accountsettingsrefresh-before.png",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/accountsettingsrefresh-after.png",
+      onPreviewClick: handlePreviewClick
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Appearance Tab Improvements", "Better organized appearance settings") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Appearance Tab Improvements",
       description: "Better organized appearance settings",
       value: settings.AppearanceTabImprovements,
-      onChange: () => handleToggle("AppearanceTabImprovements")
+      onChange: () => handleToggle("AppearanceTabImprovements"),
+      helpText: "This improves the appearance of the Appearance Tab with a Better layout and improved organization"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Account Details Grid", "Reorganizes the account details panel into a grid layout") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Account Details Grid",
       description: "Reorganizes the account details panel into a grid layout",
       value: settings.AccountDetailsGrid,
-      onChange: () => handleToggle("AccountDetailsGrid")
+      onChange: () => handleToggle("AccountDetailsGrid"),
+      helpText: "This reorganizes the account details panel into a grid layout"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Hide Play Again", "Hides the Play Again section in DMs") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Hide Play Again",
       description: "Hides the Play Again section in DMs",
       value: settings.HidePlayAgain,
-      onChange: () => handleToggle("HidePlayAgain")
+      onChange: () => handleToggle("HidePlayAgain"),
+      helpText: "This hides the Play Again section in DMs"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Full Server Tooltips", "Shows the complete server name in tooltips without line breaks") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Full Server Tooltips",
       description: "Shows the complete server name in tooltips without line breaks",
       value: settings.FullServerTooltips,
-      onChange: () => handleToggle("FullServerTooltips")
+      onChange: () => handleToggle("FullServerTooltips"),
+      helpText: "This shows the complete server name in tooltips without line breaks"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Centered Channel Names", "Centers channel names in the header") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Centered Channel Names",
       description: "Centers channel names in the header",
       value: settings.CenteredChannelNames,
-      onChange: () => handleToggle("CenteredChannelNames")
+      onChange: () => handleToggle("CenteredChannelNames"),
+      helpText: "This centers channel names in the header, and hides channel descriptions"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Better Pickers", "Changes purple to grey in the soundboard and emoji picker") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Better Pickers",
       description: "Changes purple to grey in the soundboard and emoji picker",
       value: settings.BetterPickers,
-      onChange: () => handleToggle("BetterPickers")
+      onChange: () => handleToggle("BetterPickers"),
+      helpText: "This changes the color of the soundboard and emoji picker to fit the theme"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Hide Activity", "Hides recent activity in the member list") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Hide Activity",
       description: "Hides recent activity in the member list",
       value: settings.HideActivity,
-      onChange: () => handleToggle("HideActivity")
+      onChange: () => handleToggle("HideActivity"),
+      helpText: "This hides recent activity at the top of the member list"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Show Status and Username", "Shows both status and username simultaneously with @ symbol") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Show Status and Username",
       description: "Shows both status and username simultaneously with @ symbol",
       value: settings.UsernameSymbol,
-      onChange: () => handleToggle("UsernameSymbol")
+      onChange: () => handleToggle("UsernameSymbol"),
+      helpText: "This shows both status and username simultaneously with @ symbol"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Visible Server Banner", "Keeps server banner visible while scrolling through channels") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Visible Server Banner",
       description: "Keeps server banner visible while scrolling through channels",
       value: settings.VisibleServerBanner,
-      onChange: () => handleToggle("VisibleServerBanner")
+      onChange: () => handleToggle("VisibleServerBanner"),
+      helpText: "This keeps the server banner visible while scrolling through channels"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Colored Message Pills", "Colors the message pills based on mentions and new posts") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Colored Message Pills",
       description: "Colors the message pills based on mentions and new posts",
       value: settings.ColoredMessagePills,
-      onChange: () => handleToggle("ColoredMessagePills")
+      onChange: () => handleToggle("ColoredMessagePills"),
+      helpText: "This colors the message pills based on mentions and new posts:\n              \u2022 Blue pill for new posts\n              \u2022 Red pill for mentions"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Modern Audio", "Updates the appearance of audio attachments") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Modern Audio",
       description: "Updates the appearance of audio attachments",
       value: settings.ModernAudio,
-      onChange: () => handleToggle("ModernAudio")
+      onChange: () => handleToggle("ModernAudio"),
+      helpText: "This updates the appearance of audio attachments"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Reveal Dark Usernames", "Makes dark usernames visible when hovering over them") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Reveal Dark Usernames",
       description: "Makes dark usernames visible when hovering over them",
       value: settings.RevealDarkUsernames,
-      onChange: () => handleToggle("RevealDarkUsernames")
+      onChange: () => handleToggle("RevealDarkUsernames"),
+      helpText: "This makes dark usernames visible when hovering over them"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Reposition App Launcher", "Moves the app launcher above the chat input to avoid muscle memory conflicts") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Reposition App Launcher",
       description: "Moves the app launcher above the chat input to avoid muscle memory conflicts",
       value: settings.RepositionAppLauncher,
-      onChange: () => handleToggle("RepositionAppLauncher")
+      onChange: () => handleToggle("RepositionAppLauncher"),
+      helpText: "This moves the app launcher above the chat input to avoid muscle memory conflicts",
+      previewBefore: "https://arcane.kitties.cat/assets/essentials/repositionapplauncher-before.png",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/repositionapplauncher-after.png",
+      onPreviewClick: handlePreviewClick
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Remove App Launcher", "Removes the new app launcher button entirely") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Remove App Launcher",
       description: "Removes the new app launcher button entirely",
       value: settings.RemoveAppLauncher,
-      onChange: () => handleToggle("RemoveAppLauncher")
+      onChange: () => handleToggle("RemoveAppLauncher"),
+      helpText: "This removes the new app launcher button entirely"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Left Favorite Button", "Moves the favorite button back to the left in GIF search") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Left Favorite Button",
       description: "Moves the favorite button back to the left in GIF search",
       value: settings.LeftFavButton,
-      onChange: () => handleToggle("LeftFavButton")
+      onChange: () => handleToggle("LeftFavButton"),
+      previewBefore: "https://arcane.kitties.cat/assets/essentials/leftfavbutton-before.png",
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/leftfavbutton-after.png",
+      onPreviewClick: handlePreviewClick
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Minimal Searchbar", "Condenses the searchbar into an icon when not in use") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Minimal Searchbar",
       description: "Condenses the searchbar into an icon when not in use",
       value: settings.MinimalSearchbar,
-      onChange: () => handleToggle("MinimalSearchbar")
+      onChange: () => handleToggle("MinimalSearchbar"),
+      helpText: "This condenses the searchbar into an icon when not in use"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Message Bar Grey Emoji", "Replaces full-color emojis with outline-only emojis in the message bar placeholder") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Message Bar Grey Emoji",
-      description: "Replaces full-colour emojis with outline-only emojis in the message bar placeholder",
+      description: "Replaces full-color emojis with outline-only emojis in the message bar placeholder",
       value: settings.MessageBarGreyEmoji,
-      onChange: () => handleToggle("MessageBarGreyEmoji")
+      onChange: () => handleToggle("MessageBarGreyEmoji"),
+      helpText: "This replaces full-color emojis with outline-only emojis in the message bar placeholder"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Minimal Authorised Apps", "A minimised look for authorised app cards that expands on hover") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Minimal Authorised Apps",
       description: "A minimised look for authorised app cards that expands on hover",
       value: settings.MinimalAuthorisedApps,
-      onChange: () => handleToggle("MinimalAuthorisedApps")
+      onChange: () => handleToggle("MinimalAuthorisedApps"),
+      helpText: "This provides a minimised look for authorised app cards that expands on hover"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Slideover Servers", "Turns the server list into a grid that slides out on hover") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Slideover Servers",
       description: "Turns the server list into a grid that slides out on hover",
       value: settings.SlideoverServers,
-      onChange: () => handleToggle("SlideoverServers")
+      onChange: () => handleToggle("SlideoverServers"),
+      helpText: "This turns the server list into a 2 column grid that slides out on hover"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Collapsible Chat Buttons", "Collapses chat bar buttons to save space when writing long messages") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Collapsible Chat Buttons",
       description: "Collapses chat bar buttons to save space when writing long messages",
       value: settings.CollapsibleChatButtons,
-      onChange: () => handleToggle("CollapsibleChatButtons")
+      onChange: () => handleToggle("CollapsibleChatButtons"),
+      helpText: "This collapses chat bar buttons to save space when writing long messages"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Fix Mosaic Zoom", "Prevents image previews from being zoomed in") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Fix Mosaic Zoom",
       description: "Prevents image previews from being zoomed in",
       value: settings.FixMosaicZoom,
-      onChange: () => handleToggle("FixMosaicZoom")
+      onChange: () => handleToggle("FixMosaicZoom"),
+      helpText: "This prevents image previews from being zoomed in"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Revert GIF Favorite Button Background", "Removes the colored background from GIF favorite buttons") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Revert GIF Favorite Button Background",
       description: "Removes the colored background from GIF favorite buttons",
       value: settings.RevertGifFavorite,
-      onChange: () => handleToggle("RevertGifFavorite")
+      onChange: () => handleToggle("RevertGifFavorite"),
+      helpText: "This removes the colored background from GIF favorite buttons"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Right Server List", "Moves the server list to the right side") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Right Server List",
       description: "Moves the server list to the right side",
       value: settings.RightServerList,
-      onChange: () => handleToggle("RightServerList")
+      onChange: () => handleToggle("RightServerList"),
+      helpText: "This moves the server list to the right side"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Right Channel List", "Moves the channel list to the right side (may have issues with forums)") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Right Channel List",
       description: "Moves the channel list to the right side (may have issues with forums)",
       value: settings.RightChannelList,
-      onChange: () => handleToggle("RightChannelList")
+      onChange: () => handleToggle("RightChannelList"),
+      helpText: "This moves the channel list to the right side"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Left Member List", "Moves the member list to the left side") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Left Member List",
       description: "Moves the member list to the left side",
       value: settings.LeftMemberList,
-      onChange: () => handleToggle("LeftMemberList")
+      onChange: () => handleToggle("LeftMemberList"),
+      helpText: "This moves the member list to the left side"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Channel-Style Servers", "Makes the server list look more like the channel list") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Channel-Style Servers",
       description: "Makes the server list look more like the channel list",
       value: settings.ChannelServers,
-      onChange: () => handleToggle("ChannelServers")
+      onChange: () => handleToggle("ChannelServers"),
+      helpText: "This makes the server list look more like the channel list"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Dual-Line Chatbox", "Splits the chatbox into two rows, with buttons on bottom row") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Dual-Line Chatbox",
       description: "Splits the chatbox into two rows, with buttons on bottom row",
       value: settings.DualLineChatbox,
-      onChange: () => handleToggle("DualLineChatbox")
+      onChange: () => handleToggle("DualLineChatbox"),
+      helpText: "This splits the chatbox into two rows, with buttons on the bottom row"
     }
-  )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Chat Features"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+  ))), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-16" }, /* @__PURE__ */ React.createElement(SectionHeader2, { title: "Chat Features" }), /* @__PURE__ */ React.createElement("div", { className: settings.GridView ? "settings-grid" : "" }, filterSettings("Custom Chat Placeholder", 'Changes the chat placeholder to "be silly :3"') && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Custom Chat Placeholder",
@@ -465,7 +928,7 @@ function M0chaTweaksTab() {
       value: settings.CustomChatPlaceholder,
       onChange: () => handleToggle("CustomChatPlaceholder")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Silly \xDE User Chat Placeholder", 'Changes the chat placeholder to "be silly, use \xFE :3"') && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Silly \xDE User Chat Placeholder",
@@ -473,7 +936,7 @@ function M0chaTweaksTab() {
       value: settings.CustomChatPlaceholderAlt,
       onChange: () => handleToggle("CustomChatPlaceholderAlt")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Hide Timestamps", "Hides message timestamps until hovered") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Hide Timestamps",
@@ -481,7 +944,7 @@ function M0chaTweaksTab() {
       value: settings.HideTimestamps,
       onChange: () => handleToggle("HideTimestamps")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Scrolling Text", "Adds scrolling animation to long header text") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Scrolling Text",
@@ -489,7 +952,7 @@ function M0chaTweaksTab() {
       value: settings.ScrollingText,
       onChange: () => handleToggle("ScrollingText")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Bigger Summaries", "Increases the size of forum topic summaries") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Bigger Summaries",
@@ -497,15 +960,17 @@ function M0chaTweaksTab() {
       value: settings.BiggerSummaries,
       onChange: () => handleToggle("BiggerSummaries")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("IRC Theme", "Classic IRC-style chat layout (requires compact mode)") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "IRC Theme",
       description: "Classic IRC-style chat layout (requires compact mode)",
       value: settings.IRCTheme,
-      onChange: () => handleToggle("IRCTheme")
+      onChange: () => handleToggle("IRCTheme"),
+      previewAfter: "https://arcane.kitties.cat/assets/essentials/irctheme-after.png",
+      onPreviewClick: handlePreviewClick
     }
-  )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Visual Enhancements"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+  ))), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-16" }, /* @__PURE__ */ React.createElement(SectionHeader2, { title: "Visual Enhancements" }), /* @__PURE__ */ React.createElement("div", { className: `${settings.GridView ? "settings-grid" : ""} mt-8` }, filterSettings("Discolored", "Colors all of Discord's SVG icons") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Discolored",
@@ -513,7 +978,7 @@ function M0chaTweaksTab() {
       value: settings.Discolored,
       onChange: () => handleToggle("Discolored")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Pastel Statuses", "Changes status colors to pastel variants") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Pastel Statuses",
@@ -521,7 +986,7 @@ function M0chaTweaksTab() {
       value: settings.PastelStatuses,
       onChange: () => handleToggle("PastelStatuses")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Large Emojis", "Makes emojis larger when hovered") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Large Emojis",
@@ -529,7 +994,7 @@ function M0chaTweaksTab() {
       value: settings.LargeEmojis,
       onChange: () => handleToggle("LargeEmojis")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Reaction Animations", "Adds flip animation to reaction emojis") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Reaction Animations",
@@ -537,7 +1002,7 @@ function M0chaTweaksTab() {
       value: settings.ReactionAnimations,
       onChange: () => handleToggle("ReactionAnimations")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Custom New Member Badge", "Replaces the new member badge with a custom one") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Custom New Member Badge",
@@ -545,7 +1010,7 @@ function M0chaTweaksTab() {
       value: settings.CustomNewMemberBadge,
       onChange: () => handleToggle("CustomNewMemberBadge")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Profile Status Matching", "Makes profile status match theme colors") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Profile Status Matching",
@@ -553,7 +1018,7 @@ function M0chaTweaksTab() {
       value: settings.ProfileThemeMatching,
       onChange: () => handleToggle("ProfileThemeMatching")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Revert Profiles", "Reverts user profiles to the classic layout (incompatible with Profile Status Matching)") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Revert Profiles",
@@ -561,7 +1026,7 @@ function M0chaTweaksTab() {
       value: settings.RevertProfiles,
       onChange: () => handleToggle("RevertProfiles")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Cool Code Blocks", "Pretty code blocks with snake animation and pastel gradients") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Cool Code Blocks",
@@ -569,7 +1034,7 @@ function M0chaTweaksTab() {
       value: settings.CoolCodeBlocks,
       onChange: () => handleToggle("CoolCodeBlocks")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Un-Simplify Bios", "Shows full bios in simplified profiles") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Un-Simplify Bios",
@@ -577,7 +1042,7 @@ function M0chaTweaksTab() {
       value: settings.UnsimplifyBios,
       onChange: () => handleToggle("UnsimplifyBios")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Channel Hover Effects", "Adds smooth sliding animations when hovering over channels, DMs, and settings") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Channel Hover Effects",
@@ -585,7 +1050,7 @@ function M0chaTweaksTab() {
       value: settings.ChannelHover,
       onChange: () => handleToggle("ChannelHover")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Button Hover Effects", "Adds rotation animations to various buttons when hovered") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Button Hover Effects",
@@ -593,15 +1058,16 @@ function M0chaTweaksTab() {
       value: settings.ButtonHover,
       onChange: () => handleToggle("ButtonHover")
     }
-  )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Fun & Experimental"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+  ))), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-16" }, /* @__PURE__ */ React.createElement(SectionHeader2, { title: "Fun & Experimental" }), /* @__PURE__ */ React.createElement("div", { className: `${settings.GridView ? "settings-grid" : ""} mt-8` }, filterSettings("Discord Hardcore Mode", "Makes Discord significantly more...") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Discord Hardcore Mode",
-      description: /* @__PURE__ */ React.createElement(React.Fragment, null, "Makes Discord significantly ", /* @__PURE__ */ React.createElement("s", null, "more"), " less challenging to use"),
+      description: /* @__PURE__ */ React.createElement(React.Fragment, null, "Makes Discord significantly  more... something..."),
       value: settings.DiscordHardcore,
-      onChange: () => handleToggle("DiscordHardcore")
+      onChange: () => handleToggle("DiscordHardcore"),
+      helpText: "This mode adds various visual challenges to Discord to make it the worst thing ever"
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Gay Folders", "Adds rainbow animation to folders containing 'gay' in their name") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Gay Folders",
@@ -609,7 +1075,7 @@ function M0chaTweaksTab() {
       value: settings.GayFolders,
       onChange: () => handleToggle("GayFolders")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Gradient DMs", "Adds gradient backgrounds to DM list and member list based on status") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Gradient DMs",
@@ -617,7 +1083,7 @@ function M0chaTweaksTab() {
       value: settings.GradientDMs,
       onChange: () => handleToggle("GradientDMs")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Bouncy Webm", "Makes webm files bounce the chat around like the good old days") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Bouncy Webm",
@@ -625,7 +1091,7 @@ function M0chaTweaksTab() {
       value: settings.BouncyWebm,
       onChange: () => handleToggle("BouncyWebm")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Clippy Status", "Turns status in new profiles into Clippy-style speech bubble (incompatible with Profile Status Matching/Revert Profiles)") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Clippy Status",
@@ -633,7 +1099,7 @@ function M0chaTweaksTab() {
       value: settings.ClippyStatus,
       onChange: () => handleToggle("ClippyStatus")
     }
-  )), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-8" }, /* @__PURE__ */ React.createElement("h2", { className: "defaultColor_a595eb text-md/normal_dc00ef mb-2" }, "Oneko Skins"), /* @__PURE__ */ React.createElement("div", { className: "divider mb-4", style: { height: "1px", backgroundColor: "var(--background-modifier-accent)" } }), /* @__PURE__ */ React.createElement(
+  ))), /* @__PURE__ */ React.createElement("div", { className: "settings-section mb-16" }, /* @__PURE__ */ React.createElement(SectionHeader2, { title: "Oneko Skins" }), /* @__PURE__ */ React.createElement("div", { className: `${settings.GridView ? "settings-grid" : ""} mt-8` }, filterSettings("Eevee Oneko", "Replaces the Oneko cat with an Eevee") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Eevee Oneko",
@@ -641,7 +1107,7 @@ function M0chaTweaksTab() {
       value: settings.EeveeOneko,
       onChange: () => handleToggle("EeveeOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Calico Oneko", "Replaces the Oneko cat with a Calico cat") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Calico Oneko",
@@ -649,7 +1115,7 @@ function M0chaTweaksTab() {
       value: settings.CalicoOneko,
       onChange: () => handleToggle("CalicoOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Fox Oneko", "Replaces the Oneko cat with a Fox") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Fox Oneko",
@@ -657,7 +1123,7 @@ function M0chaTweaksTab() {
       value: settings.FoxOneko,
       onChange: () => handleToggle("FoxOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Ghost Oneko", "Replaces the Oneko cat with a Ghost cat") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Ghost Oneko",
@@ -665,7 +1131,7 @@ function M0chaTweaksTab() {
       value: settings.GhostOneko,
       onChange: () => handleToggle("GhostOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Grey Oneko", "Replaces the Oneko cat with a Grey cat") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Grey Oneko",
@@ -673,7 +1139,7 @@ function M0chaTweaksTab() {
       value: settings.GreyOneko,
       onChange: () => handleToggle("GreyOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Kina Oneko", "Replaces the Oneko cat with Kina") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Kina Oneko",
@@ -681,7 +1147,7 @@ function M0chaTweaksTab() {
       value: settings.KinaOneko,
       onChange: () => handleToggle("KinaOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Lucy Oneko", "Replaces the Oneko cat with Lucy") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Lucy Oneko",
@@ -689,7 +1155,7 @@ function M0chaTweaksTab() {
       value: settings.LucyOneko,
       onChange: () => handleToggle("LucyOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Maia Oneko", "Replaces the Oneko cat with Maia") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Maia Oneko",
@@ -697,7 +1163,7 @@ function M0chaTweaksTab() {
       value: settings.MaiaOneko,
       onChange: () => handleToggle("MaiaOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Maria Oneko", "Replaces the Oneko cat with Maria") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Maria Oneko",
@@ -705,7 +1171,7 @@ function M0chaTweaksTab() {
       value: settings.MariaOneko,
       onChange: () => handleToggle("MariaOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Mike Oneko", "Replaces the Oneko cat with Mike") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Mike Oneko",
@@ -713,7 +1179,7 @@ function M0chaTweaksTab() {
       value: settings.MikeOneko,
       onChange: () => handleToggle("MikeOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Silver Oneko", "Replaces the Oneko cat with Silver") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Silver Oneko",
@@ -721,7 +1187,7 @@ function M0chaTweaksTab() {
       value: settings.SilverOneko,
       onChange: () => handleToggle("SilverOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Silversky Oneko", "Replaces the Oneko cat with Silversky") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Silversky Oneko",
@@ -729,7 +1195,7 @@ function M0chaTweaksTab() {
       value: settings.SilverskyOneko,
       onChange: () => handleToggle("SilverskyOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Snuupy Oneko", "Replaces the Oneko cat with Snuupy") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Snuupy Oneko",
@@ -737,7 +1203,7 @@ function M0chaTweaksTab() {
       value: settings.SnuupyOneko,
       onChange: () => handleToggle("SnuupyOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Spirit Oneko", "Replaces the Oneko cat with Spirit") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Spirit Oneko",
@@ -745,7 +1211,7 @@ function M0chaTweaksTab() {
       value: settings.SpiritOneko,
       onChange: () => handleToggle("SpiritOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Tora Oneko", "Replaces the Oneko cat with Tora") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Tora Oneko",
@@ -753,7 +1219,7 @@ function M0chaTweaksTab() {
       value: settings.ToraOneko,
       onChange: () => handleToggle("ToraOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Valentine Oneko", "Replaces the Oneko cat with Valentine") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Valentine Oneko",
@@ -761,7 +1227,7 @@ function M0chaTweaksTab() {
       value: settings.ValentineOneko,
       onChange: () => handleToggle("ValentineOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Ace Oneko", "Replaces the Oneko cat with Ace") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Ace Oneko",
@@ -769,7 +1235,7 @@ function M0chaTweaksTab() {
       value: settings.AceOneko,
       onChange: () => handleToggle("AceOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Mono Oneko", "Replaces the Oneko cat with Mono") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Mono Oneko",
@@ -777,7 +1243,7 @@ function M0chaTweaksTab() {
       value: settings.MonoOneko,
       onChange: () => handleToggle("MonoOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Bunny Oneko", "Replaces the Oneko cat with Bunny") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Bunny Oneko",
@@ -785,7 +1251,7 @@ function M0chaTweaksTab() {
       value: settings.BunnyOneko,
       onChange: () => handleToggle("BunnyOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Esmeralda Oneko", "Replaces the Oneko cat with Esmeralda") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Esmeralda Oneko",
@@ -793,7 +1259,7 @@ function M0chaTweaksTab() {
       value: settings.EsmeraldaOneko,
       onChange: () => handleToggle("EsmeraldaOneko")
     }
-  ), /* @__PURE__ */ React.createElement(
+  ), filterSettings("Jess Oneko", "Replaces the Oneko cat with Jess") && /* @__PURE__ */ React.createElement(
     SettingsToggle,
     {
       label: "Jess Oneko",
@@ -801,11 +1267,12 @@ function M0chaTweaksTab() {
       value: settings.JessOneko,
       onChange: () => handleToggle("JessOneko")
     }
-  )), /* @__PURE__ */ React.createElement("style", null, `
+  ))), /* @__PURE__ */ React.createElement("style", null, `
 .container_c669ee {
-  width: 40px;
+  width: 42px;
   height: 24px;
   position: relative;
+  flex-shrink: 0;
 }
 
 .slider_c669ee {
@@ -813,42 +1280,123 @@ function M0chaTweaksTab() {
   height: 100%;
   background-color: var(--background-tertiary);
   border-radius: 12px;
-  transition: background-color .15s ease;
+  transition: all .15s ease;
+  box-shadow: inset 0 1px 2px rgba(0,0,0,0.15);
 }
 
 .slider_c669ee.checked_c669ee {
-  background-color: #23a559;
+  background-color: var(--status-positive);
 }
 
 .handle_c669ee {
   position: absolute;
-  top: 3px;
-  left: 3px;
-  width: 18px;
-  height: 18px;
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
   background-color: var(--interactive-normal);
-  border-radius: 9px;
+  border-radius: 10px;
   transition: all .15s ease;
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
 }
 
 .slider_c669ee.checked_c669ee .handle_c669ee {
-  left: 19px;
+  left: 20px;
   background-color: #fff;
 }
 
 .icon_c669ee {
-  width: 10px;
-  height: 10px;
+  width: 12px;
+  height: 12px;
   color: var(--background-primary);
+  opacity: 0.7;
 }
 
 .slider_c669ee.checked_c669ee .icon_c669ee {
-  color: #23a559;
+  color: var(--status-positive);
 }
-        `));
+
+.settings-section {
+  animation: fadeIn 0.3s ease;
+  padding-top: 16px;  /* Added top padding */
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.settings-grid > div {
+  margin-top: 0 !important;
+}
+
+.view-toggle {
+  max-width: 300px;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--brand-experiment);
+  box-shadow: 0 0 0 1px var(--brand-experiment);
+}
+
+.search-input::placeholder {
+  color: var(--text-muted);
+}
+
+// Add transition for smooth filtering
+.settings-section > div > div {
+  transition: opacity 0.2s ease;
+}
+
+// Hide empty sections
+.settings-section:not(:has(> div > div:visible)) {
+  display: none;
+}
+
+.setting-toggle {
+  transform: scale(1);
+}
+
+.setting-toggle.animating {
+  animation: togglePulse 0.3s ease;
+}
+
+@keyframes togglePulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(0.98); }
+  100% { transform: scale(1); }
+}
+
+/* Enhance existing transitions */
+.slider_c669ee {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.handle_c669ee {
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon_c669ee {
+  transition: opacity 0.2s ease;
+}
+        `), previewModalState.isOpen && /* @__PURE__ */ React.createElement(
+    PreviewModal,
+    {
+      previewBefore: previewModalState.before,
+      previewAfter: previewModalState.after,
+      onClose: () => setPreviewModalState({ isOpen: false, before: null, after: null })
+    }
+  ));
 }
 function QuickCSSTab() {
   const [css, setCss] = React.useState("");
@@ -929,7 +1477,7 @@ class Essentials {
       id: "808802000224518264"
     }],
     description: "Minor tweaks that make discord better!",
-    version: "2.1.0",
+    version: "2.3.0",
     patches: [],
     preferences: [
       {
@@ -978,16 +1526,6 @@ class Essentials {
         div[aria-label="Exclusive to Nitro"] svg[class*=nitroWheel],
         h3[data-text-variant="text-sm/normal"],
         h3[aria-label="Color"] { display: none; }
-      }
-
-      /* Theme Menu Cleanup */
-      div[class^=premiumFeatureBorder] {
-        border: none;
-        
-        div[class^=background_] { padding: 0; }
-        div[class^=title],
-        div[class^=tryItOutButtons],
-        h3[class^=defaultColor] { display: none; }
       }
     `,
     HideNoPermissionChat: `
@@ -1301,12 +1839,12 @@ class Essentials {
     `,
     ColoredMessagePills: `
       /* Blue Pill - New Posts */
-      [class^="iconVisibility_"]:has([style="color: var(--text-brand);"]) > [class^="unread_"] {
+      [class^="iconVisibility_"]:has([style="color: var(--text-brand);"]) > [class^="unread_"]) {
         background-color: var(--text-brand);
       }
       
       /* Red Pill - Mentions */
-      [class^="iconVisibility_"]:has([class^="mentionsBadge_"]) > [class^="unread_"] {
+      [class^="iconVisibility_"]:has([class^="mentionsBadge_"]) > [class^="unread_"]) {
         background-color: var(--status-danger);
       }
     `,
@@ -1702,19 +2240,26 @@ class Essentials {
       @import url("https://raw.githubusercontent.com/KrstlSkll69/vc-snippets/main/OtherStuff/hideGlobalDiscovery.css");
     `,
     DualLineChatbox: `
+      /* Make the inner container use column layout */
       [class^="channelTextArea_"] [class^="inner_"] {
         flex-direction: column;
+        gap: 8px;
       }
-      
-      [class^="inner_"]:has([class^="attachWrapper_"]) > [class^="buttons_"] {
-        margin-left: 32px;
-      }
-      
+
+      /* Position the attach button wrapper */
       [class^="attachWrapper_"] {
-        top: calc(100% - 69px);
-        position: fixed;
+        position: absolute;
+        left: 16px;
+        bottom: 0;
       }
-      
+
+      /* Adjust buttons container */
+      [class^="inner_"] [class^="buttons_"] {
+        margin-left: 48px; /* Give space for the attach button */
+        padding: 4px 0;
+      }
+
+      /* Keep separator aligned properly */
       [class^="inner_"] [class^="separator_"] {
         margin-left: auto;
       }
