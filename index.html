@@ -110,18 +110,19 @@
         overflow: visible; /* Ensure content can overflow */
     }
 
-    .profile-pic {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        transition: transform 0.3s ease;
-        box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Soft glow effect */
-    }
-    
-    .profile-pic:hover {
-        transform: scale(1.1);
-    }
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Soft glow effect */
+    object-fit: cover; /* Prevents image from being squished while maintaining its aspect ratio */
+}
+
+.profile-pic:hover {
+    transform: scale(1.1);
+}
 
     h1 {
         font-size: 36px;
