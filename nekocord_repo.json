@@ -76,6 +76,38 @@
         },
         {
             "type": "plugin",
+            "name": "Re!animalese",
+            "id": "cat.kitties.arcane.animalese",
+            "version": "1.0.0",
+            "short_description": "Plays animalese on messages sent",
+            "description": "Plays animalese (they yap a lot) on message sent",
+            "thumbnail": "https://example.com/thumbnail.png",
+            "banner": "https://example.com/banner.png",
+            "file": "/Plugins/animalese.nkplugin.js",
+            "categories": [
+                "CUSTOMIZATION",
+                "FUN"
+            ],
+            "tags": [
+                "animal",
+                "crossing",
+                "animalese"
+            ],
+            "links": [
+                {
+                    "name": "GitHub",
+                    "type": "github",
+                    "url": "https://github.com/M0chaCat/PersonalSite/"
+                },
+                {
+                    "name": "Mocha's Site",
+                    "type": "website",
+                    "url": "https://arcane.kitties.cat"
+                }
+            ]
+        },
+        {
+            "type": "plugin",
             "name": "Re!ShowHiddenChannels",
             "id": "cat.kitties.arcane.ShowHiddenChannels",
             "version": "1.0.0",
