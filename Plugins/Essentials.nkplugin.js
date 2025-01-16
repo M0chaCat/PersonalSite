@@ -101,7 +101,7 @@ var require_QuickCSSTab = __commonJS({
       const handleCopy = () => {
         DiscordNative.clipboard.copy(css);
       };
-      return /* @__PURE__ */ React.createElement("div", { className: "quickcss-container", style: { padding: "16px" } }, /* @__PURE__ */ React.createElement(SectionHeader, { title: "QuickCSS" }), /* @__PURE__ */ React.createElement("div", { className: "header-container", style: { marginBottom: "24px" } }, /* @__PURE__ */ React.createElement(
+      return /* @__PURE__ */ React.createElement("div", { className: "quickcss-container", style: { padding: "0", margin: "0" } }, /* @__PURE__ */ React.createElement(SectionHeader, { title: "QuickCSS" }), /* @__PURE__ */ React.createElement("div", { className: "header-container", style: { marginBottom: "16px" } }, /* @__PURE__ */ React.createElement(
         "div",
         {
           className: "defaultColor_a595eb text-md/normal_dc00ef",
@@ -207,9 +207,10 @@ var require_QuickCSSTab = __commonJS({
             backgroundColor: "var(--background-secondary)",
             color: "var(--text-normal)",
             padding: "16px",
+            border: "1px solid var(--background-modifier-accent)",
+            borderRadius: "4px",
             fontFamily: "var(--font-code), monospace",
             resize: "vertical",
-            border: "none",
             outline: "none",
             fontSize: "14px",
             lineHeight: "1.5",
@@ -1682,6 +1683,13 @@ var require_oneko = __commonJS({
         css: `div[id*=oneko] {background-image: url(https://github.com/coolesding/onekocord/blob/main/skins/fox.png?raw=true) !important;}`
       }),
       createTweak({
+        id: "TransOneko",
+        label: "Trans Oneko",
+        description: "Replaces the Oneko cat with a Trans cat!!",
+        section: "oneko",
+        css: `div[id*=oneko] {background-image: url(https://raw.githubusercontent.com/Lylythii/OnekoStyles/refs/heads/main/pride/trans.png?raw=true) !important;}`
+      }),
+      createTweak({
         id: "GhostOneko",
         label: "Ghost Oneko",
         description: "Replaces the Oneko cat with a Ghost cat",
@@ -2315,7 +2323,7 @@ var require_ThemeImportTab = __commonJS({
         );
         applyThemeUrls2("");
       };
-      return /* @__PURE__ */ React.createElement("div", { className: "theme-import-container", style: { padding: "16px" } }, /* @__PURE__ */ React.createElement(SectionHeader, { title: "Theme Import" }), /* @__PURE__ */ React.createElement("div", { className: "header-container", style: { marginBottom: "24px" } }, /* @__PURE__ */ React.createElement(
+      return /* @__PURE__ */ React.createElement("div", { className: "theme-import-container" }, /* @__PURE__ */ React.createElement(SectionHeader, { title: "Theme Import" }), /* @__PURE__ */ React.createElement("div", { className: "header-container", style: { marginBottom: "24px" } }, /* @__PURE__ */ React.createElement(
         "div",
         {
           className: "defaultColor_a595eb text-md/normal_dc00ef",
@@ -2716,7 +2724,7 @@ var Essentials = class {
         }
       ],
       description: "Minor tweaks that make discord better!",
-      version: "2.5.3",
+      version: "2.5.4",
       patches: [],
       preferences: []
     });
@@ -2862,4 +2870,4 @@ var Essentials = class {
   }
 };
 exports.default = Essentials;
-/*NKSIG_W3sicyI6IkFGYzFjcjIyWlREL1FReDIyQWdKaEJUYStUSXV0dy9NNEkyS2hMNGFqTUR4ZVBheU44ZkRZWnJoVTh5c1VqUzhzR1MyMWtiZm9NMHhMUm1PeEtlbFdFMmdBZWpRazQ1cnpuSGdrb1BGVFVFNUR3STI2TFdIMnNOQzhlN3FucDUzdHlRYU9zdEkxZHZtcy9VcklMYXV6T3BKanpxU2ZadnVFOWo0YVlSTVk1NHdUN1lVIn0seyJjIjoiZXlKcklqcDdJbmdpT2lKQlJuTk9Vamt4UzJweVZHVlVkWFZSZDNGcGFqSlhlVUl4YUhKbk1tTTRZM0JKTkdodmJsUXlWMlF4VVRGaldIaE1ka3A1WTFwTk0zbEtVakJGZUdKS01HaHJhREkxWVZwc1RYTlhSemRVZVVwMGVrSk1RWGhQSWl3aWVTSTZJa0ZXVUhseGVHZFVSVGMxV1ZGTk9EVkNZM1JyWjJoelNWODRNRTl4ZGpReWMwTmtWV1pIZERoS2VteHBlRGhNVWtSd1QyUnhjblZNTm1vMU5HZDVRMGRRT0haNldqZFVkVXhXV0hOWlh6TjRhMlJ5U1drd1l6Z2lmU3dpWXlJNld5SlFURlZIU1U1ZlUwbEhUa2xPUnlJc0lrNUZTMDlEVDFKRVgxUkZRVTBpWFN3aWJTSTZleUp1SWpvaVVHeDFaMmx1SUZOcFoyNXBibWM2SUUwd1kyaGhZMkYwSW4xOSIsInMiOiJBWUQvT3E3U0NQekpmbGFmSWJiZlNqcktnOExKNWZLVEVQSVRYWDVQY2duUnc5aDhtdzNSQTJ3TG5CenQ3Z2U3TE55MHRpUEtCQnB0SG00a2FkL1VzdXZWQVp5ejRvUFdzZ1ZWWDJ0TkN3UmlNalBZZy9QTlhXR25HUlNQUk9BSTV6bWpLWldOaERMLzZpWFFNaVR0S2dKMG4vbWVwZ2NTZGs3VVdsVHBwc3B5VWk4QSJ9XQ==*/
+/*NKSIG_W3sicyI6IkFINUlhaHMvY21PSVdjaDRCYkpzS29FOW9lQkxiZTU4dkdlcTlxOE92aW5FeXBaUEJrRi9XN0hlLzRyaUlRZzlsRDJva3BmMGxqTEtsdGdUcW5qQ1czWHJBV01vRjBwY3pXZkwzR3U2Y0xtSTFmaG42YVlXbzV4cGNKSnc2VXhwSzhrdksyWkFwYkFKL0J4VjdmejhzQmhNemxNems4MGZYdDFoc1MwM3N1R251TndCIn0seyJjIjoiZXlKcklqcDdJbmdpT2lKQlJuTk9Vamt4UzJweVZHVlVkWFZSZDNGcGFqSlhlVUl4YUhKbk1tTTRZM0JKTkdodmJsUXlWMlF4VVRGaldIaE1ka3A1WTFwTk0zbEtVakJGZUdKS01HaHJhREkxWVZwc1RYTlhSemRVZVVwMGVrSk1RWGhQSWl3aWVTSTZJa0ZXVUhseGVHZFVSVGMxV1ZGTk9EVkNZM1JyWjJoelNWODRNRTl4ZGpReWMwTmtWV1pIZERoS2VteHBlRGhNVWtSd1QyUnhjblZNTm1vMU5HZDVRMGRRT0haNldqZFVkVXhXV0hOWlh6TjRhMlJ5U1drd1l6Z2lmU3dpWXlJNld5SlFURlZIU1U1ZlUwbEhUa2xPUnlJc0lrNUZTMDlEVDFKRVgxUkZRVTBpWFN3aWJTSTZleUp1SWpvaVVHeDFaMmx1SUZOcFoyNXBibWM2SUUwd1kyaGhZMkYwSW4xOSIsInMiOiJBWUQvT3E3U0NQekpmbGFmSWJiZlNqcktnOExKNWZLVEVQSVRYWDVQY2duUnc5aDhtdzNSQTJ3TG5CenQ3Z2U3TE55MHRpUEtCQnB0SG00a2FkL1VzdXZWQVp5ejRvUFdzZ1ZWWDJ0TkN3UmlNalBZZy9QTlhXR25HUlNQUk9BSTV6bWpLWldOaERMLzZpWFFNaVR0S2dKMG4vbWVwZ2NTZGs3VVdsVHBwc3B5VWk4QSJ9XQ==*/
