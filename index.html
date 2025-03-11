@@ -1,312 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arcane</title>
-<link rel="icon" type="image/png" href="/Mocha.png" rel="stylesheet">
-<style>
-    @font-face {
-        font-family: nasinnanpa;
-        src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
-    }
-    main {
-        align-items: center;
-    }
-    
-    .acrylic {
-        padding: 4em 6em;
-        position: relative;
-        overflow: hidden;
-    }
-    
-    
-    /*Added browser compatibility for blurring added the exclusion blend filter as explained in the original document*/
-    
-    .acrylic::before {
-        background-color: rgba(30, 30, 46, 0.7);
-        content: '';
-        position: absolute;
-        z-index: -1;
-        height: 100%;
-        top: 0;
-        right: 0;
-        left: 0;
-        filter: blur(8px);
-        -webkit-filter: blur(8px);
-        -moz-filter: blur(8px);
-        -o-filter: blur(8px);
-        -ms-filter: blur(8px);
-        background-blend-mode: exclusion;
-    }
-    
-    
-    /*made color rgba removed opacity property*/
-    
-    .acrylic::after {
-        content: "";
-        position: absolute;
-        height: 100%;
-        left: 0;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        z-index: -1;
-        border: 0px;
-        background-image: url(data:image/png;base64,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);
-    }
-    
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', 'Arial', 'sans-serif', 'nasinnanpa';
-        background: url('https://4kwallpapers.com/images/wallpapers/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2020-3840x2160-1455.jpg') no-repeat center center fixed;
-        background-size: cover;
-        color: #fff;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        position: relative;
-        overflow: auto;
-    }
-    
-    .overlay {
-        position: relative; /* Changed from fixed */
-        z-index: 1; /* Adjust as needed */
-        width: 100%;
-        min-height: 100vh; /* Ensure it covers the viewport height */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        backdrop-filter: blur(10px);
-    }
-    
-    .content-container {
-        backdrop-filter: blur(10px);
-        padding: 60px;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 60%;
-        max-width: 600px;
-        margin-bottom: 40px;
-        overflow: visible; /* Ensure content can overflow */
-    }
-    
-    .projects-container {
-        background: rgba(100, 100, 100, 0.1);
-        backdrop-filter: blur(10px);
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 60%;
-        max-width: 600px;
-        margin-top: 40px;
-        overflow: visible; /* Ensure content can overflow */
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha</title>
+    <link rel="icon" type="image/png" href="./Mocha.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+        
+        @font-face {
+            font-family: nasinnanpa;
+            src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
+        }
+        
+        :root {
+            /* Catppuccin Mocha Colors */
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --crust: #11111b;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --pink: #f5c2e7;
+            --mauve: #cba6f7;
+            --red: #f38ba8;
+            --lavender: #b4befe;
+        }
 
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease;
-    box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Soft glow effect */
-    object-fit: cover; /* Prevents image from being squished while maintaining its aspect ratio */
-}
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-.profile-pic:hover {
-    transform: scale(1.1);
-}
+        body {
+            font-family: 'Outfit', 'nasinnanpa', sans-serif;
+            background-color: var(--base);
+            color: var(--text);
+            line-height: 1.6;
+        }
 
-    h1 {
-        font-size: 36px;
-        margin-bottom: 10px;
-        font-weight: 700;
-    }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
 
-    p {
-        font-size: 18px;
-        margin-bottom: 20px;
-        font-weight: 400;
-    }
+        .card {
+            background-color: var(--mantle);
+            border-radius: 0;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
 
-    .links {
-        display: flex;
-        justify-content: center;
-        gap: 20px;
-    }
+        .profile-section {
+            text-align: center;
+        }
 
-    .links img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        transition: transform 0.3s ease;
-    }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 0;
+            margin: 1.5rem auto;
+            border: 3px solid var(--lavender);
+            transition: transform 0.3s ease;
+            object-fit: cover;
+            padding: 5px;
+            background-color: var(--mantle);
+        }
 
-    .links img:hover {
-        transform: scale(1.2);
-    }
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
 
-    .iframe-container {
-        width: 100%;
-        max-width: 340px;
-        margin-top: 20px;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        margin: 20px auto 0;
-    }
+        h1 {
+            color: var(--mauve);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-    .projects-container {
-        background: rgba(100, 100, 100, 0.1);
-        backdrop-filter: blur(10px);
-        padding: 30px;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 60%;
-        max-width: 600px;
-        margin-top: 40px; /* Ensure spacing from previous sections */
-    }
+        .bio {
+            color: var(--subtext1);
+            margin-bottom: 1.5rem;
+        }
 
-    .projects-grid {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 20px;
-    }
+        .platforms {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
 
-    .project-item {
-        background: rgba(255, 255, 255, 0.2);
-        padding: 20px;
-        border-radius: 10px;
-        width: 150px;
-        text-align: center;
-        transition: transform 0.3s ease;
-        text-decoration: none;
-        color: #fff;
-    }
+        .platform-icon {
+            width: 40px;
+            height: 40px;
+            transition: transform 0.2s ease;
+        }
 
-    .project-item:hover {
-        transform: scale(1.1);
-    }
-    
-    .extra-bio-button {
-        background: rgba(255, 255, 255, 0.2);
-        padding: 10px 20px;
-        border-radius: 10px;
-        text-decoration: none;
-        color: #fff;
-        font-size: 16px;
-        transition: transform 0.3s ease;
-        display: inline-block;
-        margin-top: 20px; /* Space between platforms and new button */
-    }
+        .platform-icon:hover {
+            transform: scale(1.2);
+        }
 
-    .extra-bio-button:hover {
-        transform: scale(1.1);
-    }
-</style>
+        .buttons-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .buttons-section img {
+            border-radius: 0;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .project-item {
+            background-color: var(--surface0);
+            padding: 1rem;
+            border-radius: 0;
+            text-decoration: none;
+            color: var(--text);
+            transition: transform 0.2s ease, background-color 0.2s ease;
+        }
+
+        .project-item:hover {
+            transform: translateY(-2px);
+            background-color: var(--surface1);
+        }
+
+        .extra-bio-button {
+            background-color: var(--surface0);
+            color: var(--text);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s ease;
+        }
+
+        .extra-bio-button:hover {
+            background-color: var(--surface1);
+        }
+
+        .section-title {
+            color: var(--pink);
+            margin-bottom: 1rem;
+        }
+    </style>
 </head>
 <body>
-
-<script>
-        fetch("https://raw.githubusercontent.com/adryd325/oneko.js/8fa8a1864aa71cd7a794d58bc139e755e96a236c/oneko.js")
-        .then(x => x.text())
-        .then(s => s.replace("./oneko.gif", "https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif")
-            .replace("(isReducedMotion)", "(false)"))
-        .then(eval);
-</script>
-
-<div class="overlay">
-
-<img src="https://circulars.dev/circular-cat.gif" style="position: fixed; right:0; bottom:0;" onclick="meow()">
-
-    <div class="content-container acrylic">
-        <img src="/Mocha.png" alt="Arcane Profile Picture" class="profile-pic">
-        <h1>Hewo!!</h1>
-        <p>Im Arcane, 󱥢󱥍󱦗󱥜󱤦, Snowball, and Rue! (alot of names ik!)</p>
-        <div class="iframe-container">
-            <iframe
-                title="Discord user embed"
-                width="100%"
-                height="120"
-                frameborder="0"
-                sandbox="allow-scripts"
-                src="https://widgets.vendicated.dev/user?id=808802000224518264&theme=dark&banner=true&full-banner=false&rounded-corners=true&discord-icon=false&badges=true&guess-nitro=true&"
-            ></iframe>
-        </div>
-        
-        <!-- Platforms section -->
-        <div class="platforms-container">
-            <h3>Find me on:</h3>
-            <div class="platforms-list">
+    <div class="container">
+        <div class="card profile-section">
+            <img src="./Mocha.png" alt="Mocha Profile Picture" class="profile-pic">
+            <h1>Hewo!!</h1>
+            <p class="bio">Im Mocha, 󱥢󱥍󱦗󱥜󱤦, Snowball, Arcane, and Rue! (alot of names ik!)</p>
+            
+            <div class="platforms">
                 <a href="https://github.com/M0chaCat" target="_blank">
-                    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=FFFFFF" alt="GitHub" class="platform-icon">
+                    <img src="https://img.icons8.com/?size=100&id=12599&format=png&color=cdd6f4" alt="GitHub" class="platform-icon">
                 </a>
-                <a href="https://x.com/stwawbwewy_milk" target="_blank">
+                <!-- ill make a new fedi oneday -->
+                <!-- <a href="https://x.com/stwawbwewy_milk" target="_blank">
                     <img src="https://img.icons8.com/?size=100&id=8824&format=png&color=ffffff" alt="Twitter" class="platform-icon">
+                </a> -->
+                <a href="https://discordapp.com/users/808802000224518264" target="_blank">
+                    <img src="https://img.icons8.com/?size=100&id=30888&format=png&color=cdd6f4" alt="Discord" class="platform-icon">
                 </a>
             </div>
+            <h3 class="section-title">buttons!!</h3>
+            <div class="buttons-section">
+                <a href="https://necoarc.dev"><img src="https://necoarc.dev/assets/necoarc-88x31.png"></a>
+                <a href="https://silly.city"><img src="https://silly.city/silly.gif" alt="silly.city" width="88" height="31"></a>
+                <a href="https://sushi.tauon.dev"><img src="https://sushi.tauon.dev/res/88x31.png" width="88" height="31" alt="luna 88 by 31 button" style="image-rendering: pixelated"></a>
+                <a href="https://tauon.dev/" target="_blank"><img src="https://tauon.dev/images/88x31/lily.png" alt="lily" width="88" height="31" style="image-rendering: pixelated" title="do hotlink my button!"/></a>                  
+                <a href="https://arcane.kitties.cat"><img src="https://arcane.kitties.cat/NEWBUTTON(wow).gif" width="88" height="31" alt="mochas 88 by 31 button" style="image-rendering: pixelated">
+            </div>
+
+            <a href="./bio" class="extra-bio-button">Extra bio stuffs</a>
+            <a href="./blog/index.html" class="extra-bio-button">Blog</a>
         </div>
-        <div class="button-collection">
-            <h2>buttonssss</h2>
-            <a href="https://necoarc.dev"><img src="https://necoarc.dev/assets/necoarc-88x31.png"></a>
-            <a href="https://silly.city"><img src="https://silly.city/silly.gif" alt="silly.city" width="88px" height="31px"></a>
-            <a href="https://sushi.tauon.dev" target="_blank"><img src="https://sushi.tauon.dev/res/88x31.png"width="88px"height="31px"alt="luna 88 by 31 button"style="image-rendering: pixelated"title="feel free to hotlink!"></a>
-            <img src="https://arcane.kitties.cat/NEWBUTTON(wow).gif"width="88px"height="31px"alt="mochas 88 by 31 button"style="image-rendering: pixelated"title="feel free to hotlink!"></a>
 
-        </div>
-        <style>
-            .platforms-container {
-                margin-top: 20px;
-                text-align: center;
-            }
-
-            .platforms-list {
-                display: flex;
-                justify-content: center;
-                gap: 20px;
-                margin-top: 10px;
-            }
-
-            .platform-icon {
-                width: 40px;
-                height: 40px;
-                transition: transform 0.3s ease;
-            }
-
-            .platform-icon:hover {
-                transform: scale(1.2);
-            }
-        </style>
-        <!-- New button below platforms -->
-        <a href="/bio" class="extra-bio-button acrylic">Extra bio stuffs</a>
-        
-    </div>
-
-    <div class="projects-container acrylic">
-        <h2>Wat i has made:</h2>
-        <div class="projects-grid">
-            <a href="https://github.com/nekocord-mod/nekocord" class="project-item acrylic">Nekocord</a>
-            <a href="https://arcane.kitties.cat/nekocord_repo.json" class="project-item acrylic">My Nekocord Repo</a>
-            <a href="https://arcane.kitties.cat/mybuttonn" class="project-item acrylic">ma buttonn</a>
-            <a href="https://github.com/M0chaCat/Essentials" class="project-item acrylic">Essentials</a>
+        <div class="card">
+            <h2 class="section-title">Wat i has made:</h2>
+            <div class="projects-grid">
+                <a href="https://github.com/nekocord-mod/nekocord" class="project-item">Nekocord</a>
+                <a href="./nekocord_repo.json" class="project-item">My Nekocord Repo</a>
+                <a href="./mybuttonn" class="project-item">ma buttonn</a>
+                <a href="https://github.com/M0chaCat/Essentials" class="project-item">Essentials</a>
+                <a href="https://github.com/M0chaCat/PawKit" class="project-item">Pawkit</a>
+            </div>
         </div>
     </div>
-</div>
 
-<script>
-    let meowsound = new Audio('https://circulars.dev/meow.mp3')
-    function meow() {
-        meowsound.play();
-    }
-</script>
+    <img src="https://circulars.dev/circular-cat.gif" style="position: fixed; right:0; bottom:0; z-index: 100;" onclick="meow()">
+
+    <script>
+        let meowsound = new Audio('https://circulars.dev/meow.mp3')
+        function meow() {
+            meowsound.play();
+        }
+
+        fetch("https://raw.githubusercontent.com/adryd325/oneko.js/8fa8a1864aa71cd7a794d58bc139e755e96a236c/oneko.js")
+            .then(x => x.text())
+            .then(s => s.replace("./oneko.gif", "https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif")
+                .replace("(isReducedMotion)", "(false)"))
+            .then(eval);
+    </script>
 </body>
 </html>

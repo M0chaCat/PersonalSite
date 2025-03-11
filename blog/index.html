@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Posts</title>
+    <link rel="icon" type="image/png" href="../Mocha.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+        
+        @font-face {
+            font-family: nasinnanpa;
+            src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
+        }
+        
+        :root {
+            /* Catppuccin Mocha Colors */
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --crust: #11111b;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --pink: #f5c2e7;
+            --mauve: #cba6f7;
+            --red: #f38ba8;
+            --lavender: #b4befe;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Outfit', 'nasinnanpa', sans-serif;
+            background-color: var(--base);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
+
+        .card {
+            background-color: var(--mantle);
+            border-radius: 0;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--mauve);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .post-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .post-list li {
+            margin: 1rem 0;
+        }
+        
+        .back-button {
+            background-color: var(--surface0);
+            color: var(--text);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s ease;
+            margin-bottom: 1rem;
+        }
+
+        .back-button:hover {
+            background-color: var(--surface1);
+        }
+        
+        .post-list a {
+            display: block;
+            background-color: var(--surface0);
+            color: var(--text);
+            text-decoration: none;
+            padding: 1rem;
+            border-radius: 0;
+            transition: background-color 0.2s ease, color 0.2s ease;
+        }
+
+        .post-list a:hover {
+            background-color: var(--mauve);
+            color: var(--text);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <a href="../index.html" class="back-button">Back to Home</a>
+            <h1>Blog Posts</h1>
+            <ul class="post-list">
+                <li><a href="3-11-25.html">meowwww</a></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html> 

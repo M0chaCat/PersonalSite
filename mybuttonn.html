@@ -1,145 +1,184 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>buttonn</title>
-<link rel="icon" type="image/png" href="/Mocha.png" rel="stylesheet">
-<style>
-    @font-face {
-        font-family: nasinnanpa;
-        src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
-    }
-    body {
-        margin: 0;
-        padding: 0;
-        font-family: 'Roboto', 'Arial', 'sans-serif', 'nasinnanpa';
-        background: url('https://wallpapercave.com/wp/wp10407656.png') no-repeat center center fixed;
-        background-size: cover;
-        color: #fff;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        position: relative;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Buttonn</title>
+    <link rel="icon" type="image/png" href="./Mocha.png">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+        
+        @font-face {
+            font-family: nasinnanpa;
+            src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
+        }
+        
+        :root {
+            /* Catppuccin Mocha Colors */
+            --base: #1e1e2e;
+            --mantle: #181825;
+            --crust: #11111b;
+            --text: #cdd6f4;
+            --subtext1: #bac2de;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --pink: #f5c2e7;
+            --mauve: #cba6f7;
+            --red: #f38ba8;
+            --lavender: #b4befe;
+        }
 
-    .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.5);
-        backdrop-filter: blur(10px);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .content-container {
-        background: rgba(100, 100, 100, 0.1);
-        backdrop-filter: blur(10px);
-        padding: 60px;
-        border-radius: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-align: center;
-        width: 60%;
-        max-width: 600px;
-        margin-bottom: 40px;
-    }
+        body {
+            font-family: 'Outfit', 'nasinnanpa', sans-serif;
+            background-color: var(--base);
+            color: var(--text);
+            line-height: 1.6;
+        }
 
-    .profile-pic {
-        width: 150px;
-        height: 150px;
-        border-radius: 50%;
-        margin-bottom: 20px;
-        transition: transform 0.3s ease;
-        box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Soft glow effect */
-    }
-    
-    .profile-pic:hover {
-        transform: scale(1.1);
-    }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            gap: 2rem;
+        }
 
-    .cat-gif {
-        position: fixed;
-        right: 0;
-        bottom: 0;
-        cursor: pointer;
-    }
+        .card {
+            background-color: var(--mantle);
+            border-radius: 0;
+            padding: 2rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s ease;
+        }
 
-    ul.rules-list {
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-        font-size: 18px;
-    }
+        h1 {
+            color: var(--mauve);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
 
-    ul.rules-list li {
-        margin-bottom: 10px;
-    }
-    pre {
-        white-space: pre-wrap; /* Ensure wrapping of long lines */
-        word-wrap: break-word; /* Break words if necessary */
-        background-color: #1e1e2e; /* Light grey background */
-        padding: 10px; /* Add some padding */
-        border: 0px; /* Light border */
-        border-radius: 4px; /* Rounded corners */
-        font-family: monospace; /* Use a monospace font for code */
-        color: #cdd6f4;
-    }
-    code {
-        display: block;
-        overflow-x: auto; /* Allow horizontal scrolling if necessary */
-    }
-</style>
+        .bio {
+            color: var(--subtext1);
+            margin-bottom: 1.5rem;
+        }
+
+        .buttons-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+        }
+
+        .buttons-section img {
+            border-radius: 0;
+        }
+
+        .extra-bio-button {
+            background-color: var(--surface0);
+            color: var(--text);
+            padding: 0.75rem 1.5rem;
+            border-radius: 0;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.2s ease;
+        }
+
+        .extra-bio-button:hover {
+            background-color: var(--surface1);
+        }
+
+        .section-title {
+            color: var(--pink);
+            margin-bottom: 1rem;
+        }
+
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 0;
+            margin: 1.5rem auto;
+            border: 3px solid var(--lavender);
+            transition: transform 0.3s ease;
+            object-fit: cover;
+            padding: 5px;
+            background-color: var(--mantle);
+        }
+
+        .profile-pic:hover {
+            transform: scale(1.05);
+        }
+
+        .cat-gif {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            cursor: pointer;
+        }
+
+        ul.rules-list {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            font-size: 18px;
+        }
+
+        ul.rules-list li {
+            margin-bottom: 10px;
+        }
+
+        pre {
+            white-space: pre-wrap; /* Ensure wrapping of long lines */
+            word-wrap: break-word; /* Break words if necessary */
+            background-color: #1e1e2e; /* Light grey background */
+            padding: 10px; /* Add some padding */
+            border: 0px; /* Light border */
+            border-radius: 0; /* Rounded corners */
+            font-family: monospace; /* Use a monospace font for code */
+            color: #cdd6f4;
+        }
+
+        code {
+            display: block;
+            overflow-x: auto; /* Allow horizontal scrolling if necessary */
+        }
+    </style>
 </head>
 <body>
 
-<script>
-        fetch("https://raw.githubusercontent.com/adryd325/oneko.js/8fa8a1864aa71cd7a794d58bc139e755e96a236c/oneko.js")
-        .then(x => x.text())
-        .then(s => s.replace("./oneko.gif", "https://raw.githubusercontent.com/adryd325/oneko.js/14bab15a755d0e35cd4ae19c931d96d306f99f42/oneko.gif")
-            .replace("(isReducedMotion)", "(false)"))
-        .then(eval);
-</script>
-
-<div class="overlay">
-    <div class="content-container">
-        <img src="/Mocha.png" alt="Arcane Profile Picture" class="profile-pic">
-        <h1>Hewo!!</h1>
-        <h3>ma button</h3>
+<div class="container">
+    <div class="card">
+        <img src="./Mocha.png" alt="Mocha Profile Picture" class="profile-pic">
+        <h1>ma button</h1>
         <h4>hehe i said butt :3</h4>
         <ul class="rules-list">
             <pre>
-    &lt;img src=&quot;https://arcane.kitties.cat/NEWBUTTON(wow).gif&quot;
+    &lt;a href=&quot;https://arcane.kitties.cat&quot;&gt;&lt;img src=&quot;https://arcane.kitties.cat/NEWBUTTON(wow).gif&quot;
          width=&quot;88px&quot;
          height=&quot;31px&quot;
          alt=&quot;mochas 88 by 31 button&quot;
          style=&quot;image-rendering: pixelated&quot;
-         title=&quot;feel free to hotlink!&quot;&gt;
-    &lt;/a&gt;
+         title=&quot;feel free to hotlink!&quot;&gt;&lt;/a&gt;
 </pre>
-
-            <a href="https://arcane.kitties.cat/" target="_blank">
-                <img src="https://arcane.kitties.cat/NEWBUTTON(wow).gif"
-                    width="88px"
-                    height="31px"
-                    alt="mochas 88 by 31 button"
-                    style="image-rendering: pixelated"
-                    title="feel free to hotlink!">
-                </a>
         </ul>
+        <div class="buttons-section">
+            <a href="https://arcane.kitties.cat"><img src="https://arcane.kitties.cat/NEWBUTTON(wow).gif" width="88" height="31" alt="mochas 88 by 31 button" style="image-rendering: pixelated">
+        </div>
     </div>
-    <img src="https://circulars.dev/circular-cat.gif" alt="Cat GIF" class="cat-gif" onclick="meow()">
 </div>
 
+<img src="https://circulars.dev/circular-cat.gif" alt="Cat GIF" class="cat-gif" onclick="meow()">
+
 <script>
-    let meowsound = new Audio('https://circulars.dev/meow.mp3')
+    let meowsound = new Audio('https://circulars.dev/meow.mp3');
     function meow() {
         meowsound.play();
     }

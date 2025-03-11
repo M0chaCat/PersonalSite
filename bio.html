@@ -3,21 +3,36 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Arcane</title>
-<link rel="icon" type="image/png" href="/Mocha.png" rel="stylesheet">
+<title>Mocha</title>
+<link rel="icon" type="image/png" href="./Mocha.png">
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+    
     @font-face {
         font-family: nasinnanpa;
         src: url("https://arcane.kitties.cat/Nasin Nanpa.otf");
     }
+
+    :root {
+        --base: #1e1e2e;
+        --mantle: #181825;
+        --crust: #11111b;
+        --text: #cdd6f4;
+        --subtext1: #bac2de;
+        --surface0: #313244;
+        --surface1: #45475a;
+        --pink: #f5c2e7;
+        --mauve: #cba6f7;
+        --red: #f38ba8;
+        --lavender: #b4befe;
+    }
+
     body {
         margin: 0;
         padding: 0;
-        font-family: 'Roboto', 'Arial', 'sans-serif', 'nasinnanpa';
-        background: url('https://wallpapercave.com/wp/wp10407656.png') no-repeat center center fixed;
-        background-size: cover;
-        color: #fff;
-        text-align: center;
+        font-family: 'Outfit', 'nasinnanpa', sans-serif;
+        background-color: var(--base);
+        color: var(--text);
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,42 +42,33 @@
     }
 
     .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
         background: rgba(0, 0, 0, 0.5);
         backdrop-filter: blur(10px);
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-
-    .content-container {
-        background: rgba(100, 100, 100, 0.1);
-        backdrop-filter: blur(10px);
         padding: 60px;
-        border-radius: 15px;
+        border-radius: 0;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        text-align: center;
         width: 60%;
         max-width: 600px;
-        margin-bottom: 40px;
     }
 
     .profile-pic {
         width: 150px;
         height: 150px;
-        border-radius: 50%;
-        margin-bottom: 20px;
+        border-radius: 0;
+        margin: 1.5rem auto;
+        border: 3px solid var(--lavender);
         transition: transform 0.3s ease;
-        box-shadow: 0 0 25px rgba(255, 255, 255, 0.5); /* Soft glow effect */
+        object-fit: cover;
+        padding: 5px;
+        background-color: var(--mantle);
     }
-    
+
     .profile-pic:hover {
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     .cat-gif {
@@ -77,6 +83,7 @@
         padding: 0;
         margin: 0;
         font-size: 18px;
+        color: var(--subtext1);
     }
 
     ul.rules-list li {
@@ -95,20 +102,19 @@
 </script>
 
 <div class="overlay">
-    <div class="content-container">
-        <img src="/Mocha.png" alt="Arcane Profile Picture" class="profile-pic">
-        <h1>Hewo!!</h1>
-        <h3>DM rulez</h3>
-        <ul class="rules-list">
-            <li>be nice :c</li>
-            <li>dont talk abt suicide or sh</li>
-            <li>no nsfw at all</li>
-            <li>no-one under 13</li>
-            <li>DM ME ABOUT THE GUILD BADGE = BLOCK</li>
-        </ul>
-    </div>
-    <img src="https://circulars.dev/circular-cat.gif" alt="Cat GIF" class="cat-gif" onclick="meow()">
+    <img src="./Mocha.png" alt="Mocha Profile Picture" class="profile-pic">
+    <h1>Hewo!!</h1>
+    <h3>DM rulez</h3>
+    <ul class="rules-list">
+        <li>be nice :c</li>
+        <li>dont talk abt suicide or sh</li>
+        <li>no nsfw at all</li>
+        <li>no-one under 13</li>
+        <li>DM ME ABOUT THE GUILD BADGE = BLOCK</li>
+    </ul>
 </div>
+
+<img src="https://circulars.dev/circular-cat.gif" alt="Cat GIF" class="cat-gif" onclick="meow()">
 
 <script>
     let meowsound = new Audio('https://circulars.dev/meow.mp3')
