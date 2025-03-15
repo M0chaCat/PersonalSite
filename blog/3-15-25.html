@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Posts</title>
+    <title>Mocha</title>
     <link rel="icon" type="image/png" href="../Mocha.png">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
@@ -28,6 +28,15 @@
             --lavender: #b4befe;
         }
 
+        /* unvisited link */
+        a:link {
+        color: var(--lavender);
+        }
+
+        /* visited link */
+        a:visited {
+        color: var(--mauve);
+        }
         * {
             margin: 0;
             padding: 0;
@@ -64,15 +73,15 @@
             margin-bottom: 1rem;
         }
 
-        .post-list {
-            list-style-type: none;
-            padding: 0;
+        .post-date {
+            color: var(--subtext1);
+            margin-bottom: 1rem;
         }
 
-        .post-list li {
-            margin: 1rem 0;
+        .post-content {
+            margin-top: 1rem;
         }
-        
+
         .back-button {
             background-color: var(--surface0);
             color: var(--text);
@@ -87,33 +96,31 @@
         .back-button:hover {
             background-color: var(--surface1);
         }
-        
-        .post-list a {
-            display: block;
-            background-color: var(--surface0);
-            color: var(--text);
-            text-decoration: none;
-            padding: 1rem;
-            border-radius: 0;
-            transition: background-color 0.2s ease, color 0.2s ease;
-        }
-
-        .post-list a:hover {
-            background-color: var(--mauve);
-            color: var(--text);
-        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="card">
-            <a href="../index.html" class="back-button">Back to Home</a>
-            <h1>Blog Posts</h1>
-            <ul class="post-list">
-                <li><a href="3-15-25.html">random stuff i use</a></li>
-                <li><a href="3-11-25.html">meowwww</a></li>
-            </ul>
+            <a href="./index.html" class="back-button">Back</a>
+            <h1>random stuff i use</h1>
+            <p class="post-date">Published on: March 15, 2025</p>
+            <div class="post-content">
+                <h2>idk heres just random misc services i use :3</h2>
+                <a href="https://quad9.net/">quad9 dns</a>
+                <p>microsoft edge</p>
+                <a href="https://github.com/M0chaCat/meowmak/">meowmak</a>
+                <p>opencore bootloader</p>
+                <p>swaywm</p>
+                <a href="https://nyarchlinux.moe/">nyarch linux</a>
+                <p>macOS</p>
+                <a href="https://unduck.link">unduck</a>
+                <p>betterdiscord</p>
+                
+                <h2>physical stuff</h2>
+
+                <p>i use a trackball mouse :3</p>
+            </div>
         </div>
     </div>
 </body>
-</html> 
+</html>
