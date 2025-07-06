@@ -1,0 +1,141 @@
+body {
+  background-color: #181825;
+  color: #cdd6f4;
+  font-family: 'Fredoka', monospace;
+  margin: 0;
+  padding: 1rem;
+}
+
+.wrapper {
+  max-width: 800px;
+  margin: auto;
+  padding: 1rem;
+  background: #1e1e2e;
+  border: 2px solid #313244;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 0.5rem auto;
+  max-width: 400px; /* or adjust to match your design */
+  width: 100%;
+  height: auto;
+  filter: drop-shadow(0 0 5px #cba6f7);
+}
+
+
+header h1 {
+  font-size: 3rem;
+  text-align: center;
+  color: #cba6f7;
+  text-shadow: 0 0 5px #cba6f7;
+}
+
+h2 {
+  color: #b4befe;
+  border-bottom: 2px dashed #444;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+li {
+  padding: 0.2rem 0;
+}
+
+.avatar-block {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.avatar-block img {
+  width: 64px;
+  height: 64px;
+  border: 2px solid #444;
+}
+
+.searchbox {
+  margin-top: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  border: 2px solid #313244;
+  background-color: #1e1e2e;
+  color: #cdd6f4;
+  border-radius: 8px;
+  outline: none;
+}
+
+
+input[type="text"]:focus {
+  border-color: #cba6f7;
+  box-shadow: 0 0 5px #cba6f7;
+}
+
+#results li {
+  background-color: #313244;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 6px;
+  transition: background 0.2s;
+  border: 1px solid #45475a;
+}
+
+#results li:hover {
+  background-color: #45475a;
+}
+
+#results li a {
+  color: #b4befe;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#results li a:hover {
+  text-decoration: underline;
+}
+
+#results small {
+  display: block;
+  margin-top: 0.4rem;
+  color: #a6adc8;
+  font-size: 0.9rem;
+}
+
+
+.result-entry {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.result-entry .favicon {
+  width: 24px;
+  height: 24px;
+  border-radius: 4px;
+  background: #181825;
+  border: 1px solid #444;
+}
+
+.result-text {
+  flex: 1;
+}
+
+header p {
+  text-align: center;
+  margin-top: 0.5rem;
+  color: #cdd6f4;
+}
