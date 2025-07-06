@@ -157,6 +157,40 @@
             color: var(--pink);
             margin-bottom: 1rem;
         }
+        code {
+    background-color: var(--surface0);
+    padding: 0.25rem 0.5rem;
+    border-radius: 0;
+    font-family: monospace;
+    font-weight: bold;
+    color: var(--pink);
+  }
+  .dns-ip {
+    font-size: 2rem;
+    color: var(--lavender);
+    font-weight: 700;
+    margin: 1rem 0;
+    user-select: all;
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  .dns-ip:hover {
+    color: var(--mauve);
+  }
+  a.custom-link {
+    color: var(--pink);
+    text-decoration: underline;
+    font-weight: 600;
+  }
+  a.custom-link:hover {
+    color: var(--mauve);
+  }
+  .small-note {
+    color: var(--subtext1);
+    font-size: 0.9rem;
+    margin-top: 3rem;
+    font-style: italic;
+  }
     </style>
 </head>
 <body>
@@ -170,114 +204,43 @@
                 <h1>Hewo!!</h1>
                 <p class="bio">Im Mocha aka 󱥢󱥍󱦗󱥜󱤦, and many other names :3</p>
             </div>
-            <h3 class="section-title">socials!!</h3>
-            <div class="platforms">
-                <a href="https://github.com/M0chaCat"><img src="./assets/github-check.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <!-- ill make a new fedi oneday -->
-                <!-- <a href="https://x.com/stwawbwewy_milk" target="_blank">
-                    <img src="https://img.icons8.com/?size=100&id=8824&format=png&color=ffffff" alt="Twitter" class="platform-icon">
-                </a> -->
-                <a href="https://discordapp.com/users/808802000224518264"><img src="./assets/discord.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-            </div>
-            <h3 class="section-title">buttons!!</h3>
-            <div class="buttons-section">
-
-                <a href="https://store.steampowered.com/app/420530/OneShot/"><img src="./assets/buttons/oneshot.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="https://crushcapitalism.neocities.org/"><img src="./assets/buttons/communism.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="https://crushcapitalism.neocities.org/"><img src="./assets/buttons/commeownist.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-
-                <a href="https://necoarc.dev"><img src="https://necoarc.dev/assets/necoarc-88x31.png"></a>
-                <a href="https://silly.city"><img src="https://silly.city/silly.gif" alt="silly.city" width="88" height="31"></a>
-                <!--<a href="https://sushi.tauon.dev"><img src="https://sushi.tauon.dev/res/88x31.png" width="88" height="31" alt="luna 88 by 31 button" style="image-rendering: pixelated"></a>
-                <a href="https://tauon.dev/" target="_blank"><img src="https://tauon.dev/images/88x31/lily.png" alt="lily" width="88" height="31" style="image-rendering: pixelated" title="do hotlink my button!"/></a>-->
-                <a href="https://blinkies.cafe" target="_blank"><img src="https://blinkies.cafe/b/display/blinkiesCafe-badge.gif" alt="blinkies.cafe | make your own blinkies!"></a>
-                <a href="https://arcane.kitties.cat"><img src="https://arcane.kitties.cat/NEWBUTTON(wow).gif" width="88" height="31" alt="mochas 88 by 31 button" style="image-rendering: pixelated"></a>
-                <a href="https://icarusdean.neocities.org"><img src="https://icarusdean.neocities.org/images/webbuttons/ichor.system88x31.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="https://dimden.dev/"><img src="https://dimden.dev/services/images/88x31.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button10.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a><!-- button by felixfever.nekoweb.org -->
-
-                <a href="https://nyarchlinux.moe/"><img src="./assets/buttons/nyarch.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/1MLKwVL.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/4x3_fade.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/2001.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/amiga.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/anythingbut.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/bestvw.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/cosmo.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/fckgoogle.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/macmade-wht.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/transrights.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/cat.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/gay.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/neko.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/blinkieobsession.gif" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-                <a href="javascript:void(0)"><img src="./assets/buttons/antinft.png" width="88" height="31" alt="" style="image-rendering: pixelated"></a>
-
-
-            </div>
-            <h3 class="section-title">stamps!!</h3>
-            <div class="buttons-section">
-                <img src="./assets/stamps/beaniebabyworm.jpg" alt="" style="image-rendering: pixelated">
-                <img src="./assets/stamps/steven.png" alt="" style="image-rendering: pixelated">
-                <img src="./assets/stamps/suggestion.png" alt="" style="image-rendering: pixelated">
-                <img src="./assets/stamps/supportminecraft.png" alt="" style="image-rendering: pixelated">
-                <img src="./assets/stamps/system32.gif" alt="" style="image-rendering: pixelated">
-                
-            </div>
-
-            <h3 class="section-title">blinkies!!</h3>
-            <div class="buttons-section">
-                <a href="https://www.glitter-graphics.com"><img src="http://dl9.glitter-graphics.net/pub/223/223979qnh6dwmabq.gif" width=150 height=20 border=0></a><br><a href="https://www.glitter-graphics.com" target=_blank></a>
-
-                <img src="./assets/blinkies/candycorn.gif" alt="" style="image-rendering: pixelated">
-                <img src="./assets/blinkies/catgender.gif" alt="" style="image-rendering: pixelated">
-                <img src="./assets/blinkies/justkitten.gif" alt="" style="image-rendering: pixelated">
-                <img src="./assets/blinkies/pop.png" alt="" style="image-rendering: pixelated">
-                <img src="./assets/blinkies/rubix.gif" alt="" style="image-rendering: pixelated">
-                <img src="./assets/blinkies/blinkiesCafe-Py.gif" alt="" style="image-rendering: pixelated">
-                
-            </div>
+        </div>
+        <div class="card profile-section">
+            <h3 class="section-title">Site moved!</h3>
+            <p>It lives on <strong>NyaNet!</strong></p>
+            <p>
+              To visit me, you’ll need to add my custom DNS server:
+            </p>
+            <div class="dns-ip" onclick="copyDNS()" title="Click to copy the DNS IP">209.25.143.66</div>
+            <p>
+              Then open your browser and go to <a href="http://mocha.kitten" class="custom-link">mocha.kitten</a> to find me there!
+            </p>
+            <p class="small-note">
+              (If you don’t add the DNS, you won’t be able to find me — but it’s super easy to set up!)
+            </p>
+            <p class="small-note">
+              (If you have any issues DM @m0chacat on discord!)
+            </p>
+          <script>
+            function copyDNS() {
+              navigator.clipboard.writeText("209.25.143.66").then(() => {
+                alert("DNS server IP copied! Paste it into your device’s DNS settings.");
+              }, () => {
+                alert("Oops! Copy manually: 209.25.143.66");
+              });
+            }
+          </script>
+        </div>
+        <div class="card profile-section">
             <h3 class="section-title">webrings!!</h3>
             <div style="text-align: center;">
-                <script src="https://transring.neocities.org/ring.js"></script>
-
-                <div id='amiga'>
-                    <script type="text/javascript" src="https://nicois.gay/amiga/onionring-variables.js"></script>
-                    <script type="text/javascript" src="https://nicois.gay/amiga/onionring-widget.js"></script>
-                </div>
-
-                <div id='furryring'>
-                    <script type="text/javascript" src="https://furryring.neocities.org/onionring-variables.js"></script>
-                    <script type="text/javascript" src="https://furryring.neocities.org/onionring-widget.js"></script>
-                </div>
-
                 <script src="https://snewberry.neocities.org/catfolk/webstring.js"></script>
 
                 <script src="https://homebrew.cresentri.com/webring.js" data="vita"></script>
             </div>
         </div>
-
-        <div style="text-align: center;">
-            <a href="https://www.glitter-graphics.com/myspace/text_generator.php" target="_blank">
-              <img src="https://text.glitter-graphics.net/psy/m.gif" border="0">
-              <img src="https://text.glitter-graphics.net/psy/e.gif" border="0">
-              <img src="https://text.glitter-graphics.net/psy/o.gif" border="0">
-              <img src="https://text.glitter-graphics.net/psy/w.gif" border="0">
-            </a>
-          </div>
-          
-        <div class="card">
-            <h2 class="section-title">Wat i has made:</h2>
-            <div class="projects-grid">
-                <a href="https://github.com/nekocord-mod/nekocord" class="project-item">Nekocord</a>
-                <a href="./nekocord_repo.json" class="project-item">My Nekocord Repo</a>
-                <a href="./mybuttonn" class="project-item">ma buttonn</a>
-                <a href="https://github.com/M0chaCat/Essentials" class="project-item">Essentials</a>
-                <a href="https://github.com/M0chaCat/PawKit" class="project-item">Pawkit</a>
-                <a href="https://github.com/M0chaCat/Cmail" class="project-item">Cmail</a>
-            </div>
-        </div>
     </div>
+
 
     <img src="https://circulars.dev/circular-cat.gif" style="position: fixed; right:0; bottom:0; z-index: 100;" onclick="meow()">
 
