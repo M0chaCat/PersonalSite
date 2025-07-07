@@ -1,0 +1,1765 @@
+/**
+ * @name         Catmoji
+ * @description  Replaces all face emojis with cats!
+ * @author       arcane
+ * @id arcane:catmoji
+**/
+/* grinning */
+/* grinning */
+.diversityEmojiItemImage_a45a2a[src='/assets/f753793200a49ad6.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.image__1859b[src='/assets/f753793200a49ad6.svg'], .image__1859b[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.emoji__045fa[src='/assets/f753793200a49ad6.svg'], .emoji__045fa[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.emojiImage__13533[src='/assets/f753793200a49ad6.svg'], .emojiImage__13533[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.icon_c1e9c4[src='/assets/f753793200a49ad6.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.icon_f563df[src='/assets/f753793200a49ad6.svg'], .icon_f563df[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.emoji_cc2dff[src='/assets/f753793200a49ad6.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.emoji__01c8c[src='/assets/f753793200a49ad6.svg'], .emoji__01c8c[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.roleIcon__1e6f1[src='/assets/f753793200a49ad6.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f753793200a49ad6.svg")'], 
+.emoji[src='/assets/f753793200a49ad6.svg'], .emoji[style*='background-image: url("/assets/f753793200a49ad6.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grinning_face.svg") !important;
+}
+
+/* smiley */
+/* smiley */
+.diversityEmojiItemImage_a45a2a[src='/assets/b0cd51e46a99e363.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.image__1859b[src='/assets/b0cd51e46a99e363.svg'], .image__1859b[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.emoji__045fa[src='/assets/b0cd51e46a99e363.svg'], .emoji__045fa[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.emojiImage__13533[src='/assets/b0cd51e46a99e363.svg'], .emojiImage__13533[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.icon_c1e9c4[src='/assets/b0cd51e46a99e363.svg'], .icon_c1e9c4[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.icon_f563df[src='/assets/b0cd51e46a99e363.svg'], .icon_f563df[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.emoji_cc2dff[src='/assets/b0cd51e46a99e363.svg'], .emoji_cc2dff[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.emoji__01c8c[src='/assets/b0cd51e46a99e363.svg'], .emoji__01c8c[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.roleIcon__1e6f1[src='/assets/b0cd51e46a99e363.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'], 
+.emoji[src='/assets/b0cd51e46a99e363.svg'], .emoji[style*='background-image: url("/assets/b0cd51e46a99e363.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
+}
+
+/* smile */
+/* smile */
+.diversityEmojiItemImage_a45a2a[src='/assets/58a76b2430663605.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.image__1859b[src='/assets/58a76b2430663605.svg'], .image__1859b[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.emoji__045fa[src='/assets/58a76b2430663605.svg'], .emoji__045fa[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.emojiImage__13533[src='/assets/58a76b2430663605.svg'], .emojiImage__13533[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.icon_c1e9c4[src='/assets/58a76b2430663605.svg'], .icon_c1e9c4[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.icon_f563df[src='/assets/58a76b2430663605.svg'], .icon_f563df[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.emoji_cc2dff[src='/assets/58a76b2430663605.svg'], .emoji_cc2dff[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.emoji__01c8c[src='/assets/58a76b2430663605.svg'], .emoji__01c8c[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.roleIcon__1e6f1[src='/assets/58a76b2430663605.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/58a76b2430663605.svg")'], 
+.emoji[src='/assets/58a76b2430663605.svg'], .emoji[style*='background-image: url("/assets/58a76b2430663605.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
+}
+
+/* grin */
+/* grin */
+.diversityEmojiItemImage_a45a2a[src='/assets/7fff0841b901c035.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.image__1859b[src='/assets/7fff0841b901c035.svg'], .image__1859b[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.emoji__045fa[src='/assets/7fff0841b901c035.svg'], .emoji__045fa[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.emojiImage__13533[src='/assets/7fff0841b901c035.svg'], .emojiImage__13533[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.icon_c1e9c4[src='/assets/7fff0841b901c035.svg'], .icon_c1e9c4[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.icon_f563df[src='/assets/7fff0841b901c035.svg'], .icon_f563df[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.emoji_cc2dff[src='/assets/7fff0841b901c035.svg'], .emoji_cc2dff[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.emoji__01c8c[src='/assets/7fff0841b901c035.svg'], .emoji__01c8c[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.roleIcon__1e6f1[src='/assets/7fff0841b901c035.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/7fff0841b901c035.svg")'], 
+.emoji[src='/assets/7fff0841b901c035.svg'], .emoji[style*='background-image: url("/assets/7fff0841b901c035.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
+}
+
+/* laughing */
+/* laughing */
+.diversityEmojiItemImage_a45a2a[src='/assets/744deec4104c34a5.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.image__1859b[src='/assets/744deec4104c34a5.svg'], .image__1859b[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.emoji__045fa[src='/assets/744deec4104c34a5.svg'], .emoji__045fa[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.emojiImage__13533[src='/assets/744deec4104c34a5.svg'], .emojiImage__13533[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.icon_c1e9c4[src='/assets/744deec4104c34a5.svg'], .icon_c1e9c4[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.icon_f563df[src='/assets/744deec4104c34a5.svg'], .icon_f563df[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.emoji_cc2dff[src='/assets/744deec4104c34a5.svg'], .emoji_cc2dff[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.emoji__01c8c[src='/assets/744deec4104c34a5.svg'], .emoji__01c8c[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.roleIcon__1e6f1[src='/assets/744deec4104c34a5.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/744deec4104c34a5.svg")'], 
+.emoji[src='/assets/744deec4104c34a5.svg'], .emoji[style*='background-image: url("/assets/744deec4104c34a5.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_open_mouth_and_smiling_eyes.svg") !important;
+}
+
+/* face_holding_back_tears */
+/* face_holding_back_tears */
+.diversityEmojiItemImage_a45a2a[src='/assets/5df2da052fc1ddc6.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.image__1859b[src='/assets/5df2da052fc1ddc6.svg'], .image__1859b[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.emoji__045fa[src='/assets/5df2da052fc1ddc6.svg'], .emoji__045fa[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.emojiImage__13533[src='/assets/5df2da052fc1ddc6.svg'], .emojiImage__13533[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.icon_c1e9c4[src='/assets/5df2da052fc1ddc6.svg'], .icon_c1e9c4[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.icon_f563df[src='/assets/5df2da052fc1ddc6.svg'], .icon_f563df[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.emoji_cc2dff[src='/assets/5df2da052fc1ddc6.svg'], .emoji_cc2dff[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.emoji__01c8c[src='/assets/5df2da052fc1ddc6.svg'], .emoji__01c8c[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.roleIcon__1e6f1[src='/assets/5df2da052fc1ddc6.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'], 
+.emoji[src='/assets/5df2da052fc1ddc6.svg'], .emoji[style*='background-image: url("/assets/5df2da052fc1ddc6.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_tears_of_joy.svg") !important;
+}
+
+/* sweat_smile */
+/* sweat_smile */
+.diversityEmojiItemImage_a45a2a[src='/assets/5134d215343b97ef.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.image__1859b[src='/assets/5134d215343b97ef.svg'], .image__1859b[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.emoji__045fa[src='/assets/5134d215343b97ef.svg'], .emoji__045fa[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.emojiImage__13533[src='/assets/5134d215343b97ef.svg'], .emojiImage__13533[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.icon_c1e9c4[src='/assets/5134d215343b97ef.svg'], .icon_c1e9c4[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.icon_f563df[src='/assets/5134d215343b97ef.svg'], .icon_f563df[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.emoji_cc2dff[src='/assets/5134d215343b97ef.svg'], .emoji_cc2dff[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.emoji__01c8c[src='/assets/5134d215343b97ef.svg'], .emoji__01c8c[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.roleIcon__1e6f1[src='/assets/5134d215343b97ef.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/5134d215343b97ef.svg")'], 
+.emoji[src='/assets/5134d215343b97ef.svg'], .emoji[style*='background-image: url("/assets/5134d215343b97ef.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_open_mouth_and_cold_sweat.svg") !important;
+}
+
+/* joy */
+/* joy */
+.diversityEmojiItemImage_a45a2a[src='/assets/3eb3ebe2d01299ec.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.image__1859b[src='/assets/3eb3ebe2d01299ec.svg'], .image__1859b[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.emoji__045fa[src='/assets/3eb3ebe2d01299ec.svg'], .emoji__045fa[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.emojiImage__13533[src='/assets/3eb3ebe2d01299ec.svg'], .emojiImage__13533[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.icon_c1e9c4[src='/assets/3eb3ebe2d01299ec.svg'], .icon_c1e9c4[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.icon_f563df[src='/assets/3eb3ebe2d01299ec.svg'], .icon_f563df[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.emoji_cc2dff[src='/assets/3eb3ebe2d01299ec.svg'], .emoji_cc2dff[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.emoji__01c8c[src='/assets/3eb3ebe2d01299ec.svg'], .emoji__01c8c[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.roleIcon__1e6f1[src='/assets/3eb3ebe2d01299ec.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'], 
+.emoji[src='/assets/3eb3ebe2d01299ec.svg'], .emoji[style*='background-image: url("/assets/3eb3ebe2d01299ec.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_tears_of_joy.svg") !important;
+}
+
+/* rofl */
+/* rofl */
+.diversityEmojiItemImage_a45a2a[src='/assets/e5bddb2a9171637d.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.image__1859b[src='/assets/e5bddb2a9171637d.svg'], .image__1859b[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.emoji__045fa[src='/assets/e5bddb2a9171637d.svg'], .emoji__045fa[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.emojiImage__13533[src='/assets/e5bddb2a9171637d.svg'], .emojiImage__13533[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.icon_c1e9c4[src='/assets/e5bddb2a9171637d.svg'], .icon_c1e9c4[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.icon_f563df[src='/assets/e5bddb2a9171637d.svg'], .icon_f563df[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.emoji_cc2dff[src='/assets/e5bddb2a9171637d.svg'], .emoji_cc2dff[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.emoji__01c8c[src='/assets/e5bddb2a9171637d.svg'], .emoji__01c8c[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.roleIcon__1e6f1[src='/assets/e5bddb2a9171637d.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'], 
+.emoji[src='/assets/e5bddb2a9171637d.svg'], .emoji[style*='background-image: url("/assets/e5bddb2a9171637d.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/rolling_on_the_floor_laughing.svg") !important;
+}
+
+/* smiling_face_with_tear */
+/* smiling_face_with_tear */
+.diversityEmojiItemImage_a45a2a[src='/assets/69aa309e02aeb2c4.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.image__1859b[src='/assets/69aa309e02aeb2c4.svg'], .image__1859b[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.emoji__045fa[src='/assets/69aa309e02aeb2c4.svg'], .emoji__045fa[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.emojiImage__13533[src='/assets/69aa309e02aeb2c4.svg'], .emojiImage__13533[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.icon_c1e9c4[src='/assets/69aa309e02aeb2c4.svg'], .icon_c1e9c4[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.icon_f563df[src='/assets/69aa309e02aeb2c4.svg'], .icon_f563df[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.emoji_cc2dff[src='/assets/69aa309e02aeb2c4.svg'], .emoji_cc2dff[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.emoji__01c8c[src='/assets/69aa309e02aeb2c4.svg'], .emoji__01c8c[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.roleIcon__1e6f1[src='/assets/69aa309e02aeb2c4.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'], 
+.emoji[src='/assets/69aa309e02aeb2c4.svg'], .emoji[style*='background-image: url("/assets/69aa309e02aeb2c4.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_tear.svg") !important;
+}
+
+/* relaxed */
+/* relaxed */
+.diversityEmojiItemImage_a45a2a[src='/assets/646a62b7c6056b78.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.image__1859b[src='/assets/646a62b7c6056b78.svg'], .image__1859b[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.emoji__045fa[src='/assets/646a62b7c6056b78.svg'], .emoji__045fa[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.emojiImage__13533[src='/assets/646a62b7c6056b78.svg'], .emojiImage__13533[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.icon_c1e9c4[src='/assets/646a62b7c6056b78.svg'], .icon_c1e9c4[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.icon_f563df[src='/assets/646a62b7c6056b78.svg'], .icon_f563df[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.emoji_cc2dff[src='/assets/646a62b7c6056b78.svg'], .emoji_cc2dff[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.emoji__01c8c[src='/assets/646a62b7c6056b78.svg'], .emoji__01c8c[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.roleIcon__1e6f1[src='/assets/646a62b7c6056b78.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/646a62b7c6056b78.svg")'], 
+.emoji[src='/assets/646a62b7c6056b78.svg'], .emoji[style*='background-image: url("/assets/646a62b7c6056b78.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/263a.svg") !important;
+}
+
+/* blush */
+/* blush */
+.diversityEmojiItemImage_a45a2a[src='/assets/c59423cba5c147df.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.image__1859b[src='/assets/c59423cba5c147df.svg'], .image__1859b[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.emoji__045fa[src='/assets/c59423cba5c147df.svg'], .emoji__045fa[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.emojiImage__13533[src='/assets/c59423cba5c147df.svg'], .emojiImage__13533[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.icon_c1e9c4[src='/assets/c59423cba5c147df.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.icon_f563df[src='/assets/c59423cba5c147df.svg'], .icon_f563df[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.emoji_cc2dff[src='/assets/c59423cba5c147df.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.emoji__01c8c[src='/assets/c59423cba5c147df.svg'], .emoji__01c8c[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.roleIcon__1e6f1[src='/assets/c59423cba5c147df.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c59423cba5c147df.svg")'], 
+.emoji[src='/assets/c59423cba5c147df.svg'], .emoji[style*='background-image: url("/assets/c59423cba5c147df.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/263a.svg") !important;
+}
+
+/* innocent */
+/* innocent */
+.diversityEmojiItemImage_a45a2a[src='/assets/ceb2a720a9348a7d.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.image__1859b[src='/assets/ceb2a720a9348a7d.svg'], .image__1859b[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.emoji__045fa[src='/assets/ceb2a720a9348a7d.svg'], .emoji__045fa[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.emojiImage__13533[src='/assets/ceb2a720a9348a7d.svg'], .emojiImage__13533[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.icon_c1e9c4[src='/assets/ceb2a720a9348a7d.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.icon_f563df[src='/assets/ceb2a720a9348a7d.svg'], .icon_f563df[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.emoji_cc2dff[src='/assets/ceb2a720a9348a7d.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.emoji__01c8c[src='/assets/ceb2a720a9348a7d.svg'], .emoji__01c8c[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.roleIcon__1e6f1[src='/assets/ceb2a720a9348a7d.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'], 
+.emoji[src='/assets/ceb2a720a9348a7d.svg'], .emoji[style*='background-image: url("/assets/ceb2a720a9348a7d.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_halo.svg") !important;
+}
+
+/* slight_smile */
+/* slight_smile */
+.diversityEmojiItemImage_a45a2a[src='/assets/0424e06a82d250e2.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.image__1859b[src='/assets/0424e06a82d250e2.svg'], .image__1859b[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.emoji__045fa[src='/assets/0424e06a82d250e2.svg'], .emoji__045fa[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.emojiImage__13533[src='/assets/0424e06a82d250e2.svg'], .emojiImage__13533[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.icon_c1e9c4[src='/assets/0424e06a82d250e2.svg'], .icon_c1e9c4[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.icon_f563df[src='/assets/0424e06a82d250e2.svg'], .icon_f563df[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.emoji_cc2dff[src='/assets/0424e06a82d250e2.svg'], .emoji_cc2dff[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.emoji__01c8c[src='/assets/0424e06a82d250e2.svg'], .emoji__01c8c[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.roleIcon__1e6f1[src='/assets/0424e06a82d250e2.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/0424e06a82d250e2.svg")'], 
+.emoji[src='/assets/0424e06a82d250e2.svg'], .emoji[style*='background-image: url("/assets/0424e06a82d250e2.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/slightly_smiling_face.svg") !important;
+}
+
+/* upside_down */
+/* upside_down */
+.diversityEmojiItemImage_a45a2a[src='/assets/460d0ae35d91aed8.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.image__1859b[src='/assets/460d0ae35d91aed8.svg'], .image__1859b[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.emoji__045fa[src='/assets/460d0ae35d91aed8.svg'], .emoji__045fa[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.emojiImage__13533[src='/assets/460d0ae35d91aed8.svg'], .emojiImage__13533[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.icon_c1e9c4[src='/assets/460d0ae35d91aed8.svg'], .icon_c1e9c4[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.icon_f563df[src='/assets/460d0ae35d91aed8.svg'], .icon_f563df[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.emoji_cc2dff[src='/assets/460d0ae35d91aed8.svg'], .emoji_cc2dff[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.emoji__01c8c[src='/assets/460d0ae35d91aed8.svg'], .emoji__01c8c[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.roleIcon__1e6f1[src='/assets/460d0ae35d91aed8.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'], 
+.emoji[src='/assets/460d0ae35d91aed8.svg'], .emoji[style*='background-image: url("/assets/460d0ae35d91aed8.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/upside-down_face.svg") !important;
+}
+
+/* wink */
+/* wink */
+.diversityEmojiItemImage_a45a2a[src='/assets/4742013cbe7dbca0.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.image__1859b[src='/assets/4742013cbe7dbca0.svg'], .image__1859b[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.emoji__045fa[src='/assets/4742013cbe7dbca0.svg'], .emoji__045fa[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.emojiImage__13533[src='/assets/4742013cbe7dbca0.svg'], .emojiImage__13533[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.icon_c1e9c4[src='/assets/4742013cbe7dbca0.svg'], .icon_c1e9c4[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.icon_f563df[src='/assets/4742013cbe7dbca0.svg'], .icon_f563df[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.emoji_cc2dff[src='/assets/4742013cbe7dbca0.svg'], .emoji_cc2dff[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.emoji__01c8c[src='/assets/4742013cbe7dbca0.svg'], .emoji__01c8c[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.roleIcon__1e6f1[src='/assets/4742013cbe7dbca0.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'], 
+.emoji[src='/assets/4742013cbe7dbca0.svg'], .emoji[style*='background-image: url("/assets/4742013cbe7dbca0.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/winking_face.svg") !important;
+}
+
+/* relieved */
+/* relieved */
+.diversityEmojiItemImage_a45a2a[src='/assets/deed631dac658c0f.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.image__1859b[src='/assets/deed631dac658c0f.svg'], .image__1859b[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.emoji__045fa[src='/assets/deed631dac658c0f.svg'], .emoji__045fa[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.emojiImage__13533[src='/assets/deed631dac658c0f.svg'], .emojiImage__13533[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.icon_c1e9c4[src='/assets/deed631dac658c0f.svg'], .icon_c1e9c4[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.icon_f563df[src='/assets/deed631dac658c0f.svg'], .icon_f563df[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.emoji_cc2dff[src='/assets/deed631dac658c0f.svg'], .emoji_cc2dff[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.emoji__01c8c[src='/assets/deed631dac658c0f.svg'], .emoji__01c8c[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.roleIcon__1e6f1[src='/assets/deed631dac658c0f.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/deed631dac658c0f.svg")'], 
+.emoji[src='/assets/deed631dac658c0f.svg'], .emoji[style*='background-image: url("/assets/deed631dac658c0f.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/relieved_face.svg") !important;
+}
+
+/* heart_eyes */
+/* heart_eyes */
+.diversityEmojiItemImage_a45a2a[src='/assets/ba7ea799dbe629ce.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.image__1859b[src='/assets/ba7ea799dbe629ce.svg'], .image__1859b[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.emoji__045fa[src='/assets/ba7ea799dbe629ce.svg'], .emoji__045fa[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.emojiImage__13533[src='/assets/ba7ea799dbe629ce.svg'], .emojiImage__13533[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.icon_c1e9c4[src='/assets/ba7ea799dbe629ce.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.icon_f563df[src='/assets/ba7ea799dbe629ce.svg'], .icon_f563df[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.emoji_cc2dff[src='/assets/ba7ea799dbe629ce.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.emoji__01c8c[src='/assets/ba7ea799dbe629ce.svg'], .emoji__01c8c[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.roleIcon__1e6f1[src='/assets/ba7ea799dbe629ce.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'], 
+.emoji[src='/assets/ba7ea799dbe629ce.svg'], .emoji[style*='background-image: url("/assets/ba7ea799dbe629ce.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_heart-shaped_eyes.svg") !important;
+}
+
+/* smiling_face_with_3_hearts */
+/* smiling_face_with_3_hearts */
+.diversityEmojiItemImage_a45a2a[src='/assets/10b67e5181089c99.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.image__1859b[src='/assets/10b67e5181089c99.svg'], .image__1859b[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.emoji__045fa[src='/assets/10b67e5181089c99.svg'], .emoji__045fa[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.emojiImage__13533[src='/assets/10b67e5181089c99.svg'], .emojiImage__13533[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.icon_c1e9c4[src='/assets/10b67e5181089c99.svg'], .icon_c1e9c4[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.icon_f563df[src='/assets/10b67e5181089c99.svg'], .icon_f563df[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.emoji_cc2dff[src='/assets/10b67e5181089c99.svg'], .emoji_cc2dff[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.emoji__01c8c[src='/assets/10b67e5181089c99.svg'], .emoji__01c8c[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.roleIcon__1e6f1[src='/assets/10b67e5181089c99.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/10b67e5181089c99.svg")'], 
+.emoji[src='/assets/10b67e5181089c99.svg'], .emoji[style*='background-image: url("/assets/10b67e5181089c99.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_smiling_eyes_and_three_hearts.svg") !important;
+}
+
+/* kissing_heart */
+/* kissing_heart */
+.diversityEmojiItemImage_a45a2a[src='/assets/f14c0cc1302d8016.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.image__1859b[src='/assets/f14c0cc1302d8016.svg'], .image__1859b[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.emoji__045fa[src='/assets/f14c0cc1302d8016.svg'], .emoji__045fa[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.emojiImage__13533[src='/assets/f14c0cc1302d8016.svg'], .emojiImage__13533[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.icon_c1e9c4[src='/assets/f14c0cc1302d8016.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.icon_f563df[src='/assets/f14c0cc1302d8016.svg'], .icon_f563df[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.emoji_cc2dff[src='/assets/f14c0cc1302d8016.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.emoji__01c8c[src='/assets/f14c0cc1302d8016.svg'], .emoji__01c8c[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.roleIcon__1e6f1[src='/assets/f14c0cc1302d8016.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'], 
+.emoji[src='/assets/f14c0cc1302d8016.svg'], .emoji[style*='background-image: url("/assets/f14c0cc1302d8016.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_throwing_a_kiss.svg") !important;
+}
+
+/* kissing */
+/* kissing */
+.diversityEmojiItemImage_a45a2a[src='/assets/b8deed70d3e4a9bd.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.image__1859b[src='/assets/b8deed70d3e4a9bd.svg'], .image__1859b[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.emoji__045fa[src='/assets/b8deed70d3e4a9bd.svg'], .emoji__045fa[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.emojiImage__13533[src='/assets/b8deed70d3e4a9bd.svg'], .emojiImage__13533[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.icon_c1e9c4[src='/assets/b8deed70d3e4a9bd.svg'], .icon_c1e9c4[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.icon_f563df[src='/assets/b8deed70d3e4a9bd.svg'], .icon_f563df[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.emoji_cc2dff[src='/assets/b8deed70d3e4a9bd.svg'], .emoji_cc2dff[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.emoji__01c8c[src='/assets/b8deed70d3e4a9bd.svg'], .emoji__01c8c[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.roleIcon__1e6f1[src='/assets/b8deed70d3e4a9bd.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'], 
+.emoji[src='/assets/b8deed70d3e4a9bd.svg'], .emoji[style*='background-image: url("/assets/b8deed70d3e4a9bd.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/kissing_face.svg") !important;
+}
+
+/* kissing_smiling_eyes */
+/* kissing_smiling_eyes */
+.diversityEmojiItemImage_a45a2a[src='/assets/c74a50f848dd6bbf.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.image__1859b[src='/assets/c74a50f848dd6bbf.svg'], .image__1859b[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.emoji__045fa[src='/assets/c74a50f848dd6bbf.svg'], .emoji__045fa[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.emojiImage__13533[src='/assets/c74a50f848dd6bbf.svg'], .emojiImage__13533[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.icon_c1e9c4[src='/assets/c74a50f848dd6bbf.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.icon_f563df[src='/assets/c74a50f848dd6bbf.svg'], .icon_f563df[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.emoji_cc2dff[src='/assets/c74a50f848dd6bbf.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.emoji__01c8c[src='/assets/c74a50f848dd6bbf.svg'], .emoji__01c8c[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.roleIcon__1e6f1[src='/assets/c74a50f848dd6bbf.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'], 
+.emoji[src='/assets/c74a50f848dd6bbf.svg'], .emoji[style*='background-image: url("/assets/c74a50f848dd6bbf.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/kissing_face_with_smiling_eyes.svg") !important;
+}
+
+/* kissing_closed_eyes */
+/* kissing_closed_eyes */
+.diversityEmojiItemImage_a45a2a[src='/assets/f4072a075aa6ca89.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.image__1859b[src='/assets/f4072a075aa6ca89.svg'], .image__1859b[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.emoji__045fa[src='/assets/f4072a075aa6ca89.svg'], .emoji__045fa[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.emojiImage__13533[src='/assets/f4072a075aa6ca89.svg'], .emojiImage__13533[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.icon_c1e9c4[src='/assets/f4072a075aa6ca89.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.icon_f563df[src='/assets/f4072a075aa6ca89.svg'], .icon_f563df[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.emoji_cc2dff[src='/assets/f4072a075aa6ca89.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.emoji__01c8c[src='/assets/f4072a075aa6ca89.svg'], .emoji__01c8c[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.roleIcon__1e6f1[src='/assets/f4072a075aa6ca89.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'], 
+.emoji[src='/assets/f4072a075aa6ca89.svg'], .emoji[style*='background-image: url("/assets/f4072a075aa6ca89.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/kissing_face_with_closed_eyes.svg") !important;
+}
+
+/* yum */
+/* yum */
+.diversityEmojiItemImage_a45a2a[src='/assets/5000a4145eda5ad7.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.image__1859b[src='/assets/5000a4145eda5ad7.svg'], .image__1859b[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.emoji__045fa[src='/assets/5000a4145eda5ad7.svg'], .emoji__045fa[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.emojiImage__13533[src='/assets/5000a4145eda5ad7.svg'], .emojiImage__13533[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.icon_c1e9c4[src='/assets/5000a4145eda5ad7.svg'], .icon_c1e9c4[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.icon_f563df[src='/assets/5000a4145eda5ad7.svg'], .icon_f563df[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.emoji_cc2dff[src='/assets/5000a4145eda5ad7.svg'], .emoji_cc2dff[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.emoji__01c8c[src='/assets/5000a4145eda5ad7.svg'], .emoji__01c8c[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.roleIcon__1e6f1[src='/assets/5000a4145eda5ad7.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'], 
+.emoji[src='/assets/5000a4145eda5ad7.svg'], .emoji[style*='background-image: url("/assets/5000a4145eda5ad7.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_savouring_delicious_food.svg") !important;
+}
+
+/* stuck_out_tongue */
+/* stuck_out_tongue */
+.diversityEmojiItemImage_a45a2a[src='/assets/426e7fc34498f6f9.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.image__1859b[src='/assets/426e7fc34498f6f9.svg'], .image__1859b[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.emoji__045fa[src='/assets/426e7fc34498f6f9.svg'], .emoji__045fa[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.emojiImage__13533[src='/assets/426e7fc34498f6f9.svg'], .emojiImage__13533[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.icon_c1e9c4[src='/assets/426e7fc34498f6f9.svg'], .icon_c1e9c4[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.icon_f563df[src='/assets/426e7fc34498f6f9.svg'], .icon_f563df[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.emoji_cc2dff[src='/assets/426e7fc34498f6f9.svg'], .emoji_cc2dff[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.emoji__01c8c[src='/assets/426e7fc34498f6f9.svg'], .emoji__01c8c[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.roleIcon__1e6f1[src='/assets/426e7fc34498f6f9.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'], 
+.emoji[src='/assets/426e7fc34498f6f9.svg'], .emoji[style*='background-image: url("/assets/426e7fc34498f6f9.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_stuck-out_tongue.svg") !important;
+}
+
+/* stuck_out_tongue_closed_eyes */
+/* stuck_out_tongue_closed_eyes */
+.diversityEmojiItemImage_a45a2a[src='/assets/2e1d374238012cc2.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.image__1859b[src='/assets/2e1d374238012cc2.svg'], .image__1859b[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.emoji__045fa[src='/assets/2e1d374238012cc2.svg'], .emoji__045fa[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.emojiImage__13533[src='/assets/2e1d374238012cc2.svg'], .emojiImage__13533[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.icon_c1e9c4[src='/assets/2e1d374238012cc2.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.icon_f563df[src='/assets/2e1d374238012cc2.svg'], .icon_f563df[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.emoji_cc2dff[src='/assets/2e1d374238012cc2.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.emoji__01c8c[src='/assets/2e1d374238012cc2.svg'], .emoji__01c8c[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.roleIcon__1e6f1[src='/assets/2e1d374238012cc2.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2e1d374238012cc2.svg")'], 
+.emoji[src='/assets/2e1d374238012cc2.svg'], .emoji[style*='background-image: url("/assets/2e1d374238012cc2.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_stuck-out_tongue_and_tightly-closed_eyes.svg") !important;
+}
+
+/* stuck_out_tongue_winking_eye */
+/* stuck_out_tongue_winking_eye */
+.diversityEmojiItemImage_a45a2a[src='/assets/c1923f950530938d.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.image__1859b[src='/assets/c1923f950530938d.svg'], .image__1859b[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.emoji__045fa[src='/assets/c1923f950530938d.svg'], .emoji__045fa[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.emojiImage__13533[src='/assets/c1923f950530938d.svg'], .emojiImage__13533[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.icon_c1e9c4[src='/assets/c1923f950530938d.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.icon_f563df[src='/assets/c1923f950530938d.svg'], .icon_f563df[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.emoji_cc2dff[src='/assets/c1923f950530938d.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.emoji__01c8c[src='/assets/c1923f950530938d.svg'], .emoji__01c8c[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.roleIcon__1e6f1[src='/assets/c1923f950530938d.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c1923f950530938d.svg")'], 
+.emoji[src='/assets/c1923f950530938d.svg'], .emoji[style*='background-image: url("/assets/c1923f950530938d.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_stuck-out_tongue_and_winking_eye.svg") !important;
+}
+
+/* zany_face */
+/* zany_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/d9ad5def1e22d863.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.image__1859b[src='/assets/d9ad5def1e22d863.svg'], .image__1859b[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.emoji__045fa[src='/assets/d9ad5def1e22d863.svg'], .emoji__045fa[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.emojiImage__13533[src='/assets/d9ad5def1e22d863.svg'], .emojiImage__13533[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.icon_c1e9c4[src='/assets/d9ad5def1e22d863.svg'], .icon_c1e9c4[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.icon_f563df[src='/assets/d9ad5def1e22d863.svg'], .icon_f563df[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.emoji_cc2dff[src='/assets/d9ad5def1e22d863.svg'], .emoji_cc2dff[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.emoji__01c8c[src='/assets/d9ad5def1e22d863.svg'], .emoji__01c8c[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.roleIcon__1e6f1[src='/assets/d9ad5def1e22d863.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'], 
+.emoji[src='/assets/d9ad5def1e22d863.svg'], .emoji[style*='background-image: url("/assets/d9ad5def1e22d863.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grinning_face_with_one_large_and_one_small_eye.svg") !important;
+}
+
+/* face_with_raised_eyebrow */
+/* face_with_raised_eyebrow */
+.diversityEmojiItemImage_a45a2a[src='/assets/8d3e98fb597f5fa8.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.image__1859b[src='/assets/8d3e98fb597f5fa8.svg'], .image__1859b[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.emoji__045fa[src='/assets/8d3e98fb597f5fa8.svg'], .emoji__045fa[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.emojiImage__13533[src='/assets/8d3e98fb597f5fa8.svg'], .emojiImage__13533[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.icon_c1e9c4[src='/assets/8d3e98fb597f5fa8.svg'], .icon_c1e9c4[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.icon_f563df[src='/assets/8d3e98fb597f5fa8.svg'], .icon_f563df[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.emoji_cc2dff[src='/assets/8d3e98fb597f5fa8.svg'], .emoji_cc2dff[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.emoji__01c8c[src='/assets/8d3e98fb597f5fa8.svg'], .emoji__01c8c[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.roleIcon__1e6f1[src='/assets/8d3e98fb597f5fa8.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'], 
+.emoji[src='/assets/8d3e98fb597f5fa8.svg'], .emoji[style*='background-image: url("/assets/8d3e98fb597f5fa8.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_one_eyebrow_raised.svg") !important;
+}
+
+/* face_with_monocle */
+/* face_with_monocle */
+.diversityEmojiItemImage_a45a2a[src='/assets/1adbf3b57f78bb8e.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.image__1859b[src='/assets/1adbf3b57f78bb8e.svg'], .image__1859b[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.emoji__045fa[src='/assets/1adbf3b57f78bb8e.svg'], .emoji__045fa[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.emojiImage__13533[src='/assets/1adbf3b57f78bb8e.svg'], .emojiImage__13533[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.icon_c1e9c4[src='/assets/1adbf3b57f78bb8e.svg'], .icon_c1e9c4[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.icon_f563df[src='/assets/1adbf3b57f78bb8e.svg'], .icon_f563df[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.emoji_cc2dff[src='/assets/1adbf3b57f78bb8e.svg'], .emoji_cc2dff[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.emoji__01c8c[src='/assets/1adbf3b57f78bb8e.svg'], .emoji__01c8c[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.roleIcon__1e6f1[src='/assets/1adbf3b57f78bb8e.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'], 
+.emoji[src='/assets/1adbf3b57f78bb8e.svg'], .emoji[style*='background-image: url("/assets/1adbf3b57f78bb8e.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_monocle.svg") !important;
+}
+
+/* nerd */
+/* nerd */
+.diversityEmojiItemImage_a45a2a[src='/assets/2e44c929023f5913.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.image__1859b[src='/assets/2e44c929023f5913.svg'], .image__1859b[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.emoji__045fa[src='/assets/2e44c929023f5913.svg'], .emoji__045fa[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.emojiImage__13533[src='/assets/2e44c929023f5913.svg'], .emojiImage__13533[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.icon_c1e9c4[src='/assets/2e44c929023f5913.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.icon_f563df[src='/assets/2e44c929023f5913.svg'], .icon_f563df[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.emoji_cc2dff[src='/assets/2e44c929023f5913.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.emoji__01c8c[src='/assets/2e44c929023f5913.svg'], .emoji__01c8c[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.roleIcon__1e6f1[src='/assets/2e44c929023f5913.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2e44c929023f5913.svg")'], 
+.emoji[src='/assets/2e44c929023f5913.svg'], .emoji[style*='background-image: url("/assets/2e44c929023f5913.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/nerd_face.svg") !important;
+}
+
+/* sunglasses */
+/* sunglasses */
+.diversityEmojiItemImage_a45a2a[src='/assets/95aa1f1ff050d571.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.image__1859b[src='/assets/95aa1f1ff050d571.svg'], .image__1859b[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.emoji__045fa[src='/assets/95aa1f1ff050d571.svg'], .emoji__045fa[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.emojiImage__13533[src='/assets/95aa1f1ff050d571.svg'], .emojiImage__13533[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.icon_c1e9c4[src='/assets/95aa1f1ff050d571.svg'], .icon_c1e9c4[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.icon_f563df[src='/assets/95aa1f1ff050d571.svg'], .icon_f563df[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.emoji_cc2dff[src='/assets/95aa1f1ff050d571.svg'], .emoji_cc2dff[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.emoji__01c8c[src='/assets/95aa1f1ff050d571.svg'], .emoji__01c8c[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.roleIcon__1e6f1[src='/assets/95aa1f1ff050d571.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'], 
+.emoji[src='/assets/95aa1f1ff050d571.svg'], .emoji[style*='background-image: url("/assets/95aa1f1ff050d571.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_sunglasses.svg") !important;
+}
+
+/* disguised_face */
+/* disguised_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/a45683ece5048af3.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.image__1859b[src='/assets/a45683ece5048af3.svg'], .image__1859b[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.emoji__045fa[src='/assets/a45683ece5048af3.svg'], .emoji__045fa[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.emojiImage__13533[src='/assets/a45683ece5048af3.svg'], .emojiImage__13533[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.icon_c1e9c4[src='/assets/a45683ece5048af3.svg'], .icon_c1e9c4[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.icon_f563df[src='/assets/a45683ece5048af3.svg'], .icon_f563df[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.emoji_cc2dff[src='/assets/a45683ece5048af3.svg'], .emoji_cc2dff[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.emoji__01c8c[src='/assets/a45683ece5048af3.svg'], .emoji__01c8c[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.roleIcon__1e6f1[src='/assets/a45683ece5048af3.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/a45683ece5048af3.svg")'], 
+.emoji[src='/assets/a45683ece5048af3.svg'], .emoji[style*='background-image: url("/assets/a45683ece5048af3.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/disguised_face.svg") !important;
+}
+
+/* star_struck */
+/* star_struck */
+.diversityEmojiItemImage_a45a2a[src='/assets/2469b03ecf8ecfc2.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.image__1859b[src='/assets/2469b03ecf8ecfc2.svg'], .image__1859b[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.emoji__045fa[src='/assets/2469b03ecf8ecfc2.svg'], .emoji__045fa[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.emojiImage__13533[src='/assets/2469b03ecf8ecfc2.svg'], .emojiImage__13533[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.icon_c1e9c4[src='/assets/2469b03ecf8ecfc2.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.icon_f563df[src='/assets/2469b03ecf8ecfc2.svg'], .icon_f563df[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.emoji_cc2dff[src='/assets/2469b03ecf8ecfc2.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.emoji__01c8c[src='/assets/2469b03ecf8ecfc2.svg'], .emoji__01c8c[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.roleIcon__1e6f1[src='/assets/2469b03ecf8ecfc2.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'], 
+.emoji[src='/assets/2469b03ecf8ecfc2.svg'], .emoji[style*='background-image: url("/assets/2469b03ecf8ecfc2.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grinning_face_with_star_eyes.svg") !important;
+}
+
+/* partying_face */
+/* partying_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/051752c90c96621c.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.image__1859b[src='/assets/051752c90c96621c.svg'], .image__1859b[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.emoji__045fa[src='/assets/051752c90c96621c.svg'], .emoji__045fa[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.emojiImage__13533[src='/assets/051752c90c96621c.svg'], .emojiImage__13533[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.icon_c1e9c4[src='/assets/051752c90c96621c.svg'], .icon_c1e9c4[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.icon_f563df[src='/assets/051752c90c96621c.svg'], .icon_f563df[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.emoji_cc2dff[src='/assets/051752c90c96621c.svg'], .emoji_cc2dff[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.emoji__01c8c[src='/assets/051752c90c96621c.svg'], .emoji__01c8c[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.roleIcon__1e6f1[src='/assets/051752c90c96621c.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/051752c90c96621c.svg")'], 
+.emoji[src='/assets/051752c90c96621c.svg'], .emoji[style*='background-image: url("/assets/051752c90c96621c.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_party_horn_and_party_hat.svg") !important;
+}
+
+/* smirk */
+/* smirk */
+.diversityEmojiItemImage_a45a2a[src='/assets/6f0e7d36849590b1.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.image__1859b[src='/assets/6f0e7d36849590b1.svg'], .image__1859b[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.emoji__045fa[src='/assets/6f0e7d36849590b1.svg'], .emoji__045fa[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.emojiImage__13533[src='/assets/6f0e7d36849590b1.svg'], .emojiImage__13533[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.icon_c1e9c4[src='/assets/6f0e7d36849590b1.svg'], .icon_c1e9c4[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.icon_f563df[src='/assets/6f0e7d36849590b1.svg'], .icon_f563df[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.emoji_cc2dff[src='/assets/6f0e7d36849590b1.svg'], .emoji_cc2dff[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.emoji__01c8c[src='/assets/6f0e7d36849590b1.svg'], .emoji__01c8c[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.roleIcon__1e6f1[src='/assets/6f0e7d36849590b1.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'], 
+.emoji[src='/assets/6f0e7d36849590b1.svg'], .emoji[style*='background-image: url("/assets/6f0e7d36849590b1.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smirking_face.svg") !important;
+}
+
+/* unamused */
+/* unamused */
+.diversityEmojiItemImage_a45a2a[src='/assets/1562477ed0b99c36.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.image__1859b[src='/assets/1562477ed0b99c36.svg'], .image__1859b[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.emoji__045fa[src='/assets/1562477ed0b99c36.svg'], .emoji__045fa[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.emojiImage__13533[src='/assets/1562477ed0b99c36.svg'], .emojiImage__13533[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.icon_c1e9c4[src='/assets/1562477ed0b99c36.svg'], .icon_c1e9c4[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.icon_f563df[src='/assets/1562477ed0b99c36.svg'], .icon_f563df[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.emoji_cc2dff[src='/assets/1562477ed0b99c36.svg'], .emoji_cc2dff[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.emoji__01c8c[src='/assets/1562477ed0b99c36.svg'], .emoji__01c8c[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.roleIcon__1e6f1[src='/assets/1562477ed0b99c36.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/1562477ed0b99c36.svg")'], 
+.emoji[src='/assets/1562477ed0b99c36.svg'], .emoji[style*='background-image: url("/assets/1562477ed0b99c36.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/unamused_face.svg") !important;
+}
+
+/* disappointed */
+/* disappointed */
+.diversityEmojiItemImage_a45a2a[src='/assets/23aed7a4de244a82.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.image__1859b[src='/assets/23aed7a4de244a82.svg'], .image__1859b[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.emoji__045fa[src='/assets/23aed7a4de244a82.svg'], .emoji__045fa[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.emojiImage__13533[src='/assets/23aed7a4de244a82.svg'], .emojiImage__13533[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.icon_c1e9c4[src='/assets/23aed7a4de244a82.svg'], .icon_c1e9c4[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.icon_f563df[src='/assets/23aed7a4de244a82.svg'], .icon_f563df[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.emoji_cc2dff[src='/assets/23aed7a4de244a82.svg'], .emoji_cc2dff[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.emoji__01c8c[src='/assets/23aed7a4de244a82.svg'], .emoji__01c8c[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.roleIcon__1e6f1[src='/assets/23aed7a4de244a82.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/23aed7a4de244a82.svg")'], 
+.emoji[src='/assets/23aed7a4de244a82.svg'], .emoji[style*='background-image: url("/assets/23aed7a4de244a82.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/disappointed_face.svg") !important;
+}
+
+/* pensive */
+/* pensive */
+.diversityEmojiItemImage_a45a2a[src='/assets/8ad827d7dad91d44.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.image__1859b[src='/assets/8ad827d7dad91d44.svg'], .image__1859b[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.emoji__045fa[src='/assets/8ad827d7dad91d44.svg'], .emoji__045fa[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.emojiImage__13533[src='/assets/8ad827d7dad91d44.svg'], .emojiImage__13533[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.icon_c1e9c4[src='/assets/8ad827d7dad91d44.svg'], .icon_c1e9c4[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.icon_f563df[src='/assets/8ad827d7dad91d44.svg'], .icon_f563df[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.emoji_cc2dff[src='/assets/8ad827d7dad91d44.svg'], .emoji_cc2dff[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.emoji__01c8c[src='/assets/8ad827d7dad91d44.svg'], .emoji__01c8c[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.roleIcon__1e6f1[src='/assets/8ad827d7dad91d44.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'], 
+.emoji[src='/assets/8ad827d7dad91d44.svg'], .emoji[style*='background-image: url("/assets/8ad827d7dad91d44.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/pensive_face.svg") !important;
+}
+
+/* worried */
+/* worried */
+.diversityEmojiItemImage_a45a2a[src='/assets/501de4cbe3b2b9b7.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.image__1859b[src='/assets/501de4cbe3b2b9b7.svg'], .image__1859b[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.emoji__045fa[src='/assets/501de4cbe3b2b9b7.svg'], .emoji__045fa[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.emojiImage__13533[src='/assets/501de4cbe3b2b9b7.svg'], .emojiImage__13533[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.icon_c1e9c4[src='/assets/501de4cbe3b2b9b7.svg'], .icon_c1e9c4[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.icon_f563df[src='/assets/501de4cbe3b2b9b7.svg'], .icon_f563df[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.emoji_cc2dff[src='/assets/501de4cbe3b2b9b7.svg'], .emoji_cc2dff[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.emoji__01c8c[src='/assets/501de4cbe3b2b9b7.svg'], .emoji__01c8c[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.roleIcon__1e6f1[src='/assets/501de4cbe3b2b9b7.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'], 
+.emoji[src='/assets/501de4cbe3b2b9b7.svg'], .emoji[style*='background-image: url("/assets/501de4cbe3b2b9b7.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/worried_face.svg") !important;
+}
+
+/* confused */
+/* confused */
+.diversityEmojiItemImage_a45a2a[src='/assets/4b78aed623919cf4.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.image__1859b[src='/assets/4b78aed623919cf4.svg'], .image__1859b[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.emoji__045fa[src='/assets/4b78aed623919cf4.svg'], .emoji__045fa[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.emojiImage__13533[src='/assets/4b78aed623919cf4.svg'], .emojiImage__13533[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.icon_c1e9c4[src='/assets/4b78aed623919cf4.svg'], .icon_c1e9c4[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.icon_f563df[src='/assets/4b78aed623919cf4.svg'], .icon_f563df[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.emoji_cc2dff[src='/assets/4b78aed623919cf4.svg'], .emoji_cc2dff[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.emoji__01c8c[src='/assets/4b78aed623919cf4.svg'], .emoji__01c8c[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.roleIcon__1e6f1[src='/assets/4b78aed623919cf4.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/4b78aed623919cf4.svg")'], 
+.emoji[src='/assets/4b78aed623919cf4.svg'], .emoji[style*='background-image: url("/assets/4b78aed623919cf4.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/confused_face.svg") !important;
+}
+
+/* slight_frown */
+/* slight_frown */
+.diversityEmojiItemImage_a45a2a[src='/assets/9999d977e14a0d5a.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.image__1859b[src='/assets/9999d977e14a0d5a.svg'], .image__1859b[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.emoji__045fa[src='/assets/9999d977e14a0d5a.svg'], .emoji__045fa[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.emojiImage__13533[src='/assets/9999d977e14a0d5a.svg'], .emojiImage__13533[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.icon_c1e9c4[src='/assets/9999d977e14a0d5a.svg'], .icon_c1e9c4[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.icon_f563df[src='/assets/9999d977e14a0d5a.svg'], .icon_f563df[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.emoji_cc2dff[src='/assets/9999d977e14a0d5a.svg'], .emoji_cc2dff[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.emoji__01c8c[src='/assets/9999d977e14a0d5a.svg'], .emoji__01c8c[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.roleIcon__1e6f1[src='/assets/9999d977e14a0d5a.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'], 
+.emoji[src='/assets/9999d977e14a0d5a.svg'], .emoji[style*='background-image: url("/assets/9999d977e14a0d5a.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/slightly_frowning_face.svg") !important;
+}
+
+/* frowning2 */
+/* frowning2 */
+.diversityEmojiItemImage_a45a2a[src='/assets/e4e349c57577f294.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.image__1859b[src='/assets/e4e349c57577f294.svg'], .image__1859b[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.emoji__045fa[src='/assets/e4e349c57577f294.svg'], .emoji__045fa[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.emojiImage__13533[src='/assets/e4e349c57577f294.svg'], .emojiImage__13533[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.icon_c1e9c4[src='/assets/e4e349c57577f294.svg'], .icon_c1e9c4[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.icon_f563df[src='/assets/e4e349c57577f294.svg'], .icon_f563df[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.emoji_cc2dff[src='/assets/e4e349c57577f294.svg'], .emoji_cc2dff[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.emoji__01c8c[src='/assets/e4e349c57577f294.svg'], .emoji__01c8c[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.roleIcon__1e6f1[src='/assets/e4e349c57577f294.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/e4e349c57577f294.svg")'], 
+.emoji[src='/assets/e4e349c57577f294.svg'], .emoji[style*='background-image: url("/assets/e4e349c57577f294.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/frowning_face_with_open_mouth.svg") !important;
+}
+
+/* persevere */
+/* persevere */
+.diversityEmojiItemImage_a45a2a[src='/assets/a64f6c1e7a3f7710.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.image__1859b[src='/assets/a64f6c1e7a3f7710.svg'], .image__1859b[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.emoji__045fa[src='/assets/a64f6c1e7a3f7710.svg'], .emoji__045fa[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.emojiImage__13533[src='/assets/a64f6c1e7a3f7710.svg'], .emojiImage__13533[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.icon_c1e9c4[src='/assets/a64f6c1e7a3f7710.svg'], .icon_c1e9c4[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.icon_f563df[src='/assets/a64f6c1e7a3f7710.svg'], .icon_f563df[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.emoji_cc2dff[src='/assets/a64f6c1e7a3f7710.svg'], .emoji_cc2dff[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.emoji__01c8c[src='/assets/a64f6c1e7a3f7710.svg'], .emoji__01c8c[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.roleIcon__1e6f1[src='/assets/a64f6c1e7a3f7710.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'], 
+.emoji[src='/assets/a64f6c1e7a3f7710.svg'], .emoji[style*='background-image: url("/assets/a64f6c1e7a3f7710.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/persevering_face.svg") !important;
+}
+
+/* confounded */
+/* confounded */
+.diversityEmojiItemImage_a45a2a[src='/assets/f3d6166586697f68.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.image__1859b[src='/assets/f3d6166586697f68.svg'], .image__1859b[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.emoji__045fa[src='/assets/f3d6166586697f68.svg'], .emoji__045fa[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.emojiImage__13533[src='/assets/f3d6166586697f68.svg'], .emojiImage__13533[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.icon_c1e9c4[src='/assets/f3d6166586697f68.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.icon_f563df[src='/assets/f3d6166586697f68.svg'], .icon_f563df[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.emoji_cc2dff[src='/assets/f3d6166586697f68.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.emoji__01c8c[src='/assets/f3d6166586697f68.svg'], .emoji__01c8c[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.roleIcon__1e6f1[src='/assets/f3d6166586697f68.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f3d6166586697f68.svg")'], 
+.emoji[src='/assets/f3d6166586697f68.svg'], .emoji[style*='background-image: url("/assets/f3d6166586697f68.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/confounded_face.svg") !important;
+}
+
+/* tired_face */
+/* tired_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/67fd79b21dbc7d98.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.image__1859b[src='/assets/67fd79b21dbc7d98.svg'], .image__1859b[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.emoji__045fa[src='/assets/67fd79b21dbc7d98.svg'], .emoji__045fa[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.emojiImage__13533[src='/assets/67fd79b21dbc7d98.svg'], .emojiImage__13533[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.icon_c1e9c4[src='/assets/67fd79b21dbc7d98.svg'], .icon_c1e9c4[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.icon_f563df[src='/assets/67fd79b21dbc7d98.svg'], .icon_f563df[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.emoji_cc2dff[src='/assets/67fd79b21dbc7d98.svg'], .emoji_cc2dff[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.emoji__01c8c[src='/assets/67fd79b21dbc7d98.svg'], .emoji__01c8c[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.roleIcon__1e6f1[src='/assets/67fd79b21dbc7d98.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'], 
+.emoji[src='/assets/67fd79b21dbc7d98.svg'], .emoji[style*='background-image: url("/assets/67fd79b21dbc7d98.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/tired_face.svg") !important;
+}
+
+/* weary */
+/* weary */
+.diversityEmojiItemImage_a45a2a[src='/assets/2b8fa6f3b84a6c28.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.image__1859b[src='/assets/2b8fa6f3b84a6c28.svg'], .image__1859b[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.emoji__045fa[src='/assets/2b8fa6f3b84a6c28.svg'], .emoji__045fa[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.emojiImage__13533[src='/assets/2b8fa6f3b84a6c28.svg'], .emojiImage__13533[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.icon_c1e9c4[src='/assets/2b8fa6f3b84a6c28.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.icon_f563df[src='/assets/2b8fa6f3b84a6c28.svg'], .icon_f563df[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.emoji_cc2dff[src='/assets/2b8fa6f3b84a6c28.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.emoji__01c8c[src='/assets/2b8fa6f3b84a6c28.svg'], .emoji__01c8c[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.roleIcon__1e6f1[src='/assets/2b8fa6f3b84a6c28.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'], 
+.emoji[src='/assets/2b8fa6f3b84a6c28.svg'], .emoji[style*='background-image: url("/assets/2b8fa6f3b84a6c28.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/weary_face.svg") !important;
+}
+
+/* pleading_face */
+/* pleading_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/059679850d492e83.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.image__1859b[src='/assets/059679850d492e83.svg'], .image__1859b[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.emoji__045fa[src='/assets/059679850d492e83.svg'], .emoji__045fa[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.emojiImage__13533[src='/assets/059679850d492e83.svg'], .emojiImage__13533[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.icon_c1e9c4[src='/assets/059679850d492e83.svg'], .icon_c1e9c4[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.icon_f563df[src='/assets/059679850d492e83.svg'], .icon_f563df[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.emoji_cc2dff[src='/assets/059679850d492e83.svg'], .emoji_cc2dff[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.emoji__01c8c[src='/assets/059679850d492e83.svg'], .emoji__01c8c[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.roleIcon__1e6f1[src='/assets/059679850d492e83.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/059679850d492e83.svg")'], 
+.emoji[src='/assets/059679850d492e83.svg'], .emoji[style*='background-image: url("/assets/059679850d492e83.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_pleading_eyes.svg") !important;
+}
+
+/* cry */
+/* cry */
+.diversityEmojiItemImage_a45a2a[src='/assets/70b84e11c04222b5.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.image__1859b[src='/assets/70b84e11c04222b5.svg'], .image__1859b[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.emoji__045fa[src='/assets/70b84e11c04222b5.svg'], .emoji__045fa[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.emojiImage__13533[src='/assets/70b84e11c04222b5.svg'], .emojiImage__13533[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.icon_c1e9c4[src='/assets/70b84e11c04222b5.svg'], .icon_c1e9c4[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.icon_f563df[src='/assets/70b84e11c04222b5.svg'], .icon_f563df[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.emoji_cc2dff[src='/assets/70b84e11c04222b5.svg'], .emoji_cc2dff[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.emoji__01c8c[src='/assets/70b84e11c04222b5.svg'], .emoji__01c8c[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.roleIcon__1e6f1[src='/assets/70b84e11c04222b5.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/70b84e11c04222b5.svg")'], 
+.emoji[src='/assets/70b84e11c04222b5.svg'], .emoji[style*='background-image: url("/assets/70b84e11c04222b5.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/crying_face.svg") !important;
+}
+
+/* sob */
+/* sob */
+.diversityEmojiItemImage_a45a2a[src='/assets/a6b1ba6fa378a731.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.image__1859b[src='/assets/a6b1ba6fa378a731.svg'], .image__1859b[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.emoji__045fa[src='/assets/a6b1ba6fa378a731.svg'], .emoji__045fa[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.emojiImage__13533[src='/assets/a6b1ba6fa378a731.svg'], .emojiImage__13533[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.icon_c1e9c4[src='/assets/a6b1ba6fa378a731.svg'], .icon_c1e9c4[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.icon_f563df[src='/assets/a6b1ba6fa378a731.svg'], .icon_f563df[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.emoji_cc2dff[src='/assets/a6b1ba6fa378a731.svg'], .emoji_cc2dff[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.emoji__01c8c[src='/assets/a6b1ba6fa378a731.svg'], .emoji__01c8c[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.roleIcon__1e6f1[src='/assets/a6b1ba6fa378a731.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'], 
+.emoji[src='/assets/a6b1ba6fa378a731.svg'], .emoji[style*='background-image: url("/assets/a6b1ba6fa378a731.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/loudly_crying_face.svg") !important;
+}
+
+/* triumph */
+/* triumph */
+.diversityEmojiItemImage_a45a2a[src='/assets/308eac19324985eb.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.image__1859b[src='/assets/308eac19324985eb.svg'], .image__1859b[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.emoji__045fa[src='/assets/308eac19324985eb.svg'], .emoji__045fa[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.emojiImage__13533[src='/assets/308eac19324985eb.svg'], .emojiImage__13533[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.icon_c1e9c4[src='/assets/308eac19324985eb.svg'], .icon_c1e9c4[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.icon_f563df[src='/assets/308eac19324985eb.svg'], .icon_f563df[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.emoji_cc2dff[src='/assets/308eac19324985eb.svg'], .emoji_cc2dff[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.emoji__01c8c[src='/assets/308eac19324985eb.svg'], .emoji__01c8c[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.roleIcon__1e6f1[src='/assets/308eac19324985eb.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/308eac19324985eb.svg")'], 
+.emoji[src='/assets/308eac19324985eb.svg'], .emoji[style*='background-image: url("/assets/308eac19324985eb.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_look_of_triumph.svg") !important;
+}
+
+/* angry */
+/* angry */
+.diversityEmojiItemImage_a45a2a[src='/assets/593e8c9bfa3c54ea.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.image__1859b[src='/assets/593e8c9bfa3c54ea.svg'], .image__1859b[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.emoji__045fa[src='/assets/593e8c9bfa3c54ea.svg'], .emoji__045fa[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.emojiImage__13533[src='/assets/593e8c9bfa3c54ea.svg'], .emojiImage__13533[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.icon_c1e9c4[src='/assets/593e8c9bfa3c54ea.svg'], .icon_c1e9c4[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.icon_f563df[src='/assets/593e8c9bfa3c54ea.svg'], .icon_f563df[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.emoji_cc2dff[src='/assets/593e8c9bfa3c54ea.svg'], .emoji_cc2dff[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.emoji__01c8c[src='/assets/593e8c9bfa3c54ea.svg'], .emoji__01c8c[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.roleIcon__1e6f1[src='/assets/593e8c9bfa3c54ea.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'], 
+.emoji[src='/assets/593e8c9bfa3c54ea.svg'], .emoji[style*='background-image: url("/assets/593e8c9bfa3c54ea.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/angry_face.svg") !important;
+}
+
+/* rage */
+/* rage */
+.diversityEmojiItemImage_a45a2a[src='/assets/ed47815422310f15.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.image__1859b[src='/assets/ed47815422310f15.svg'], .image__1859b[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.emoji__045fa[src='/assets/ed47815422310f15.svg'], .emoji__045fa[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.emojiImage__13533[src='/assets/ed47815422310f15.svg'], .emojiImage__13533[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.icon_c1e9c4[src='/assets/ed47815422310f15.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.icon_f563df[src='/assets/ed47815422310f15.svg'], .icon_f563df[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.emoji_cc2dff[src='/assets/ed47815422310f15.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.emoji__01c8c[src='/assets/ed47815422310f15.svg'], .emoji__01c8c[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.roleIcon__1e6f1[src='/assets/ed47815422310f15.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ed47815422310f15.svg")'], 
+.emoji[src='/assets/ed47815422310f15.svg'], .emoji[style*='background-image: url("/assets/ed47815422310f15.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/pouting_face.svg") !important;
+}
+
+/* face_with_symbols_over_mouth */
+/* face_with_symbols_over_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/2e85313eda721350.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.image__1859b[src='/assets/2e85313eda721350.svg'], .image__1859b[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.emoji__045fa[src='/assets/2e85313eda721350.svg'], .emoji__045fa[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.emojiImage__13533[src='/assets/2e85313eda721350.svg'], .emojiImage__13533[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.icon_c1e9c4[src='/assets/2e85313eda721350.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.icon_f563df[src='/assets/2e85313eda721350.svg'], .icon_f563df[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.emoji_cc2dff[src='/assets/2e85313eda721350.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.emoji__01c8c[src='/assets/2e85313eda721350.svg'], .emoji__01c8c[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.roleIcon__1e6f1[src='/assets/2e85313eda721350.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2e85313eda721350.svg")'], 
+.emoji[src='/assets/2e85313eda721350.svg'], .emoji[style*='background-image: url("/assets/2e85313eda721350.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/serious_face_with_symbols_covering_mouth.svg") !important;
+}
+
+/* exploding_head */
+/* exploding_head */
+.diversityEmojiItemImage_a45a2a[src='/assets/1f55627ee38e8bb6.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.image__1859b[src='/assets/1f55627ee38e8bb6.svg'], .image__1859b[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.emoji__045fa[src='/assets/1f55627ee38e8bb6.svg'], .emoji__045fa[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.emojiImage__13533[src='/assets/1f55627ee38e8bb6.svg'], .emojiImage__13533[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.icon_c1e9c4[src='/assets/1f55627ee38e8bb6.svg'], .icon_c1e9c4[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.icon_f563df[src='/assets/1f55627ee38e8bb6.svg'], .icon_f563df[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.emoji_cc2dff[src='/assets/1f55627ee38e8bb6.svg'], .emoji_cc2dff[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.emoji__01c8c[src='/assets/1f55627ee38e8bb6.svg'], .emoji__01c8c[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.roleIcon__1e6f1[src='/assets/1f55627ee38e8bb6.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'], 
+.emoji[src='/assets/1f55627ee38e8bb6.svg'], .emoji[style*='background-image: url("/assets/1f55627ee38e8bb6.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/shocked_face_with_exploding_head.svg") !important;
+}
+
+/* flushed */
+/* flushed */
+.diversityEmojiItemImage_a45a2a[src='/assets/c01e65d63c75353d.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.image__1859b[src='/assets/c01e65d63c75353d.svg'], .image__1859b[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.emoji__045fa[src='/assets/c01e65d63c75353d.svg'], .emoji__045fa[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.emojiImage__13533[src='/assets/c01e65d63c75353d.svg'], .emojiImage__13533[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.icon_c1e9c4[src='/assets/c01e65d63c75353d.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.icon_f563df[src='/assets/c01e65d63c75353d.svg'], .icon_f563df[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.emoji_cc2dff[src='/assets/c01e65d63c75353d.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.emoji__01c8c[src='/assets/c01e65d63c75353d.svg'], .emoji__01c8c[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.roleIcon__1e6f1[src='/assets/c01e65d63c75353d.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c01e65d63c75353d.svg")'], 
+.emoji[src='/assets/c01e65d63c75353d.svg'], .emoji[style*='background-image: url("/assets/c01e65d63c75353d.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/flushed_face.svg") !important;
+}
+
+/* hot_face */
+/* hot_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/c7e462e76fb59d55.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.image__1859b[src='/assets/c7e462e76fb59d55.svg'], .image__1859b[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.emoji__045fa[src='/assets/c7e462e76fb59d55.svg'], .emoji__045fa[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.emojiImage__13533[src='/assets/c7e462e76fb59d55.svg'], .emojiImage__13533[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.icon_c1e9c4[src='/assets/c7e462e76fb59d55.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.icon_f563df[src='/assets/c7e462e76fb59d55.svg'], .icon_f563df[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.emoji_cc2dff[src='/assets/c7e462e76fb59d55.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.emoji__01c8c[src='/assets/c7e462e76fb59d55.svg'], .emoji__01c8c[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.roleIcon__1e6f1[src='/assets/c7e462e76fb59d55.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'], 
+.emoji[src='/assets/c7e462e76fb59d55.svg'], .emoji[style*='background-image: url("/assets/c7e462e76fb59d55.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/overheated_face.svg") !important;
+}
+
+/* cold_face */
+/* cold_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/726dc886a14ea197.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.image__1859b[src='/assets/726dc886a14ea197.svg'], .image__1859b[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.emoji__045fa[src='/assets/726dc886a14ea197.svg'], .emoji__045fa[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.emojiImage__13533[src='/assets/726dc886a14ea197.svg'], .emojiImage__13533[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.icon_c1e9c4[src='/assets/726dc886a14ea197.svg'], .icon_c1e9c4[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.icon_f563df[src='/assets/726dc886a14ea197.svg'], .icon_f563df[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.emoji_cc2dff[src='/assets/726dc886a14ea197.svg'], .emoji_cc2dff[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.emoji__01c8c[src='/assets/726dc886a14ea197.svg'], .emoji__01c8c[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.roleIcon__1e6f1[src='/assets/726dc886a14ea197.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/726dc886a14ea197.svg")'], 
+.emoji[src='/assets/726dc886a14ea197.svg'], .emoji[style*='background-image: url("/assets/726dc886a14ea197.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/freezing_face.svg") !important;
+}
+
+/* scream */
+/* scream */
+.diversityEmojiItemImage_a45a2a[src='/assets/72c312d2792f53c7.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.image__1859b[src='/assets/72c312d2792f53c7.svg'], .image__1859b[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.emoji__045fa[src='/assets/72c312d2792f53c7.svg'], .emoji__045fa[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.emojiImage__13533[src='/assets/72c312d2792f53c7.svg'], .emojiImage__13533[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.icon_c1e9c4[src='/assets/72c312d2792f53c7.svg'], .icon_c1e9c4[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.icon_f563df[src='/assets/72c312d2792f53c7.svg'], .icon_f563df[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.emoji_cc2dff[src='/assets/72c312d2792f53c7.svg'], .emoji_cc2dff[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.emoji__01c8c[src='/assets/72c312d2792f53c7.svg'], .emoji__01c8c[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.roleIcon__1e6f1[src='/assets/72c312d2792f53c7.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/72c312d2792f53c7.svg")'], 
+.emoji[src='/assets/72c312d2792f53c7.svg'], .emoji[style*='background-image: url("/assets/72c312d2792f53c7.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_screaming_in_fear.svg") !important;
+}
+
+/* fearful */
+/* fearful */
+.diversityEmojiItemImage_a45a2a[src='/assets/f364f11357746c87.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.image__1859b[src='/assets/f364f11357746c87.svg'], .image__1859b[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.emoji__045fa[src='/assets/f364f11357746c87.svg'], .emoji__045fa[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.emojiImage__13533[src='/assets/f364f11357746c87.svg'], .emojiImage__13533[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.icon_c1e9c4[src='/assets/f364f11357746c87.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.icon_f563df[src='/assets/f364f11357746c87.svg'], .icon_f563df[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.emoji_cc2dff[src='/assets/f364f11357746c87.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.emoji__01c8c[src='/assets/f364f11357746c87.svg'], .emoji__01c8c[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.roleIcon__1e6f1[src='/assets/f364f11357746c87.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f364f11357746c87.svg")'], 
+.emoji[src='/assets/f364f11357746c87.svg'], .emoji[style*='background-image: url("/assets/f364f11357746c87.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/fearful_face.svg") !important;
+}
+
+/* cold_sweat */
+/* cold_sweat */
+.diversityEmojiItemImage_a45a2a[src='/assets/97bf5a93a35293fa.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.image__1859b[src='/assets/97bf5a93a35293fa.svg'], .image__1859b[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.emoji__045fa[src='/assets/97bf5a93a35293fa.svg'], .emoji__045fa[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.emojiImage__13533[src='/assets/97bf5a93a35293fa.svg'], .emojiImage__13533[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.icon_c1e9c4[src='/assets/97bf5a93a35293fa.svg'], .icon_c1e9c4[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.icon_f563df[src='/assets/97bf5a93a35293fa.svg'], .icon_f563df[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.emoji_cc2dff[src='/assets/97bf5a93a35293fa.svg'], .emoji_cc2dff[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.emoji__01c8c[src='/assets/97bf5a93a35293fa.svg'], .emoji__01c8c[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.roleIcon__1e6f1[src='/assets/97bf5a93a35293fa.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'], 
+.emoji[src='/assets/97bf5a93a35293fa.svg'], .emoji[style*='background-image: url("/assets/97bf5a93a35293fa.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_cold_sweat.svg") !important;
+}
+
+/* disappointed_relieved */
+/* disappointed_relieved */
+.diversityEmojiItemImage_a45a2a[src='/assets/90dfb6f54b064f03.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.image__1859b[src='/assets/90dfb6f54b064f03.svg'], .image__1859b[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.emoji__045fa[src='/assets/90dfb6f54b064f03.svg'], .emoji__045fa[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.emojiImage__13533[src='/assets/90dfb6f54b064f03.svg'], .emojiImage__13533[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.icon_c1e9c4[src='/assets/90dfb6f54b064f03.svg'], .icon_c1e9c4[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.icon_f563df[src='/assets/90dfb6f54b064f03.svg'], .icon_f563df[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.emoji_cc2dff[src='/assets/90dfb6f54b064f03.svg'], .emoji_cc2dff[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.emoji__01c8c[src='/assets/90dfb6f54b064f03.svg'], .emoji__01c8c[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.roleIcon__1e6f1[src='/assets/90dfb6f54b064f03.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'], 
+.emoji[src='/assets/90dfb6f54b064f03.svg'], .emoji[style*='background-image: url("/assets/90dfb6f54b064f03.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/disappointed_but_relieved_face.svg") !important;
+}
+
+/* sweat */
+/* sweat */
+.diversityEmojiItemImage_a45a2a[src='/assets/7a079c219a80e127.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.image__1859b[src='/assets/7a079c219a80e127.svg'], .image__1859b[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.emoji__045fa[src='/assets/7a079c219a80e127.svg'], .emoji__045fa[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.emojiImage__13533[src='/assets/7a079c219a80e127.svg'], .emojiImage__13533[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.icon_c1e9c4[src='/assets/7a079c219a80e127.svg'], .icon_c1e9c4[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.icon_f563df[src='/assets/7a079c219a80e127.svg'], .icon_f563df[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.emoji_cc2dff[src='/assets/7a079c219a80e127.svg'], .emoji_cc2dff[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.emoji__01c8c[src='/assets/7a079c219a80e127.svg'], .emoji__01c8c[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.roleIcon__1e6f1[src='/assets/7a079c219a80e127.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/7a079c219a80e127.svg")'], 
+.emoji[src='/assets/7a079c219a80e127.svg'], .emoji[style*='background-image: url("/assets/7a079c219a80e127.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_cold_sweat.svg") !important;
+}
+
+/* hugging */
+/* hugging */
+.diversityEmojiItemImage_a45a2a[src='/assets/4c811f169632feab.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.image__1859b[src='/assets/4c811f169632feab.svg'], .image__1859b[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.emoji__045fa[src='/assets/4c811f169632feab.svg'], .emoji__045fa[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.emojiImage__13533[src='/assets/4c811f169632feab.svg'], .emojiImage__13533[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.icon_c1e9c4[src='/assets/4c811f169632feab.svg'], .icon_c1e9c4[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.icon_f563df[src='/assets/4c811f169632feab.svg'], .icon_f563df[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.emoji_cc2dff[src='/assets/4c811f169632feab.svg'], .emoji_cc2dff[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.emoji__01c8c[src='/assets/4c811f169632feab.svg'], .emoji__01c8c[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.roleIcon__1e6f1[src='/assets/4c811f169632feab.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/4c811f169632feab.svg")'], 
+.emoji[src='/assets/4c811f169632feab.svg'], .emoji[style*='background-image: url("/assets/4c811f169632feab.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/hugging_face.svg") !important;
+}
+
+/* thinking */
+/* thinking */
+.diversityEmojiItemImage_a45a2a[src='/assets/d5d18f9c17a19de2.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.image__1859b[src='/assets/d5d18f9c17a19de2.svg'], .image__1859b[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.emoji__045fa[src='/assets/d5d18f9c17a19de2.svg'], .emoji__045fa[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.emojiImage__13533[src='/assets/d5d18f9c17a19de2.svg'], .emojiImage__13533[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.icon_c1e9c4[src='/assets/d5d18f9c17a19de2.svg'], .icon_c1e9c4[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.icon_f563df[src='/assets/d5d18f9c17a19de2.svg'], .icon_f563df[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.emoji_cc2dff[src='/assets/d5d18f9c17a19de2.svg'], .emoji_cc2dff[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.emoji__01c8c[src='/assets/d5d18f9c17a19de2.svg'], .emoji__01c8c[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.roleIcon__1e6f1[src='/assets/d5d18f9c17a19de2.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'], 
+.emoji[src='/assets/d5d18f9c17a19de2.svg'], .emoji[style*='background-image: url("/assets/d5d18f9c17a19de2.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/thinking_face.svg") !important;
+}
+
+/* face_with_peeking_eye */
+/* face_with_peeking_eye */
+.diversityEmojiItemImage_a45a2a[src='/assets/7b771c26248de782.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.image__1859b[src='/assets/7b771c26248de782.svg'], .image__1859b[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.emoji__045fa[src='/assets/7b771c26248de782.svg'], .emoji__045fa[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.emojiImage__13533[src='/assets/7b771c26248de782.svg'], .emojiImage__13533[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.icon_c1e9c4[src='/assets/7b771c26248de782.svg'], .icon_c1e9c4[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.icon_f563df[src='/assets/7b771c26248de782.svg'], .icon_f563df[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.emoji_cc2dff[src='/assets/7b771c26248de782.svg'], .emoji_cc2dff[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.emoji__01c8c[src='/assets/7b771c26248de782.svg'], .emoji__01c8c[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.roleIcon__1e6f1[src='/assets/7b771c26248de782.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/7b771c26248de782.svg")'], 
+.emoji[src='/assets/7b771c26248de782.svg'], .emoji[style*='background-image: url("/assets/7b771c26248de782.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/263a.svg") !important;
+}
+
+/* face_with_hand_over_mouth */
+/* face_with_hand_over_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/c8c019ba84813519.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.image__1859b[src='/assets/c8c019ba84813519.svg'], .image__1859b[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.emoji__045fa[src='/assets/c8c019ba84813519.svg'], .emoji__045fa[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.emojiImage__13533[src='/assets/c8c019ba84813519.svg'], .emojiImage__13533[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.icon_c1e9c4[src='/assets/c8c019ba84813519.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.icon_f563df[src='/assets/c8c019ba84813519.svg'], .icon_f563df[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.emoji_cc2dff[src='/assets/c8c019ba84813519.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.emoji__01c8c[src='/assets/c8c019ba84813519.svg'], .emoji__01c8c[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.roleIcon__1e6f1[src='/assets/c8c019ba84813519.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c8c019ba84813519.svg")'], 
+.emoji[src='/assets/c8c019ba84813519.svg'], .emoji[style*='background-image: url("/assets/c8c019ba84813519.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_smiling_eyes_and_hand_covering_mouth.svg") !important;
+}
+
+/* face_with_open_eyes_and_hand_over_mouth */
+/* face_with_open_eyes_and_hand_over_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/2d8681dfd02e2b86.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.image__1859b[src='/assets/2d8681dfd02e2b86.svg'], .image__1859b[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.emoji__045fa[src='/assets/2d8681dfd02e2b86.svg'], .emoji__045fa[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.emojiImage__13533[src='/assets/2d8681dfd02e2b86.svg'], .emojiImage__13533[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.icon_c1e9c4[src='/assets/2d8681dfd02e2b86.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.icon_f563df[src='/assets/2d8681dfd02e2b86.svg'], .icon_f563df[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.emoji_cc2dff[src='/assets/2d8681dfd02e2b86.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.emoji__01c8c[src='/assets/2d8681dfd02e2b86.svg'], .emoji__01c8c[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.roleIcon__1e6f1[src='/assets/2d8681dfd02e2b86.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'], 
+.emoji[src='/assets/2d8681dfd02e2b86.svg'], .emoji[style*='background-image: url("/assets/2d8681dfd02e2b86.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_smiling_eyes_and_hand_covering_mouth.svg") !important;
+}
+
+/* lying_face */
+/* lying_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/538c55d6349da6c5.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.image__1859b[src='/assets/538c55d6349da6c5.svg'], .image__1859b[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.emoji__045fa[src='/assets/538c55d6349da6c5.svg'], .emoji__045fa[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.emojiImage__13533[src='/assets/538c55d6349da6c5.svg'], .emojiImage__13533[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.icon_c1e9c4[src='/assets/538c55d6349da6c5.svg'], .icon_c1e9c4[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.icon_f563df[src='/assets/538c55d6349da6c5.svg'], .icon_f563df[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.emoji_cc2dff[src='/assets/538c55d6349da6c5.svg'], .emoji_cc2dff[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.emoji__01c8c[src='/assets/538c55d6349da6c5.svg'], .emoji__01c8c[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.roleIcon__1e6f1[src='/assets/538c55d6349da6c5.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/538c55d6349da6c5.svg")'], 
+.emoji[src='/assets/538c55d6349da6c5.svg'], .emoji[style*='background-image: url("/assets/538c55d6349da6c5.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/lying_face.svg") !important;
+}
+
+/* no_mouth */
+/* no_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/513767c15e0c5938.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.image__1859b[src='/assets/513767c15e0c5938.svg'], .image__1859b[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.emoji__045fa[src='/assets/513767c15e0c5938.svg'], .emoji__045fa[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.emojiImage__13533[src='/assets/513767c15e0c5938.svg'], .emojiImage__13533[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.icon_c1e9c4[src='/assets/513767c15e0c5938.svg'], .icon_c1e9c4[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.icon_f563df[src='/assets/513767c15e0c5938.svg'], .icon_f563df[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.emoji_cc2dff[src='/assets/513767c15e0c5938.svg'], .emoji_cc2dff[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.emoji__01c8c[src='/assets/513767c15e0c5938.svg'], .emoji__01c8c[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.roleIcon__1e6f1[src='/assets/513767c15e0c5938.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/513767c15e0c5938.svg")'], 
+.emoji[src='/assets/513767c15e0c5938.svg'], .emoji[style*='background-image: url("/assets/513767c15e0c5938.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_without_mouth.svg") !important;
+}
+
+/* dotted_line_face */
+/* dotted_line_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/f0844d6f2c949a7d.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.image__1859b[src='/assets/f0844d6f2c949a7d.svg'], .image__1859b[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.emoji__045fa[src='/assets/f0844d6f2c949a7d.svg'], .emoji__045fa[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.emojiImage__13533[src='/assets/f0844d6f2c949a7d.svg'], .emojiImage__13533[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.icon_c1e9c4[src='/assets/f0844d6f2c949a7d.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.icon_f563df[src='/assets/f0844d6f2c949a7d.svg'], .icon_f563df[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.emoji_cc2dff[src='/assets/f0844d6f2c949a7d.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.emoji__01c8c[src='/assets/f0844d6f2c949a7d.svg'], .emoji__01c8c[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.roleIcon__1e6f1[src='/assets/f0844d6f2c949a7d.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'], 
+.emoji[src='/assets/f0844d6f2c949a7d.svg'], .emoji[style*='background-image: url("/assets/f0844d6f2c949a7d.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_without_mouth.svg") !important;
+}
+
+/* neutral_face */
+/* neutral_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/31fb1e8e3632d1f4.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.image__1859b[src='/assets/31fb1e8e3632d1f4.svg'], .image__1859b[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.emoji__045fa[src='/assets/31fb1e8e3632d1f4.svg'], .emoji__045fa[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.emojiImage__13533[src='/assets/31fb1e8e3632d1f4.svg'], .emojiImage__13533[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.icon_c1e9c4[src='/assets/31fb1e8e3632d1f4.svg'], .icon_c1e9c4[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.icon_f563df[src='/assets/31fb1e8e3632d1f4.svg'], .icon_f563df[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.emoji_cc2dff[src='/assets/31fb1e8e3632d1f4.svg'], .emoji_cc2dff[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.emoji__01c8c[src='/assets/31fb1e8e3632d1f4.svg'], .emoji__01c8c[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.roleIcon__1e6f1[src='/assets/31fb1e8e3632d1f4.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'], 
+.emoji[src='/assets/31fb1e8e3632d1f4.svg'], .emoji[style*='background-image: url("/assets/31fb1e8e3632d1f4.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/neutral_face.svg") !important;
+}
+
+/* face_with_diagonal_mouth */
+/* face_with_diagonal_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/fd3dbba7b12e07d8.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.image__1859b[src='/assets/fd3dbba7b12e07d8.svg'], .image__1859b[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.emoji__045fa[src='/assets/fd3dbba7b12e07d8.svg'], .emoji__045fa[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.emojiImage__13533[src='/assets/fd3dbba7b12e07d8.svg'], .emojiImage__13533[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.icon_c1e9c4[src='/assets/fd3dbba7b12e07d8.svg'], .icon_c1e9c4[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.icon_f563df[src='/assets/fd3dbba7b12e07d8.svg'], .icon_f563df[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.emoji_cc2dff[src='/assets/fd3dbba7b12e07d8.svg'], .emoji_cc2dff[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.emoji__01c8c[src='/assets/fd3dbba7b12e07d8.svg'], .emoji__01c8c[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.roleIcon__1e6f1[src='/assets/fd3dbba7b12e07d8.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'], 
+.emoji[src='/assets/fd3dbba7b12e07d8.svg'], .emoji[style*='background-image: url("/assets/fd3dbba7b12e07d8.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/expressionless_face.svg") !important;
+}
+
+/* expressionless */
+/* expressionless */
+.diversityEmojiItemImage_a45a2a[src='/assets/2575acbdfe7b5e35.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.image__1859b[src='/assets/2575acbdfe7b5e35.svg'], .image__1859b[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.emoji__045fa[src='/assets/2575acbdfe7b5e35.svg'], .emoji__045fa[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.emojiImage__13533[src='/assets/2575acbdfe7b5e35.svg'], .emojiImage__13533[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.icon_c1e9c4[src='/assets/2575acbdfe7b5e35.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.icon_f563df[src='/assets/2575acbdfe7b5e35.svg'], .icon_f563df[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.emoji_cc2dff[src='/assets/2575acbdfe7b5e35.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.emoji__01c8c[src='/assets/2575acbdfe7b5e35.svg'], .emoji__01c8c[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.roleIcon__1e6f1[src='/assets/2575acbdfe7b5e35.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'], 
+.emoji[src='/assets/2575acbdfe7b5e35.svg'], .emoji[style*='background-image: url("/assets/2575acbdfe7b5e35.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/expressionless_face.svg") !important;
+}
+
+/* shaking_face */
+/* shaking_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/dc489883916bdfd8.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.image__1859b[src='/assets/dc489883916bdfd8.svg'], .image__1859b[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.emoji__045fa[src='/assets/dc489883916bdfd8.svg'], .emoji__045fa[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.emojiImage__13533[src='/assets/dc489883916bdfd8.svg'], .emojiImage__13533[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.icon_c1e9c4[src='/assets/dc489883916bdfd8.svg'], .icon_c1e9c4[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.icon_f563df[src='/assets/dc489883916bdfd8.svg'], .icon_f563df[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.emoji_cc2dff[src='/assets/dc489883916bdfd8.svg'], .emoji_cc2dff[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.emoji__01c8c[src='/assets/dc489883916bdfd8.svg'], .emoji__01c8c[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.roleIcon__1e6f1[src='/assets/dc489883916bdfd8.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/dc489883916bdfd8.svg")'], 
+.emoji[src='/assets/dc489883916bdfd8.svg'], .emoji[style*='background-image: url("/assets/dc489883916bdfd8.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_uneven_eyes_and_wavy_mouth.svg") !important;
+}
+
+/* grimacing */
+/* grimacing */
+.diversityEmojiItemImage_a45a2a[src='/assets/b9e42373d0eae9bf.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.image__1859b[src='/assets/b9e42373d0eae9bf.svg'], .image__1859b[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.emoji__045fa[src='/assets/b9e42373d0eae9bf.svg'], .emoji__045fa[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.emojiImage__13533[src='/assets/b9e42373d0eae9bf.svg'], .emojiImage__13533[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.icon_c1e9c4[src='/assets/b9e42373d0eae9bf.svg'], .icon_c1e9c4[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.icon_f563df[src='/assets/b9e42373d0eae9bf.svg'], .icon_f563df[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.emoji_cc2dff[src='/assets/b9e42373d0eae9bf.svg'], .emoji_cc2dff[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.emoji__01c8c[src='/assets/b9e42373d0eae9bf.svg'], .emoji__01c8c[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.roleIcon__1e6f1[src='/assets/b9e42373d0eae9bf.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'], 
+.emoji[src='/assets/b9e42373d0eae9bf.svg'], .emoji[style*='background-image: url("/assets/b9e42373d0eae9bf.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grimacing_face.svg") !important;
+}
+
+/* rolling_eyes */
+/* rolling_eyes */
+.diversityEmojiItemImage_a45a2a[src='/assets/79df01c1d5c7d198.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.image__1859b[src='/assets/79df01c1d5c7d198.svg'], .image__1859b[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.emoji__045fa[src='/assets/79df01c1d5c7d198.svg'], .emoji__045fa[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.emojiImage__13533[src='/assets/79df01c1d5c7d198.svg'], .emojiImage__13533[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.icon_c1e9c4[src='/assets/79df01c1d5c7d198.svg'], .icon_c1e9c4[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.icon_f563df[src='/assets/79df01c1d5c7d198.svg'], .icon_f563df[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.emoji_cc2dff[src='/assets/79df01c1d5c7d198.svg'], .emoji_cc2dff[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.emoji__01c8c[src='/assets/79df01c1d5c7d198.svg'], .emoji__01c8c[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.roleIcon__1e6f1[src='/assets/79df01c1d5c7d198.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'], 
+.emoji[src='/assets/79df01c1d5c7d198.svg'], .emoji[style*='background-image: url("/assets/79df01c1d5c7d198.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_rolling_eyes.svg") !important;
+}
+
+/* hushed */
+/* hushed */
+.diversityEmojiItemImage_a45a2a[src='/assets/aaa09676ef52b8ac.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.image__1859b[src='/assets/aaa09676ef52b8ac.svg'], .image__1859b[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.emoji__045fa[src='/assets/aaa09676ef52b8ac.svg'], .emoji__045fa[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.emojiImage__13533[src='/assets/aaa09676ef52b8ac.svg'], .emojiImage__13533[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.icon_c1e9c4[src='/assets/aaa09676ef52b8ac.svg'], .icon_c1e9c4[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.icon_f563df[src='/assets/aaa09676ef52b8ac.svg'], .icon_f563df[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.emoji_cc2dff[src='/assets/aaa09676ef52b8ac.svg'], .emoji_cc2dff[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.emoji__01c8c[src='/assets/aaa09676ef52b8ac.svg'], .emoji__01c8c[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.roleIcon__1e6f1[src='/assets/aaa09676ef52b8ac.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'], 
+.emoji[src='/assets/aaa09676ef52b8ac.svg'], .emoji[style*='background-image: url("/assets/aaa09676ef52b8ac.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/hushed_face.svg") !important;
+}
+
+/* frowning */
+/* frowning */
+.diversityEmojiItemImage_a45a2a[src='/assets/2877e6650dd5b294.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.image__1859b[src='/assets/2877e6650dd5b294.svg'], .image__1859b[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.emoji__045fa[src='/assets/2877e6650dd5b294.svg'], .emoji__045fa[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.emojiImage__13533[src='/assets/2877e6650dd5b294.svg'], .emojiImage__13533[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.icon_c1e9c4[src='/assets/2877e6650dd5b294.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.icon_f563df[src='/assets/2877e6650dd5b294.svg'], .icon_f563df[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.emoji_cc2dff[src='/assets/2877e6650dd5b294.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.emoji__01c8c[src='/assets/2877e6650dd5b294.svg'], .emoji__01c8c[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.roleIcon__1e6f1[src='/assets/2877e6650dd5b294.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2877e6650dd5b294.svg")'], 
+.emoji[src='/assets/2877e6650dd5b294.svg'], .emoji[style*='background-image: url("/assets/2877e6650dd5b294.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/frowning_face_with_open_mouth.svg") !important;
+}
+
+/* anguished */
+/* anguished */
+.diversityEmojiItemImage_a45a2a[src='/assets/e5fec5f0db63eb8f.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.image__1859b[src='/assets/e5fec5f0db63eb8f.svg'], .image__1859b[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.emoji__045fa[src='/assets/e5fec5f0db63eb8f.svg'], .emoji__045fa[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.emojiImage__13533[src='/assets/e5fec5f0db63eb8f.svg'], .emojiImage__13533[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.icon_c1e9c4[src='/assets/e5fec5f0db63eb8f.svg'], .icon_c1e9c4[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.icon_f563df[src='/assets/e5fec5f0db63eb8f.svg'], .icon_f563df[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.emoji_cc2dff[src='/assets/e5fec5f0db63eb8f.svg'], .emoji_cc2dff[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.emoji__01c8c[src='/assets/e5fec5f0db63eb8f.svg'], .emoji__01c8c[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.roleIcon__1e6f1[src='/assets/e5fec5f0db63eb8f.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'], 
+.emoji[src='/assets/e5fec5f0db63eb8f.svg'], .emoji[style*='background-image: url("/assets/e5fec5f0db63eb8f.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/anguished_face.svg") !important;
+}
+
+/* open_mouth */
+/* open_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/2c0f9da4385a87df.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.image__1859b[src='/assets/2c0f9da4385a87df.svg'], .image__1859b[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.emoji__045fa[src='/assets/2c0f9da4385a87df.svg'], .emoji__045fa[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.emojiImage__13533[src='/assets/2c0f9da4385a87df.svg'], .emojiImage__13533[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.icon_c1e9c4[src='/assets/2c0f9da4385a87df.svg'], .icon_c1e9c4[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.icon_f563df[src='/assets/2c0f9da4385a87df.svg'], .icon_f563df[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.emoji_cc2dff[src='/assets/2c0f9da4385a87df.svg'], .emoji_cc2dff[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.emoji__01c8c[src='/assets/2c0f9da4385a87df.svg'], .emoji__01c8c[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.roleIcon__1e6f1[src='/assets/2c0f9da4385a87df.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'], 
+.emoji[src='/assets/2c0f9da4385a87df.svg'], .emoji[style*='background-image: url("/assets/2c0f9da4385a87df.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_open_mouth.svg") !important;
+}
+
+/* astonished */
+/* astonished */
+.diversityEmojiItemImage_a45a2a[src='/assets/b70a386a6dfa79e4.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.image__1859b[src='/assets/b70a386a6dfa79e4.svg'], .image__1859b[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.emoji__045fa[src='/assets/b70a386a6dfa79e4.svg'], .emoji__045fa[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.emojiImage__13533[src='/assets/b70a386a6dfa79e4.svg'], .emojiImage__13533[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.icon_c1e9c4[src='/assets/b70a386a6dfa79e4.svg'], .icon_c1e9c4[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.icon_f563df[src='/assets/b70a386a6dfa79e4.svg'], .icon_f563df[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.emoji_cc2dff[src='/assets/b70a386a6dfa79e4.svg'], .emoji_cc2dff[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.emoji__01c8c[src='/assets/b70a386a6dfa79e4.svg'], .emoji__01c8c[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.roleIcon__1e6f1[src='/assets/b70a386a6dfa79e4.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'], 
+.emoji[src='/assets/b70a386a6dfa79e4.svg'], .emoji[style*='background-image: url("/assets/b70a386a6dfa79e4.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/astonished_face.svg") !important;
+}
+
+/* yawning_face */
+/* yawning_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/412f6637a5b44d95.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.image__1859b[src='/assets/412f6637a5b44d95.svg'], .image__1859b[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.emoji__045fa[src='/assets/412f6637a5b44d95.svg'], .emoji__045fa[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.emojiImage__13533[src='/assets/412f6637a5b44d95.svg'], .emojiImage__13533[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.icon_c1e9c4[src='/assets/412f6637a5b44d95.svg'], .icon_c1e9c4[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.icon_f563df[src='/assets/412f6637a5b44d95.svg'], .icon_f563df[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.emoji_cc2dff[src='/assets/412f6637a5b44d95.svg'], .emoji_cc2dff[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.emoji__01c8c[src='/assets/412f6637a5b44d95.svg'], .emoji__01c8c[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.roleIcon__1e6f1[src='/assets/412f6637a5b44d95.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/412f6637a5b44d95.svg")'], 
+.emoji[src='/assets/412f6637a5b44d95.svg'], .emoji[style*='background-image: url("/assets/412f6637a5b44d95.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/yawning_face.svg") !important;
+}
+
+/* sleeping */
+/* sleeping */
+.diversityEmojiItemImage_a45a2a[src='/assets/78fa5ee5e51183e9.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.image__1859b[src='/assets/78fa5ee5e51183e9.svg'], .image__1859b[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.emoji__045fa[src='/assets/78fa5ee5e51183e9.svg'], .emoji__045fa[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.emojiImage__13533[src='/assets/78fa5ee5e51183e9.svg'], .emojiImage__13533[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.icon_c1e9c4[src='/assets/78fa5ee5e51183e9.svg'], .icon_c1e9c4[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.icon_f563df[src='/assets/78fa5ee5e51183e9.svg'], .icon_f563df[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.emoji_cc2dff[src='/assets/78fa5ee5e51183e9.svg'], .emoji_cc2dff[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.emoji__01c8c[src='/assets/78fa5ee5e51183e9.svg'], .emoji__01c8c[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.roleIcon__1e6f1[src='/assets/78fa5ee5e51183e9.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'], 
+.emoji[src='/assets/78fa5ee5e51183e9.svg'], .emoji[style*='background-image: url("/assets/78fa5ee5e51183e9.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/sleeping_face.svg") !important;
+}
+
+/* drooling_face */
+/* drooling_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/ba9a27032dae1395.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.image__1859b[src='/assets/ba9a27032dae1395.svg'], .image__1859b[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.emoji__045fa[src='/assets/ba9a27032dae1395.svg'], .emoji__045fa[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.emojiImage__13533[src='/assets/ba9a27032dae1395.svg'], .emojiImage__13533[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.icon_c1e9c4[src='/assets/ba9a27032dae1395.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.icon_f563df[src='/assets/ba9a27032dae1395.svg'], .icon_f563df[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.emoji_cc2dff[src='/assets/ba9a27032dae1395.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.emoji__01c8c[src='/assets/ba9a27032dae1395.svg'], .emoji__01c8c[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.roleIcon__1e6f1[src='/assets/ba9a27032dae1395.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ba9a27032dae1395.svg")'], 
+.emoji[src='/assets/ba9a27032dae1395.svg'], .emoji[style*='background-image: url("/assets/ba9a27032dae1395.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/drooling_face.svg") !important;
+}
+
+/* sleepy */
+/* sleepy */
+.diversityEmojiItemImage_a45a2a[src='/assets/e2933bd308a31cdf.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.image__1859b[src='/assets/e2933bd308a31cdf.svg'], .image__1859b[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.emoji__045fa[src='/assets/e2933bd308a31cdf.svg'], .emoji__045fa[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.emojiImage__13533[src='/assets/e2933bd308a31cdf.svg'], .emojiImage__13533[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.icon_c1e9c4[src='/assets/e2933bd308a31cdf.svg'], .icon_c1e9c4[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.icon_f563df[src='/assets/e2933bd308a31cdf.svg'], .icon_f563df[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.emoji_cc2dff[src='/assets/e2933bd308a31cdf.svg'], .emoji_cc2dff[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.emoji__01c8c[src='/assets/e2933bd308a31cdf.svg'], .emoji__01c8c[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.roleIcon__1e6f1[src='/assets/e2933bd308a31cdf.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'], 
+.emoji[src='/assets/e2933bd308a31cdf.svg'], .emoji[style*='background-image: url("/assets/e2933bd308a31cdf.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/sleepy_face.svg") !important;
+}
+
+/* face_exhaling */
+/* face_exhaling */
+.diversityEmojiItemImage_a45a2a[src='/assets/7986d723975b8636.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.image__1859b[src='/assets/7986d723975b8636.svg'], .image__1859b[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.emoji__045fa[src='/assets/7986d723975b8636.svg'], .emoji__045fa[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.emojiImage__13533[src='/assets/7986d723975b8636.svg'], .emojiImage__13533[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.icon_c1e9c4[src='/assets/7986d723975b8636.svg'], .icon_c1e9c4[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.icon_f563df[src='/assets/7986d723975b8636.svg'], .icon_f563df[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.emoji_cc2dff[src='/assets/7986d723975b8636.svg'], .emoji_cc2dff[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.emoji__01c8c[src='/assets/7986d723975b8636.svg'], .emoji__01c8c[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.roleIcon__1e6f1[src='/assets/7986d723975b8636.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/7986d723975b8636.svg")'], 
+.emoji[src='/assets/7986d723975b8636.svg'], .emoji[style*='background-image: url("/assets/7986d723975b8636.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_open_mouth_200d_dash_symbol.svg") !important;
+}
+
+/* dizzy_face */
+/* dizzy_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/b812dc15af4b5d1b.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.image__1859b[src='/assets/b812dc15af4b5d1b.svg'], .image__1859b[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.emoji__045fa[src='/assets/b812dc15af4b5d1b.svg'], .emoji__045fa[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.emojiImage__13533[src='/assets/b812dc15af4b5d1b.svg'], .emojiImage__13533[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.icon_c1e9c4[src='/assets/b812dc15af4b5d1b.svg'], .icon_c1e9c4[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.icon_f563df[src='/assets/b812dc15af4b5d1b.svg'], .icon_f563df[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.emoji_cc2dff[src='/assets/b812dc15af4b5d1b.svg'], .emoji_cc2dff[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.emoji__01c8c[src='/assets/b812dc15af4b5d1b.svg'], .emoji__01c8c[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.roleIcon__1e6f1[src='/assets/b812dc15af4b5d1b.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'], 
+.emoji[src='/assets/b812dc15af4b5d1b.svg'], .emoji[style*='background-image: url("/assets/b812dc15af4b5d1b.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/dizzy_face.svg") !important;
+}
+
+/* face_with_spiral_eyes */
+/* face_with_spiral_eyes */
+.diversityEmojiItemImage_a45a2a[src='/assets/0d55e40e9f172fd3.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.image__1859b[src='/assets/0d55e40e9f172fd3.svg'], .image__1859b[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.emoji__045fa[src='/assets/0d55e40e9f172fd3.svg'], .emoji__045fa[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.emojiImage__13533[src='/assets/0d55e40e9f172fd3.svg'], .emojiImage__13533[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.icon_c1e9c4[src='/assets/0d55e40e9f172fd3.svg'], .icon_c1e9c4[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.icon_f563df[src='/assets/0d55e40e9f172fd3.svg'], .icon_f563df[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.emoji_cc2dff[src='/assets/0d55e40e9f172fd3.svg'], .emoji_cc2dff[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.emoji__01c8c[src='/assets/0d55e40e9f172fd3.svg'], .emoji__01c8c[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.roleIcon__1e6f1[src='/assets/0d55e40e9f172fd3.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'], 
+.emoji[src='/assets/0d55e40e9f172fd3.svg'], .emoji[style*='background-image: url("/assets/0d55e40e9f172fd3.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/dizzy_face_200d_dizzy_symbol.svg") !important;
+}
+
+/* zipper_mouth */
+/* zipper_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/52aa42ea4bebab36.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.image__1859b[src='/assets/52aa42ea4bebab36.svg'], .image__1859b[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.emoji__045fa[src='/assets/52aa42ea4bebab36.svg'], .emoji__045fa[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.emojiImage__13533[src='/assets/52aa42ea4bebab36.svg'], .emojiImage__13533[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.icon_c1e9c4[src='/assets/52aa42ea4bebab36.svg'], .icon_c1e9c4[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.icon_f563df[src='/assets/52aa42ea4bebab36.svg'], .icon_f563df[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.emoji_cc2dff[src='/assets/52aa42ea4bebab36.svg'], .emoji_cc2dff[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.emoji__01c8c[src='/assets/52aa42ea4bebab36.svg'], .emoji__01c8c[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.roleIcon__1e6f1[src='/assets/52aa42ea4bebab36.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'], 
+.emoji[src='/assets/52aa42ea4bebab36.svg'], .emoji[style*='background-image: url("/assets/52aa42ea4bebab36.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/zipper-mouth_face.svg") !important;
+}
+
+/* woozy_face */
+/* woozy_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/c184c9ba8aa33920.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.image__1859b[src='/assets/c184c9ba8aa33920.svg'], .image__1859b[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.emoji__045fa[src='/assets/c184c9ba8aa33920.svg'], .emoji__045fa[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.emojiImage__13533[src='/assets/c184c9ba8aa33920.svg'], .emojiImage__13533[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.icon_c1e9c4[src='/assets/c184c9ba8aa33920.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.icon_f563df[src='/assets/c184c9ba8aa33920.svg'], .icon_f563df[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.emoji_cc2dff[src='/assets/c184c9ba8aa33920.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.emoji__01c8c[src='/assets/c184c9ba8aa33920.svg'], .emoji__01c8c[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.roleIcon__1e6f1[src='/assets/c184c9ba8aa33920.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'], 
+.emoji[src='/assets/c184c9ba8aa33920.svg'], .emoji[style*='background-image: url("/assets/c184c9ba8aa33920.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/dizzy_face_200d_dizzy_symbol.svg") !important;
+}
+
+/* nauseated_face */
+/* nauseated_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/f91533db72a069ec.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.image__1859b[src='/assets/f91533db72a069ec.svg'], .image__1859b[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.emoji__045fa[src='/assets/f91533db72a069ec.svg'], .emoji__045fa[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.emojiImage__13533[src='/assets/f91533db72a069ec.svg'], .emojiImage__13533[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.icon_c1e9c4[src='/assets/f91533db72a069ec.svg'], .icon_c1e9c4[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.icon_f563df[src='/assets/f91533db72a069ec.svg'], .icon_f563df[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.emoji_cc2dff[src='/assets/f91533db72a069ec.svg'], .emoji_cc2dff[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.emoji__01c8c[src='/assets/f91533db72a069ec.svg'], .emoji__01c8c[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.roleIcon__1e6f1[src='/assets/f91533db72a069ec.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/f91533db72a069ec.svg")'], 
+.emoji[src='/assets/f91533db72a069ec.svg'], .emoji[style*='background-image: url("/assets/f91533db72a069ec.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/nauseated_face.svg") !important;
+}
+
+/* face_vomiting */
+/* face_vomiting */
+.diversityEmojiItemImage_a45a2a[src='/assets/26d10a038c7d3598.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.image__1859b[src='/assets/26d10a038c7d3598.svg'], .image__1859b[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.emoji__045fa[src='/assets/26d10a038c7d3598.svg'], .emoji__045fa[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.emojiImage__13533[src='/assets/26d10a038c7d3598.svg'], .emojiImage__13533[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.icon_c1e9c4[src='/assets/26d10a038c7d3598.svg'], .icon_c1e9c4[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.icon_f563df[src='/assets/26d10a038c7d3598.svg'], .icon_f563df[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.emoji_cc2dff[src='/assets/26d10a038c7d3598.svg'], .emoji_cc2dff[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.emoji__01c8c[src='/assets/26d10a038c7d3598.svg'], .emoji__01c8c[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.roleIcon__1e6f1[src='/assets/26d10a038c7d3598.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/26d10a038c7d3598.svg")'], 
+.emoji[src='/assets/26d10a038c7d3598.svg'], .emoji[style*='background-image: url("/assets/26d10a038c7d3598.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_open_mouth_vomiting.svg") !important;
+}
+
+/* sneezing_face */
+/* sneezing_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/64ff8ca53451d741.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.image__1859b[src='/assets/64ff8ca53451d741.svg'], .image__1859b[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.emoji__045fa[src='/assets/64ff8ca53451d741.svg'], .emoji__045fa[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.emojiImage__13533[src='/assets/64ff8ca53451d741.svg'], .emojiImage__13533[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.icon_c1e9c4[src='/assets/64ff8ca53451d741.svg'], .icon_c1e9c4[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.icon_f563df[src='/assets/64ff8ca53451d741.svg'], .icon_f563df[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.emoji_cc2dff[src='/assets/64ff8ca53451d741.svg'], .emoji_cc2dff[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.emoji__01c8c[src='/assets/64ff8ca53451d741.svg'], .emoji__01c8c[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.roleIcon__1e6f1[src='/assets/64ff8ca53451d741.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/64ff8ca53451d741.svg")'], 
+.emoji[src='/assets/64ff8ca53451d741.svg'], .emoji[style*='background-image: url("/assets/64ff8ca53451d741.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/sneezing_face.svg") !important;
+}
+
+/* mask */
+/* mask */
+.diversityEmojiItemImage_a45a2a[src='/assets/ef3f95a1d69b6a99.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.image__1859b[src='/assets/ef3f95a1d69b6a99.svg'], .image__1859b[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.emoji__045fa[src='/assets/ef3f95a1d69b6a99.svg'], .emoji__045fa[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.emojiImage__13533[src='/assets/ef3f95a1d69b6a99.svg'], .emojiImage__13533[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.icon_c1e9c4[src='/assets/ef3f95a1d69b6a99.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.icon_f563df[src='/assets/ef3f95a1d69b6a99.svg'], .icon_f563df[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.emoji_cc2dff[src='/assets/ef3f95a1d69b6a99.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.emoji__01c8c[src='/assets/ef3f95a1d69b6a99.svg'], .emoji__01c8c[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.roleIcon__1e6f1[src='/assets/ef3f95a1d69b6a99.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'], 
+.emoji[src='/assets/ef3f95a1d69b6a99.svg'], .emoji[style*='background-image: url("/assets/ef3f95a1d69b6a99.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_medical_mask.svg") !important;
+}
+
+/* thermometer_face */
+/* thermometer_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/560441c769d73099.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.image__1859b[src='/assets/560441c769d73099.svg'], .image__1859b[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.emoji__045fa[src='/assets/560441c769d73099.svg'], .emoji__045fa[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.emojiImage__13533[src='/assets/560441c769d73099.svg'], .emojiImage__13533[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.icon_c1e9c4[src='/assets/560441c769d73099.svg'], .icon_c1e9c4[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.icon_f563df[src='/assets/560441c769d73099.svg'], .icon_f563df[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.emoji_cc2dff[src='/assets/560441c769d73099.svg'], .emoji_cc2dff[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.emoji__01c8c[src='/assets/560441c769d73099.svg'], .emoji__01c8c[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.roleIcon__1e6f1[src='/assets/560441c769d73099.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/560441c769d73099.svg")'], 
+.emoji[src='/assets/560441c769d73099.svg'], .emoji[style*='background-image: url("/assets/560441c769d73099.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_thermometer.svg") !important;
+}
+
+/* head_bandage */
+/* head_bandage */
+.diversityEmojiItemImage_a45a2a[src='/assets/590c28bca1427879.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.image__1859b[src='/assets/590c28bca1427879.svg'], .image__1859b[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.emoji__045fa[src='/assets/590c28bca1427879.svg'], .emoji__045fa[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.emojiImage__13533[src='/assets/590c28bca1427879.svg'], .emojiImage__13533[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.icon_c1e9c4[src='/assets/590c28bca1427879.svg'], .icon_c1e9c4[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.icon_f563df[src='/assets/590c28bca1427879.svg'], .icon_f563df[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.emoji_cc2dff[src='/assets/590c28bca1427879.svg'], .emoji_cc2dff[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.emoji__01c8c[src='/assets/590c28bca1427879.svg'], .emoji__01c8c[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.roleIcon__1e6f1[src='/assets/590c28bca1427879.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/590c28bca1427879.svg")'], 
+.emoji[src='/assets/590c28bca1427879.svg'], .emoji[style*='background-image: url("/assets/590c28bca1427879.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_head-bandage.svg") !important;
+}
+
+/* money_mouth */
+/* money_mouth */
+.diversityEmojiItemImage_a45a2a[src='/assets/24912004d94108ab.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.image__1859b[src='/assets/24912004d94108ab.svg'], .image__1859b[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.emoji__045fa[src='/assets/24912004d94108ab.svg'], .emoji__045fa[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.emojiImage__13533[src='/assets/24912004d94108ab.svg'], .emojiImage__13533[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.icon_c1e9c4[src='/assets/24912004d94108ab.svg'], .icon_c1e9c4[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.icon_f563df[src='/assets/24912004d94108ab.svg'], .icon_f563df[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.emoji_cc2dff[src='/assets/24912004d94108ab.svg'], .emoji_cc2dff[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.emoji__01c8c[src='/assets/24912004d94108ab.svg'], .emoji__01c8c[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.roleIcon__1e6f1[src='/assets/24912004d94108ab.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/24912004d94108ab.svg")'], 
+.emoji[src='/assets/24912004d94108ab.svg'], .emoji[style*='background-image: url("/assets/24912004d94108ab.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/money-mouth_face.svg") !important;
+}
+
+/* cowboy */
+/* cowboy */
+.diversityEmojiItemImage_a45a2a[src='/assets/1c037e36db036fd2.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.image__1859b[src='/assets/1c037e36db036fd2.svg'], .image__1859b[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.emoji__045fa[src='/assets/1c037e36db036fd2.svg'], .emoji__045fa[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.emojiImage__13533[src='/assets/1c037e36db036fd2.svg'], .emojiImage__13533[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.icon_c1e9c4[src='/assets/1c037e36db036fd2.svg'], .icon_c1e9c4[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.icon_f563df[src='/assets/1c037e36db036fd2.svg'], .icon_f563df[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.emoji_cc2dff[src='/assets/1c037e36db036fd2.svg'], .emoji_cc2dff[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.emoji__01c8c[src='/assets/1c037e36db036fd2.svg'], .emoji__01c8c[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.roleIcon__1e6f1[src='/assets/1c037e36db036fd2.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/1c037e36db036fd2.svg")'], 
+.emoji[src='/assets/1c037e36db036fd2.svg'], .emoji[style*='background-image: url("/assets/1c037e36db036fd2.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_cowboy_hat.svg") !important;
+}
+
+/* smiling_imp */
+/* smiling_imp */
+.diversityEmojiItemImage_a45a2a[src='/assets/3c854880762932b9.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.image__1859b[src='/assets/3c854880762932b9.svg'], .image__1859b[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.emoji__045fa[src='/assets/3c854880762932b9.svg'], .emoji__045fa[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.emojiImage__13533[src='/assets/3c854880762932b9.svg'], .emojiImage__13533[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.icon_c1e9c4[src='/assets/3c854880762932b9.svg'], .icon_c1e9c4[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.icon_f563df[src='/assets/3c854880762932b9.svg'], .icon_f563df[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.emoji_cc2dff[src='/assets/3c854880762932b9.svg'], .emoji_cc2dff[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.emoji__01c8c[src='/assets/3c854880762932b9.svg'], .emoji__01c8c[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.roleIcon__1e6f1[src='/assets/3c854880762932b9.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/3c854880762932b9.svg")'], 
+.emoji[src='/assets/3c854880762932b9.svg'], .emoji[style*='background-image: url("/assets/3c854880762932b9.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_horns.svg") !important;
+}
+
+/* imp */
+/* imp */
+.diversityEmojiItemImage_a45a2a[src='/assets/33c9a30aa690e43f.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.image__1859b[src='/assets/33c9a30aa690e43f.svg'], .image__1859b[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.emoji__045fa[src='/assets/33c9a30aa690e43f.svg'], .emoji__045fa[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.emojiImage__13533[src='/assets/33c9a30aa690e43f.svg'], .emojiImage__13533[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.icon_c1e9c4[src='/assets/33c9a30aa690e43f.svg'], .icon_c1e9c4[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.icon_f563df[src='/assets/33c9a30aa690e43f.svg'], .icon_f563df[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.emoji_cc2dff[src='/assets/33c9a30aa690e43f.svg'], .emoji_cc2dff[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.emoji__01c8c[src='/assets/33c9a30aa690e43f.svg'], .emoji__01c8c[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.roleIcon__1e6f1[src='/assets/33c9a30aa690e43f.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'], 
+.emoji[src='/assets/33c9a30aa690e43f.svg'], .emoji[style*='background-image: url("/assets/33c9a30aa690e43f.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/imp.svg") !important;
+}
+
+/* smiley_cat */
+/* smiley_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/e857fa0eb14876c2.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.image__1859b[src='/assets/e857fa0eb14876c2.svg'], .image__1859b[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.emoji__045fa[src='/assets/e857fa0eb14876c2.svg'], .emoji__045fa[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.emojiImage__13533[src='/assets/e857fa0eb14876c2.svg'], .emojiImage__13533[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.icon_c1e9c4[src='/assets/e857fa0eb14876c2.svg'], .icon_c1e9c4[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.icon_f563df[src='/assets/e857fa0eb14876c2.svg'], .icon_f563df[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.emoji_cc2dff[src='/assets/e857fa0eb14876c2.svg'], .emoji_cc2dff[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.emoji__01c8c[src='/assets/e857fa0eb14876c2.svg'], .emoji__01c8c[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.roleIcon__1e6f1[src='/assets/e857fa0eb14876c2.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'], 
+.emoji[src='/assets/e857fa0eb14876c2.svg'], .emoji[style*='background-image: url("/assets/e857fa0eb14876c2.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
+}
+
+/* smile_cat */
+/* smile_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/ee24dcca1be432e4.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.image__1859b[src='/assets/ee24dcca1be432e4.svg'], .image__1859b[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.emoji__045fa[src='/assets/ee24dcca1be432e4.svg'], .emoji__045fa[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.emojiImage__13533[src='/assets/ee24dcca1be432e4.svg'], .emojiImage__13533[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.icon_c1e9c4[src='/assets/ee24dcca1be432e4.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.icon_f563df[src='/assets/ee24dcca1be432e4.svg'], .icon_f563df[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.emoji_cc2dff[src='/assets/ee24dcca1be432e4.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.emoji__01c8c[src='/assets/ee24dcca1be432e4.svg'], .emoji__01c8c[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.roleIcon__1e6f1[src='/assets/ee24dcca1be432e4.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'], 
+.emoji[src='/assets/ee24dcca1be432e4.svg'], .emoji[style*='background-image: url("/assets/ee24dcca1be432e4.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/grinning_face_with_smiling_eyes.svg") !important;
+}
+
+/* joy_cat */
+/* joy_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/9f83fdf208e3010e.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.image__1859b[src='/assets/9f83fdf208e3010e.svg'], .image__1859b[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.emoji__045fa[src='/assets/9f83fdf208e3010e.svg'], .emoji__045fa[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.emojiImage__13533[src='/assets/9f83fdf208e3010e.svg'], .emojiImage__13533[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.icon_c1e9c4[src='/assets/9f83fdf208e3010e.svg'], .icon_c1e9c4[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.icon_f563df[src='/assets/9f83fdf208e3010e.svg'], .icon_f563df[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.emoji_cc2dff[src='/assets/9f83fdf208e3010e.svg'], .emoji_cc2dff[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.emoji__01c8c[src='/assets/9f83fdf208e3010e.svg'], .emoji__01c8c[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.roleIcon__1e6f1[src='/assets/9f83fdf208e3010e.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'], 
+.emoji[src='/assets/9f83fdf208e3010e.svg'], .emoji[style*='background-image: url("/assets/9f83fdf208e3010e.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_with_tears_of_joy.svg") !important;
+}
+
+/* heart_eyes_cat */
+/* heart_eyes_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/8a386907994da442.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.image__1859b[src='/assets/8a386907994da442.svg'], .image__1859b[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.emoji__045fa[src='/assets/8a386907994da442.svg'], .emoji__045fa[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.emojiImage__13533[src='/assets/8a386907994da442.svg'], .emojiImage__13533[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.icon_c1e9c4[src='/assets/8a386907994da442.svg'], .icon_c1e9c4[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.icon_f563df[src='/assets/8a386907994da442.svg'], .icon_f563df[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.emoji_cc2dff[src='/assets/8a386907994da442.svg'], .emoji_cc2dff[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.emoji__01c8c[src='/assets/8a386907994da442.svg'], .emoji__01c8c[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.roleIcon__1e6f1[src='/assets/8a386907994da442.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/8a386907994da442.svg")'], 
+.emoji[src='/assets/8a386907994da442.svg'], .emoji[style*='background-image: url("/assets/8a386907994da442.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smiling_face_with_heart-shaped_eyes.svg") !important;
+}
+
+/* smirk_cat */
+/* smirk_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/185f775f1158690b.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.image__1859b[src='/assets/185f775f1158690b.svg'], .image__1859b[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.emoji__045fa[src='/assets/185f775f1158690b.svg'], .emoji__045fa[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.emojiImage__13533[src='/assets/185f775f1158690b.svg'], .emojiImage__13533[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.icon_c1e9c4[src='/assets/185f775f1158690b.svg'], .icon_c1e9c4[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.icon_f563df[src='/assets/185f775f1158690b.svg'], .icon_f563df[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.emoji_cc2dff[src='/assets/185f775f1158690b.svg'], .emoji_cc2dff[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.emoji__01c8c[src='/assets/185f775f1158690b.svg'], .emoji__01c8c[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.roleIcon__1e6f1[src='/assets/185f775f1158690b.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/185f775f1158690b.svg")'], 
+.emoji[src='/assets/185f775f1158690b.svg'], .emoji[style*='background-image: url("/assets/185f775f1158690b.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/smirking_face.svg") !important;
+}
+
+/* kissing_cat */
+/* kissing_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/c9a0d25ac3c5577a.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.image__1859b[src='/assets/c9a0d25ac3c5577a.svg'], .image__1859b[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.emoji__045fa[src='/assets/c9a0d25ac3c5577a.svg'], .emoji__045fa[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.emojiImage__13533[src='/assets/c9a0d25ac3c5577a.svg'], .emojiImage__13533[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.icon_c1e9c4[src='/assets/c9a0d25ac3c5577a.svg'], .icon_c1e9c4[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.icon_f563df[src='/assets/c9a0d25ac3c5577a.svg'], .icon_f563df[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.emoji_cc2dff[src='/assets/c9a0d25ac3c5577a.svg'], .emoji_cc2dff[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.emoji__01c8c[src='/assets/c9a0d25ac3c5577a.svg'], .emoji__01c8c[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.roleIcon__1e6f1[src='/assets/c9a0d25ac3c5577a.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'], 
+.emoji[src='/assets/c9a0d25ac3c5577a.svg'], .emoji[style*='background-image: url("/assets/c9a0d25ac3c5577a.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/kissing_face_with_closed_eyes.svg") !important;
+}
+
+/* scream_cat */
+/* scream_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/b447a5934d813137.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.image__1859b[src='/assets/b447a5934d813137.svg'], .image__1859b[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.emoji__045fa[src='/assets/b447a5934d813137.svg'], .emoji__045fa[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.emojiImage__13533[src='/assets/b447a5934d813137.svg'], .emojiImage__13533[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.icon_c1e9c4[src='/assets/b447a5934d813137.svg'], .icon_c1e9c4[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.icon_f563df[src='/assets/b447a5934d813137.svg'], .icon_f563df[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.emoji_cc2dff[src='/assets/b447a5934d813137.svg'], .emoji_cc2dff[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.emoji__01c8c[src='/assets/b447a5934d813137.svg'], .emoji__01c8c[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.roleIcon__1e6f1[src='/assets/b447a5934d813137.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/b447a5934d813137.svg")'], 
+.emoji[src='/assets/b447a5934d813137.svg'], .emoji[style*='background-image: url("/assets/b447a5934d813137.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/face_screaming_in_fear.svg") !important;
+}
+
+/* crying_cat_face */
+/* crying_cat_face */
+.diversityEmojiItemImage_a45a2a[src='/assets/bf60eeabbc35ac0c.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.image__1859b[src='/assets/bf60eeabbc35ac0c.svg'], .image__1859b[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.emoji__045fa[src='/assets/bf60eeabbc35ac0c.svg'], .emoji__045fa[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.emojiImage__13533[src='/assets/bf60eeabbc35ac0c.svg'], .emojiImage__13533[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.icon_c1e9c4[src='/assets/bf60eeabbc35ac0c.svg'], .icon_c1e9c4[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.icon_f563df[src='/assets/bf60eeabbc35ac0c.svg'], .icon_f563df[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.emoji_cc2dff[src='/assets/bf60eeabbc35ac0c.svg'], .emoji_cc2dff[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.emoji__01c8c[src='/assets/bf60eeabbc35ac0c.svg'], .emoji__01c8c[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.roleIcon__1e6f1[src='/assets/bf60eeabbc35ac0c.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'], 
+.emoji[src='/assets/bf60eeabbc35ac0c.svg'], .emoji[style*='background-image: url("/assets/bf60eeabbc35ac0c.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/crying_face.svg") !important;
+}
+
+/* pouting_cat */
+/* pouting_cat */
+.diversityEmojiItemImage_a45a2a[src='/assets/ab10422e979b0765.svg'], .diversityEmojiItemImage_a45a2a[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.image__1859b[src='/assets/ab10422e979b0765.svg'], .image__1859b[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.emoji__045fa[src='/assets/ab10422e979b0765.svg'], .emoji__045fa[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.emojiImage__13533[src='/assets/ab10422e979b0765.svg'], .emojiImage__13533[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.icon_c1e9c4[src='/assets/ab10422e979b0765.svg'], .icon_c1e9c4[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.icon_f563df[src='/assets/ab10422e979b0765.svg'], .icon_f563df[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.emoji_cc2dff[src='/assets/ab10422e979b0765.svg'], .emoji_cc2dff[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.emoji__01c8c[src='/assets/ab10422e979b0765.svg'], .emoji__01c8c[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.roleIcon__1e6f1[src='/assets/ab10422e979b0765.svg'], .roleIcon__1e6f1[style*='background-image: url("/assets/ab10422e979b0765.svg")'], 
+.emoji[src='/assets/ab10422e979b0765.svg'], .emoji[style*='background-image: url("/assets/ab10422e979b0765.svg")'] {
+	background: transparent !important;
+	content: url("https://raw.githubusercontent.com/M0chaCat/PersonalSite/bf07ead0aa3c75ac91f1701d83f8a350890c240d/catmoji/images/pouting_face.svg") !important;
+}
