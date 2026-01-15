@@ -1,0 +1,384 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap");
+
+@font-face {
+    font-family: nasinnanpa;
+    src: url("./Nasin Nanpa.otf");
+}
+
+.crt-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+
+    pointer-events: none;
+    z-index: 999999;
+
+    /* Solid scanlines over everything */
+    background: repeating-linear-gradient(to bottom, rgba(0, 0, 0, 0.15) 0px, rgba(0, 0, 0, 0.15) 1px, transparent 1px, transparent 2px);
+
+    animation: scanlines 55s linear infinite;
+    filter: blur(0.4px);
+    opacity: 1; /* Adjust if too strong */
+}
+
+@keyframes scanlines {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 0 -10px;
+    }
+}
+
+body.no-crt .crt-overlay {
+    display: none;
+}
+
+:root {
+    /* Catppuccin Mocha Colors */
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --surface0: #313244;
+    --surface1: #45475a;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --lavender: #b4befe;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Fredoka", "nasinnanpa", sans-serif;
+    background-color: var(--mantle);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./meow.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px; /* Increased max-width for two columns */
+    margin: 0 auto;
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.content-columns {
+    display: flex;
+    gap: 2rem; /* Ensure horizontal gap matches vertical sidebar gap */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.column {
+    flex: 1; /* Distribute space equally */
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Gap between cards within a column */
+}
+
+.sidecolumn {
+    flex: 1; /* Distribute space equally */
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Ensure vertical gap matches horizontal content gap */
+}
+
+/* Adjustments for smaller screens */
+@media (max-width: 768px) {
+    .content-columns {
+        flex-direction: column;
+    }
+
+    .column {
+        flex: none; /* Reset flex on small screens */
+        width: 100%;
+    }
+}
+
+/* Keyframes for scrolling animation */
+@keyframes scrollLeft {
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-50%); /* Scrolls the content by 50% to create a seamless loop with duplicated content */
+    }
+}
+
+.scrolling-buttons-container {
+    width: 100%;
+    overflow: hidden; /* Hide scrollbar */
+    background-color: var(--base);
+    padding: 10px 15px; /* Add some vertical and horizontal padding */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+    /* Height will be determined by content (3 rows + gaps) */
+    display: flex; /* Enable flexbox for vertical stacking of rows */
+    flex-direction: column; /* Stack rows vertically */
+    gap: 10px; /* Gap between rows */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8);
+}
+
+.button-row {
+    display: flex;
+    white-space: nowrap; /* Ensure items stay in a single line */
+    gap: 1rem;
+    /* Apply animation */
+    animation: scrollLeft 15s linear infinite; /* Horizontal scrolling animation */
+    align-items: center; /* Vertically align items within the flex container */
+    width: max-content; /* Allow the row to be as wide as its content */
+}
+
+.button-row a {
+    flex-shrink: 0; /* Prevent links from shrinking */
+    display: flex; /* Use flex on the link to help center the image */
+    align-items: center; /* Vertically center the image within the link */
+    justify-content: center; /* Horizontally center the image within the link */
+}
+
+.button-row img {
+    image-rendering: pixelated;
+    display: block; /* Ensure image behaves as a block element within flex */
+}
+
+.card {
+    background-color: var(--base);
+    border-radius: 0;
+    padding: 2rem;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.8);
+    transition: transform 0.2s ease;
+}
+
+.profile-section {
+    text-align: center;
+}
+
+.intro {
+    position: relative;
+    overflow: hidden;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+    margin: 1.5rem auto;
+    border: 3px solid var(--lavender);
+    transition: transform 0.3s ease;
+    object-fit: cover;
+    padding: 5px;
+    background-color: var(--base);
+}
+
+.profile-pic:hover {
+    transform: scale(1.05);
+}
+
+.ghost-box {
+    width: 150px;
+        height: 150px;
+        border-radius: 0;
+        margin: 1.5rem auto;
+        border: 3px solid var(--lavender);
+        transition: transform 0.3s ease;
+        object-fit: cover;
+        padding: 5px;
+        background-color: var(--base);
+        cursor: pointer;
+}
+
+h1 {
+    color: var(--mauve);
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.bio {
+    color: var(--subtext1);
+    margin-bottom: 1.5rem;
+}
+
+.platforms {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.platform-icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.platform-icon:hover {
+    transform: scale(1.2);
+}
+
+.buttons-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.buttons-section img {
+    border-radius: 0;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.project-item {
+    background-color: var(--surface0);
+    padding: 0.5rem;
+    padding-left: 1rem;
+    border-radius: 0;
+    text-decoration: none;
+    color: var(--text);
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.project-item:hover {
+    transform: translateY(-2px);
+    background-color: var(--surface1);
+}
+
+.extra-bio-button {
+    background-color: var(--surface0);
+    color: var(--text);
+    padding: 0.75rem 1.5rem;
+    border-radius: 0;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.2s ease;
+}
+
+.extra-bio-button:hover {
+    background-color: var(--surface1);
+}
+
+.section-title {
+    color: var(--pink);
+    margin-bottom: 1rem;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad iframe,
+.ad img {
+    width: 100%;
+    aspect-ratio: 1 / 1; /* keeps it square */
+    height: auto;
+    border: 0;
+}
+
+/* Hide ad on smaller screens */
+@media (max-width: 920px) {
+    .ad-left {
+        display: none;
+    }
+}
+
+.now-playing .track {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.now-playing img {
+    width: 90px;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.track-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.track-title {
+    font-weight: bold;
+}
+
+.track-artist {
+    opacity: 0.8;
+    font-size: 0.95em;
+}
+
+.track-time {
+    opacity: 0.6;
+    font-size: 0.8em;
+}
+
+/* 7-segment style numbers */
+.digital-number {
+    font-family: 'digital', monospace;
+    font-weight: bold;
+    font-size: 3rem;
+    color: #0f0;
+    letter-spacing: 0.1em;
+    text-shadow:
+        0 0 5px #0f0,
+        0 0 10px #0f0,
+        0 0 20px #0f0,
+        0 0 40px #0f0;
+}
+
+.hitcard {
+    color: rgb(0, 255, 55);
+    margin: 0;
+    overflow: hidden;
+}
+@font-face {
+    font-family: "Digital";
+    src: url("https://dimden.dev/hc/fonts/Digital-7.ttf?") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+.counter {
+    font-family: Digital;
+    float: right;
+    right: 0;
+    position: absolute;
+    font-size: 16px;
+}
+.green {
+    z-index: 5;
+}
+.gray {
+    z-index: -1;
+    color: #797979;
+    opacity: 0.3;
+}
+.text {
+    float: left;
+    font-family: var(--font), monospace;
+    font-size: var(--font-size);
+}
