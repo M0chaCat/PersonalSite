@@ -1,6 +1,6 @@
 async function testNyaNet() {
 	try {
-		const res = await fetch("http://home.root/response.txt");
+		const res = await fetch(makeUrl("home.root/response.txt"));
 		if (!res.ok) {
 			console.error("HTTP error:", res.status);
 			return false;
@@ -18,6 +18,12 @@ async function testNyaNet() {
 		console.error("No NyaNet!! using only static stuffs!!!");
 		return false;
 	}
+}
+
+function makeUrl(host) {
+  // Use page protocol if HTTP(S), otherwise default to HTTPS
+  const protocol = window.location.protocol.startsWith("http") ? window.location.protocol : "https:";
+  return protocol + "//" + host;
 }
 
 const userHasNyaNet = testNyaNet();
@@ -55,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!title || !artist || !time || !img) return;
 
-      const res = await fetch("http://beta.root/music/now-playing.json", { cache: "no-store" });
+      const res = await fetch(makeUrl("beta.root/music/now-playing.json"), { cache: "no-store" });
       if (!res.ok) return;
 
       const data = await res.json();
@@ -183,7 +189,7 @@ async function updateCounter() {
     return false;
   }
     try {
-        const res = await fetch('http://home.root/yatxv.php');
+      const res = await fetch(makeUrl("home.root/yatxv.php"));
         const data = await res.json();
 
         document.getElementById("hits").innerText = String(data.current_count);
@@ -194,5 +200,11 @@ async function updateCounter() {
 }
 
 updateCounter();
+
+if (window.location.hostname == "mocha.kitten") {
+  const el = document.getElementById("pub-webrings");
+  el.remove();
+  return false;
+}
 
 });
