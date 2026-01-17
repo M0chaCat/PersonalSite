@@ -1,6 +1,6 @@
 async function testNyaNet() {
 	try {
-		const res = await fetch(makeUrl("home.root/response.txt"));
+		const res = await fetch(makeUrl("qt.ouppy/response.txt"));
 		if (!res.ok) {
 			console.error("HTTP error:", res.status);
 			return false;
@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return false;
     }
     try {
-      const res = await fetch(makeUrl("home.root/steam-status.php"));
+      const res = await fetch(makeUrl("qt.ouppy/steam-status.php"));
       const data = await res.json();
 
       const img = document.getElementById("game-img");
@@ -220,7 +220,7 @@ async function updateCounter() {
     return false;
   }
     try {
-      const res = await fetch(makeUrl("home.root/yatxv.php"));
+      const res = await fetch(makeUrl("qt.ouppy/yatxv.php"));
         const data = await res.json();
 
         document.getElementById("hits").innerText = String(data.current_count);
