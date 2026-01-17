@@ -1,108 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>You Are A Cutie :3</title>
-</head>
-<body id="bodyEl">
-    <h1 id="title"></h1>
+    <head>
+        <meta charset="UTF-8" />
+        <title>You Are A Cutie :3</title>
+    </head>
+    <body id="bodyEl">
+        <h1 id="title"></h1>
 
-    <style>
-        #title{
-            text-align: center;
-            margin-top: 50px;
-            font-size: 100px;
-        }
-    </style>
-    <script>
-        const title = document.getElementById('title')
-        const body = document.getElementById('bodyEl')
+        <style>
+            #title {
+                text-align: center;
+                margin-top: 50px;
+                font-size: 100px;
+            }
+        </style>
+        <script>
+            const title = document.getElementById("title");
+            const body = document.getElementById("bodyEl");
 
-        let nextAn = 1
-        let indexN = 0
-        let wordlist = ['u', 'r', 'a', 'cutie :3']
-        let popups = [window]
+            let nextAn = 1;
+            let indexN = 0;
+            let wordlist = ["u", "r", "a", "cutie :3"];
+            let popups = [window];
 
-        function getRandomCordinats(){
-            return [Math.floor(Math.random() * (screen.width-100 - 0) + 0), Math.floor(Math.random() * (screen.height-100 - 0) + 0)]
-        }
+            function getRandomCordinats() {
+                return [Math.floor(Math.random() * (screen.width - 100 - 0) + 0), Math.floor(Math.random() * (screen.height - 100 - 0) + 0)];
+            }
 
-        setInterval(()=>{
-            if (popups.length!=0){
-                for (let i = 0; i < popups.length;i++){
-                    let xy = getRandomCordinats()
-                    popups[i].moveTo(xy[0], xy[1])
-                    popups[i].focus()
+            setInterval(() => {
+                if (popups.length != 0) {
+                    for (let i = 0; i < popups.length; i++) {
+                        let xy = getRandomCordinats();
+                        popups[i].moveTo(xy[0], xy[1]);
+                        popups[i].focus();
+                    }
                 }
-            }
-        }, 50)/*make this lower later*/
+            }, 50); /*make this lower later*/
 
-        setInterval(()=>{
-            title.textContent = wordlist[indexN]
-            if(nextAn==1){
-                title.style.color = 'white'
-                body.style.backgroundColor = 'black'
-                nextAn = 2
-            }else{
-                title.style.color = 'white'
-                body.style.backgroundColor = 'black'
-                nextAn = 1
-            }
-            if (indexN == 3) {
-                indexN = 0
-            }else{
-                indexN++
-            }
-        }, 400)
+            setInterval(() => {
+                title.textContent = wordlist[indexN];
+                if (nextAn == 1) {
+                    title.style.color = "white";
+                    body.style.backgroundColor = "black";
+                    nextAn = 2;
+                } else {
+                    title.style.color = "white";
+                    body.style.backgroundColor = "black";
+                    nextAn = 1;
+                }
+                if (indexN == 3) {
+                    indexN = 0;
+                } else {
+                    indexN++;
+                }
+            }, 400);
 
-        function createNewPopUp(){
-            let newWindow = window.open('https://arcane.kitties.cat/uaac.html','', 'width=350px height=200px')
-            popups.push(newWindow)
-        }
-
-        window.addEventListener('beforeunload', (e)=>{
-            for (let i = 0; i<20; i++){
-                createNewPopUp()
+            function createNewPopUp() {
+                let newWindow = window.open("https://arcane.kitties.cat/uaac.html", "", "width=350px height=200px");
+                popups.push(newWindow);
             }
 
-            e.preventDefault()
-            e.returnValue = ''
-        })
-        
-        window.addEventListener('load', ()=>{
-            let h = window.innerHeight
-            title.style.marginTop = (h/2 - 120).toString() + "px"
-        })
+            window.addEventListener("beforeunload", (e) => {
+                for (let i = 0; i < 20; i++) {
+                    createNewPopUp();
+                }
 
-        window.addEventListener('resize', ()=>{
-            let h = window.innerHeight
-            title.style.marginTop = (h/2 - 120).toString() + "px"
-        })
+                e.preventDefault();
+                e.returnValue = "";
+            });
 
-        document.addEventListener('click', ()=>{
-        })
+            window.addEventListener("load", () => {
+                let h = window.innerHeight;
+                title.style.marginTop = (h / 2 - 120).toString() + "px";
+            });
 
-        document.addEventListener('mouseenter', ()=>{
-        })
+            window.addEventListener("resize", () => {
+                let h = window.innerHeight;
+                title.style.marginTop = (h / 2 - 120).toString() + "px";
+            });
 
-        document.addEventListener('keydown', (e)=>{
-            for (let i = 0; i<20; i++){
-                createNewPopUp()
-            }
-            e.preventDefault()
-        })
+            document.addEventListener("click", () => {});
 
-	 document.addEventListener('mousemove', (e)=>{
-            for (let i = 0; i<20; i++){
-                createNewPopUp()
-            }
-            e.preventDefault()
-        })
+            document.addEventListener("mouseenter", () => {});
 
-        music.addEventListener('ended', ()=>{
-        })
+            document.addEventListener("keydown", (e) => {
+                for (let i = 0; i < 20; i++) {
+                    createNewPopUp();
+                }
+                e.preventDefault();
+            });
 
-        
-    </script>
-</body>
+            document.addEventListener("mousemove", (e) => {
+                for (let i = 0; i < 20; i++) {
+                    createNewPopUp();
+                }
+                e.preventDefault();
+            });
+
+            music.addEventListener("ended", () => {});
+        </script>
+    </body>
 </html>

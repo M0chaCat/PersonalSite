@@ -337,6 +337,28 @@ h1 {
     font-size: 0.8em;
 }
 
+
+.now-playing-game .game {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.now-playing-game img {
+    width: 90px;
+    aspect-ratio: 616 / 353;
+    object-fit: cover;
+}
+
+.game-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.game-title {
+    font-weight: bold;
+}
+
 /* 7-segment style numbers */
 .digital-number {
     font-family: 'digital', monospace;

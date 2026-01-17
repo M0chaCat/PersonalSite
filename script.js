@@ -30,6 +30,37 @@ const userHasNyaNet = testNyaNet();
 // const userHasNyaNet = false;
 
 document.addEventListener("DOMContentLoaded", () => {
+  // Gamin!!
+  async function updateNowPlayingGame() {
+    if (!userHasNyaNet) {
+      const el = document.getElementById("now-playing-game");
+      el.remove();
+      return false;
+    }
+    try {
+      const res = await fetch(makeUrl("home.root/steam-status.php"));
+      const data = await res.json();
+
+      const img = document.getElementById("game-img");
+      const title = document.getElementById("game-title");
+
+      if (!data.playing) {
+        title.textContent = "Not playing anything";
+        img.src = "./assets/placeholder-albumart.png";
+        const el = document.getElementById("now-playing-game");
+        el.remove();
+        return;
+      }
+
+      img.src = data.image;
+      title.textContent = data.game;
+    } catch {
+      document.getElementById("track-title").textContent = "Failed to load";
+    }
+  }
+
+  window.addEventListener("load", updateNowPlayingGame);
+
   // Jammin!!!
   function timeAgo(iso) {
       if (!iso) return "";
