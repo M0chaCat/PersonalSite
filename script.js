@@ -26,16 +26,18 @@ function makeUrl(host) {
   return protocol + "//" + host;
 }
 
-const userHasNyaNet = testNyaNet();
-// const userHasNyaNet = false;
+//const userHasNyaNet = testNyaNet();
+ const userHasNyaNet = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   // Gamin!!
   async function updateNowPlayingGame() {
-    if (!userHasNyaNet) {
-      const el = document.getElementById("now-playing-game");
-      el.remove();
-      return false;
+    const nowPlayingGame = document.getElementById("now-playing-game");
+
+    if (userHasNyaNet) {
+      nowPlayingGame.style.display = "block";
+
+      nowPlayingGame.querySelector(".game").style.display = "flex";
     }
     try {
       const res = await fetch(makeUrl("qt.ouppy/steam-status.php"));
@@ -79,10 +81,12 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   async function updateNowPlaying() {
-      if (!userHasNyaNet) {
-        const el = document.getElementById("now-playing");
-        el.remove();
-        return false;
+      const nowPlaying = document.getElementById("now-playing");
+
+      if (userHasNyaNet) {
+        nowPlaying.style.display = "block";
+
+        nowPlaying.querySelector(".track").style.display = "flex";
       }
 
       const title = document.getElementById("track-title");
@@ -121,23 +125,6 @@ document.addEventListener("DOMContentLoaded", () => {
           iframe.replaceWith(img);
       }
   }
-
-  // Settings
-  const toggle = document.getElementById("toggle-crt");
-  const KEY = "crt-enabled";
-
-  /* load saved state */
-  const saved = localStorage.getItem(KEY);
-  if (saved !== null) {
-      toggle.checked = saved === "true";
-      document.body.classList.toggle("no-crt", !toggle.checked);
-  }
-
-  /* save on change */
-  toggle.addEventListener("change", () => {
-      localStorage.setItem(KEY, toggle.checked);
-      document.body.classList.toggle("no-crt", !toggle.checked);
-  });
 
   // DVD
   const originalPic = document.querySelector('.profile-pic');
@@ -211,26 +198,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // Set the src
   document.getElementById('profile-pic').src = getDeterministicPFP();
-
-// Visitor counter
-async function updateCounter() {
-  if (!userHasNyaNet) {
-    const el = document.getElementById("hitcard");
-    el.remove();
-    return false;
-  }
-    try {
-      const res = await fetch(makeUrl("qt.ouppy/yatxv.php"));
-        const data = await res.json();
-
-        document.getElementById("hits").innerText = String(data.current_count);
-
-    } catch (e) {
-        console.error("Error fetching visitor data:", e);
-    }
-}
-
-updateCounter();
 
 if (window.location.hostname == "mocha.kitten") {
   const el = document.getElementById("pub-webrings");

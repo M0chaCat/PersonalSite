@@ -9,7 +9,7 @@
     ],
     "thumbnail": "https://circulars.dev/circular-cat.gif",
     "banner": "https://i.imgur.com/hWptMVC.png",
-    "description": "This is my repo :3",
+    "description": "This is my repo :3, assume nothing works, fully unupdated for over a year, jus like nekocord :C",
     "contents": [
         {
             "type": "plugin",
@@ -317,7 +317,7 @@
                 "profile",
                 "backgroud",
                 "fakeprofilethemes"
-                
+
             ],
             "links": [
                 {
