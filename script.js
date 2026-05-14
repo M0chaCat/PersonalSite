@@ -26,8 +26,8 @@ function makeUrl(host) {
   return protocol + "//" + host;
 }
 
-//const userHasNyaNet = testNyaNet();
- const userHasNyaNet = false;
+const userHasNyaNet = testNyaNet();
+// const userHasNyaNet = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   // Gamin!!
