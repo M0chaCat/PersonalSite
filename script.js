@@ -1,23 +1,23 @@
 async function testNyaNet() {
-	try {
+ 	try {
 		const res = await fetch(makeUrl("qt.ouppy/response.txt"));
 		if (!res.ok) {
-			console.error("HTTP error:", res.status);
-			return false;
+ 			console.error("HTTP error:", res.status);
+ 			return false;
 		}
 
 		const text = await res.text();
 
 		if (text.trim() === "hewwo!") {
-			return true;
+ 			return true;
 		} else {
-			console.warn("Unexpected response:", text);
-			return false;
+ 			console.warn("Unexpected response:", text);
+ 			return false;
 		}
-	} catch (err) {
+ 	} catch (err) {
 		console.error("No NyaNet!! using only static stuffs!!!");
 		return false;
-	}
+ 	}
 }
 
 function makeUrl(host) {
@@ -27,20 +27,21 @@ function makeUrl(host) {
 }
 
 const userHasNyaNet = testNyaNet();
-// const userHasNyaNet = false;
+//const userHasNyaNet = false;
 
 document.addEventListener("DOMContentLoaded", () => {
   // Gamin!!
   async function updateNowPlayingGame() {
     const nowPlayingGame = document.getElementById("now-playing-game");
 
-    if (userHasNyaNet) {
+    //if (userHasNyaNet) {
       nowPlayingGame.style.display = "block";
 
       nowPlayingGame.querySelector(".game").style.display = "flex";
-    }
+      //}
+
     try {
-      const res = await fetch(makeUrl("qt.ouppy/steam-status.php"));
+      const res = await fetch(makeUrl("api.plushiekitty.party/steam-status.php"));
       const data = await res.json();
 
       const img = document.getElementById("game-img");
@@ -83,11 +84,11 @@ document.addEventListener("DOMContentLoaded", () => {
   async function updateNowPlaying() {
       const nowPlaying = document.getElementById("now-playing");
 
-      if (userHasNyaNet) {
+      //if (userHasNyaNet) {
         nowPlaying.style.display = "block";
 
         nowPlaying.querySelector(".track").style.display = "flex";
-      }
+        //}
 
       const title = document.getElementById("track-title");
       const artist = document.getElementById("track-artist");
@@ -96,7 +97,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       if (!title || !artist || !time || !img) return;
 
-      const res = await fetch(makeUrl("beta.root/music/now-playing.json"), { cache: "no-store" });
+      const res = await fetch(makeUrl("api.plushiekitty.party/now-playing.php"), { cache: "no-store" });
       if (!res.ok) return;
 
       const data = await res.json();
