@@ -1,0 +1,74 @@
+#mocha-webring {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 2 auto;
+font-size: 0.85em;
+padding: 1px;
+
+}
+
+#mocha-mainbox {
+  max-width:90px;
+  max-height:90px;
+  margin: 1px;
+  padding-bottom: 1px;
+  padding-left: 4px;
+  padding-right: 4px;
+  display: flex;
+align-items: center;
+justify-content: center;
+flex-wrap:  wrap;
+
+}
+
+#mocha-randomlink {
+font-size: 0.8em;
+max-height:11px;
+padding: 1px;
+margin: 1px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: fit-content;
+}
+
+
+
+#mocha-webring a {
+  text-decoration: none;
+}
+
+/* text widget */
+
+#mocha-textwebring {
+
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 4px 0;
+font-size: 1em;
+
+}
+
+#mocha-textwebring a {
+  text-decoration: none;
+}
+
+#mocha-textrandomlink {
+font-size: 0.8em;
+padding: 1px;
+margin: 1px;
+}
+
+#mocha-textmainbox {
+  max-width:90px;
+  max-height:90px;
+  padding-bottom: 1px;
+  padding-left: 2px;
+  padding-right: 2px;
+
+}
+
+/* test widget */
