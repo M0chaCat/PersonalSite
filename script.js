@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // Set the src
   document.getElementById('profile-pic').src = getDeterministicPFP();
 
-if (window.location.hostname == "mocha.kitten") {
+if (window.location.hostname != "plushiekitty.party") {
   const el = document.getElementById("pub-webrings");
   el.remove();
   return false;
