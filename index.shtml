@@ -1,0 +1,36 @@
+<!--#include file="SSI/layout1.shtml" -->
+
+<!--#include file="SSI/Cards/bio.html" -->
+
+<div class="sections-row" id="container">
+    <!--#include file="SSI/Cards/friends.html" -->
+    <!--#include file="SSI/Cards/webrings.html" -->
+    <!--#include file="SSI/Cards/projects.html" -->
+
+    <style>
+        #container {
+            display: grid;
+            grid-gap: var(--cardpadding);
+            grid-template: 175px 500px / 60% calc(40% - var(--cardpadding));
+            grid-template-areas:
+                'buttons creations'
+                'rings creations'
+        }
+
+        #friendz {
+            grid-area: buttons;
+        }
+
+        #creationz {
+            grid-area: creations;
+        }
+
+        #webrings {
+            grid-area: rings;
+        }
+    </style>
+</div>
+
+<!--#include file="SSI/Cards/guestbook.html" -->
+
+<!--#include file="SSI/layout2.shtml" -->

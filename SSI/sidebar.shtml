@@ -1,0 +1,26 @@
+<div class="sidecolumn">
+
+    <!--#include virtual="/SSI/Cards/sitemap.html" -->
+
+    <!--#include virtual="/SSI/Cards/socials.html" -->
+
+    <!--#include virtual="/SSI/Cards/song.html" -->
+
+    <!--#include virtual="/SSI/Cards/game.html" -->
+
+    <!--#include virtual="/SSI/Cards/github.html" -->
+
+    <!--#include virtual="/SSI/Cards/themes.html" -->
+
+    <!--#include virtual="/SSI/Cards/buttons.html" -->
+
+    <!--#include virtual="/SSI/Cards/clock.html" -->
+
+    <!--#include virtual="/SSI/Cards/hitcounter.html" -->
+
+    <!--#include virtual="/SSI/Cards/buttoncode.html" -->
+
+    <!--#include virtual="/SSI/Cards/ads.html" -->
+
+    <!--#include virtual="/SSI/Cards/kelvin.html" -->
+</div>

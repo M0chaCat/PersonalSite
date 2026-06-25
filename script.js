@@ -44,73 +44,57 @@ async function testNyaNet() {
 
 const userHasNyaNet = testNyaNet();
 
-function weAreReady() {
-  document.querySelectorAll(".hover-text").forEach((el) => {
-    const nodes = [...el.childNodes];
+document.querySelectorAll(".hover-text").forEach((el) => {
+  const nodes = [...el.childNodes];
 
-    nodes.forEach((node) => {
-      if (node.nodeType !== Node.TEXT_NODE) return;
+  nodes.forEach((node) => {
+    if (node.nodeType !== Node.TEXT_NODE) return;
 
-      const frag = document.createDocumentFragment();
+    const frag = document.createDocumentFragment();
 
-      [...node.textContent].forEach((char) => {
-        const span = document.createElement("span");
+    [...node.textContent].forEach((char) => {
+      const span = document.createElement("span");
 
-        span.className = "letter";
-        span.innerHTML = char === " " ? "&nbsp;" : char;
+      span.className = "letter";
+      span.innerHTML = char === " " ? "&nbsp;" : char;
 
-        frag.appendChild(span);
-      });
-
-      node.replaceWith(frag);
+      frag.appendChild(span);
     });
+
+    node.replaceWith(frag);
   });
+});
 
-  const scrollbar = createScrollbar(
-    document.getElementById("my-scrollbar")
-  );
+const scrollbar = createScrollbar(
+  document.getElementById("my-scrollbar")
+);
 
-  loadTheme();
+loadTheme();
 
-  if (location.pathname === "/") {
-    initDVDPFP();
-    initRandomPFP();
-  }
-
-  window.addEventListener("load", () => {
-    updateNowPlayingGame(makeUrl);
-  });
-
-  updateNowPlaying(makeUrl);
-  updateContributions(makeUrl);
-
-  Promise.resolve(userHasNyaNet).then((hasNyaNet) => {
-    setupAd(hasNyaNet);
-  });
-
-  if (
-    window.location.hostname !== "plushiekitty.party" &&
-    window.location.hostname !== "localhost" &&
-    window.location.protocol !== "file:"
-  ) {
-    const el = document.getElementById("pub-webrings");
-
-    if (el) {
-      el.remove();
-    }
-
-    return false;
-  }
+if (location.pathname === "/") {
+  initDVDPFP();
+  initRandomPFP();
 }
 
-async function loadSidebar() {
-  const sidebar = document.getElementById("sidebar");
+window.addEventListener("load", () => {
+  updateNowPlayingGame(makeUrl);
+});
 
-  if (!sidebar) return;
+updateNowPlaying(makeUrl);
+updateContributions(makeUrl);
 
-  const res = await fetch("/sidebar.html");
-  sidebar.innerHTML = await res.text();
+Promise.resolve(userHasNyaNet).then((hasNyaNet) => {
+  setupAd(hasNyaNet);
+});
 
-  weAreReady(); // now DOM is complete
+if (
+  window.location.hostname !== "plushiekitty.party" &&
+  window.location.hostname !== "localhost" &&
+  window.location.protocol !== "file:"
+) {
+  const el = document.getElementById("pub-webrings");
+
+  if (el) {
+    el.remove();
+  }
 }
-loadSidebar();

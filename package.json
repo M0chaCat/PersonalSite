@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "connect-ssi": "^1.1.1",
+    "express": "^5.2.1",
+    "ssi-server": "^0.0.7"
+  },
+  "devDependencies": {
+    "vite-plugin-html": "^3.2.2"
+  }
+}

@@ -1,0 +1,187 @@
+:root {
+    /* Catppuccin Mocha Colors */
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+
+    --surface0: #313244;
+    --surface1: #45475a;
+    --surface2: #585b70;
+
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --lavender: #b4befe;
+    --blue: #89b4fa;
+}
+
+body,
+body[data-theme="mocha"] {
+    --base: #1e1e2e;
+    --mantle: #181825;
+    --crust: #11111b;
+
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+
+    --surface0: #313244;
+    --surface1: #45475a;
+    --surface2: #585b70;
+
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --lavender: #b4befe;
+    --blue: #89b4fa;
+
+    --cardbgsize: 100% 100%;
+    --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/oneshot.jpg");
+    --bgsize: cover;
+    --bgshift: center;
+    --font: "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/niko1.gif");
+    --cursor2: url("./assets/niko2.gif");
+    --biobullets: url("./assets/bullets/pink-paw.gif");
+
+    --cardpadding: 1rem;
+    --cardshadow: 15px 20px 30px rgba(0, 0, 0, 0.6);
+    --cardborder: 1px solid var(--surface0);
+    --buttonborder: 1px solid var(--surface1);
+    --buttonshadow: 0;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-2px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+body[data-theme="okcomputer"] {
+    /* Catppuccin Latte Colors */
+    --base: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("https://plushiekitty.party/assets/okc-texture.png");
+    --cardbgsize: 100% 100%;
+    --mantle: #e6e9ef;
+    --crust: #dce0e8;
+
+    --text: #272d36;
+    --subtext1: #4b5861;
+
+    --surface0: #98f0f2;
+    --surface1: #ddfbfb;
+    --surface2: #f4feff;
+
+    --pink: #333fb8;
+    --mauve: #333fb8;
+    --red: #d20f39;
+    --lavender: #9386bc;
+    --blue: #1e66f5;
+
+    --bg: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/okcomputer.jpg");
+    --bgsize: cover;
+    --bgshift: 78%;
+    --font: "itcdemi", "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/okcursor1.png");
+    --cursor2: url("./assets/okcursor2.png");
+    --biobullets: url("./assets/bullets/cyan-paw.gif");
+
+    --cardpadding: 1rem;
+    --cardshadow: 7px 10px 15px rgba(0, 0, 0, 0.5);
+    --cardborder: 2px solid var(--surface0);
+    --buttonborder: 2px solid var(--surface1);
+    --buttonshadow: 0;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-4px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+body[data-theme="glen"] {
+    --base: #130b1bba;
+    --mantle: #110917;
+    --crust: #000000;
+
+    --text: #ffffff;
+    --subtext1: #bababa;
+
+    --surface0: #1d1530;
+    --surface1: #272040;
+    --surface2: #2c2448;
+
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --lavender: #b4befe;
+    --blue: #89b4fa;
+
+    --cardbgsize: 100% 100%;
+    --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/glen.jpg");
+    --bgsize: cover;
+    --bgshift: center;
+    --font: "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/niko1.gif");
+    --cursor2: url("./assets/niko2.gif");
+    --biobullets: url("./assets/bullets/gold-bullet.gif");
+
+    --cardpadding: 1rem;
+    /*--cardshadow: 15px 20px 30px rgba(0, 0, 0, 0.6);*/
+    --cardshadow: 0 0 0 1px #f0973f, 0 0 0 2px #fadf55, 0 0 0 3px #f0973f, 0 0 0 4px #8e4d2a;
+    --cardborder: 1px 1px 1px red green blue;
+    --buttonborder: 0px solid var(--surface1);
+    --buttonshadow: 0 0 0 0.5px #f0973f, 0 0 0 1px #fadf55, 0 0 0 1.5px #f0973f;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-2px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+body[data-theme="hypr"] {
+    --base: #161B31;
+    --mantle: #050A20;
+    --crust: #040910;
+
+    --text: #FBE561;
+    --subtext1: #E25EC5;
+
+    --surface0: #181D33;
+    --surface1: #181D33;
+    --surface2: #181D33;
+
+    --pink: #FBE561;
+    --mauve: #E25EC5;
+    --red: #FBE561;
+    --lavender: #72D9FB;
+    --blue: #72D9FB;
+
+    --cardbgsize: 100% 100%;
+    --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/hypr-bg.png");
+    --bgsize: cover;
+    --bgshift: center;
+    --font: "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/niko1.gif");
+    --cursor2: url("./assets/niko2.gif");
+    --biobullets: url("./assets/bullets/pink-paw.gif");
+
+    --cardpadding: 0.3rem;
+    --cardshadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+    --cardborder: 3px solid var(--mauve);
+    --buttonborder: 2px solid var(--blue);
+    --buttonshadow: 0;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-2px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+.mochabutton:hover,
+.glenbutton:hover {
+    cursor: url("./assets/niko2.gif") 0 0, auto !important;
+}
+
+.okcbutton:hover {
+    cursor: url("./assets/okcursor2.png") 0 0, auto !important;
+}
+
+/*[data-theme="latte"] .circular {
+    filter: invert(50%);
+}*/

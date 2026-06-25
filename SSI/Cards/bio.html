@@ -1,0 +1,133 @@
+<div class="card" style="padding: 0rem;">
+    <div class="dvd">
+        <div class="sections-row" style="padding: 1rem;">
+            <div class="profile-section-dual intro">
+                <img src="./assets/blinkiesCafe-5f.gif" width="300" height="40" alt="catgender flag with mocha! meoww!!"
+                    style="image-rendering: pixelated;">
+                <div>
+                    <div class="profile-pic-div">
+                        <img src="./assets/pfps/pfp1.png" alt="My Profile Picture :3" class="profile-pic"
+                            id="profile-pic">
+                    </div>
+                    <div>
+                        <h1 class="hover-text">hewwo!!</h1>
+                    </div>
+
+                    <div style="margin: 7px;">
+                        <p class="bio">Im known as Mocha, 0, and 󱥢󱥍󱦗󱥜󱤦, and a few other
+                            names :3</p>
+
+                        <hr>
+
+                        <p class="bio">I havent really decided on a name so i go by a good few.
+                            I am a bad programer,
+                            professional yapper, and try my paws at making other things when i
+                            feel like it.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="profile-section-dual"
+                style="max-width: 30%; padding-left: 5px; align-items: center; display: flex;">
+                <div>
+                    <p class="bio">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 "
+                            alt="" class="bio-bullet">
+                        <span>
+                            This website was built using HTML, JS (with no libraries), real CSS,
+                            and backend elements with
+                            php, hosted on the <a href="https://nyanet.plushiekitty.party">NyaNet</a>
+                            servers and is always getting updated!
+                        </span>
+                    </p>
+                    <hr>
+
+                    <p class="bio" style="font-style: italic;">
+                        <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7 "
+                            alt="" class="bio-bullet">
+                        <span>
+                            (<b>Mobile users:</b>
+                            This site is optimized for desktop but viewable on mobile; some
+                            content may be displayed out
+                            of
+                            order to fit vertical screens.)
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+        .dvd {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            min-height: 200px;
+            position: relative;
+        }
+
+
+        .profile-section {
+            text-align: center;
+        }
+
+        .intro {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .profile-pic-div {
+            width: 150px;
+            height: 150px;
+            padding: 5px;
+            margin: 1.5rem auto 25px;
+            border: 3px solid var(--lavender);
+            background-color: var(--base);
+            cursor: pointer;
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .profile-pic {
+            width: 140px;
+            height: 140px;
+            object-fit: cover;
+            display: block;
+            cursor: pointer;
+        }
+
+        .profile-pic:hover {
+            transform: var(--hovertrans);
+        }
+
+        .bio {
+            color: var(--text);
+            margin-bottom: 1rem;
+            margin-top: 1rem;
+            text-align: left;
+            display: block;
+            align-items: flex-start;
+            gap: 8px;
+        }
+
+        .bio-bullet {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            background-size: contain;
+            background-image: var(--biobullets);
+            vertical-align: middle;
+            margin-bottom: 3px;
+            image-rendering: pixelated;
+        }
+
+        .bio-bullet:hover {
+            transform: var(--hovertrans);
+        }
+    </style>
+</div>

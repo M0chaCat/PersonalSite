@@ -1,0 +1,61 @@
+<div class="thin-card now-playing" id="now-playing" style="text-align: center; padding-bottom: 30px;">
+    <div class="section-title"><img src="/assets/cd.png" height="16" width="22.5">
+        <h3 class="hover-text">wat i am jamming to!!</h3>
+    </div>
+
+    <div class="track">
+        <img id="track-img" src="/assets/placeholder-albumart.png" alt="Album art">
+
+        <div class="track-info">
+            <div id="track-title" class="track-title">Loading...</div>
+            <div id="track-artist" class="track-artist">Loading...</div>
+            <div id="track-time" class="track-time">I said loading!!</div>
+        </div>
+    </div>
+
+    <style>
+        .now-playing .track {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .track {
+            justify-content: center;
+            text-align: left;
+        }
+
+        .track img {
+            width: 90px;
+            aspect-ratio: 1 / 1;
+            object-fit: cover;
+        }
+
+        .track img:hover {
+            transform: var(--hovertrans);
+        }
+
+        .track-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .track-title {
+            font-weight: bold;
+        }
+
+        .track-artist {
+            opacity: 0.8;
+            font-size: 0.95em;
+        }
+
+        .track-time {
+            opacity: 0.6;
+            font-size: 0.8em;
+        }
+
+        #now-playing-game {
+            display: none;
+        }
+    </style>
+</div>

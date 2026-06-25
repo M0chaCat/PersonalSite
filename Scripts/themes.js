@@ -1,4 +1,14 @@
-const iframe = document.querySelector("iframe#guestbook");
+let iframe = null;
+
+if (location.pathname === "/") {
+  iframe = document.querySelector("iframe#guestbook");
+} else if (location.pathname === "/Blog/") {
+  iframe = document.querySelector("iframe#blog");
+} else if (location.pathname === "/Gallery/") {
+  iframe = document.querySelector("iframe#gallery");
+} else {
+  iframe = document.querySelector("iframe#blog");
+}
 
 export function getThemeVars() {
   const styles = getComputedStyle(document.body);
@@ -22,6 +32,7 @@ export function getThemeVars() {
     "hovertrans",
     "titlehovertrans",
     "font",
+    "bg"
   ];
 
   const vars = {};
@@ -59,6 +70,6 @@ export function loadTheme() {
   setTheme(theme);
 }
 
-if (location.pathname === "/" && iframe) {
+if (iframe) {
   iframe.addEventListener("load", sendThemeToIframe);
 }

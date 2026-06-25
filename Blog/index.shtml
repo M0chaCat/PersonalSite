@@ -1,0 +1,6 @@
+<!--#include virtual="/SSI/layout1.shtml" -->
+
+<iframe id="blog" src="https://blog.plushiekitty.party/" tile="My Blog" height="1200"
+    style="box-shadow: var(--cardshadow); border: var(--cardborder);"></iframe>
+
+<!--#include virtual="/SSI/layout2.shtml" -->

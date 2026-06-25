@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mocha</title>
+    <link rel="icon" type="video/gif" href="/favicon.gif">
+    <link rel="stylesheet" href="/styles.css">
+
+    <meta property="og:title" content="Mochas site :3">
+    <meta property="og:description" content="uhmmm i meow here, p cwazysauce i guesh,,,">
+    <meta property="og:image" content="https://plushiekitty.party/Mocha.png">
+    <meta property="og:url" content="https://plushiekitty.party">
+
+</head>
+
+<body data-theme="mocha">
+    <div id="my-scrollbar">
+        <div class="classic-scrollbar__bar">
+            <div class="scroll-up"></div>
+            <div class="classic-scrollbar__bar-thumb"></div>
+            <div class="scroll-down"></div>
+        </div>
+        <div class="classic-scrollbar__body">
+            <div class="container">
+                <div class="content-columns">
+
+                    <!--#include file="sidebar.shtml" -->
+
+                    <div class="column">
