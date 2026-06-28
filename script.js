@@ -90,9 +90,10 @@ Promise.resolve(userHasNyaNet).then((hasNyaNet) => {
 if (
   window.location.hostname !== "plushiekitty.party" &&
   window.location.hostname !== "localhost" &&
+  window.location.hostname !== "127.0.0.1" &&
   window.location.protocol !== "file:"
 ) {
-  const el = document.getElementById("pub-webrings");
+  const el = document.getElementById("webrings");
 
   if (el) {
     el.remove();

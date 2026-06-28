@@ -1,21 +1,25 @@
-<div class="thin-card themes-section">
+<div class="thin-card themes-section" id="themes">
     <div class="section-title"><img src="/assets/brush.png" height="14" width="16">
         <h3 class="hover-text">themes!!</h3>
     </div>
-    <div class="theme-buttons">
-        <a class="mochabutton" onclick="setTheme('mocha')"><img class="mochabutton" src="/assets/mocha-button.png"></a>
-        <a class="okcbutton" onclick="setTheme('okcomputer')"><img class="okcbutton"
-                src="/assets/okcomputer-button.png"></a>
-        <a class="glenbutton" onclick="setTheme('glen')"><img class="glenbutton" src="/assets/glen-button.png"></a>
-        <a class="hyprbutton" onclick="setTheme('hypr')"><img class="glenbutton" src="/assets/hypr-button.png"></a>
+    <div id="theme-buttons">
+        <a id="mochabutton" onclick="setTheme('mocha')"><img id="mochabutton" src="/assets/mocha-button.png"></a>
+        <a id="okcbutton" onclick="setTheme('okcomputer')"><img id="okcbutton" src="/assets/okcomputer-button.png"></a>
+        <a id="glenbutton" onclick="setTheme('glen')"><img id="glenbutton" src="/assets/glen-button.png"></a>
+        <a id="hyprbutton" onclick="setTheme('hypr')"><img id="glenbutton" src="/assets/hypr-button.png"></a>
     </div>
 
     <style>
-        .theme-buttons {
+        #theme-buttons {
             display: grid;
             grid-template-columns: repeat(4, auto);
             justify-content: start;
             gap: 3px;
+        }
+
+        #theme-buttons img {
+            width: 88px;
+            height: 31px;
         }
     </style>
 </div>

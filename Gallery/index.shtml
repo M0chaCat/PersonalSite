@@ -1,6 +1,5 @@
 <!--#include virtual="/SSI/layout1.shtml" -->
-
-<iframe id="gallery" src="https:/api.plushiekitty.party/gallery/" tile="Gallery" height="1200"
+<iframe id="gallery" src="https://api.plushiekitty.party/gallery/" tile="Gallery" height="1200"
     style="box-shadow: var(--cardshadow); border: var(--cardborder);"></iframe>
 
 <!--#include virtual="/SSI/layout2.shtml" -->

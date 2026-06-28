@@ -1,36 +1,185 @@
 <!--#include file="SSI/layout1.shtml" -->
 
-<!--#include file="SSI/Cards/bio.html" -->
+<div class="sections-row" id="homecontainer">
+    <!--#include file="SSI/Cards/bio.html" -->
 
-<div class="sections-row" id="container">
     <!--#include file="SSI/Cards/friends.html" -->
     <!--#include file="SSI/Cards/webrings.html" -->
     <!--#include file="SSI/Cards/projects.html" -->
 
+    <!-- #include file="SSI/Cards/chat.html" -->
+    <!-- #include file="SSI/Cards/song.html" -->
+
+    <!--#include file="SSI/Cards/guestbook.html" -->
     <style>
-        #container {
+        #homecontainer {
             display: grid;
-            grid-gap: var(--cardpadding);
-            grid-template: 175px 500px / 60% calc(40% - var(--cardpadding));
+            gap: var(--cardpadding);
+
+            grid-template-rows:
+                auto auto auto auto auto;
+
+            grid-template-columns: 1fr 1fr 1fr;
+
             grid-template-areas:
-                'buttons creations'
-                'rings creations'
+                "bio       bio       bio"
+                "buttons   buttons   creations"
+                "rings     rings     creations"
+                /*"song      chat      chat"*/
+                "guestbook guestbook guestbook";
+
+            margin-bottom: 0;
         }
 
-        #friendz {
+        #bio {
+            grid-area: bio;
+        }
+
+        #friends {
             grid-area: buttons;
         }
 
-        #creationz {
+        #creations {
             grid-area: creations;
         }
 
         #webrings {
             grid-area: rings;
         }
+
+        #chat {
+            grid-area: chat;
+            height: 500px;
+        }
+
+        #now-playing {
+            grid-area: song;
+        }
+
+        #guestbook {
+            grid-area: guestbook;
+        }
+
+        body[data-theme="hypr"] .content-columns {
+            transform: translateX(2%) rotate(2deg);
+        }
+
+        body[data-theme="hypr"] .column {
+            z-index: 10;
+        }
+
+        body[data-theme="hypr"] .sidecolumn {
+            --step: 2%;
+        }
+
+        .sidecolumn>*:nth-child(1) {
+            --i: 0;
+        }
+
+        .sidecolumn>*:nth-child(2) {
+            --i: 1;
+        }
+
+        .sidecolumn>*:nth-child(3) {
+            --i: 2;
+        }
+
+        .sidecolumn>*:nth-child(4) {
+            --i: 3;
+        }
+
+        .sidecolumn>*:nth-child(5) {
+            --i: 4;
+        }
+
+        .sidecolumn>*:nth-child(6) {
+            --i: 5;
+        }
+
+        .sidecolumn>*:nth-child(7) {
+            --i: 6;
+        }
+
+        .sidecolumn>*:nth-child(8) {
+            --i: 7;
+        }
+
+        .sidecolumn>*:nth-child(9) {
+            --i: 8;
+        }
+
+        .sidecolumn>*:nth-child(10) {
+            --i: 9;
+        }
+
+        .sidecolumn>*:nth-child(11) {
+            --i: 10;
+        }
+
+        .sidecolumn>*:nth-child(12) {
+            --i: 11;
+        }
+
+        .sidecolumn>*:nth-child(13) {
+            --i: 12;
+        }
+
+        .sidecolumn>*:nth-child(14) {
+            --i: 13;
+        }
+
+        .sidecolumn>*:nth-child(15) {
+            --i: 14;
+        }
+
+        .sidecolumn>*:nth-child(16) {
+            --i: 15;
+        }
+
+        .sidecolumn>*:nth-child(17) {
+            --i: 16;
+        }
+
+        .sidecolumn>*:nth-child(18) {
+            --i: 17;
+        }
+
+        .sidecolumn>*:nth-child(19) {
+            --i: 18;
+        }
+
+        .sidecolumn>*:nth-child(20) {
+            --i: 19;
+        }
+
+        body[data-theme="hypr"] .sidecolumn>* {
+            transform: translateX(calc((-5 - var(--i)) * 0.1%)) rotate(-2deg);
+        }
+
+        body[data-theme="hypr"] #kittytisement {
+            transform: translateY(50px) translateX(5px) rotate(-2deg)
+        }
+
+        body[data-theme="hypr"] #friends {
+            transform: translateY(20px) rotate(2deg);
+        }
+
+        body[data-theme="hypr"] #creations {
+            transform: translateY(20px) translateX(15px) rotate(-2deg)
+        }
+
+        body[data-theme="hypr"] #webrings {
+            transform: translateY(50px) translateX(5px) rotate(-3deg);
+        }
+
+        body[data-theme="hypr"] #guestbook {
+            transform: translateY(50px) translateX(20px) rotate(-3deg)
+        }
+
+        body[data-theme="hypr"] #glitter {
+            transform: translateY(70px) translateX(20px) rotate(5deg)
+        }
     </style>
 </div>
-
-<!--#include file="SSI/Cards/guestbook.html" -->
 
 <!--#include file="SSI/layout2.shtml" -->

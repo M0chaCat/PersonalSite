@@ -1,13 +1,13 @@
 let iframe = null;
 
 if (location.pathname === "/") {
-  iframe = document.querySelector("iframe#guestbook");
+  iframe = document.querySelector("#guestbookif");
 } else if (location.pathname === "/Blog/") {
   iframe = document.querySelector("iframe#blog");
 } else if (location.pathname === "/Gallery/") {
   iframe = document.querySelector("iframe#gallery");
 } else {
-  iframe = document.querySelector("iframe#blog");
+  iframe = document.querySelector("#guestbookif");
 }
 
 export function getThemeVars() {
