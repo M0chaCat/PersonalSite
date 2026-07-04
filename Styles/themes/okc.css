@@ -1,0 +1,42 @@
+body[data-theme="okcomputer"] {
+    /* Catppuccin Latte Colors */
+    --base: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)), url("https://plushiekitty.party/assets/okc-texture.png");
+    --cardbgsize: 100% 100%;
+    --mantle: #e6e9ef;
+    --crust: #dce0e8;
+
+    --text: #272d36;
+    --subtext1: #4b5861;
+
+    --surface0: #98f0f2;
+    --surface1: #ddfbfb;
+    --surface2: #f4feff;
+
+    --pink: #333fb8;
+    --mauve: #333fb8;
+    --red: #d20f39;
+    --lavender: #9386bc;
+    --blue: #1e66f5;
+
+    --bg: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/assets/okcomputer.jpg");
+    --bgsize: cover;
+    --bgshift: 78%;
+    --font: "itcdemi", "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/okcursor1.png");
+    --cursor2: url("./assets/okcursor2.png");
+    --biobullets: url("./assets/bullets/cyan-paw.gif");
+
+    --cardpadding: 1rem;
+    --cardshadow: 7px 10px 15px rgba(0, 0, 0, 0.5);
+    --cardborder: 2px solid var(--surface0);
+    --buttonborder: 2px solid var(--surface1);
+    --buttonshadow: 0;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-4px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+.okcbutton:hover {
+    cursor: url("./assets/okcursor2.png") 0 0, auto !important;
+}

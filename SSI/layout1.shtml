@@ -26,6 +26,13 @@
             <div class="container">
                 <div class="content-columns">
 
+                    <input type="checkbox" id="nav-toggle" hidden style="display:none;">
+
+                    <label for="nav-toggle" id="mobilebutton" style="display:none;">
+                        ☰
+                    </label>
+
+
                     <!--#include file="sidebar.shtml" -->
 
                     <div class="column">

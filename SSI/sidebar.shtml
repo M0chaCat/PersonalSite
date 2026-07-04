@@ -1,5 +1,4 @@
 <div class="sidecolumn">
-
     <!--#include virtual="/SSI/Cards/sitemap.html" -->
 
     <!--#include virtual="/SSI/Cards/socials.html" -->
@@ -15,6 +14,8 @@
     <!--#include virtual="/SSI/Cards/buttons.html" -->
 
     <!--#include virtual="/SSI/Cards/clock.html" -->
+
+    <!--#include virtual="/SSI/Cards/calendar.html" -->
 
     <!--#include virtual="/SSI/Cards/hitcounter.html" -->
 

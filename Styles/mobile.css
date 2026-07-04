@@ -1,0 +1,160 @@
+#mobilebutton {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    cursor: pointer;
+    z-index: 1000;
+
+    padding: 0.5rem;
+    background: var(--surface0);
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 3px;
+
+    text-align: center;
+}
+
+/*tablets*/
+@media (min-width: 901px) and (max-width: 1280px) {
+    body {
+        transform: scale(0.8);
+        transform-origin: top left;
+        width: 125%;
+        height: 125vh;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+    body {
+        transform: scale(0.6);
+        transform-origin: top left;
+        width: 167%;
+        height: 167vh;
+    }
+
+    .circular,
+    .classic-scrollbar__bar,
+    #cornertext-guestbook {
+        display: none !important;
+    }
+}
+
+/*fone*/
+@media (max-width: 400px) {
+
+    .container,
+    .sidecolumn {
+        padding: 1rem !important;
+    }
+}
+
+@media (max-width: 300px) {
+
+    .container,
+    .sidecolumn {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 700px) {
+    #mobilebutton {
+        display: block !important;
+    }
+
+    .sidecolumn {
+        position: fixed !important;
+        top: 0 !important;
+        left: -3000px;
+
+        height: 100vh;
+        overflow-y: auto;
+
+        width: 100% !important;
+
+        padding: 2rem;
+
+        transition: left 0.3s ease !important;
+    }
+
+    #nav-toggle:checked~.sidecolumn {
+        left: 0;
+        z-index: 12;
+    }
+
+    #nav-toggle:checked~.column {
+        display: none;
+    }
+
+    .column {
+        flex: none;
+        width: 100%;
+    }
+
+    .classic-scrollbar__body {
+        inset: 0 0 0 0 !important;
+    }
+
+    .circular,
+    .classic-scrollbar__bar,
+    #kittytisement,
+    #cornertext-guestbook {
+        display: none !important;
+    }
+
+    #glitter {
+        margin-top: 1rem !important;
+    }
+
+    .card,
+    .thin-card {
+        width: 100% !important;
+        max-width: 100% !important;
+        box-shadow: none !important;
+    }
+
+    .buttons-section,
+    #theme-buttons {
+        grid-template-columns: repeat(3, auto) !important;
+    }
+
+    .container {
+        width: 100% !important;
+    }
+
+    #homecontainer {
+        grid-template-rows:
+            auto auto auto auto auto !important;
+
+        grid-template-columns: 1fr !important;
+
+        grid-template-areas:
+            "bio"
+            "buttons"
+            "rings"
+            "creations"
+            "guestbook" !important;
+
+        max-width: 100% !important;
+    }
+
+    .column {
+        min-width: unset !important;
+    }
+
+    .scrolling-buttons-container {
+        width: 100% !important;
+    }
+
+    .profile-section-dual {
+        flex: unset !important;
+        min-width: unset !important;
+        max-width: unset !important;
+    }
+
+    .dvd>*:nth-child(1) {
+        display: unset !important;
+    }
+
+}

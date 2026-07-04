@@ -1,0 +1,166 @@
+body[data-theme="hypr"] {
+    --base: #161B31;
+    --mantle: #050A20;
+    --crust: #040910;
+
+    --text: #FBE561;
+    --subtext1: #E25EC5;
+
+    --surface0: #181D33;
+    --surface1: #181D33;
+    --surface2: #181D33;
+
+    --pink: #FBE561;
+    --mauve: #E25EC5;
+    --red: #FBE561;
+    --lavender: #72D9FB;
+    --blue: #72D9FB;
+
+    --cardbgsize: 100% 100%;
+    --bg: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("/assets/hypr-bg.png") repeat;
+    --bgsize: cover;
+    --bgshift: center;
+    --font: "arti", "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/niko1.gif");
+    --cursor2: url("./assets/niko2.gif");
+    --biobullets: url("./assets/bullets/pink-paw.gif");
+
+    --cardpadding: 0.3rem;
+    --cardshadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
+    --cardborder: 3px solid var(--mauve);
+    --buttonborder: 2px solid var(--blue);
+    --buttonshadow: 0;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-2px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+
+body[data-theme="hypr"] .content-columns {
+    transform: translateX(2%) rotate(2deg);
+}
+
+body[data-theme="hypr"] .column {
+    z-index: 10;
+}
+
+body[data-theme="hypr"] .sidecolumn {
+    --step: 2%;
+}
+
+.sidecolumn>*:nth-child(1) {
+    --i: 0;
+}
+
+.sidecolumn>*:nth-child(2) {
+    --i: 1;
+}
+
+.sidecolumn>*:nth-child(3) {
+    --i: 2;
+}
+
+.sidecolumn>*:nth-child(4) {
+    --i: 3;
+}
+
+.sidecolumn>*:nth-child(5) {
+    --i: 4;
+}
+
+.sidecolumn>*:nth-child(6) {
+    --i: 5;
+}
+
+.sidecolumn>*:nth-child(7) {
+    --i: 6;
+}
+
+.sidecolumn>*:nth-child(8) {
+    --i: 7;
+}
+
+.sidecolumn>*:nth-child(9) {
+    --i: 8;
+}
+
+.sidecolumn>*:nth-child(10) {
+    --i: 9;
+}
+
+.sidecolumn>*:nth-child(11) {
+    --i: 10;
+}
+
+.sidecolumn>*:nth-child(12) {
+    --i: 11;
+}
+
+.sidecolumn>*:nth-child(13) {
+    --i: 12;
+}
+
+.sidecolumn>*:nth-child(14) {
+    --i: 13;
+}
+
+.sidecolumn>*:nth-child(15) {
+    --i: 14;
+}
+
+.sidecolumn>*:nth-child(16) {
+    --i: 15;
+}
+
+.sidecolumn>*:nth-child(17) {
+    --i: 16;
+}
+
+.sidecolumn>*:nth-child(18) {
+    --i: 17;
+}
+
+.sidecolumn>*:nth-child(19) {
+    --i: 18;
+}
+
+.sidecolumn>*:nth-child(20) {
+    --i: 19;
+}
+
+#kittytisement {
+    z-index: 9;
+}
+
+body[data-theme="hypr"] .sidecolumn>* {
+    transform: translateX(calc((-5 - var(--i)) * 0.1%)) rotate(-2deg);
+}
+
+body[data-theme="hypr"] {
+    width: 100vw;
+    height: 100vh;
+
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url("/assets/hypr-bg.png");
+
+    background-repeat: repeat;
+    background-size: 1732px 1425px;
+
+    /* Performance optimization */
+    will-change: background-position;
+
+    animation: hyprscroll2d 16s linear infinite;
+}
+
+@keyframes hyprscroll2d {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        /* Match background-size exactly */
+        background-position: -1732px -1425px;
+    }
+}

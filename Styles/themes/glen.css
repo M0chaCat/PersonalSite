@@ -1,0 +1,42 @@
+body[data-theme="glen"] {
+    --base: #130b1bba;
+    --mantle: #110917;
+    --crust: #000000;
+
+    --text: #ffffff;
+    --subtext1: #bababa;
+
+    --surface0: #1d1530;
+    --surface1: #272040;
+    --surface2: #2c2448;
+
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --lavender: #b4befe;
+    --blue: #89b4fa;
+
+    --cardbgsize: 100% 100%;
+    --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/glen.jpg");
+    --bgsize: cover;
+    --bgshift: center;
+    --font: "Terminus", "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/niko1.gif");
+    --cursor2: url("./assets/niko2.gif");
+    --biobullets: url("./assets/bullets/gold-bullet.gif");
+
+    --cardpadding: 1rem;
+    /*--cardshadow: 15px 20px 30px rgba(0, 0, 0, 0.6);*/
+    --cardshadow: 0 0 0 1px #f0973f, 0 0 0 2px #fadf55, 0 0 0 3px #f0973f, 0 0 0 4px #8e4d2a;
+    --cardborder: 1px 1px 1px red green blue;
+    --buttonborder: 0px solid var(--surface1);
+    --buttonshadow: 0 0 0 0.5px #f0973f, 0 0 0 1px #fadf55, 0 0 0 1.5px #f0973f;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-2px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+.glenbutton:hover {
+    cursor: url("./assets/niko2.gif") 0 0, auto !important;
+}
