@@ -4,11 +4,11 @@
 </div>
 </div>
 
-<img class="circular" src="https://circulars.dev/circular-cat.gif"
-    style="image-rendering: pixelated; position: fixed; right: 16px; bottom: 0; z-index: 100" onclick="meow()">
+<img class="circular" src="/assets/circularcat.gif"
+    style="image-rendering: pixelated; position: fixed; right: 16px; bottom: 0; z-index: 100" onclick="meow()" height="200px">
 
 <script>
-    let meowsound = new Audio("https://circulars.dev/meow.mp3");
+    let meowsound = new Audio("/assets/meow.mp3");
     function meow() {
         meowsound.play();
     }
@@ -20,7 +20,6 @@
 </script>
 
 <script type="module" src="/script.js"></script>
-
 
 </body>
 

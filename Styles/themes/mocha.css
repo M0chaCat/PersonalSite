@@ -38,7 +38,7 @@ body[data-theme="mocha"] {
     --blue: #89b4fa;
 
     --cardbgsize: 100% 100%;
-    --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/oneshot.jpg");
+    --bg: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/assets/city.png");
     --bgsize: cover;
     --bgshift: center;
     --font: "Fredokaa", "nasinnanpa", sans-serif;
@@ -47,7 +47,7 @@ body[data-theme="mocha"] {
     --biobullets: url("./assets/bullets/pink-paw.gif");
 
     --cardpadding: 1rem;
-    --cardshadow: 15px 20px 30px rgba(0, 0, 0, 0.6);
+    --cardshadow: 15px 20px 20px rgba(0, 0, 0, 0.6);
     --cardborder: 1px solid var(--surface0);
     --buttonborder: 1px solid var(--surface1);
     --buttonshadow: 0;

@@ -9,6 +9,8 @@
 
     <!--#include virtual="/SSI/Cards/github.html" -->
 
+    <!--#include virtual="/SSI/Cards/rating.html" -->
+
     <!--#include virtual="/SSI/Cards/themes.html" -->
 
     <!--#include virtual="/SSI/Cards/buttons.html" -->
@@ -24,6 +26,8 @@
     <!--#include virtual="/SSI/Cards/ads.html" -->
 
     <!--#include virtual="/SSI/Cards/kelvin.html" -->
+
+    <!-- #include virtual="/SSI/PuzzleCards/obel1.html" not ready yet :3-->
 </div>
 
 <style>

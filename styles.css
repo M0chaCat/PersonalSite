@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&&family=Schoolbell&ddisplay=swap');
 
 @import url('/Styles/themes.css');
 @import url('/Styles/scrollbar.css');
@@ -57,6 +57,7 @@ body {
     background-repeat: no-repeat;
     color: var(--text);
     line-height: 1.6;
+    image-rendering: pixelated;
 }
 
 html,
@@ -121,6 +122,7 @@ div[id*=oneko] {
     padding: var(--cardpadding);
     box-shadow: var(--cardshadow);
     border: var(--cardborder);
+    border-image: var(--cardborderimage);
 }
 
 .thin-card {
@@ -130,6 +132,7 @@ div[id*=oneko] {
     padding: 1rem;
     box-shadow: var(--cardshadow);
     border: var(--cardborder);
+    border-image: var(--cardborderimage);
 }
 
 .sections-row {
@@ -195,4 +198,32 @@ h1 {
     image-rendering: pixelated;
     margin-top: 4px;
     margin-right: 6px;
+}
+
+#killjs {
+  position:fixed;
+  overflow-y:scroll;
+  overflow-x:hidden;
+  display:none;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,0,0,.85);
+  color:#fff;
+  font-size:17px;
+  z-index:99;
+  cursor:pointer;
+  padding:20px
+}
+
+#killjs p {
+    margin: 0 0 1.5em;
+}
+
+#killjs a {
+  cursor:help;
+  color:#fff
 }

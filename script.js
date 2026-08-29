@@ -37,7 +37,7 @@ async function testNyaNet() {
     console.warn("Unexpected response:", text);
     return false;
   } catch {
-    console.error("No NyaNet!! using only static stuffs!!!");
+    console.error("No NyaNet!!");
     return false;
   }
 }
