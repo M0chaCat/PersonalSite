@@ -6,6 +6,8 @@ if (location.pathname === "/") {
   iframe = document.querySelector("iframe#blog");
 } else if (location.pathname === "/Gallery/") {
   iframe = document.querySelector("iframe#gallery");
+} else if (location.pathname === "/Mood/") {
+  iframe = document.querySelector("iframe#mood");
 } else {
   iframe = document.querySelector("#guestbookif");
 }
@@ -16,6 +18,11 @@ export function getThemeVars() {
   const keys = [
     "bgsize",
     "cardbgsize",
+    "cardshadow",
+    "cardborder",
+    "buttonborder",
+    "buttonshadow",
+
     "base",
     "mantle",
     "crust",
