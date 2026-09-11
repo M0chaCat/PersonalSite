@@ -1,0 +1,10 @@
+<!--#include virtual="/SSI/layout1.shtml" -->
+<iframe src="https://chat.plushiekitty.party/" id="chat" title="chat" height="1200"
+    style="box-shadow: var(--cardshadow); border: var(--cardborder);"></iframe>
+
+<style>
+
+</style>
+
+
+<!--#include virtual="/SSI/layout2.shtml" -->
