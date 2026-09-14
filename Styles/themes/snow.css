@@ -1,0 +1,64 @@
+body[data-theme="snow"] {
+    --base: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("/assets/metaltexture.png");
+
+    --mantle: #181825;
+    --crust: #11111b;
+
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+
+    --surface0: #222222;
+    --surface1: #333333;
+    --surface2: #444444;
+
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --lavender: #b4befe;
+    --blue: #89b4fa;
+
+    --cardbgsize: 100% 100%;
+    --bg: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("/assets/mountain.jpg");
+    --bgsize: cover;
+    --bgshift: center;
+    --font: "Zilla Slab", "Fredokaa", "nasinnanpa", sans-serif;
+    --cursor1: url("./assets/niko1.gif");
+    --cursor2: url("./assets/niko2.gif");
+    --biobullets: url("./assets/bullets/pink-paw.gif");
+
+    --cardpadding: 1rem;
+    --cardshadow: 15px 20px 20px rgba(0, 0, 0, 0.6);
+    --cardborder: 1px solid var(--surface0);
+    --cardborderwidth: 1px;
+    --buttonborder: 1px solid var(--surface1);
+    --buttonshadow: 0;
+    --halfgap: calc(var(--cardpadding)/2);
+
+    --hovertrans: translateY(-2px);
+    --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+.mochabutton:hover {
+    cursor: url("./assets/niko2.gif") 0 0, auto !important;
+}
+
+
+body[data-theme="snow"] .card::before {
+    content: "";
+    position: absolute;
+    inset: calc(-1 * var(--cardborderwidth) - 4px);
+    top: calc(-1 * var(--cardborderwidth) - 15px);
+    background: url("/assets/topsnow.png") top center / 100% auto no-repeat;
+    z-index: 100;
+    pointer-events: none;
+}
+
+body[data-theme="snow"] .thin-card::before {
+    content: "";
+    position: absolute;
+    inset: calc(-1 * var(--cardborderwidth) - 4px);
+    top: calc(-1 * var(--cardborderwidth) - 11px);
+    background: url("/assets/topsnowshort.png") top center / 100% auto no-repeat;
+    z-index: 100;
+    pointer-events: none;
+}

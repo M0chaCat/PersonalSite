@@ -22,13 +22,14 @@ body[data-theme="wellsoon"] {
     --bgsize: cover;
     --bgshift: 78%;
     --font: "Schoolbell", "Fredokaa", "nasinnanpa", sans-serif;
-    --cursor1: url("./assets/niko1.gif");
+    --cursor1: url("./assets/wellsoon-cursor0.png");
     --cursor2: url("./assets/niko2.gif");
     --biobullets: url("./assets/bullets/cyan-paw.gif");
 
     --cardpadding: 1rem;
     --cardshadow: 7px 10px 15px rgba(0, 0, 0, 0.5);
     --cardborder: 5px solid rgba(39, 41, 54, 1);
+    --cardborderwidth:5px;
     --cardborderimage: linear-gradient(325deg,rgba(17, 18, 23, 1) 0%, rgba(39, 41, 54, 1) 50%, rgba(47, 52, 71, 1) 100%) 1;
     --buttonborder: 2px solid var(--surface1);
     --buttonshadow: 0;
@@ -36,4 +37,8 @@ body[data-theme="wellsoon"] {
 
     --hovertrans: translateY(-4px);
     --titlehovertrans: translateY(-4px) rotate(0.05turn);
+}
+
+.wellsoonbutton:hover {
+    cursor: url("./assets/wellsoon-cursor0.png") 0 0, auto !important;
 }

@@ -24,6 +24,7 @@
             text-decoration: none;
             color: #f0e001;
             animation: bounceSize .7s infinite linear;
+            z-index: 110;
         }
 
         @keyframes bounceSize {
@@ -38,6 +39,16 @@
             to {
                 transform: scale(1) rotate(30deg)
             }
+        }
+
+        body[data-theme="snow"] #guestbook::before {
+            content: "";
+            position: absolute;
+            inset: calc(-1 * var(--cardborderwidth) - 4px);
+            top: calc(-1 * var(--cardborderwidth) - 14px);
+            background: url("/assets/topsnowwide.png") top center / 100% auto no-repeat;
+            z-index: 100;
+            pointer-events: none;
         }
     </style>
 

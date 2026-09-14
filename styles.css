@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&&family=Schoolbell&ddisplay=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Nunito:ital,wght@0,200..1000;1,200..1000&&family=Schoolbell&ddisplay=swap');
 
 @import url('/Styles/themes.css');
 @import url('/Styles/scrollbar.css');
@@ -116,6 +116,7 @@ div[id*=oneko] {
 }
 
 .card {
+    position: relative;
     background: var(--base);
     background-size: var(--cardbgsize);
     border-radius: 0;
@@ -123,6 +124,7 @@ div[id*=oneko] {
     box-shadow: var(--cardshadow);
     border: var(--cardborder);
     border-image: var(--cardborderimage);
+    overflow: visible;
 }
 
 .thin-card {
@@ -133,6 +135,8 @@ div[id*=oneko] {
     box-shadow: var(--cardshadow);
     border: var(--cardborder);
     border-image: var(--cardborderimage);
+    overflow: visible;
+    position: relative
 }
 
 .sections-row {

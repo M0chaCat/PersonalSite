@@ -1,0 +1,2368 @@
+<div id="mood" class="card profile-section-dual">
+    <article class="item3">
+
+        <div style="height: 300px;">
+            <canvas id="myChart2" style=""></canvas>
+        </div>
+
+        <script>
+        </script>
+
+        <div id="todayInfoContainerIg" class="flex" style="justify-content: space-around;">
+            <div id="todayInfo">No data</div>
+
+            <div id="control2">
+                <button onclick="eData.create.day(false)">&lt;</button>
+                <span id="dayIndicator">00\00</span>
+                <button onclick="eData.create.day(true)">&gt;</button>
+            </div>
+        </div>
+
+    </article>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4"></script>
+
+<script>
+
+function isMobile() {
+    return false;
+}
+
+// Attempting to write a library for autistic people, or rather for myself only.
+// Line 1 written on 19:32 31\08\2025.
+
+const BG = {
+    BIND: i => Object.assign(window, BG),
+
+    StyleSwitches: [],
+    TEST: false,
+    CLOG: i => BG.TEST === true ? console.log(i) : 'false',
+
+    GEBI: (a, b = document) => b.getElementById(a),
+
+    GEBC: (a, b = 0) =>
+        typeof b === 'string'
+            ? document.getElementsByClassName(a)
+            : document.getElementsByClassName(a)[b],
+
+    GEBQ: (a, b = document) =>
+        b.querySelector(a) ? b.querySelector(a) : false,
+
+    GEBA: (a, b = document) => b.querySelectorAll(a),
+
+    RCBQ: i =>
+        BG.GEBQ(`.${i}`) === false
+            ? undefined
+            : BG.GEBQ(`.${i}`).classList.remove(i),
+
+    CADD: (a, b) => {
+        CLOG(a, b);
+        typeof a === 'string'
+            ? BG.GEBI(a).classList.add(b)
+            : a.classList.add(b);
+    },
+
+    CDEL: (a, b) => {
+        CLOG(a, b);
+        typeof a === 'string'
+            ? BG.GEBI(a).classList.remove(b)
+            : a.classList.remove(b);
+    },
+
+    CTOG: (a, b) => {
+        CLOG(a, b);
+        return (
+            typeof a === 'string'
+                ? BG.GEBI(a).classList.toggle(b)
+                : a.classList.toggle(b)
+        );
+    },
+
+    HIDE: i =>
+        typeof i === 'string'
+            ? BG.GEBI(i).classList.add('HIDE')
+            : i.classList.add('HIDE'),
+
+    SHOW: i =>
+        typeof i === 'string'
+            ? BG.GEBI(i).classList.remove('HIDE')
+            : i.classList.remove('HIDE'),
+
+    HTOG: i => BG.CTOG(i, "HIDE"),
+
+    HCON: (a, b) =>
+        b ? BG.HIDE(a) : BG.SHOW(a),
+
+    NRND: n => Math.round(100 * n) / 100,
+
+    DRND: (i, a = 2) =>
+        ("0" + i).slice(-(a)),
+
+    AVGN: c =>
+        BG.NRND(c.reduce((a, b) => a + b) / c.length),
+
+    RNG1: max =>
+        Math.floor(Math.random() * max),
+
+    CAPR: (i, max = 5) =>
+        (0 > i) ? max : i,
+
+    CAPN: (i, max = 5) =>
+        (i > max) ? 0 : BG.CAPR(i, max),
+
+    NTSB: i =>
+        i.match(/\d+/)
+            ? parseInt(i.match(/\d+/)[0], 10)
+            : null,
+
+    ARED: i =>
+        (i.reduce((a, c) => a + c, 0)) / i.length,
+
+    ELGA: (a, b) =>
+        a.getAttribute(b),
+
+    JUMP: i =>
+        i.scroll(0, 0),
+
+    IARR: function(arr, el, pos) {
+        let temp = arr[el];
+        arr[el] = arr[pos];
+        arr[pos] = temp;
+        return arr;
+    },
+
+    DCE: function(y = 'div', x = 'empty', l = 'null') {
+        BG.CLOG(y, x, l);
+
+        if (!(typeof y === 'string')) {
+            x = Object.assign({}, y);
+            y = 'div';
+        }
+
+        let m = document.createElement(y);
+
+        if (x !== 'empty') {
+            for (const z in x) {
+                m[z] = x[z];
+            }
+        }
+
+        if (l !== 'null') {
+            l === 'string'
+                ? BG.GEBI(l).appendChild(m)
+                : l.appendChild(m);
+        }
+
+        BG.CLOG('DCE!', m);
+        return m;
+    },
+
+    STSW: function(y = 'unlabelled', x = ['0', '1']) {
+        this.props = x;
+        this.state = true;
+
+        this.obj = BG.DCE(
+            'style',
+            { 'className': 'BGSTSW' },
+            document.body
+        );
+
+        this.id =
+            y === 'unlabelled'
+                ? BG.StyleSwitches.length
+                : y;
+
+        this.sw = (i = 'neg') => {
+            this.state = (!this.state);
+
+            this.obj.innerHTML =
+                `:root { --STSW${this.id}: ${this.props[
+                    Number((i === 'neg') ? this.state : i)
+                ]}; }`;
+        };
+
+        this.set = i =>
+            this.obj.innerHTML =
+                `:root { --STSW${this.id}: ${String(i)}; }`;
+
+        this.sw();
+        BG.StyleSwitches.push(this);
+        BG.CLOG('New STSW', this);
+    },
+
+    MORE: function(func, times = 5) {
+        func();
+        times && --times && repeat(func, times);
+    },
+
+    COCK: {
+        DSTR: function(x = 'now', y = 1) {
+            if (x === 'now') {
+                x = new Date();
+            }
+
+            if (!x || !x.getUTCHours || isNaN(x.getUTCHours())) {
+                return console.error('not a date');
+            }
+
+            const res = [
+                `${BG.DRND(x.getHours())}:${BG.DRND(x.getMinutes())}`,
+                `${x.getFullYear()}-${BG.DRND(x.getMonth() + 1)}-${BG.DRND(x.getDate())}`
+            ];
+
+            return res[y];
+        }
+    }
+};
+
+BG.BIND();
+
+
+
+
+
+const decoder2 = function(x) {
+    const rawdata = (typeof x === 'string') ? x : String(x);
+    const vers = (x.date) ? '00' : rawdata.slice(6, 8);
+
+    const dataObj = {};
+
+    if (vers === '00') {
+        dataObj.HP = Number(x.HP) * 100;
+        dataObj.EN = Number(x.EN) * 100;
+        dataObj.time =
+            (Number(x.time.slice(0, 2)) * 60) +
+            Number(x.time.slice(3, 5));
+        dataObj.year = 2025;
+        dataObj.date =
+            `${x.date.slice(5, 7)}${x.date.slice(8, 10)}`;
+    }
+
+    if (vers === '01' || vers === '02') {
+        dataObj.HP = Number(rawdata.slice(0, 3));
+        dataObj.EN = Number(rawdata.slice(3, 6));
+    }
+
+    if (vers === '01') {
+        dataObj.time =
+            (Number(rawdata.slice(8, 10)) * 60) +
+            Number(rawdata.slice(10, 12));
+
+        dataObj.date = rawdata.slice(12, 16);
+        dataObj.EM = rawdata.slice(16, 17);
+        dataObj.year = 2025;
+    }
+
+    if (vers === '02') {
+        dataObj.time =
+            (Number(rawdata.slice(14, 16)) * 60) +
+            Number(rawdata.slice(16, 18));
+
+        dataObj.date = rawdata.slice(10, 14);
+        dataObj.EM = Number(rawdata.slice(-2));
+        dataObj.year =
+            2020 + Number(rawdata.slice(9, 10));
+    }
+
+    return dataObj;
+};
+
+
+
+
+
+let calehValue = 0;
+let pointRadiusValue = 6;
+
+if (isMobile()) {
+    setTimeout(() => Chart.defaults.global.defaultFontSize = 10, 100);
+
+    pointRadiusValue = 0;
+
+    const c = GEBI('myChart2');
+    let val = window.innerWidth - 10;
+
+    c.width = val;
+    c.height = val / 2;
+
+    c.style.width = `${val}px`;
+    c.style.height = `${val / 2}px`;
+
+    c.parentElement.style.width = `${val}px`;
+    c.parentElement.style.height = `${val / 2}px`;
+}
+
+
+let colCalc = function(x) {
+    let y = Number(x) * 10;
+    let z = '255, 255, 255';
+
+    if (x > 5) {
+        z = `${255 - ((y - 50) / 50) * 255}, 255, 0`;
+    }
+
+    if (x < 5) {
+        z = `255, ${(y / 50) * 120}, 0`;
+    }
+
+    return `rgb(${z})`;
+};
+
+
+
+
+
+const pointColors = {
+    Enraged: 'red',
+    Angry: 'red',
+    Shocked: 'purple',
+    Manic: 'purple',
+    Festive: 'orange',
+    Ecstatic: 'orange',
+
+    Fuming: 'crimson',
+    Stressed: 'crimson',
+    Restless: 'orange',
+    Energized: 'lightgreen',
+    Motivated: 'green',
+    Excited: 'green',
+
+    Anxious: 'purple',
+    Worried: 'purple',
+    Uneasy: 'blue',
+    Pleasant: 'lightblue',
+    Cheerful: 'lightgreen',
+    Blissful: 'lightgreen',
+
+    Down: 'blue',
+    Apathetic: 'gray',
+    'At ease': 'lightblue',
+    Content: 'lightgreen',
+    Fulfilled: 'green',
+
+    Miserable: 'darkblue',
+    Sad: 'blue',
+    Tired: 'gray',
+    Relaxed: 'lightblue',
+    Restful: 'lightblue',
+    Satisfied: 'green',
+
+    Despair: 'darkblue',
+    Desolate: 'darkblue',
+    Drained: 'gray',
+    Sleepy: 'darkblue',
+    Tranquil: 'lightblue',
+    Serene: 'lightgreen'
+};
+
+
+
+
+
+const eData = {
+
+    charts: {
+        day: '',
+        curDayX: 0
+    },
+
+    create: {
+
+        day: function(x) {
+
+            if (x === true || x === false) {
+                x === true
+                    ? eData.charts.curDayX--
+                    : eData.charts.curDayX++;
+            }
+
+            if (0 > eData.charts.curDayX) {
+                eData.charts.curDayX = 0;
+                return;
+            }
+
+            x = eData.charts.curDayX;
+
+            console.groupCollapsed('Day chart');
+
+            eData.charts.day?.destroy?.();
+
+            console.log(eData.charts.day);
+
+            let dateData = eData.dataFromDate(x);
+
+            console.log(x);
+
+            if (dateData === false) {
+                let selDate = new Date();
+
+                selDate.setDate(
+                    selDate.getDate() - x
+                );
+
+                GEBI('dayIndicator').textContent =
+                    `${DRND(selDate.getMonth() + 1)}\\${DRND(selDate.getDate())}`;
+
+                GEBI('todayInfo').textContent = 'No data';
+
+                console.groupEnd();
+                return;
+            }
+
+            console.log(dateData);
+
+            console.log("dateData:", dateData);
+            console.log("dateData length:", dateData.length);
+            console.log("full:", eData.full);
+
+
+            let chartData = {
+                HP: dateData.map(obj => ({
+                    t: obj.Date,
+                    y: Number(obj.Happiness)
+                })),
+
+                EN: dateData.map(obj => ({
+                    t: obj.Date,
+                    y: Number(obj.Energy)
+                })),
+
+                EM: dateData.map(obj => obj.emotion),
+
+                DATES: dateData.map(obj => {
+                    const d = new Date(obj.Date);
+
+                    return `${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
+                }),
+
+                VE: dateData.map(obj => obj.Version)
+            };
+
+
+            console.log('THIS IS CHART DATA:');
+            console.log(chartData);
+
+
+            let tempArrrenamethisdumbassshit1 =
+                chartData.HP.map(obj => obj.y);
+
+            tempArrrenamethisdumbassshit1 =
+                tempArrrenamethisdumbassshit1.reduce(
+                    (accumulator, currentValue) =>
+                        accumulator + currentValue,
+                    0
+                );
+
+            tempArrrenamethisdumbassshit1 =
+                (
+                    (tempArrrenamethisdumbassshit1 / chartData.HP.length) - 5
+                ).toFixed(2);
+
+
+            let tempArrrenamethisdumbassshit2 =
+                chartData.EN.map(obj => obj.y);
+
+            tempArrrenamethisdumbassshit2 =
+                tempArrrenamethisdumbassshit2.reduce(
+                    (accumulator, currentValue) =>
+                        accumulator + currentValue,
+                    0
+                );
+
+            tempArrrenamethisdumbassshit2 =
+                (
+                    (tempArrrenamethisdumbassshit2 / chartData.EN.length) - 5
+                ).toFixed(2);
+
+
+            let tempnamedvarindicator =
+                '<p>THIS PAGE IS UNDER CONSTRUCTION</p>';
+
+
+
+            let startDate =
+                new Date(dateData.at(-1).Date);
+
+            startDate.setMinutes(0);
+            startDate.setHours(10);
+
+            let endDate = new Date(startDate);
+
+            endDate.setHours(
+                endDate.getHours() + 16
+            );
+
+            if (x === 0) {
+                endDate = new Date();
+            }
+
+
+            console.log('Chart data', chartData);
+            console.log("startDate", startDate);
+            console.log("endDate", endDate);
+
+            document.getElementById('dayIndicator').textContent =
+                `${DRND(startDate.getMonth() + 1)}\\${DRND(startDate.getDate())}`;
+
+
+            if (startDate > 1764910800000) {
+                tempnamedvarindicator = `
+[${chartData.HP.length}] Average:
+${(tempArrrenamethisdumbassshit1 > 0) ? '+' : ''}${tempArrrenamethisdumbassshit1}
+\\
+${(tempArrrenamethisdumbassshit2 > 0) ? '+' : ''}${tempArrrenamethisdumbassshit2}
+`;
+            }
+
+
+            eData.charts.day = new Chart("myChart2", {
+                type: "line",
+
+                data: {
+                    labels: chartData.DATES,
+
+                    datasets: [
+
+                        {
+                            label: 'Happiness',
+                            fill: false,
+                            lineTension: 0,
+                            pointHitRadius: 20,
+
+                            pointBackgroundColor: function(context) {
+                                const emotion =
+                                    chartData.EM[context.dataIndex];
+
+                                return pointColors[emotion] || 'gray';
+                            },
+
+                            borderColor: getComputedStyle(document.documentElement)
+                                .getPropertyValue('--blue')
+                                .trim(),
+                            pointRadius: pointRadiusValue,
+                            pointHoverRadius: 8,
+
+                            data: chartData.HP
+                        },
+
+                        {
+                            label: 'Energy',
+                            fill: false,
+                            lineTension: 0,
+                            pointHitRadius: 20,
+                            pointRadius: 0,
+
+                            pointBackgroundColor: function(context) {
+                                let value =
+                                    context.dataset.data[
+                                        context.dataIndex
+                                    ].y;
+
+                                return `rgba(255, 255, 255, 0.${Math.floor(value * 10)})`;
+                            },
+
+                            borderColor: getComputedStyle(document.documentElement)
+                                .getPropertyValue('--red')
+                                .trim(),
+
+                            data: chartData.EN
+                        }
+
+                    ]
+                },
+
+                options: {
+
+                    tooltips: {
+                        enabled: true,
+
+                        callbacks: {
+
+                            label: function(tooltipItem, data) {
+                                const emotion =
+                                    chartData.EM[tooltipItem.index];
+
+                                const value =
+                                    Number(tooltipItem.yLabel).toFixed(2);
+
+                                return ` ${value} || ${emotion}`;
+                            },
+
+                            valueColor: function(tooltipItem, chart) {
+                                return {
+                                    borderColor: 'rgb(255, 0, 0)',
+                                    backgroundColor: 'rgb(255, 0, 0)'
+                                };
+                            },
+
+                            title: function(tooltipItem, chart) {
+                                let lab =
+                                    chart.datasets[
+                                        tooltipItem[0].datasetIndex
+                                    ].label || '';
+
+                                let time =
+                                    chartData.DATES[
+                                        tooltipItem[0].index
+                                    ];
+
+                                return `${time} (${lab})`;
+                            }
+
+                        },
+
+                        mode: 'nearest',
+                        position: 'customPosition',
+                        backgroundColor: 'black',
+                        titleFontSize: 16
+                    },
+
+                    plugins: {
+                        tooltip: {
+                            interaction: {
+                                intersect: false
+                            }
+                        }
+                    },
+
+                    maintainAspectRatio: false,
+
+                    interaction: {
+                        mode: 'intersect'
+                    },
+
+                    scales: {
+
+                        xAxes: [
+                            {
+                                type: 'category',
+
+                                ticks: {
+                                    fontColor: 'white',
+                                    autoSkip: false
+                                },
+
+                                gridLines: {
+                                    borderDash: [2, 5],
+                                    drawTicks: true,
+                                    color: 'rgba(255, 255, 255, 0.1)'
+                                }
+                            }
+                        ],
+
+                        yAxes: [
+                            {
+                                type: 'linear',
+
+                                ticks: {
+                                    fontColor: 'white',
+                                    min: 0,
+                                    max: 10
+                                },
+
+                                gridLines: {
+                                    borderDash: [2, 5],
+                                    drawTicks: true,
+                                    color: 'rgba(255, 255, 255, 0.1)'
+                                }
+                            }
+                        ]
+
+                    },
+
+                    legend: {
+                        labels: {
+                            fontColor: 'white'
+                        }
+                    }
+
+                }
+
+            });
+
+
+            GEBI('todayInfo').innerHTML =
+                tempnamedvarindicator;
+
+            console.groupEnd();
+
+        }
+
+    },
+
+
+    annual: {},
+
+    full: [],
+
+
+    dataFromDate: function(x = 0) {
+
+        const newDats = [];
+
+        let selDate = new Date();
+
+        if (selDate.getHours() > 7) {
+            selDate.setDate(
+                selDate.getDate() + 1
+            );
+        }
+
+        selDate = new Date(
+            selDate.setHours(
+                selDate.getHours() - (x * 24)
+            )
+        );
+
+        selDate.setHours(7);
+
+        let startSelDate = new Date(selDate);
+
+        startSelDate.setHours(
+            selDate.getHours() - 24
+        );
+
+
+        for (let i = 0; i < eData.full.length; i++) {
+
+            if (eData.full[i].Date > selDate) {
+                continue;
+            }
+
+            newDats.push(eData.full[i]);
+
+            if (startSelDate > eData.full[i].Date) {
+                break;
+            }
+
+        }
+
+        newDats.pop();
+
+        selDate = null;
+
+        return (!newDats.length)
+            ? false
+            : newDats;
+    }
+
+};
+
+
+
+// eData.annual[Clock.Year][Clock.Months[Clock.Month]]
+// this fucking WORKS awesome
+
+// test1.map(obj => ({ t: obj.Date, y: Number(obj.Happiness)}))
+// test1 is result of dataFromDate, test1 formats data for thingy!
+
+
+const moodGrid = [
+    ['Enraged',  'Angry',    'Shocked',   'Manic',     'Festive',   'Ecstatic'],
+    ['Fuming',   'Stressed', 'Restless',  'Energized', 'Motivated', 'Excited'],
+    ['Anxious',  'Worried',  'Uneasy',    'Pleasant',   'Cheerful',  'Blissful'],
+    ['Anxious',  'Down',     'Apathetic', 'At ease',    'Content',   'Fulfilled'],
+    ['Miserable', 'Sad',     'Tired',     'Relaxed',    'Restful',   'Satisfied'],
+    ['Despair',  'Desolate', 'Drained',   'Sleepy',     'Tranquil',  'Serene']
+];
+
+
+function getEmotion(pleasantness, energy) {
+
+    pleasantness = Number(pleasantness);
+    energy = Number(energy);
+
+    if (
+        !Number.isFinite(pleasantness) ||
+        !Number.isFinite(energy)
+    ) {
+        return undefined;
+    }
+
+    const col = Math.min(
+        5,
+        Math.max(
+            0,
+            Math.floor(
+                (pleasantness + 1) / 2 * 6
+            )
+        )
+    );
+
+    const row = Math.min(
+        5,
+        Math.max(
+            0,
+            Math.floor(
+                (1 - energy) / 2 * 6
+            )
+        )
+    );
+
+    return moodGrid[row][col];
+}
+
+
+const betterLoad = async function() {
+
+    try {
+
+        const response = await fetch(
+            "https://api.plushiekitty.party/mood/moods.json",
+            {
+                cache: "reload"
+            }
+        );
+
+        if (!response.ok) {
+            throw new Error(
+                `Response status: ${response.status}`
+            );
+        }
+
+        const json = await response.json();
+
+        console.group('betterLoad');
+
+
+        let x = json.map(obj => {
+
+            const pleasantness =
+                Number(obj.pleasantness);
+
+            const energy =
+                Number(obj.energy);
+
+
+            return {
+
+                id: Number(obj.id),
+
+                pleasantness,
+                energy,
+
+                timestamp:
+                    Number(obj.timestamp),
+
+                Happiness:
+                    pleasantness * 5 + 5,
+
+                Energy:
+                    energy * 5 + 5,
+
+                emotion:
+                    getEmotion(
+                        pleasantness,
+                        energy
+                    ),
+
+                Version: 2,
+
+                Date:
+                    new Date(
+                        Number(obj.timestamp)
+                    )
+
+            };
+
+        });
+
+
+        x.sort(
+            (a, b) => b.Date - a.Date
+        );
+
+
+        eData.annual = {};
+
+
+        // Process all dates
+        for (let i = 0; i < x.length; i++) {
+
+            if (
+                Number.isNaN(
+                    x[i].Date.valueOf()
+                )
+            ) {
+                console.error(
+                    'Invalid date:',
+                    i,
+                    x[i]
+                );
+
+                continue;
+            }
+
+
+            let year =
+                String(
+                    x[i].Date.getFullYear()
+                );
+
+
+            if (!eData.annual[year]) {
+                eData.annual[year] = {};
+            }
+
+
+            let month = [
+                'January',
+                'February',
+                'March',
+                'April',
+                'May',
+                'June',
+                'July',
+                'August',
+                'September',
+                'October',
+                'November',
+                'December'
+            ][
+                x[i].Date.getMonth()
+            ];
+
+
+            if (!eData.annual[year][month]) {
+                eData.annual[year][month] = {};
+            }
+
+
+            let curDay =
+                x[i].Date.getDate();
+
+
+            if (
+                x[i].Date.getHours() < 7
+            ) {
+                curDay--;
+            }
+
+
+            if (
+                !eData.annual[year][month][`#${curDay}`]
+            ) {
+                eData.annual[year][month][`#${curDay}`] = [];
+            }
+
+
+            eData.annual[year][month][`#${curDay}`].push(
+                x[i]
+            );
+
+        }
+
+
+        eData.full = x;
+
+
+        console.log(
+            'Data retrieved\n',
+            eData
+        );
+
+        console.groupEnd();
+
+
+        Chart.Tooltip.positioners.customPosition =
+            function(elements, eventPosition) {
+
+                let model =
+                    Chart.Tooltip.positioners.average(
+                        elements,
+                        eventPosition
+                    );
+
+                if (model) {
+                    model.x += 70;
+                    model.y -= 15;
+                }
+
+                return model;
+            };
+
+
+        eData.create.day();
+
+
+    } catch (error) {
+
+        console.error(
+            error.message
+        );
+
+    }
+
+};
+
+
+document.addEventListener(
+    'DOMContentLoaded',
+    betterLoad
+);
+
+
+
+// UNCONTRUSTED CODE!!!!!!!!!!
+
+const monthlyDataMap = new Map();
+
+
+const testingIt = function() {
+
+    for (const dataObject of eData.full) {
+
+        const date =
+            dataObject.Date;
+
+        // Key = "YYYY-MM"
+        const year =
+            date.getFullYear();
+
+        const month =
+            String(
+                date.getMonth() + 1
+            ).padStart(2, '0');
+
+        const monthYearKey =
+            `${year}-${month}`;
+
+
+        if (monthlyDataMap.has(monthYearKey)) {
+
+            monthlyDataMap
+                .get(monthYearKey)
+                .push(dataObject);
+
+        } else {
+
+            monthlyDataMap.set(
+                monthYearKey,
+                [dataObject]
+            );
+
+        }
+
+    }
+
+};
+
+
+const getUncontrustedData =
+    (a, b = 0) =>
+        monthlyDataMap.get(
+            `${2025 + b}-${String(a).padStart(2, '0')}`
+        );
+
+
+
+
+const func2Test = function(x = 0) {
+
+    console.group('Function 2 test');
+
+    console.log(
+        'make sure to change the name later!'
+    );
+
+    console.log('x:', x);
+
+
+    const endDate = new Date();
+
+    (
+        endDate.setHours(7),
+        endDate.setMinutes(0),
+        endDate.setSeconds(0)
+    );
+
+
+    endDate.setDate(
+        (
+            endDate.getDate() -
+            endDate.getDay()
+        ) - (x * 7)
+    );
+
+
+    const startDate =
+        new Date(endDate);
+
+    startDate.setDate(
+        startDate.getDate() - 7
+    );
+
+
+    const fullWeekData = [];
+
+
+    const getDayData = i => {
+
+        const dayStart =
+            new Date(startDate);
+
+        dayStart.setDate(
+            dayStart.getDate() + i
+        );
+
+
+        const dayEnd =
+            new Date(dayStart);
+
+        dayEnd.setDate(
+            dayEnd.getDate() + 1
+        );
+
+
+        const data =
+            fullWeekData.filter(
+                o =>
+                    (o.Date < dayEnd) &&
+                    (o.Date > dayStart)
+            );
+
+
+        if (!data.length) {
+            return false;
+        }
+
+
+        const averages = [
+            ARED(
+                data.map(
+                    o => Number(o.Happiness)
+                )
+            ).toFixed(2),
+
+            ARED(
+                data.map(
+                    o => Number(o.Energy)
+                )
+            ).toFixed(2)
+        ];
+
+
+        return {
+            'day': i,
+            'avg': averages,
+            'entries': data.length
+        };
+
+    };
+
+
+    for (
+        let i = 0;
+        i < eData.full.length;
+        i++
+    ) {
+
+        if (
+            eData.full[i].Date > endDate
+        ) {
+            continue;
+        }
+
+        let cur =
+            eData.full[i];
+
+        fullWeekData.push(cur);
+
+
+        if (
+            cur.Date < startDate
+        ) {
+
+            fullWeekData.pop();
+
+            console.log(
+                'Data from:\n',
+                fullWeekData[0].Date,
+                '\nto\n',
+                cur.Date
+            );
+
+            break;
+        }
+
+    }
+
+
+    const timeMap =
+        fullWeekData.map(
+            o => [
+                Number(o.Time.slice(0, 2)),
+                Number(o.Happiness),
+                Number(o.Energy)
+            ]
+        );
+
+
+    const timeCounts =
+        timeMap.reduce(
+            (acc, cur) => {
+                acc[cur[0]] =
+                    (acc[cur[0]] || 0) + 1;
+
+                return acc;
+            },
+            []
+        )
+        .map(
+            o => o
+                ? [o, [], []]
+                : false
+        );
+
+
+    for (
+        let i = 0;
+        i < timeMap.length;
+        i++
+    ) {
+
+        let cur =
+            timeMap[i];
+
+        let curA =
+            timeCounts[cur[0]];
+
+        curA[1].push(cur[1]);
+        curA[2].push(cur[2]);
+
+    }
+
+
+    for (
+        let i = 0;
+        i < timeCounts.length;
+        i++
+    ) {
+
+        if (!timeCounts[i]) {
+            continue;
+        }
+
+        let cur =
+            timeCounts[i];
+
+        cur[1] =
+            ARED(cur[1]).toFixed(2);
+
+        cur[2] =
+            ARED(cur[2]).toFixed(2);
+
+    }
+
+
+    // Get data for each hour and how many occurrences
+
+    const dataSun = getDayData(0);
+    const dataMon = getDayData(1);
+    const dataTue = getDayData(2);
+    const dataWed = getDayData(3);
+    const dataThu = getDayData(4);
+    const dataFri = getDayData(5);
+    const dataSat = getDayData(6);
+
+
+    // Data for each weekday
+
+    console.log(
+        "individual Day Data",
+        {
+            "Sunday": dataSun,
+            "Monday": dataMon,
+            "Tuesday": dataTue,
+            "Wednesday": dataWed,
+            "Thursday": dataThu,
+            "Friday": dataFri,
+            "Saturday": dataSat
+        }
+    );
+
+    console.log(
+        "weekData",
+        fullWeekData
+    );
+
+    console.log(
+        "entry count",
+        fullWeekData.length
+    );
+
+    console.log(
+        "timeCounts",
+        timeCounts
+    );
+
+    console.log(
+        "startDate",
+        startDate
+    );
+
+    console.log(
+        "endDate",
+        endDate
+    );
+
+
+    console.groupEnd();
+
+    return 'Return value';
+};
+
+
+
+
+const furtherTesting = {
+
+    fullData: function(
+        x = 'default',
+        extendedData = false
+    ) {
+
+        if (x === 'default') {
+
+            x = [];
+
+            for (let i = 0; i < 30; i++) {
+                x.push(
+                    eData.full[i]
+                );
+            }
+
+        }
+
+
+        const allHPEN =
+            x.map(
+                o => [
+                    Number(o.Happiness),
+                    Number(o.Energy)
+                ]
+            );
+
+        const allHP =
+            allHPEN.map(
+                o => o[0]
+            );
+
+        const allEN =
+            allHPEN.map(
+                o => o[1]
+            );
+
+
+        const fullDateData =
+            x.map(
+                o => o.Date
+            );
+
+
+        let tempPeaks = [
+            [10, 0],
+            [0, 0],
+            [10, 0],
+            [0, 0]
+        ];
+
+
+        for (
+            let i = 0;
+            i < x.length;
+            i++
+        ) {
+
+            if (
+                tempPeaks[0][0] >
+                allHP[i]
+            ) {
+                tempPeaks[0][0] =
+                    allHP[i];
+
+                tempPeaks[0][1] =
+                    i;
+            }
+
+
+            if (
+                tempPeaks[1][0] <
+                allHP[i]
+            ) {
+                tempPeaks[1][0] =
+                    allHP[i];
+
+                tempPeaks[1][1] =
+                    i;
+            }
+
+
+            if (
+                tempPeaks[2][0] >
+                allEN[i]
+            ) {
+                tempPeaks[2][0] =
+                    allEN[i];
+
+                tempPeaks[2][1] =
+                    i;
+            }
+
+
+            if (
+                tempPeaks[3][0] <
+                allEN[i]
+            ) {
+                tempPeaks[3][0] =
+                    allEN[i];
+
+                tempPeaks[3][1] =
+                    i;
+            }
+
+        }
+
+
+        console.log(tempPeaks);
+
+
+        for (
+            let i = 1;
+            i < fullDateData.length;
+            i++
+        ) {
+
+            let time =
+                Math.abs(
+                    Number(fullDateData[i]) -
+                    Number(fullDateData[i - 1])
+                );
+
+            console.log(
+                'm',
+                ((time / 1000) / 60) % 60
+            );
+
+        }
+
+
+        const resData = {
+
+            entries: x.length,
+
+            MINMAX: tempPeaks,
+
+            HPEN: allHPEN,
+
+            AVG: [
+                ARED(allHP).toFixed(2),
+                ARED(allEN).toFixed(2)
+            ]
+
+        };
+
+
+        return resData;
+
+    }
+
+};
+
+
+
+
+
+const testingfunctionrenamelater =
+    function(x = 0) {
+
+        let curDate = new Date();
+
+        curDate.setMonth(
+            curDate.getMonth() - x
+        );
+
+
+        console.log(curDate);
+
+
+        let curMonthData =
+            eData.annual
+                [`${curDate.getFullYear()}`]
+                [`${Clock.Months[curDate.getMonth()]}`];
+
+
+        // Object of month data
+        let monthPool = [];
+        let EMpool = [];
+
+
+        let timeCount = [
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            [],
+            []
+        ];
+
+
+        let HPMinMax = [
+            10,
+            0,
+            null,
+            null
+        ];
+
+        let ENMinMax = [
+            10,
+            0,
+            null,
+            null
+        ];
+
+
+        let fullDataLength = 0;
+
+
+        for (let i in curMonthData) {
+
+            for (
+                let j = 0;
+                j < curMonthData[i].length;
+                j++
+            ) {
+
+                const cur =
+                    curMonthData[i][j];
+
+                let tempNumHP =
+                    Number(cur.Happiness);
+
+                let tempNumEN =
+                    Number(cur.Energy);
+
+
+                fullDataLength++;
+
+
+                if (
+                    HPMinMax[0] >
+                    tempNumHP
+                ) {
+
+                    HPMinMax[2] =
+                        cur;
+
+                    HPMinMax[0] =
+                        tempNumHP;
+
+                } else if (
+                    HPMinMax[1] <
+                    tempNumHP
+                ) {
+
+                    HPMinMax[3] =
+                        cur;
+
+                    HPMinMax[1] =
+                        tempNumHP;
+                }
+
+
+                if (
+                    ENMinMax[0] >
+                    tempNumEN
+                ) {
+
+                    ENMinMax[2] =
+                        cur;
+
+                    ENMinMax[0] =
+                        tempNumEN;
+
+                } else if (
+                    ENMinMax[1] <
+                    tempNumEN
+                ) {
+
+                    ENMinMax[3] =
+                        cur;
+
+                    ENMinMax[1] =
+                        tempNumEN;
+                }
+
+
+                let curP =
+                    timeCount[
+                        cur.Date.getHours()
+                    ];
+
+                curP.push([
+                    tempNumHP,
+                    tempNumEN
+                ]);
+
+
+                if (!EMpool[cur.emotion]) {
+                    EMpool[cur.emotion] = 0;
+                }
+
+                EMpool[cur.emotion]++;
+
+                monthPool.push(cur);
+
+            }
+
+        }
+
+
+        {
+            for (
+                let i = 0;
+                i < timeCount.length;
+                i++
+            ) {
+
+                let cur =
+                    timeCount[i];
+
+                if (!cur.length) {
+                    continue;
+                }
+
+                timeCount[i] = [
+                    i,
+
+                    (
+                        cur.reduce(
+                            (a, b) => a + b[0],
+                            0
+                        ).toFixed(2) /
+                        cur.length
+                    ).toFixed(2),
+
+                    (
+                        cur.reduce(
+                            (a, b) => a + b[1],
+                            0
+                        ).toFixed(2) /
+                        cur.length
+                    ).toFixed(2)
+                ];
+
+            }
+        }
+
+
+        let temp00 = [];
+
+
+        temp00.push(
+            `${Clock.Months[curDate.getMonth()]} of ${curDate.getFullYear()} (${fullDataLength} entries) <br>`
+        );
+
+
+        for (
+            let i = 0;
+            i < timeCount.length;
+            i++
+        ) {
+
+            let cur =
+                timeCount[i];
+
+            temp00.push(
+                `${DRND(i)}00 : ${
+                    (cur.length)
+                        ? (cur[0] + ', ' + cur[1] + ' / ' + cur[2])
+                        : 'None'
+                }<br>`
+            );
+
+        }
+
+
+        console.log(HPMinMax);
+
+
+        HPMinMax[2] =
+            HPMinMax[2].Date;
+
+        HPMinMax[3] =
+            HPMinMax[3].Date;
+
+        ENMinMax[2] =
+            ENMinMax[2].Date;
+
+        ENMinMax[3] =
+            ENMinMax[3].Date;
+
+
+        console.log(curMonthData);
+
+
+        const dateAffix = i =>
+            `${String(i)}${(
+                (
+                    String(i).at(-1) === '1' ||
+                    String(i).at(-1) === '2' ||
+                    String(i).at(-1) === '3'
+                ) &&
+                (
+                    !String(i).endsWith('11') &&
+                    !String(i).endsWith('12') &&
+                    !String(i).endsWith('13')
+                )
+            )
+                ? (
+                    String(i).at(-1) === '1'
+                        ? 'st'
+                        : (
+                            String(i).at(-1) === '2'
+                                ? 'nd'
+                                : (
+                                    String(i).at(-1) === '3'
+                                        ? 'rd'
+                                        : 'th'
+                                )
+                        )
+                )
+                : 'th'
+            }`;
+
+
+        temp00.push(`Days away: `);
+
+
+        for (let i = 0; i < 12; i++) {
+
+            if (
+                !curMonthData[`#${i + 1}`] ||
+                !curMonthData[`#${i + 1}`].length
+            ) {
+                temp00.push(
+                    `${dateAffix(i + 1)}, `
+                );
+            }
+
+        }
+
+
+        temp00.push(
+            `<br>Highest HP: ${HPMinMax[1]} on the ${dateAffix(HPMinMax[3].getDate())}`
+        );
+
+        temp00.push(
+            `<br>Highest EN: ${ENMinMax[1]} on the ${dateAffix(ENMinMax[3].getDate())}`
+        );
+
+        temp00.push(
+            `<br>Low est HP: ${HPMinMax[0]} on the ${dateAffix(HPMinMax[2].getDate())}`
+        );
+
+        temp00.push(
+            `<br>Low est EN: ${ENMinMax[0]} on the ${dateAffix(ENMinMax[2].getDate())}`
+        );
+
+
+        document.getElementById(
+            `datatest`
+        ).innerHTML =
+            temp00.join('');
+
+    };
+
+    function updateChartColors() {
+        const styles = getComputedStyle(document.body);
+
+        eData.charts.day.data.datasets[0].borderColor =
+            styles.getPropertyValue('--blue').trim();
+
+        eData.charts.day.data.datasets[1].borderColor =
+            styles.getPropertyValue('--red').trim();
+
+        eData.charts.day.update();
+    }
+
+    const themeObserver = new MutationObserver(updateChartColors);
+
+    themeObserver.observe(document.body, {
+        attributes: true,
+        attributeFilter: ['data-theme']
+    });
+
+    updateChartColors();
+</script>
+
+
+
+<style>
+
+:root {}
+
+.grid-container {
+    grid-template: auto auto / 100%;
+
+    grid-template-areas:
+        'item11'
+        'item3'
+        'item1'
+        'item4';
+}
+
+
+.flex > form {
+    transform: scale(1.5);
+    transform-origin: -30% 0;
+}
+
+
+#myChart2 {
+    color: red;
+    font-size: 4em;
+    background: rgba(0, 0, 0, 0.6);
+    height: 600px;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+
+.item1 {
+    padding: 8.5px;
+}
+
+
+.item3,
+.item3:hover {
+    padding: 0;
+    overflow: clip;
+    background: url(/assets/thestars.png);
+    height: fit-content;
+}
+
+
+.item3:hover #todayInfoContainerIg {
+    background: black;
+}
+
+
+.item3 input {
+    width: 80px;
+}
+
+
+.item11 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.item11 section {
+    width: 48%;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 0 20px;
+    border-radius: 8px;
+    margin: 10px;
+}
+
+
+.item11 ul {
+    margin: 0;
+    padding: 0 10px;
+}
+
+
+.item11 ul li {
+    text-shadow: transparent 0 0;
+}
+
+
+.item11 section h3 {
+    text-align: center;
+    text-shadow:
+        1px 1px black,
+        -1px -1px black,
+        1px -1px black,
+        -1px 1px black;
+}
+
+
+#colorOverlay {
+    --color-a1: #B7E24F;
+    --color-a2: #00A9A3;
+    --color-a3: #FFC72C;
+    --color-b1: #00778B;
+    --color-b2: #E8702A;
+    --color-b3: #C70039;
+
+    position: absolute;
+    z-index: -1;
+    top: 5%;
+    left: 2.5%;
+    height: 33.6em;
+    width: 100%;
+    pointer-events: none;
+}
+
+
+#todayInfo > span > i {
+    font-style: normal;
+}
+
+
+#todayInfo > span > ::after {
+    content: ":";
+}
+
+
+#todayInfoContainerIg {
+    background: rgba(0, 0, 0, 0.8);
+    font-size: 140%;
+    color: #cdd6f4 !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+
+    --angle: 0deg;
+
+    animation:
+        10s rotate linear infinite;
+}
+
+
+#todayInfo {
+    display: flex;
+    justify-content: flex-start;
+    width: auto;
+}
+
+
+#control2 {
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-left: auto;
+}
+
+
+#control2 > span {
+    display: inline-block;
+    margin: auto;
+}
+
+
+#control2 > button {
+    background: rgb(150, 150, 150);
+    border: solid rgba(255, 255, 255, 0.4) 2px;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+
+
+#control2 > button:hover {
+    background: rgb(200, 200, 200);
+    border-radius: 4px;
+    opacity: 0.9;
+}
+
+
+#control2.todayHighlight > span {
+    text-shadow:
+        2px 2px rgb(var(--pal1)),
+        -2px 2px rgb(var(--pal1)),
+        2px -2px rgb(var(--pal1)),
+        -2px -2px rgb(var(--pal1));
+}
+
+
+#control2.todayHighlight > button:nth-child(3) {
+    opacity: 0.4;
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
+
+
+@property --angle {
+    syntax: '<angle>';
+    initial-value: 0deg;
+    inherits: false;
+}
+
+
+
+
+
+#frame {
+    overflow: clip;
+    width: 100%;
+    height: 200px;
+}
+
+
+#frame > iframe {
+    height: 200px;
+    z-index: 999;
+    position: relative;
+    right: 50px;
+    bottom: 36px;
+}
+
+
+#xLine,
+#yLine {
+    pointer-events: none;
+    z-index: 9993;
+    position: absolute;
+    pointer-events: none;
+    border: solid 2px rgba(255, 255, 255, 0.5);
+}
+
+
+#xLine {
+    width: 800px;
+    height: 0px;
+}
+
+
+#yLine {
+    height: 800px;
+    width: 0px;
+}
+
+
+#scale,
+#scale2 {
+    display: flex;
+    font-size: 0.6em;
+    position: absolute;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+
+#scale {
+    width: 875px;
+    height: 1px;
+    z-index: 9999;
+    flex-direction: row;
+    top: 0;
+}
+
+
+#scale2 {
+    width: 1px;
+    height: 97%;
+    z-index: 9995;
+    flex-direction: column-reverse;
+    left: 0;
+    justify-content: space-between;
+    top: 1%;
+}
+
+
+#scale > p {
+    width: 0;
+    margin: 0;
+}
+
+
+#scale2 > p {
+    height: 0;
+    margin: 0;
+    font-size: 2em;
+    background: black;
+    text-shadow:
+        black 2px 2px,
+        black -2px -2px,
+        black 2px -2px,
+        black -2px 2px;
+}
+
+
+#container {
+    overflow: clip;
+}
+
+
+.box,
+#frax,
+#scale,
+#scale2,
+#scale > p,
+.iDot,
+.iDot2,
+#yLine,
+#xLine {
+    /* margin-left: 20%; */
+}
+
+
+.iDot,
+.iDot2 {
+    height: 20px;
+    width: 20px;
+    border: solid 2px white;
+    border-radius: 10px;
+    position: absolute;
+    z-index: 999;
+    background: grey;
+    pointer-events: none;
+}
+
+
+.iDot {
+    z-index: 9996;
+}
+
+
+#frax {
+    top: 850px;
+    position: relative;
+    margin-left: 20px;
+    font-size: 1.3em;
+    z-index: 99999;
+    border-right: solid 2px white;
+    height: 0;
+}
+
+
+.box {
+    background: black;
+    color: rgba(255, 255, 255, 0.1);
+    display: grid;
+    grid-template-columns:
+        auto auto auto auto auto auto;
+    grid-template-rows:
+        auto auto auto auto auto auto;
+    z-index: 990;
+    position: relative;
+    width: 800px;
+    height: 800px;
+    cursor: none;
+}
+
+
+.box > section {
+    border-left:
+        solid 2px rgba(255, 255, 255, 0.5);
+
+    border-bottom:
+        solid 2px rgba(255, 255, 255, 0.5);
+
+    width: 133.33333334px;
+    height: 133.33333334px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.box > section > span {
+    display: block;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+
+
+
+#moodRadio {
+    background: black;
+    padding: 20px;
+}
+
+
+#moodRadio input[type="radio"] {
+    appearance: none;
+}
+
+
+#moodRadio label {
+    background: crimson;
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    display: inline-block;
+    border-radius: 4px;
+    border: solid 2px grey;
+}
+
+
+#moodRadio span {
+    font-size: 1.4em;
+    margin-left: 10px;
+}
+
+
+#moodRadio input[type="radio"]:checked + label {
+    background: orange;
+    border: solid 3px pink;
+}
+
+
+
+
+/* for statuscafe */
+
+@media only screen and (max-height: 350px) {
+
+    main.grid-container article {
+        padding: 0;
+    }
+
+    #todayInfo {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #leftSidebar,
+    #header,
+    #headerArea,
+    #myChart,
+    #myChart2,
+    .box,
+    #moodRadio,
+    #leftSidebarToggle,
+    .item11 {
+        display: none !important;
+    }
+
+    .grid-container {
+        padding: 0;
+        grid-template-areas: initial;
+    }
+
+    #todayInfo {
+        margin-top: -4px;
+        border: solid transparent 0;
+        height: 100%;
+        flex-direction: column;
+        background: black;
+    }
+
+    #todayInfo > span,
+    #todayInfo > span > i {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #todayInfo > span > i::after {
+        content: initial;
+    }
+
+    article {
+        padding: 0;
+        border-width: 0;
+    }
+
+    article > div:nth-child(2) {
+        display: none;
+    }
+
+    html,
+    body,
+    #flex,
+    .grid-container,
+    #container,
+    article {
+        height: 100% !important;
+        border: solid transparent 0 !important;
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+
+    #control2 {
+        display: none;
+    }
+
+    #todayInfoContainerIg {
+        font-size: 100%;
+        height: 50px;
+    }
+
+}
+
+
+@media only screen and (max-height: 120px) {
+
+    #todayInfo {
+        flex-direction: row;
+    }
+
+}
+
+
+
+/* balls */
+/* MOBILE */
+/* BORDER */
+
+@media only screen and (max-width: 1000px) {
+
+    /* BORDER */
+    /* ONLINE */
+    /* balls */
+
+    #container {}
+
+    .grid-container {
+        font-size: 0.8em;
+        grid-template-columns: 100%;
+        grid-template-rows:
+            auto auto auto auto;
+        width: 100%;
+    }
+
+    #myChart {
+        height: 500px;
+        max-width: 100%;
+    }
+
+    #myChart2 {
+        height: 600px;
+        max-width: 100%;
+        position: relative;
+        display: none;
+    }
+
+}
+
+</style>

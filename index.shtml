@@ -8,6 +8,7 @@
     <!--#include file="SSI/Cards/webrings.html" -->
     <!-- #include file="SSI/Cards/chat.html" -->
     <!--#include file="SSI/Cards/projects.html" -->
+    <!--#include file="SSI/Cards/mood.html" -->
 
     <!--#include file="SSI/Cards/guestbook.html" -->
 
@@ -17,23 +18,32 @@
             gap: var(--cardpadding);
 
             grid-template-rows:
-                auto auto auto auto auto auto;
+                auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
 
-            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 
             grid-template-areas:
-                "bio       bio       bio"
-                "buttons   buttons   creations"
-                "favalbums favalbums creations"
-                "rings     rings     creations"
-              /*"song      chat      chat"*/
-                "guestbook guestbook guestbook";
+                "bio       bio       bio       bio       bio       bio"
+                "bio       bio       bio       bio       bio       bio"
+                "buttons   buttons   buttons   buttons   creations creations"
+                "buttons   buttons   buttons   buttons   creations creations"
+                "favalbums favalbums favalbums favalbums creations creations"
+                "favalbums favalbums favalbums favalbums creations creations"
+                "favalbums favalbums favalbums favalbums creations creations"
+                "rings      rings    rings      mood      mood      mood"
+                "rings      rings    rings      mood      mood      mood"
+                "guestbook guestbook guestbook guestbook guestbook guestbook";
+                "guestbook guestbook guestbook guestbook guestbook guestbook";
 
             margin-bottom: -25px;
         }
 
         #bio {
             grid-area: bio;
+        }
+
+        #mood {
+            grid-area: mood;
         }
 
         #friends {
@@ -74,7 +84,11 @@
         }
 
         body[data-theme="hypr"] #webrings {
-            transform: translateY(50px) translateX(5px) rotate(-3deg);
+            transform: translateY(54px) translateX(5px) rotate(-1deg);
+        }
+
+        body[data-theme="hypr"] #mood {
+            transform: translateY(30px) translateX(17px) rotate(-2.7deg);
         }
 
         body[data-theme="hypr"] #guestbook {

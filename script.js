@@ -1,15 +1,15 @@
-import { loadTheme } from "./scripts/themes.js";
-import { createScrollbar } from "./scripts/scrollbar.js";
-import { setupAd } from "./scripts/ad.js";
+import { loadTheme } from "./Scripts/themes.js";
+import { createScrollbar } from "./Scripts/scrollbar.js";
+import { setupAd } from "./Scripts/ad.js";
 import {
   initDVDPFP,
   initRandomPFP
-} from "./scripts/pfp.js";
+} from "./Scripts/pfp.js";
 import {
   updateNowPlaying,
   updateNowPlayingGame,
   updateContributions
-} from "./scripts/game-music-github.js";
+} from "./Scripts/game-music-github.js";
 
 function makeUrl(host) {
   const protocol = window.location.protocol.startsWith("http")
@@ -37,7 +37,7 @@ async function testNyaNet() {
     console.warn("Unexpected response:", text);
     return false;
   } catch {
-    console.error("No NyaNet!!");
+    console.log("No NyaNet!!");
     return false;
   }
 }
@@ -78,10 +78,9 @@ if (location.pathname === "/") {
 
 window.addEventListener("load", () => {
   updateNowPlayingGame(makeUrl);
+  updateNowPlaying(makeUrl);
+  updateContributions(makeUrl);
 });
-
-updateNowPlaying(makeUrl);
-updateContributions(makeUrl);
 
 Promise.resolve(userHasNyaNet).then((hasNyaNet) => {
   setupAd(hasNyaNet);

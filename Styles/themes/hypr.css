@@ -28,6 +28,7 @@ body[data-theme="hypr"] {
     --cardpadding: 0.3rem;
     --cardshadow: 0px 0px 0px rgba(0, 0, 0, 0.6);
     --cardborder: 3px solid var(--mauve);
+    --cardborderwidth: 3px;
     --buttonborder: 2px solid var(--blue);
     --buttonshadow: 0;
     --halfgap: calc(var(--cardpadding)/2);

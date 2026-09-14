@@ -29,6 +29,7 @@ body[data-theme="okcomputer"] {
     --cardpadding: 1rem;
     --cardshadow: 7px 10px 15px rgba(0, 0, 0, 0.5);
     --cardborder: 2px solid var(--surface0);
+    --cardborderwidth: 2px;
     --buttonborder: 2px solid var(--surface1);
     --buttonshadow: 0;
     --halfgap: calc(var(--cardpadding)/2);

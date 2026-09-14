@@ -49,6 +49,7 @@ body[data-theme="mocha"] {
     --cardpadding: 1rem;
     --cardshadow: 15px 20px 20px rgba(0, 0, 0, 0.6);
     --cardborder: 1px solid var(--surface0);
+    --cardborderwidth: 1px;
     --buttonborder: 1px solid var(--surface1);
     --buttonshadow: 0;
     --halfgap: calc(var(--cardpadding)/2);

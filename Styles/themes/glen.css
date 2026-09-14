@@ -29,6 +29,7 @@ body[data-theme="glen"] {
     /*--cardshadow: 15px 20px 30px rgba(0, 0, 0, 0.6);*/
     --cardshadow: 0 0 0 1px #f0973f, 0 0 0 2px #fadf55, 0 0 0 3px #f0973f, 0 0 0 4px #8e4d2a;
     --cardborder: 1px 1px 1px red green blue;
+    --cardborderwidth: 4px;
     --buttonborder: 0px solid var(--surface1);
     --buttonshadow: 0 0 0 0.5px #f0973f, 0 0 0 1px #fadf55, 0 0 0 1.5px #f0973f;
     --halfgap: calc(var(--cardpadding)/2);
